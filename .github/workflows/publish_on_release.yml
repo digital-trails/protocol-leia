@@ -1,0 +1,17 @@
+name: Publish On Release
+            
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write # allow us to update the published release
+
+jobs:
+  Release_Creation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout protocol
+        uses: actions/checkout@v4
+      - name: release protocol
+        uses: digital-trails/protocol-releaser@v1.6.3

@@ -1,0 +1,6 @@
+{
+    "header_text": "What Do I do?",
+    "elements": [
+		{ "type": "Text", "text": "Here you can remind participants about what they need to do." },
+	]
+}

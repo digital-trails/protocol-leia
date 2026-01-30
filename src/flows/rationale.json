@@ -1,0 +1,6 @@
+{
+    "header_text": "What can I expect?",
+    "elements": [
+        { "type": "Text", "text": "Here you can tell participants what they can expect and why." },
+    ]
+}

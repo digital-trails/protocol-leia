@@ -1,0 +1,22 @@
+{
+  "home": {
+    "title": "Leia",
+    "element": { "type": "ref", "path": "home.json" }
+  },
+  "start_flow": "flow://flows/intake",
+  "menu": [
+    {
+      "text": "Intake",
+      "action": "flow://flows/intake"
+    },
+    {
+      "text": "Daily",
+      "action": "flow://flows/daily"
+    },
+    {
+      "text": "Weekly",
+      "action": "flow://flows/weekly"
+    }
+  ],
+  "triggers": {"type": "ref", "path": "triggers.json"}
+}
