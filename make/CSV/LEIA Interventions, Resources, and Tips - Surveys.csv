@@ -1,0 +1,242 @@
+Survey,Titles,Text,Input Type,Values,Variable,Condition,Name,Image/Media,Note,
+INTRO,,Please enter your participant ID provided by the researcher. ,Entry,,,,participantid,,to appear right as they open the app ,
+INTRO,,Welcome to MindTrails! This initial session will be a bit longer than future sessions. We’ll give you some more information about the rationale for this program and explain how to get the most out of the app. You’ll have the opportunity to set up a meeting with the research team at the end of this session if you have any questions or concerns. Ready to get started? Hit the Next button below to begin.,,,,,,,,
+INTRO,,"MindTrails is designed to help you change the way you think about common but potentially stressful situations in order to reduce anxiety and stress. When you complete sessions in the app, you will be asked to read brief stories about situations that often produce anxiety and fill in missing letters to complete words, fill in entire words, or come up with new stories that are personally relevant to you. To help familiarize you with the program and help you get the most out of this experience, we would like you complete a few short exercises and watch some brief videos explaining how Hoos Think Calmly works. You will also be presented with three example stories so that you can begin to get the hang of the training. Click next to get started!",,,,,,,,
+INTRO,,"The purpose of this quick exercise is to demonstrate what imagination-based thinking is. You will imagine what seeing, touching, and smelling a lemon is like. Please imagine this as if you are really experiencing it.",,,,,,,,
+INTRO,,"In this exercise—and throughout the training program—please remember to imagine what is happening through your own eyes, similar to the picture on the left. This is more effective than viewing the situation as an outside observer, like the picture on the right.",,,,,,lemon_pic1.jpeg,,
+INTRO,,"Okay...let's begin! Imagine you are holding the lemon in your right hand, and you can feel its shape and its weight.",,,,,,lemon_pic2.jpeg,,
+INTRO,,"Now imagine you are shining a light on the lemon, and you can see the waxy and lumpy texture of the yellow skin.",,,,,,lemon_pic3.jpeg,,
+INTRO,,"Now imagine that you scratch the skin with your fingernail, then you bring the lemon up to your nose, and you can smell the fresh zesty juice from the skin.",,,,,,lemon_pic4.jpeg,,
+INTRO,,"Now imagine that you cut the lemon in half, and you bring one half of it up for a closer look. You can see the juicy flesh in the shape of segments that look like a wagon wheel.",,,,,,lemon_pic5.jpeg,,
+INTRO,,"Now imagine that you squeeze the lemon and some of the juice squirts right into your eyes, and it is really stinging, making your eyes water.",,,,,,lemon_pic6.jpeg,,
+INTRO,,That was the Lemon Exercise! Don't worry if you didn't experience all of the sensations strongly. This is completely normal.,,,,,,lemon_pic7.jpeg,,
+INTRO,,"In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will evoke symptoms related to anxiety (e.g., racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",,,,,,,,
+INTRO,,Please describe the situation in a few words:,Entry,,,,entry_anxious_imagery,,,
+INTRO,,"Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there.",,,,,,,,
+INTRO,,Play this situation in your head for the next 20 seconds. \n\nThe screen will change in 20 seconds. ,,,,,,,,
+INTRO,,How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider.,Slider,0. Absolutely no anxiety; 10. Totally anxious; 99. Prefer not to answer,,,imagery_anxiety,,,
+INTRO,,How vividly did you imagine the situation?,Single,0. Not at all vivid; 1. Somewhat vivid; 2. Moderately vivid; 3. Very vivid; 4. Totally vivid; 5. Prefer not to answer,,,imagery_vivid,,,
+INTRO,,How likely is it that the situation or task will turn out well versus turn out badly?,Single,0. Very likely to turn out well; 1. Somewhat likely to turn out well; 2. Neutral; 3. Somewhat likely to turn out badly; 4. Very likely to turn out badly; 5. Prefer not to answer,,,imagery_well,,,
+INTRO,,"If this situation did turn out badly, how well or badly would you be able to handle it?",Single,0. Very well; 1. Somewhat well; 2. Neutral; 3. Somewhat badly; 4. Very badly; 5. Prefer not to answer,,,imagery_handling,,,
+INTRO,Practice CBM-I,,,PRACTICE DOSE 1 SCENARIOS: https://docs.google.com/spreadsheets/d/1E6jJdM26pwCA0PxGpW1EwuyTDfwLA-Y6Tscb2gs9q5E/edit?gid=0#gid=0,,,,,,
+INTRO,,"Great job! We hope that this brief training helped clarify the purpose of these short stories and what you might be able to get out of MindTrails. Moving forward, you’ll be able to choose areas of life that are causing the most stress so that the stories you read will be more relevant to you. During future sessions, you will also receive tips that are designed to help you manage your emotions, connect with resources at UVA, and apply what you learn from the short stories to your own life.",,,,,,,,
+INTRO,,"For the next 2 weeks, you will receive notifications prompting you to open the app to complete activities and surveys. We hope that you will use the app 4 times daily, but we understand that life can get in the way and that you may need to skip some sessions. That’s okay, but just remember that the program only lasts for 2 weeks. You will also be able to access the contents of the app (activities, resources, etc.. at any time by visiting the on-demand library from the homepage.",,,,,,,,
+QUESTION FOR MARK - WHERE ARE THE VIDEOS?,,,,,,,,,,
+EMA_PRE,,"Right now, I am feeling….",Slider,1. Very bad/negative; 7. Very good/positive,preaffect,,preaffect,,,
+EMA_PRE,,"Right now, I feel….",Slider,1. Not at all anxious; 7. Very anxious,preanxious,,preanxious,,,
+EMA_PRE,,What do you feel anxious about?,Multi,0. A social situation; 1. Feelings in my body; 2. Thoughts I am having; 3. Nothing specific (generalized anxiety.; 4. !Something else; 5. ^Nothing,anxietytopic,,anxietytopic,,,
+EMA_PRE,,How would you describe your current social context?,Single,"0. Alone - not around any other people; 1. Around other people that I am not actively interacting with (e.g., eating lunch in a crowded cafeteria but sitting alone); 2. Around other people that I am actively interacting with (e.g., studying with a group of friends)",socialcontext,,socialcontext,,,
+EMA_PRE,,Are you interested in doing a short exercise on your phone to help reduce feelings of anxiety or tolerate stress that you may feel now or in the future?,Single,0. Interested; 1. Not interested,interest,,interest,,,
+EMA_PRE,,Why don’t you want to do something to help manage your anxiety right now?,Multi,0. Limited time/busy; 1. Don’t want to change my feelings; 2. Not likely to help; 3. Not sure what to do; 4. !Other,reason_not,interest = 1,reason_not,,,
+EMA_PRE,,Let’s reschedule this session to another time - when is a good time later today for you to work on managing stress?,Scheduler,,reschedule_time,interest = 1,reschedule_time,,we are then hoping they can get a prompt/notification for a session at this new time,
+EMA_PRE,,What area of stress would you like to work on right now in this program?,Single,"0. Social situations
+1. Romantic relationships
+2. Finances 
+3. Physical health
+4. Family and home life
+5. Academics/Work/Career Development
+6. Mental health
+7. Discrimination",domain,interest = 0,domain,,,
+EMA_PRE,,Really try to imagine yourself in the upcoming situations as vividly as possible.,,,lemonsession,interest = 0 & preanxious > 2,lemon,lemon_pic3.jpeg,"AKA, if they are doing a session and are ready to do so",
+EMA_PRE,,"In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will evoke symptoms related to anxiety (e.g., racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",,,,interest = 0 & preanxious < 3,,,"AKA, if they are doing a session but aren't feeling bad/anxious",
+EMA_PRE,,Please describe the situation in a few words:,Entry,,,interest = 0 & preanxious < 3,entry_anxious_imagery,,,
+EMA_PRE,,"Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there.",,,,interest = 0 & preanxious < 3,,,,
+EMA_PRE,,Play this situation in your head for the next 20 seconds. \n\nThe screen will change in 20 seconds. ,,,,interest = 0 & preanxious < 3,,,,
+EMA_PRE,,How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider.,Slider,0. Absolutely no anxiety; 10. Totally anxious; 99. Prefer not to answer,,interest = 0 & preanxious < 3,imagery_anxiety,,,
+EMA_PRE,,How vividly did you imagine the situation?,Single,0. Not at all vivid; 1. Somewhat vivid; 2. Moderately vivid; 3. Very vivid; 4. Totally vivid; 5. Prefer not to answer,,interest = 0 & preanxious < 3,imagery_vivid,,,
+EMA_PRE,,How likely is it that the situation or task will turn out well versus turn out badly?,Single,0. Very likely to turn out well; 1. Somewhat likely to turn out well; 2. Neutral; 3. Somewhat likely to turn out badly; 4. Very likely to turn out badly; 5. Prefer not to answer,,interest = 0 & preanxious < 3,imagery_well,,,
+EMA_PRE,,"If this situation did turn out badly, how well or badly would you be able to handle it?",Single,0. Very well; 1. Somewhat well; 2. Neutral; 3. Somewhat badly; 4. Very badly; 5. Prefer not to answer,,interest = 0 & preanxious < 3,imagery_handling,,,
+THIS IS WHERE THERE MIGHT BE A MINI INTERVENTION WHICH IS THE INT STUFF BELOW,,,,,,,,,,
+EMA_MID,,"Right now, I feel….",Slider,1. Not at all anxious; 7. Very anxious,midanxious,"Mark, I don't even really know how to write this out for you, but they should receive this right before their CBM-I scenarios if they either get the anxious imagery prime above, or any of the INTs below that are followed by CBM-I. Let me know if you need me to clarify!",midanxious,,,
+THIS IS WHERE THEY WILL THEN RECEIVE THE SCENARIOS BASED ON THE DOMAIN CHOSEN ABOVE!,,,,,,,,,,
+EMA_POST,,"Right now, I am feeling….",Slider,1. Very bad/negative; 7. Very good/positive,postaffect,,postaffect,,,
+EMA_POST,,"Right now, I feel….",Slider,1. Not at all anxious; 7. Very anxious,postanxious,,postanxious,,,
+EMA_POST,,The program helped me think about a stressful or upsetting situation in a new or different way.,Slider,1.  Not at all true; 7. Very true,thinkdifferent,,thinkdifferent,,,
+EMA_POST,,"With the program, I am able to manage my current feelings...",Slider,1. Not at all effectively; 7. Very effectively,managefeelings,,managefeelings,,,
+EMA_POST,,Thanks and great job - we’ll see you next time!,,,end,,,,,
+EOD,,"Overall, today I felt…",Slider,1. Very bad/negative; 7. Very good/positive,eodaffect,,eodaffect,,,
+EOD,,"Overall, today I felt…",Slider,1. Not at all anxious; 7. Very anxious,eodanxious,,eodanxious,,,
+EOD,,To what extent is your anxiety a central part of who you are currently?,Multi,See image ,anxidentity,,anxidentity,anxiety.jpeg,,
+EOD,,I was able to think about stressful or upsetting situations in a new or different way today. ,Slider,1. Not at all true; 7. Very true,eodthinkdifferent,,eodthinkdifferent,,,
+EOD,,I was able to manage my emotions today.,Slider,1. Not at all effectively; 7. Very effectively,eodmanagefeelings,,eodmanagefeelings,,,
+EOD,,"You are encouraged to complete 4 short surveys tomorrow, 2 of which can be at a pre-scheduled time. Thinking ahead to your day tomorrow, are there specific times you would like to receive a notification to complete a ~5 minute program to help manage a stressful or upsetting situation?",Scheduler,,scheduled,,scheduled,,"we are then hoping they can get a prompt/notification for a sessions at these times tomorrow, plus 2 random for a total of 4 each day",
+,,,,,,,,,,
+INT_1,,"This quick and easy exercise can be very helpful during periods of anxiety by helping to ground you in the present. The key is to focus on your physical senses instead of your racing thoughts. Before starting this exercise, pay attention to your breathing and try to take slow, calm breaths.",,,mindful_grounding,interest = 0 & socialcontext in 0 1 & preanxious > 2,mindful_grounding,,Rank 1 ,"<- Mark, this means to show them in this order for a given condition!"
+INT_1,,"Notice FIVE things you see around you. It could be a pen, a spot on the ceiling, anything in your surroundings.
+
+Notice FOUR things you can touch around you. It could be your hair, a pillow, or the ground under your feet. 
+
+Notice THREE things you hear. This could be any external sound. Focus on things you can hear outside of your body.
+
+Notice TWO things you can smell. Maybe you are in your office and smell pencil, or maybe you are in your bedroom and smell a pillow.
+
+Notice ONE thing you can taste. What does the inside of your mouth taste like—gum, coffee, or the sandwich from lunch?",,,mindful_grounding,interest = 0 & socialcontext in 0 1 & preanxious > 2,mindful_grounding,,Rank 1 ,
+INT_1,,"With anxiety, your thoughts may feel ""sticky"", like you can't let go of them. However, you can practice observing your thoughts without becoming tangled in them. This exercise will help you let your thoughts naturally come and go, without needing to cling to them.",,,mindful_diffusion,interest = 0 & socialcontext in 0 1 & preanxious > 2,mindful_diffusion,,Rank 2,
+INT_1,,"First, take a very slow breath in and out. 
+
+Then, bring to mind a difficult thought you’ve been having. Imagine placing that thought on a leaf, and watch the leaf gently float down a stream.
+
+You don’t have to push it away or hold onto it.
+
+Just notice the thought, notice the leaf, and let it drift by at its own pace.
+
+If the thought comes back, place it on another leaf and watch again.
+
+Your job isn’t to change the thought—just to observe it and let it pass.",,,mindful_diffusion,interest = 0 & socialcontext in 0 1 & preanxious > 2,mindful_diffusion,,Rank 2,
+INT_1,,"Sometimes our minds make up stories or jump to conclusions, especially when we’re experiencing negative emotions like worry or sadness. These thoughts can feel true, but they’re not facts. Giving a thought a name helps you step back and see it as it is.",,,mindful_thoughtex,interest = 0 & socialcontext in 0 1 & preanxious > 2,mindful_thoughtex,,Rank 3,
+INT_1,,"It's important to remember that your thoughts are not the same as facts, and you get to decide if the thought is helpful or if it is unkind and exaggerated. 
+
+Bring to mind a difficult thought you’ve been having. Give your thought a title and use this to gain some distance from the thought - e.g. “ah, my mind is telling me the ‘I’m not good enough’ story”. ",,,mindful_thoughtex,interest = 0 & socialcontext in 0 1 & preanxious > 2,mindful_thoughtex,,Rank 3,
+INT_1,,"Sometimes when we are experiencing an intense emotion, simply naming what we are feeling can be helpful. ",,,mindful_afflab,interest = a Interested & socialcontext = a | b & preanxious > 2,mindful_afflab,,Rank 4,
+INT_1,,"Take a moment to name the emotions you are feeling. Is it just anxiety, or another emotion as well, like sadness or anger? And does the anxiety feel general and focused on the future, like apprehension, or does it feel extreme and like the threat is happening now, like panic? Describing emotions can help them feel less overwhelming. ",,,mindful_afflab,interest = 0 & socialcontext in 0 1 & preanxious > 2,mindful_afflab,,Rank 4,
+INT_1,,"Often, when we feel anxious, our mind is telling us that the worst case scenario will happen. ",,,distortion_lab,interest = 0 & socialcontext in 0 1 & preanxious > 2,distortion_lab,,Rank 5,
+INT_1,,"Take a moment to consider whether your anxious thoughts are helpful or accurate right now? Or, are you automatically assuming the worst will happen? Think about what information is guiding your thoughts, and whether you think it's actually meaningful evidence.",,,distortion_lab,interest = 0 & socialcontext in 0 1 & preanxious > 2,distortion_lab,,Rank 5,
+INT_1,,"Anxiety can feel intense at times. By completing this session, you are taking an important step towards learning how to manage your anxiety effectively!",,,cheerleading,interest = 0 & socialcontext in 0 1 & preanxious > 2,cheerleading,,Rank 6,
+INT_1,,"Anxiety can feel overwhelming, but it’s important to remember that it does not last forever. It may sound odd, but accepting that you're anxious (instead of getting anxious about being anxious!) can actually help reduce the intensity of the anxiety.",,,emo_accept,interest = 0 & socialcontext in 0 1 & preanxious > 2,emo_accept,,Rank 7,
+INT_1,,"Instead of trying to push the anxiety away, just notice where you are feeling the anxiety in your body and the anxious thoughts passing through your mind. Be patient, and remind yourself that eventually this feeling will pass. ",,,emo_accept,interest = 0 & socialcontext in 0 1 & preanxious > 2,emo_accept,,Rank 7,
+,,,,,,,,,,
+INT_1,,"Anxiety can feel overwhelming at times, but stopping to take a slow breath can help lower the body’s anxiety response. It can also make it easier to feel grounded and focused.",,,relax_diaphbreath,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_diaphbreath,,Rank 8,
+INT_1,,"Take a moment to place one hand on your belly and breathe in slowly through your nose, letting your stomach inflate like a balloon. Exhale gently through your mouth and feel your shoulders drop. Repeat this a few times to help your body settle.",,,relax_diaphbreath,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_diaphbreath,,Rank 8,
+INT_1,,"Anxiety can make the body feel tense and on edge, but pausing to relax your muscles can help reduce your anxiety.",,,relax_muscle,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_muscle,,Rank 9,
+INT_1,,"Choose one muscle group, such as your shoulders, hands, or jaw, and gently tense it for a few seconds. Then release the tension fully and notice the difference as the muscles soften and relax. Move through a few muscle areas like this to help your body unwind.",,,relax_muscle,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_muscle,,Rank 9,
+INT_1,,"""Box breathing"" is a breathing technique that can give your mind a clear pattern to follow, making it easier to feel steady, grounded, and in control.",,,relax_boxbreath,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_boxbreath,,Rank 10,
+INT_1,,"Breathe in through your nose for a count of four, hold for four, exhale for four, and pause again for four. Picture each side of a square as you move through the cycle. Repeat a few times to help steady your mind and body.",,,relax_boxbreath,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_boxbreath,,Rank 10,
+INT_1,,"Shifting your focus to a calming mental image can help quiet your anxiety. Guided imagery gives your mind a peaceful place to rest, making it easier to feel grounded and at ease.",,,guided_imagery,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,guided_imagery,,Rank 11,
+INT_1,,"Picture a place where you feel completely at ease—maybe a quiet forest, a warm room, or a stretch of beach. Notice the colors, sounds, and sensations around you as if you’re really there. Close your eyes and let your breath settle as you sink into that scene for a moment.",,,guided_imagery,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,guided_imagery,,Rank 11,
+INT_1,,,,,skip,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,skip,,Rank 12,
+INT_1,,"Take a moment to think of someone who helps you feel supported, and send them a quick message or check-in. Even a brief connection can remind you that you’re not alone and help ease anxiety. Try to disconnect these messages from your worries. Examples could be: 
+
+“Hi! Just wanted to say I was thinking of you and hope you’re having a good day.”
+
+“Random check-in — no need to reply right away 😊”
+
+“I’m taking a moment to reach out to people I appreciate. You’re one of them.”",,,text_checkin,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,text_checkin,,Rank 13,
+INT_1,,Anxiety can get in the way of seeing our way out of a tricky situation. It can be helpful sometimes to view ourselves from a different perspective. ,,,give_advice,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,give_advice,,Rank 14,
+INT_1,,"Think of something that is currently distressing for you. Imagine someone else is in the same situation you’re facing right now and feeling the same worries you are. For a moment, step into the role of a kind, supportive friend or coach.
+
+What would you say to help them cope or take a small step forward? How does it feel to be on the other side?
+
+Notice how this perspective can bring more balance, compassion, and flexibility than the negative thoughts we often have about ourselves.",,,give_advice,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,give_advice,,Rank 14,
+INT_1,,"Anxiety often pushes us to avoid what feels uncomfortable, but facing it can help your anxiety decrease over time. It can be helpful to learn that the discomfort of anxiety is manageable and temporary.",,,plan_exposure_1,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,plan_exposure_1,,Rank 15,
+INT_1,,"Bring to mind a current or upcoming social situation that’s causing anxiety. Identify one specific action you would normally avoid in that situation. 
+
+If you are in a social situation, do that action. If you are alone, imagine yourself doing that action and staying in the situation without escaping or doing something to avoid the hard parts. Notice the anxiety that shows up.
+
+Sit with the discomfort long enough to observe what happens. Notice that anxiety changes over time and that you can do things even while feeling anxious.",,,plan_exposure_1,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,plan_exposure_1,,Rank 15,
+INT_1,,"When anxiety is high, it’s easy to put enjoyable things on hold. Choosing a small, pleasant activity can help lift your mood and build confidence over time.",,,schedule_fun,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,schedule_fun,,Rank 16,
+INT_1,,"Pick one activity you might enjoy — keep it low-pressure. It can be something you do alone or with others. Take a moment to schedule it so it's more likely to happen.
+
+The goal isn’t to feel anxiety-free, but to make room for enjoyment even if some anxiety shows up.",,,schedule_fun,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,schedule_fun,,Rank 16,
+INT_1,,Social anxiety often fills in the blanks with worst-case assumptions. This exercise helps you slow down and separate facts from guesses.,,,check_facts,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,check_facts,,Rank 17,
+INT_1,,"Bring to mind a social situation that’s causing anxiety. Think about what you’re worried about.
+
+Now ask yourself: What do I actually know for sure? What am I assuming or predicting?
+
+Gently replace guesses with the facts you have. Notice how anxiety shifts when you base your thoughts on evidence rather than fear.",,,check_facts,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,check_facts,,Rank 17,
+,,GIVE CBM AFTER!,,,,After any from list INT_1,,,,
+INT_2,,"Anxiety can feel overwhelming at times, but stopping to take a slow breath can help lower the body’s anxiety response. It can also make it easier to feel grounded and focused.",,,relax_diaphbreath_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_diaphbreath,,Rank 1 ,
+INT_2,,"Take a moment to place one hand on your belly and breathe in slowly through your nose, letting your stomach inflate like a balloon. Exhale gently through your mouth and feel your shoulders drop. Repeat this a few times to help your body settle.",,,relax_diaphbreath_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_diaphbreath,,Rank 1 ,
+INT_2,,"Anxiety can make the body feel tense and on edge, but pausing to relax your muscles can help reduce your anxiety.",,,relax_muscle_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_muscle,,Rank 2,
+INT_2,,"Choose one muscle group, such as your shoulders, hands, or jaw, and gently tense it for a few seconds. Then release the tension fully and notice the difference as the muscles soften and relax. Move through a few muscle areas like this to help your body unwind.",,,relax_muscle_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_muscle,,Rank 2,
+INT_2,,"""Box breathing"" is a breathing technique that can give your mind a clear pattern to follow, making it easier to feel steady, grounded, and in control.",,,relax_boxbreath_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_boxbreath,,Rank 3,
+INT_2,,"Breathe in through your nose for a count of four, hold for four, exhale for four, and pause again for four. Picture each side of a square as you move through the cycle. Repeat a few times to help steady your mind and body.",,,relax_boxbreath_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,relax_boxbreath,,Rank 3,
+INT_2,,"Shifting your focus to a calming mental image can help quiet your anxiety. Guided imagery gives your mind a peaceful place to rest, making it easier to feel grounded and at ease.",,,guided_imagery_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,guided_imagery,,Rank 4,
+INT_2,,"Picture a place where you feel completely at ease—maybe a quiet forest, a warm room, or a stretch of beach. Notice the colors, sounds, and sensations around you as if you’re really there. Close your eyes and let your breath settle as you sink into that scene for a moment.",,,guided_imagery_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,guided_imagery,,Rank 4,
+INT_2,,,,,skip_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,skip,,Rank 5,
+INT_2,,"Take a moment to think of someone who helps you feel supported, and send them a quick message or check-in. Even a brief connection can remind you that you’re not alone and help ease anxiety. Try to disconnect these messages from your worries. Examples could be: 
+
+“Hi! Just wanted to say I was thinking of you and hope you’re having a good day.”
+
+“Random check-in — no need to reply right away 😊”
+
+“I’m taking a moment to reach out to people I appreciate. You’re one of them.”",,,text_checkin_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,text_checkin,,Rank 6,
+INT_2,,Anxiety can get in the way of seeing our way out of a tricky situation. It can be helpful sometimes to view ourselves from a different perspective. ,,,give_advice_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,give_advice,,Rank 7,
+INT_2,,"Think of something that is currently distressing for you. Imagine someone else is in the same situation you’re facing right now and feeling the same worries you are. For a moment, step into the role of a kind, supportive friend or coach.
+
+What would you say to help them cope or take a small step forward? How does it feel to be on the other side?
+
+Notice how this perspective can bring more balance, compassion, and flexibility than the negative thoughts we often have about ourselves.",,,give_advice_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,give_advice,,Rank 7,
+INT_2,,"Anxiety often pushes us to avoid what feels uncomfortable, but facing it can help your anxiety decrease over time. It can be helpful to learn that the discomfort of anxiety is manageable and temporary.",,,plan_exposure_1_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,plan_exposure_1,,Rank 8,
+INT_2,,"Bring to mind a current or upcoming social situation that’s causing anxiety. Identify one specific action you would normally avoid in that situation. 
+
+If you are in a social situation, do that action. If you are alone, imagine yourself doing that action and staying in the situation without escaping or doing something to avoid the hard parts. Notice the anxiety that shows up.
+
+Sit with the discomfort long enough to observe what happens. Notice that anxiety changes over time and that you can do things even while feeling anxious.",,,plan_exposure_1_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,plan_exposure_1,,Rank 8,
+INT_2,,"When anxiety is high, it’s easy to put enjoyable things on hold. Choosing a small, pleasant activity can help lift your mood and build confidence over time.",,,schedule_fun_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,schedule_fun,,Rank 9,
+INT_2,,"Pick one activity you might enjoy — keep it low-pressure. It can be something you do alone or with others. Take a moment to schedule it so it's more likely to happen.
+
+The goal isn’t to feel anxiety-free, but to make room for enjoyment even if some anxiety shows up.",,,schedule_fun_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,schedule_fun,,Rank 9,
+INT_2,,Social anxiety often fills in the blanks with worst-case assumptions. This exercise helps you slow down and separate facts from guesses.,,,check_facts_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,check_facts,,Rank 10,
+INT_2,,"Bring to mind a social situation that’s causing anxiety. Think about what you’re worried about.
+
+Now ask yourself: What do I actually know for sure? What am I assuming or predicting?
+
+Gently replace guesses with the facts you have. Notice how anxiety shifts when you base your thoughts on evidence rather than fear.",,,check_facts_social,interest = 0 & socialcontext in 0 1 2 & preanxious > 2,check_facts,,Rank 10,
+GIVE CBM AFTER INT_2,,,,,,After any from list INT_2        ,,,,
+GIVE CBM BEFORE INT_3,,,,,,interest = 0 & socialcontext = 1 & preanxious > 2,,,,
+INT_3,,You're doing a great job changing your negative thinking patterns. Now you're ready to use those skills to help you take on new challenges!,,,plan_exposure_2,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,plan_exposure_2,,Rank 1,
+INT_3,,"Pick your challenge! Try to talk to someone around you. It could be a stranger, friend, coworker, sales clerk... Say hi or ask a question, and see how the conversation goes.",,,plan_exposure_2,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,plan_exposure_2,,Rank 1,
+INT_3,,"Instead of assuming the worst, you've been practicing looking at situations in new ways. Now you can try acting in new ways too. ",,,plan_exposure_3,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,plan_exposure_3,,Rank 2,
+INT_3,,"Is there something you've been avoiding or too afraid to say, even though you think it would help you feel better in the long run? Try doing one hard thing now.",,,plan_exposure_4,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,plan_exposure_4,,Rank 3,
+INT_3,,Nice job trying to think about the endings of the stories you read in different ways. Now take a moment to reflect on some goals you have. ,,,goal,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,goal,,Rank 4,
+INT_3,,"How can you use what you learned from the stories to meet one of your goals? Pick one small step to help you meet your goal. Decide when and how you're going to take that step. If you can't do it right now, then write down your plan & schedule a time to do it.",,,goal,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,goal,,Rank 4,
+INT_3,,"It can be easy to focus on the negatives – now that you've got practice challenging negative thinking, take a moment to reflect on something you did that went well recently.",,,balanced_reflection,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,balanced_reflection,,Rank 5,
+INT_3,,"Picture a situation where you accomplished something, and ask yourself these four questions: what went well, what didn't go well, what would you do again, and what would you change?",,,balanced_reflection,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,balanced_reflection,,Rank 5,
+INT_3,,It can be hard sometimes to make choices that align well with our values. Sometimes anxiety gets in the way. Think about a time when you wished you'd responded differently to a situation.,,,values,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,values,,Rank 6,
+INT_3,,Think about what you could do differently next time (even if you're anxious!) to respond in a way that feels closer to your values and goals.,,,values,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,values,,Rank 6,
+INT_3,,"Think about something you REALLY wish you could do, but you've been stuck & not doing it yet. ",,,behav_act,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,behav_act,,Rank 7,
+INT_3,,"Remember the ways you have been challenging negative thinking in the stories & use that same skill to challenge the thoughts keeping you stuck. Now, try ONE thing you can do to get a little closer to your goal.",,,behav_act,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,behav_act,,Rank 7,
+INT_3,,Reflect on the last time you were worried about how a situation or conversation would go.,,,cog_restructure,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,cog_restructure,,Rank 8,
+INT_3,,"After it was over, consider whether it was as bad as you expected. If it went better than you expected, notice how your anticipation was worse than the reality. If it went worse than you expected, use the practice you've been doing with the stories to recognize that even though somerhting was really hard, you got through it. Consider whether there's something you can learn from the experience to help you next time.",,,cog_restructure,interest = 0 & socialcontext = 1 & preanxious > 2 & AFTER CBM,cog_restructure,,Rank 8,
+,,,,,,,,,,
+INT_4,,"No problem, sounds like this isn't a great time for you - we'll try again later! Don't forget that you can always take a few slow breaths to help manage tough feelings. 
+
+Let us know a better time to suggest an exercise. ",Scheduler,,reschedule_breathing,interest = 1 & socialcontext in 1 2,reschedule_breathing,,Rank 1,
+INT_4,,"That's totally okay! It seems like this isn't a good time, so we'll circle back. Remember that connecting with people you trust can make it easier to manage a difficult situation. 
+
+Let us know a better time to suggest an exercise. [pick time to be re-prompted]",Scheduler,,reschedule_friends,interest = 1 & socialcontext in 1 2,reschedule_friends,,Rank 2,
+INT_4,,"No worries at all, we can try again later. Remember that you've managed hard situations before - think about what helps you & we can practice the thinking exercises later.
+Let us know a better time. [pick a time to be re-prompted]",Scheduler,,reschedule_reflection,interest = 1 & socialcontext in 1 2,reschedule_reflection,,Rank 3,
+INT_4,,"That's OK, we'll try another time. In the meantime, take a moment to consider whether there's another way to look at a tough situation. Taking a different perspective can be really helpful. 
+
+Let us know a better time to suggest an exercise. [pick time to be re-prompted]",Scheduler,,reschedule_refame,interest = 1 & socialcontext in 1 2,reschedule_refame,,Rank 4,
+INT_4,,"That's ok, we’ll come back to this when it fits better. For now, maybe just check in with how your body feels — soften your shoulders, unclench your jaw. 
+
+Let us know when might be a better time to suggest an exercise. [pick time to be re-prompted]",Scheduler,,reschedule_relax,interest = 1 & socialcontext in 1 2,reschedule_relax,,Rank 5,
+NO CBM BEFORE OR AFTER INT_4,,,,,,,,,INT_5 includes everything from INT_4 and some more,
+INT_5,,"No problem, sounds like this isn't a great time for you - we'll try again later! Don't forget that you can always take a few slow breaths to help manage tough feelings. 
+
+Let us know a better time to suggest an exercise. ",Scheduler,,reschedule_breathing_alone,interest = 1 & socialcontext = 0,reschedule_breathing_alone,,Rank 1,
+INT_5,,"That's totally okay! It seems like this isn't a good time, so we'll circle back. Remember that connecting with people you trust can make it easier to manage a difficult situation. 
+
+Let us know a better time to suggest an exercise.",Scheduler,,reschedule_friends_alone,interest = 1 & socialcontext = 0,reschedule_friends_alone,,Rank 2,
+INT_5,,"No worries at all, we can try again later. Remember that you've managed hard situations before - think about what helps you & we can practice the thinking exercises later.
+Let us know a better time.",Scheduler,,reschedule_reflection_alone,interest = 1 & socialcontext = 0,reschedule_reflection_alone,,Rank 3,
+INT_5,,"That's OK, we'll try another time. In the meantime, take a moment to consider whether there's another way to look at a tough situation. Taking a different perspective can be really helpful. 
+
+Let us know a better time to suggest an exercise.",Scheduler,,reschedule_refame_alone,interest = 1 & socialcontext = 0,reschedule_refame_alone,,Rank 4,
+INT_5,,"That's ok, we’ll come back to this when it fits better. For now, maybe just check in with how your body feels — soften your shoulders, unclench your jaw. 
+
+Let us know when might be a better time to suggest an exercise.",Scheduler,,reschedule_relax_alone,interest = 1 & socialcontext = 0,reschedule_relax_alone,,Rank 5,
+INT_5,,"Not a problem — let’s pause for now. If it helps, try focusing on one sound or color around you to give your mind a small break. 
+
+Let us know a better time to suggest an exercise. ",Scheduler,"[pick a time to be re-prompted - 15 minutes, 30 minutes, 1 hour, custom time]",reschedule_mindful,interest = 1 & socialcontext = 0,reschedule_mindful,,Rank 6,
+INT_5,,"No problem. We can revisit this another time. In the meantime, it might help to take one tiny step: sip water, stand up, stretch. 
+
+Let us know a better time to suggest an exercise. ",Scheduler,,reschedule_grounding,interest = 1 & socialcontext = 0,reschedule_grounding,,Rank 7,
+INT_5,,"Of course — we’ll try again another time. Take a breath & remember that you can handle hard feelings. 
+Let us know a better time to suggest an exercise.",Scheduler,,reschedule_cheerlead,interest = 1 & socialcontext = 0,reschedule_cheerlead,,Rank 8,
+INT_5,,"That's ok, we can come back to this another time. If you want, you can do something small to have a quick mental break, like listening to a song that fits your mood, or listen for the furthest sound you can hear, then the nearest. 
+
+Let us know a better time to suggest an exercise.",Scheduler,,reschedule_distract,interest = 1 & socialcontext = 0,reschedule_distract,,Rank 9,
+INT_5,,"No worries, we can circle back later. In the meantime, you could take a quick break from your task by looking at one object and notice its color, shape, and edges. This can help you be more in the moment instead of stressing about the past or the future.
+
+Let us know a better time to suggest an exercise.",Scheduler,,reschedule_mindobject,interest = 1 & socialcontext = 0,reschedule_mindobject,,Rank 10,
+NO CBM BEFORE OR AFTER INT_5,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Questions,,,,,,,,,,
+rename any that don't require a response to same name,,,,,,,,,,
+check conditional logic,,,,,,,,,,
+BT/Lab: DO WE WANT AFFECT ANCHORS FOR PRE or POST CBM INTERVENTIONS?,,,,,,,,,,
+BT/Lab: DO WE STILL WANT TO SHOW DOMAIN-DEPENDENT TIPS / ER STRATEGIES IF WE'RE ALREADY GIVING PRE-INTERVENTION,,,,,,,,,,

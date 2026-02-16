@@ -1,6 +1,6 @@
 {
   "home": {
-    "title": "Leia",
+    "title": "MindTrails",
     "element": { "type": "ref", "path": "home.json" }
   },
   "start_flow": "flow://flows/intake",
