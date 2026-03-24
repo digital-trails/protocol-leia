@@ -1,0 +1,25 @@
+{
+    "header_text": "Struggling with a Presentation: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During today's class, you have to present in front of your classmates and professor. You've been struggling to put this presentation together, but you haven't reached out to your professor about it yet. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I feel calm knowing that I tried my hardest no matter what my grade is.",
+                "I'm glad I have the self-awareness to know I need to talk to my professor soon.",
+                "I'm uneasy right now, but I can take a deep breath to help myself feel calmer.",
+                "I'm worried about what my professor will say about my presentation.",
+                "I feel insecure about the quality of my presentation, but nothing that I do will be perfect."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "A birthday cake",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend buys you a cake for your birthday. When they bring it over in the evening, they note that they have recently gotten over being ill. Holding the cake, you think your chances of becoming sick are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "a_birthday_cake--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "minimal"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

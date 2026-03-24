@@ -1,0 +1,17 @@
+{
+    "header_text": "First time ice skating",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend enjoys ice skating and persuades you to try it out. At the rink you put on the skates and step on the ice. You glide forward slowly at first, then faster, and think your chances of getting injured are..."
+        },
+        {
+            "type": "Entry",
+            "name": "first_time_ice_skating--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

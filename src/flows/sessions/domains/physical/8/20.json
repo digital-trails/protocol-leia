@@ -1,0 +1,17 @@
+{
+    "header_text": "Feeling Faint",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide to spin yourself really quickly on an office chair. You feel butterflies in your stomach and your head gets dizzy as the chair slows down from spinning. These feelings probably mean that you are going to..."
+        },
+        {
+            "type": "Entry",
+            "name": "feeling_faint--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

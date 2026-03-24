@@ -1,0 +1,17 @@
+{
+    "header_text": "Couples Counseling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your partner have started couples counseling. You've been to a few sessions, but you and your partner are still having issues. You think that the process will just take... "
+        },
+        {
+            "type": "Entry",
+            "name": "couples_counseling--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

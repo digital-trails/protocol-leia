@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Think about something you REALLY wish you could do, but you've been stuck & not doing it yet."
+        }
+    ]
+}

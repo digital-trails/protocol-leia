@@ -1,0 +1,25 @@
+{
+    "header_text": "Argument with Your Partner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently had a fight with your partner. It was about a serious issue, and you are concerned as to why your partner didn't agree with you. You think that you and your partner will eventually make...  "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "argument_with_your_partner--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "up"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

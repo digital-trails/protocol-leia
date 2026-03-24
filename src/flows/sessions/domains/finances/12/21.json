@@ -1,0 +1,25 @@
+{
+    "header_text": "Buying textbooks",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are planning out your schedule and looking at classes for next semester. There is a class that you really want to take, but it requires expensive supplies and you’re not sure you can afford them. You reach out to the professor, and they come up with a plan to make the supplies more..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "buying_textbooks--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "affordable"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

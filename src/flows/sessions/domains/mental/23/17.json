@@ -1,0 +1,25 @@
+{
+    "header_text": "Sharing with Someone New",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You meet a new classmate in biology who seems really cool. After class, they request to follow you on your private social media account. Before you let them follow you, you look over your own feed and feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "sharing_with_someone_new--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "good"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

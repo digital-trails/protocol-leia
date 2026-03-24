@@ -1,0 +1,25 @@
+{
+    "header_text": "Falling Behind",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently started a new job. As you've been working, it seems like everyone around you knows what they're doing, but you're still confused. You think this is because you're still learning, and you'll catch on... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "falling_behind--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "soon"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Optional presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "This semester, a few new members joined your club. Your club's president asks you to stay after a meeting to give them a brief presentation about the club's goals and values but tells you that this is completely optional. You feel a little nervous about giving the presentation, and you decide to..."
+        },
+        {
+            "type": "Entry",
+            "name": "optional_presentation--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

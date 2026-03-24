@@ -1,0 +1,17 @@
+{
+    "header_text": "Views Towards Therapy",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have been going to therapy lately. You haven't told your family because they have expressed negative views of therapy in the past. You think that this time, they will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "views_towards_therapy--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Corner laughter",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a moment, you remember situations where you and your classmates have laughed about things unrelated to who is speaking. You move on from their laughter and complete your presentation..."
+        },
+        {
+            "type": "Entry",
+            "name": "corner_laughter--social_situations--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

@@ -1,0 +1,15 @@
+{
+    "header_text": "Walking up stairs",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are meeting with your professor. To make it on-time, you just walked up two flights of stairs quickly, and feel your heart beating very rapidly.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/103.jpeg",
+            "border": true
+        }
+    ]
+}

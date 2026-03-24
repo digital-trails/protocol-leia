@@ -1,0 +1,17 @@
+{
+    "header_text": "For the First Time",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have been asked out on a date for the first time! You feel nervous about this new experience and you worry you might do something embarrassing. When you think about the date, you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "for_the_first_time--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

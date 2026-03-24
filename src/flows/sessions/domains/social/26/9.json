@@ -1,0 +1,25 @@
+{
+    "header_text": "Halloween party: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are invited to a Halloween party and you will only know a couple of people there. You decide to wear a really elaborate costume. When you arrive, everyone looks at you. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I feel happy wearing what I love.",
+                "I'm worried that others are making fun of me behind my back.",
+                "I'm really embarrassed that I stand out so much, but honestly people will forget about it in a few minutes.",
+                "I feel so liberated wearing something so fun.",
+                "I worry about what others are thinking, but realize that I'm allowed to wear what makes me happy."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

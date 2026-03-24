@@ -1,0 +1,29 @@
+{
+    "header_text": "Your Resume",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "You believe your resume could"
+        },
+        {
+            "type": "Buttons",
+            "name": "your_resume--academics_work_career_development--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Be the main reason you do not hear back from this program.",
+                "Be a large factor in an eventual graduate school offer."
+            ],
+            "column_count": 1,
+            "correct_value": "Be the main reason you do not hear back from this program."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 2
+}

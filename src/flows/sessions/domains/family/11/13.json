@@ -1,0 +1,25 @@
+{
+    "header_text": "Aging family member: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You go to your grandparents' home for the first time in a while and notice that your grandfather looks a lot less healthy than you remember. No one in your family mentions it.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I notice my sadness but gently ask my grandfather how he's doing and accept any answer he gives me.",
+                "I decide to give him a big hug and smile.",
+                "I don't speak to my family because they didn't tell me he was sick.",
+                "I want to leave and cry, but decide to stay with the family and engage in conversation.",
+                "I make a funny joke to get my grandparents laughing."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

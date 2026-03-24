@@ -1,0 +1,17 @@
+{
+    "header_text": "Expectations",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think about why they want you to get high scores. You know it is because they want you to do well, so that makes you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "expectations--academics_work_career_development--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

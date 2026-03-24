@@ -1,0 +1,17 @@
+{
+    "header_text": "Feeling sick on a hot day",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Returning home on a very hot day, you quickly drink a large glass of water. You soon feel abnormally full and a bit sick to your stomach. This feeling is... "
+        },
+        {
+            "type": "Entry",
+            "name": "feeling_sick_on_a_hot_day--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

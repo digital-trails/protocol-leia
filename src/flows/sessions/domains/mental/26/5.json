@@ -1,0 +1,25 @@
+{
+    "header_text": "Missing spider: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you're getting into the shower, you see a huge spider on the wall. You turn away for a second and look back and realize it's gone. \n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I think about how it could be venomous, but realize the chances of that are slim.",
+                "It's going to crawl on me!",
+                "I'm glad it's gone.",
+                "I think it went back to it's home.",
+                "I think about how it could bite me, but remember it is probably trying to avoid me and the water."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

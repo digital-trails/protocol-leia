@@ -1,0 +1,25 @@
+{
+    "header_text": "Trusting Yourself ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're working on homework with a few friends. You say an answer to the first question, and your friend laughs and says that you're wrong. While you're checking your work, you think that you're..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "trusting_yourself_--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "smart"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

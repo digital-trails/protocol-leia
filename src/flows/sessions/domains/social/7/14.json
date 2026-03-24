@@ -1,0 +1,17 @@
+{
+    "header_text": "Intoxication Situation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a party with friends and one of your friends is intoxicated. When you suggest that it's time to go home, they say no and walk away from you. You think that they are having... "
+        },
+        {
+            "type": "Entry",
+            "name": "intoxication_situation--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

@@ -1,0 +1,10 @@
+{
+    "header_text": "Using the restroom: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Great job! Now you'll see some feelings."
+        }
+    ]
+}

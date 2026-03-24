@@ -1,0 +1,25 @@
+{
+    "header_text": "Conversing at a party",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a party with people you do not know well. You decide to join some people who are sitting on a couch and talking. When you try to enter the conversation, the people on the couch continue talking to each other, because they were probably..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "conversing_at_a_party--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "distracted"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

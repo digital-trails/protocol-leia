@@ -1,0 +1,17 @@
+{
+    "header_text": "Old Friends ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are working at the grocery store bagging groceries and notice two friends who you have not seen in a while. They are buying drinks and snacks, and they say hi as they're checking out. They probably think that you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "old_friends_--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

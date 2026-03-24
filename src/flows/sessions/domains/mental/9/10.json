@@ -1,0 +1,17 @@
+{
+    "header_text": "Being in Charge",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently were elected to be in a high position in a club you're in. When you meet the other members of the group, you feel as though you didn't work as hard as they did, and don't deserve this position. You take a minute to think about what you give to the club, and realize that you've been giving all you could, and people definitely noticed..."
+        },
+        {
+            "type": "Entry",
+            "name": "being_in_charge--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Masks for Guests",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your roommate invites a few friends over for the evening, and you both agreed that everyone would wear masks. When their friends arrive, they don't have masks and your roommate doesn't say anything to them. You pull your roommate aside and ask them to speak to their... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "masks_for_guests--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "friends"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

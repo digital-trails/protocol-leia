@@ -1,0 +1,25 @@
+{
+    "header_text": "Finding a Roommate",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are working in a new city over the summer. Your roommates are making more money than you and want to live in an expensive apartment that would really stretch your budget. You feel confident you’ll be able to come up with a solution that works for... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "finding_a_roommate--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "everyone"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

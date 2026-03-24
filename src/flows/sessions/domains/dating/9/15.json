@@ -1,0 +1,17 @@
+{
+    "header_text": "Making a Decision",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your partner have to make a big decision. The conversation gets heated and turns into an argument that makes you wonder whether you and your partner will ever be able to reach a compromise. You remind yourself that hard conversations can be a good way for you both to learn more about effective..."
+        },
+        {
+            "type": "Entry",
+            "name": "making_a_decision--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

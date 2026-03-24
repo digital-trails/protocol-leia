@@ -1,0 +1,17 @@
+{
+    "header_text": "Normal Functions ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You wear a shirt to school that hangs tightly around your armpits. In the middle of the day, you notice that you have sweat marks. After thinking about it, you realize that sweating throughout the day is..."
+        },
+        {
+            "type": "Entry",
+            "name": "normal_functions_--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

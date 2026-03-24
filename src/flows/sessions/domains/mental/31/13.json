@@ -1,0 +1,25 @@
+{
+    "header_text": "Tagged in a photo: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends took some pictures together. You look through your social media feed and see that they tagged you in a post. You don't like how you look in the picture.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I want to have the picture removed, but decide to let my friend keep it up.",
+                "I like the picture.",
+                "I comment on the picture about how much fun we had.",
+                "I start to delete all pictures where I don't look great, but stop because keeping the memories is more important.",
+                "I call my friend and yell at them."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Break Plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends are planning a trip to the beach over the break and have offered to help you with the cost. You feel grateful, but also embarrassed that you can’t pay for the trip yourself. You know that your friends are happy to... "
+        },
+        {
+            "type": "Entry",
+            "name": "break_plans--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

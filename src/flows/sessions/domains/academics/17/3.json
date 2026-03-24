@@ -1,0 +1,17 @@
+{
+    "header_text": "Making a Choice",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your family wants you to pursue a specific major. You would rather choose a different major but your family has made it clear they are not on board with the major choice. When you think about talking with your family about your choice, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "making_a_choice--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

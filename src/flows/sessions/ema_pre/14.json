@@ -1,0 +1,32 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How vividly did you imagine the situation?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Not at all vivid",
+                "1::Somewhat vivid",
+                "2::Moderately vivid",
+                "3::Very vivid",
+                "4::Totally vivid",
+                "5::Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "imagery_vivid"
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        0,
+        "&&",
+        "preanxious",
+        "<",
+        3
+    ]
+}

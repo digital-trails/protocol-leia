@@ -1,0 +1,17 @@
+{
+    "header_text": "Hot day ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "This feeling is surprising and uncomfortable, but you realize that it is something you can simply..."
+        },
+        {
+            "type": "Entry",
+            "name": "hot_day_--physical_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

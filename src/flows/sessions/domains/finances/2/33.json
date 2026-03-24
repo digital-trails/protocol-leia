@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Take 15 minutes to work on one aspect of your budget that causes you stress. Then plan something enjoyable to do afterward."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Really try to imagine yourself in the upcoming situations as vividly as possible."
+        },
+        {
+            "type": "Media",
+            "url": "./images/lemon_pic3.jpeg",
+            "border": true
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        0,
+        "&&",
+        "preanxious",
+        ">",
+        2
+    ]
+}

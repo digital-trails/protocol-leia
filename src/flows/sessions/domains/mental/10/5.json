@@ -1,0 +1,25 @@
+{
+    "header_text": "Waking Up Ready",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you're finishing an assignment at midnight, you realize you still have a couple of math problems left. You plan to wake up a little early to finish them before your important 9 am deadline. While you're setting your alarm and thinking about your plan, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "waking_up_ready--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "confident"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

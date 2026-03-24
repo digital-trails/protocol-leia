@@ -1,0 +1,17 @@
+{
+    "header_text": "Quiet Time",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "One afternoon you are hanging out with a friend, and you notice that the conversation has died down. Neither of you says anything for a while, and your friend can sense that you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "quiet_time--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

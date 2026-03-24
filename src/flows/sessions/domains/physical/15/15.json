@@ -1,0 +1,17 @@
+{
+    "header_text": "Sudden noise",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are walking to class when you hear a sudden noise behind you. When you quickly turn your head to see what it is, a feeling of dizziness hits you, and you begin to worry you will lose... "
+        },
+        {
+            "type": "Entry",
+            "name": "sudden_noise--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

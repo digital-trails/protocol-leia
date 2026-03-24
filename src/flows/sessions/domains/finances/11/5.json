@@ -1,0 +1,25 @@
+{
+    "header_text": "Financial responsibilities: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parent was in the hospital recently and your family has been dealing with the medical bills. You wonder what this will mean for your family's finances moving forward.\n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I try to imagine how this could have been avoided, but accept that my parent needed to be in the hospital.",
+                "My family is going to run out of money paying these bills.",
+                "My family will get through this.",
+                "I think about how challenging this situation is, but remind myself that it will not last forever.",
+                "My parent is so strong."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Working in Groups: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your professor tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm curious if I'll make new friends.",
+                "I'm excited to work with new classmates.",
+                "I'm worried that I won't get into a good group.",
+                "I'm nervous about talking about this book with the other students, but the nerves won't stop me from speaking.",
+                "Right now I’m anxious about not knowing who will be in my group, but this probably won’t feel like such a big deal tomorrow."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

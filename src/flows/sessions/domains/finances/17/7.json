@@ -1,0 +1,17 @@
+{
+    "header_text": "Treating a Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend has been supporting you through a tough time and you are really grateful for their support. You want to thank them by treating them to dinner, but you don’t have enough money to take them out to a restaurant. You decide to make them a homecooked dinner and think that they will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "treating_a_friend--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -2,27 +2,65 @@ import csv
 
 from typing import Literal
 from itertools import islice
+from typing import Tuple, Iterable
 
 from helpers_utilities import clean_up_unicode, has_value, is_yesno, is_int, shuffle, choice, lower
 
 dir_root = "./make"
 dir_csv  = f"{dir_root}/CSV"
 
+def parse_value(value: str):
+    value = value.strip()
+    i = value.index(".") if "." in value else 0
+    k = value[:i] if value[:i].isdigit() else None
+    v = value[i+1:].strip()
+    return (k, v)
+
+def parse_values(values: str):
+    if not values: return []
+    return list(map(parse_value,clean_up_unicode(values).split(";")))
+
+def to_button_value(item: Tuple[str,str]):
+    p = item[1][0] if item[1][0] in ["^","!"] else ""
+    k = str(item[0]) if item[0] is not None else None
+    v = item[1][1:] if item[1][0] in ["^","!"] else item[1]
+    return f"{p}{k}::{v}" if k else f"{p}{v}"
+
+def to_button_values(items: Iterable[Tuple[int,str]]):
+    return list(map(to_button_value,items))
+
 def create_conditions(args):
-    if args: args = args.split(';')
-    if args == [''] or not args: return {}
 
-    args = [a.strip() for a in args]
+    if not args: return {}
 
-    if len(args) == 3:
-        left,comparison,right = args
+    tokens = [a.strip() for a in args.split(" ") if a.strip()]
+    tokens.reverse()
+    conjunctions = ["&","|"]
 
-    if len(args) == 2:
-        left, right = args
-        if ',' in right: right = [int(v) for v in right.split(",") if is_int(v)]
-        comparison = "=" if not isinstance(right,list) else "in"
+    condition = []
+    while tokens:
+        token = tokens.pop()
 
-    return { "condition": [ left, comparison, right ] }
+        if token == "in":
+            items = []
+            condition.append(token)
+            condition.append(items)
+            while tokens:
+                token = tokens.pop()
+                if token in conjunctions:
+                    tokens.append(token)
+                    break
+                items.append(int(token) if token.isdigit() else token)
+        elif token.isdigit():
+            condition.append(int(token))
+        elif token == "&":
+            condition.append("&&")
+        elif token == "|":
+            condition.append("||")
+        else:
+            condition.append(token)
+
+    return { "condition": condition }
 
 def create_nav_conditions(buttons:Literal["WhenCorrect","AfterTimeout","Never","WhenComplete"]=None,timeout=None,inputs=None):
     buttons = lower(buttons)
@@ -39,35 +77,57 @@ def create_nav_conditions(buttons:Literal["WhenCorrect","AfterTimeout","Never","
         return {"navigation_conditions": ["wait_for_complete", "wait_for_click"]}
     return {}
 
-def create_input(tipe, name, items=None, min=None, max=None, text=None):
-    if not tipe: return None
+def create_input(tipe, values, output_name, variable_name = ""):
+    if not tipe: return
 
-    assert name, "all inputs require a name"
-
-    if items: items = clean_up_unicode(items).split(";")
-    if items == [""]: items = None
-    if items: items = [i.strip() for i in items]
+    assert output_name, "all inputs require a name"
 
     tipe = lower(tipe)
 
-    ## Based on what the input is, create input "add"
-    if tipe == "picker"   : return {"name": name, "type": "Picker", "items": items}
-    if tipe == "slider"   : return {"name": name, "type": "Slider", "min": min, "max": max, "others": items or ["^Prefer not to answer"]}
-    if tipe == "entry"    : return {"name": name, "type": "Entry" }
-    if tipe == "buttons"  : return {"name": name, "type": "Buttons", "buttons": items, **({"ColumnCount": 2} if is_yesno(items) else {}) }
-    if tipe == "scheduler": return {"name": name, "type": "Scheduler", "days_ahead": 1, "action": "flow://flows/${global:population}/treatment/sessions", "count":2, "message": "It's time to practice thinking flexibly! Head over to Mindtrails Movement for your scheduled session."}
-    if tipe == "checkbox" : return {"name": name, "type": "Buttons", "buttons": items, "multiselect": True }
-    if tipe == "timedtext": return {"type": "TimedText", "texts": text,  "Duration": 15000 }
-    if tipe == "puzzle"   : return {
-        "name": name,
-        "type": "WordPuzzle",
-        "correct_feedback": "Correcto!",  # changed
-        "incorrect_feedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",  # changed
-        "incorrect_delay": 5000,
-        "display_delay": 2000,
-        "words": items
-    }
-    return None
+    names = {}
+    if output_name: names["name"] = output_name
+    if variable_name: names["variable_name"] = variable_name
+
+    if tipe == "entry":
+        yield {"type": "Entry", **names}
+        return
+
+    if tipe == "slider":
+        values = parse_values(values)
+        others = to_button_values(values[3:])
+        _min, _max = int(values[0][0]), int(values[1][0])
+        yield {"type": "Text", "Text": f"{values[0][1]}\n\n{values[1][1]}"}
+        yield {"type": "Slider", "min": _min, "max": _max, "others": others, **names}
+        return
+
+    if tipe == "single":
+        values = to_button_values(parse_values(values))
+        yield {"type": "Buttons", "buttons": values, "ColumnCount": (2 if is_yesno(values) else 1), **names}
+        return
+
+    if tipe == "multi":
+        values = to_button_values(parse_values(values))
+        yield {"type": "Buttons", "buttons": values, "multiselect": True, **names}
+        return
+
+    if tipe == "scheduler": 
+        yield {"type": "Scheduler", "days_ahead": int(values), "action": "flow://flows/session", "count":1, "message": "It's time for your session."}
+        return
+
+    if tipe == "timedtext": 
+        yield {"type": "TimedText", "texts": values, "Duration": 15000}
+        return
+
+    if tipe == "puzzle":
+        yield {
+            "type": "WordPuzzle",
+            "correct_feedback": "Correct",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": values,
+            **names }
+        return
 
 def create_long_pages(label, scenario_description, thoughts, feelings, behaviors, image_url):
     """
@@ -111,12 +171,12 @@ def create_long_pages(label, scenario_description, thoughts, feelings, behaviors
             if timedtext: shuffle(timedtext,"long_pages")
 
             #input_1 is either timedtext or entry
-            input = create_input(input_1, f"long{i}", text=timedtext)
+            input = create_input(input_1, timedtext, f"long{i}")
 
             pages.append({
                 "header_text": title,
                 "header_icon": "assets/subtitle.png",
-                "elements": list(filter(None,[text,media,input])),
+                "elements": list(filter(None,[text,media,*input])),
                 **create_nav_conditions(show_buttons,timeout,[input_1])
             })
 
@@ -288,22 +348,19 @@ def create_resource_page(tips, strategies, resources, domain):
 def create_discrimination_page(conditions, text, items, input_1, input_name, variable_name, title):
 
     text = {"type": "Text", "text": text, 'html':True}
-    input = create_input(input_1, input_name, items)
+    input = create_input(input_1, items, input_name, variable_name)
 
-    if input and variable_name: input["variable_name"] = variable_name
-
-    elements = [text,input] if input else [text]
     page = {
         "header_text": title,
         "header_icon": "assets/subtitle.png",
-        "elements": elements,
+        "elements": [text,*input],
         **create_conditions(conditions),
         **create_nav_conditions(inputs=[input_1])
     }
 
     return page
 
-def create_survey_page(text=None, media=None, image_framed=None, values=None, input=None,
+def create_survey_page(text=None, media=None, image_framed=None, values=None, input_type=None,
                        variable_name=None, title=None, output_name=None, show_buttons=None, 
                        condition=None, timeout=None, is_html=None):
     """
@@ -312,8 +369,7 @@ def create_survey_page(text=None, media=None, image_framed=None, values=None, in
     :param media: Link to image or video that should be shown on that page
     :param image_framed: True/False if the image should be framed in the middle of the page (as opposed to taking up the entire screen)
     :param items: Options for buttons, or other text options ("OtherChoices") for slider questions (usually 'Prefer not to answer')
-    :param input_1:  Buttons, Picker, Checkbox, Puzzle, Entry, Slider, Scheduler
-    :param input_2: Second input on the page:  Buttons, Picker, Checkbox, Puzzle, Entry, Slider, Scheduler
+    :param input_type:  Buttons, Picker, Checkbox, Puzzle, Entry, Slider, Scheduler
     :param variable_name: If later pages being shown depend on the answer to this page, you need to set a VariableName for it
     :param title: title of the page
     :param input_name: the name that will pair with the survey question when the participant's data from the app is downloaded. This is very important to have for each page that you want to save a participant's response to
@@ -331,16 +387,14 @@ def create_survey_page(text=None, media=None, image_framed=None, values=None, in
 
     if textinput and is_html: textinput["html"] = is_html
 
-    input = create_input(input, output_name, values)
-
-    if variable_name and input: input["variable_name"] = variable_name
-
+    input = create_input(input_type, values, output_name, variable_name)
+    
     page     = {
         "header_text": title,
         "header_icon": "assets/subtitle.png",
-        "elements": list(filter(None, [textinput, mediainput, input] )),
+        "elements": list(filter(None,[textinput, mediainput, *input])),
         **create_conditions(condition),
-        **create_nav_conditions(show_buttons,timeout,[input])
+        **create_nav_conditions(show_buttons,timeout,[input_type])
     }
 
     return page

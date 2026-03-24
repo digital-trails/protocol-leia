@@ -1,0 +1,17 @@
+{
+    "header_text": "Office Talk",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are having a discussion with your teacher in their office, which is a little anxiety-provoking for you. You think about ending the discussion early. After a brief pause, you decide to..."
+        },
+        {
+            "type": "Entry",
+            "name": "office_talk--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

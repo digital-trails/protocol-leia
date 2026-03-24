@@ -1,0 +1,25 @@
+{
+    "header_text": "Dinner at a Friend's House",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your family doesn't do sit-down dinners together. Your friend invites you to join her family for dinner, and when you arrive, everyone sits at the table and starts asking questions about each other's days. When it's your turn, you're not sure how to respond, but after you say something, you feel.."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "dinner_at_a_friend's_house--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "calm"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

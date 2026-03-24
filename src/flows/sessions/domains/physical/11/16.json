@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Mindfulness Center\n\nMindfulness meditiation improves your physical health and wellbeing. Guided meditations offered by the Mindfulness Center here at UVA may help you!"
+        }
+    ]
+}

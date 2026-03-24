@@ -1,0 +1,17 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "That's OK, we'll try another time. In the meantime, take a moment to consider whether there's another way to look at a tough situation. Taking a different perspective can be really helpful.\n\nLet us know a better time to suggest an exercise. [pick time to be re-prompted]"
+        },
+        {
+            "type": "Scheduler",
+            "days_ahead": 0,
+            "action": "flow://flows/session",
+            "count": 1,
+            "message": "It's time for your session."
+        }
+    ]
+}

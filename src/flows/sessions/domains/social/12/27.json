@@ -1,0 +1,29 @@
+{
+    "header_text": "The New City",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "You expect your initial difficulty making friends will"
+        },
+        {
+            "type": "Buttons",
+            "name": "the_new_city--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Eventually pass, and you will meet people you enjoy hanging out with.",
+                "Continue as long as you live in this city."
+            ],
+            "column_count": 1,
+            "correct_value": "Continue as long as you live in this city."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 7
+}

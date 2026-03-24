@@ -1,0 +1,17 @@
+{
+    "header_text": "Absent Roommate",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You just moved into a new apartment with a roommate you found online. You do not know each other well, but your roommate seems to know a lot of people in the area and is always out of the apartment, leaving you alone. You think it is nice that they are not home often because you prefer to be alone to relax at the end of the..."
+        },
+        {
+            "type": "Entry",
+            "name": "absent_roommate--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

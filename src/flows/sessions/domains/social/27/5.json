@@ -1,0 +1,17 @@
+{
+    "header_text": "The Meeting",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are walking to an important meeting with your professor. Suddenly your mind goes blank as you reach for the doorknob to her office. You think about your mind going blank and think that this is..."
+        },
+        {
+            "type": "Entry",
+            "name": "the_meeting--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

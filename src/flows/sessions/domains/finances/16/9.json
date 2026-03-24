@@ -1,0 +1,25 @@
+{
+    "header_text": "The birthday gift: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend is having a huge birthday party and most of the people in your group of friends will be there. You know you can't afford a gift for your friend.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I feel happy to be around all of my friends.",
+                "I feel terrible, but decide the party will go on.",
+                "I feel enthusiastic about sharing my good energy.",
+                "I feel guilty for not bringing a present.",
+                "I'm a little sick to my stomach thinking about not being able to afford a gift, but remind myself that my friend will understand."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

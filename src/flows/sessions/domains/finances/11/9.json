@@ -1,0 +1,25 @@
+{
+    "header_text": "Financial responsibilities: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parent was in the hospital recently and your family has been dealing with the medical bills. You wonder what this will mean for your family's finances moving forward.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm scared about what this means for my family, but I trust my parents to figure it out.",
+                "I am confident that my parents have a plan for handling this situation.",
+                "I am thrilled that my parent is out of the hospital.",
+                "I am terrified that my family will never recover from this.",
+                "The uncertainty of this situation is uncomfortable, but I can tolerate it."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Credit Card Limit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently made a purchase on your credit card. It was a big expense, and you wonder if you will max out your credit limit this month. You think that the rest of your expenses will be... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "credit_card_limit--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "manageable"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

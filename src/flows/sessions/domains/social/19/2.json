@@ -1,0 +1,25 @@
+{
+    "header_text": "New Opportunity for Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have recently joined a class a few days before the add/drop deadline. When you come into the classroom you notice that most people have other friends to sit with. As you take a seat alone, you realize that there is always an opportunity make new friendships as the semester..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "new_opportunity_for_friends--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "progresses"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

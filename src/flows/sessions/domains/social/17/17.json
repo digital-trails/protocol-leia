@@ -1,0 +1,17 @@
+{
+    "header_text": "Creative Confidence ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are invited to a Halloween party and will only know a couple of people there. You decide to wear a really elaborate costume. When you arrive, everyone looks at you and probably think that you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "creative_confidence_--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

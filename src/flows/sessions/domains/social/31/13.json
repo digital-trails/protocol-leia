@@ -1,0 +1,25 @@
+{
+    "header_text": "Strong opinions: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I zone out and stop paying attention to what people are saying.",
+                "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
+                "I remind myself that everyone has different opinions.",
+                "I want to change the topic so we can talk about something less serious, but I let go of trying to control the conversation.",
+                "I listen to my friend while they talk to my parents."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

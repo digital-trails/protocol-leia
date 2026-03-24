@@ -1,0 +1,11 @@
+{
+	"eod": {
+		"type": "frequency",
+		"time": "20:00",
+		"skip": 0,
+		"take": 14,
+		"frequency": "1",
+		"expiry": "04:00",
+		"path": "flow://flows/end of day"
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "header_text": "Using the restroom",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a restaurant with some friends and go to use the restroom. When you come back to the table your friends are at, they stop their conversation and it's silent. \n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/83.jpeg",
+            "border": true
+        }
+    ]
+}

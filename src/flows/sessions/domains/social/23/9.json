@@ -1,0 +1,25 @@
+{
+    "header_text": "Reconciling with your sibling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A few days after an argument with your sibling, you decide to break the ice by asking them out for a drink. You get ready, and as you are about to leave, they call to say they can't make it after all. As you hang up, you think that this is because they are feeling..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "reconciling_with_your_sibling--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "exhausted"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

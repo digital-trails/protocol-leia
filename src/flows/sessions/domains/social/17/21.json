@@ -1,0 +1,17 @@
+{
+    "header_text": "Funny Photos",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You send an intentionally bad picture of yourself to your friend through social media. You get a notification that they took a screenshot. Your friend probably thinks that you look..."
+        },
+        {
+            "type": "Entry",
+            "name": "funny_photos--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

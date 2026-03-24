@@ -1,0 +1,17 @@
+{
+    "header_text": "Expressing Your Ideas",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While working in a group for a project you tell your ideas to your group. The other members of the group don't react. They must be thinking about the..."
+        },
+        {
+            "type": "Entry",
+            "name": "expressing_your_ideas--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

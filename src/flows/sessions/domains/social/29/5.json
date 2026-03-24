@@ -1,0 +1,25 @@
+{
+    "header_text": "Missed Connection",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are eating in the dining hall and see your friend getting food. They walk past you and sit with someone else. They must have been... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "missed_connection--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "distracted"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

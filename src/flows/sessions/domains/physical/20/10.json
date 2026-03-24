@@ -1,0 +1,25 @@
+{
+    "header_text": "Flashing movie",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are watching a movie in a theater. There are many quick-paced camera shots that make you feel dizzy. This sensation is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "flashing_movie--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "funny"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

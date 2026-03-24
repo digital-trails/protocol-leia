@@ -1,0 +1,25 @@
+{
+    "header_text": "Turned off appliances: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your roommates are heading out of town for a few days and your roommate asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything.\n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I think about all of the horrible things that could happen in the house.",
+                "I think about how I noticed everything was turned off during the first check.",
+                "I think about all the fun things my roommate and I will do on our trip.",
+                "Even if I'm not 100% certain that the appliances are off, I can live with that.",
+                "Even though I didn't get to fully check a second time before we all left, I remember that I have never left the appliances on when leaving the house before."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

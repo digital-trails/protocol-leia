@@ -1,0 +1,17 @@
+{
+    "header_text": "Meeting New People",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide to take initiative and ask for their numbers. You feel.."
+        },
+        {
+            "type": "Entry",
+            "name": "meeting_new_people--social_situations--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

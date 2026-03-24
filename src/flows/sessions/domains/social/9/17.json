@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend Neglecting Chores",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After moving in with your friend, you realize they often ignore chores. One Friday, you come home to see a pile of dirty dishes in the sink and your friend has left for the weekend already. You decide to call them and explain why you are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "friend_neglecting_chores--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "upset"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

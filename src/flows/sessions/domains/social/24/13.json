@@ -1,0 +1,17 @@
+{
+    "header_text": "Trying Out a Funny Caption",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are trying come up with a caption for a new post. You come up with a risky joke that your closest friends will love. Your followers will think it's..."
+        },
+        {
+            "type": "Entry",
+            "name": "trying_out_a_funny_caption--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

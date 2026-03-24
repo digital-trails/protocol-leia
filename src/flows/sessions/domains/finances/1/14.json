@@ -1,0 +1,25 @@
+{
+    "header_text": "Going broke",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have decided to apply to grad school for another degree. Although you have been saving for this for the past few years, you worry about not having an income while you are back in school. The likelihood that you will go broke while in school is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "going_broke--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "minimal"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

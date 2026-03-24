@@ -1,0 +1,25 @@
+{
+    "header_text": "Working in Groups: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your professor tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. They also say that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "No one will want to be in my group.",
+                "There are lots of nice people in this class.",
+                "Everyone will decide they want to be with people they already know, but I understand that.",
+                "I'll find the right group for me.",
+                "People might disagree with my opinions on the book, but I think we'll still have an interesting discussion."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

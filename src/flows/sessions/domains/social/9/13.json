@@ -1,0 +1,17 @@
+{
+    "header_text": "The Dance Showcase",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While deciding whether or not to invite people to your show, you think you won't have a bad performance, and you see yourself doing..."
+        },
+        {
+            "type": "Entry",
+            "name": "the_dance_showcase--social_situations--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

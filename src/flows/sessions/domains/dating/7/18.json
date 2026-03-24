@@ -1,0 +1,17 @@
+{
+    "header_text": "Getting Over It",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently went through a major breakup with your longterm partner. You want to ask your family and friends for support, but you don’t know how. When you tell them you are struggling, they applaud your... "
+        },
+        {
+            "type": "Entry",
+            "name": "getting_over_it--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

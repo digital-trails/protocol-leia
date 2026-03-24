@@ -1,0 +1,29 @@
+{
+    "header_text": "First time ice skating",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "As you continue ice skating, you will probably ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "first_time_ice_skating--physical_health--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Fall over and hurt yourself.",
+                "Successfully skate around the rink several times."
+            ],
+            "column_count": 1,
+            "correct_value": "Successfully skate around the rink several times."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 2
+}

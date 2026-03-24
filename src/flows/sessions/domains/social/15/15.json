@@ -1,0 +1,17 @@
+{
+    "header_text": "Not Feeling Supported",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You just received an award for a project you worked on. You’ve only received congratulations from a few people, and by now you thought you’d have more reactions. You wonder if people aren’t congratulating you because they don’t think you deserve..."
+        },
+        {
+            "type": "Entry",
+            "name": "not_feeling_supported--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

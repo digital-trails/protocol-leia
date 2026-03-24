@@ -1,0 +1,17 @@
+{
+    "header_text": "Cancelled plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You arrange to meet a friend in town. Last time you met, you disagreed on something you were discussing. Just before you leave, they call to say that they can't make it. As you put down the phone, you think that this is because they are feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "cancelled_plans--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

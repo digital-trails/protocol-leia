@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "If you find yourself feeling anxious or nervous, ask yourself, \"what is my anxious brain telling me?\" Once you can identify that thought, ask yourself, \"is this realistic?\" "
+        }
+    ]
+}

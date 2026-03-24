@@ -1,0 +1,22 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "I was able to think about stressful or upsetting situations in a new or different way today."
+        },
+        {
+            "type": "Text",
+            "Text": "Not at all true\n\nVery true"
+        },
+        {
+            "type": "Slider",
+            "min": 1,
+            "max": 7,
+            "others": [],
+            "name": "eodthinkdifferent",
+            "variable_name": "eodthinkdifferent"
+        }
+    ]
+}

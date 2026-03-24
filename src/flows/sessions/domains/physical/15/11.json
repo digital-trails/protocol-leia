@@ -1,0 +1,17 @@
+{
+    "header_text": "Sensational Party",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a birthday party for a friend of a friend. You notice that you are flushed and a little sweaty. Standing there, you think that these sensations are..."
+        },
+        {
+            "type": "Entry",
+            "name": "sensational_party--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Important opinion",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You finish a task due next week for your evening class and ask the tutor for his opinion. They say the work is good, apart from an incomplete section. You feel that they think you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "important_opinion--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

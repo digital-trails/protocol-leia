@@ -1,0 +1,17 @@
+{
+    "header_text": "Divorced Parents",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have an awards ceremony today and both your parents are attending. They're divorced and sometimes cause an embarrassing scene in public. During the ceremony, they argue but you are able to concentrate on your..."
+        },
+        {
+            "type": "Entry",
+            "name": "divorced_parents--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

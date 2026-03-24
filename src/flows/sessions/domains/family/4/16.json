@@ -1,0 +1,29 @@
+{
+    "header_text": "Differing Beliefs",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "You think that your family is likely to"
+        },
+        {
+            "type": "Buttons",
+            "name": "differing_beliefs--family_&_home_life--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Work together to build better relationships with each other.",
+                "Talk to each other less and less as ideological tensions rise."
+            ],
+            "column_count": 1,
+            "correct_value": "Work together to build better relationships with each other."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

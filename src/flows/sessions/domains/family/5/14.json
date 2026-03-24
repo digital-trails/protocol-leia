@@ -1,0 +1,25 @@
+{
+    "header_text": "Balancing Home Life and Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your roommate hosts band rehearsals out of your apartment, so it is always loud when you get home from class. Your friend is coming over after classes today to work on a group project. You think about how your friend is going to react to the noise, and you get..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "balancing_home_life_and_friends--family_&_home_life--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "worried"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

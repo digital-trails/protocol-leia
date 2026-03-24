@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": " CAPS \"Let's Talk\": Drop-In Consults\n\nFree, confidential consults with a CAPS therapist are available globally for UVA Students who have non-emergency concerns. Please reach out for help if you are struggling."
+        }
+    ]
+}

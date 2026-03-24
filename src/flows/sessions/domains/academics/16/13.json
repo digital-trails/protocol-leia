@@ -1,0 +1,25 @@
+{
+    "header_text": "Struggling with a Presentation: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During today's presentation, you have to present in front of your classmates and professor. You've been struggling to put this presentation together, but you haven't reached out to your professor about it yet. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I make a joke at the beginning of my presentation to break the ice.",
+                "I'll blame my grade on my professor.",
+                "I may feel upset and want to leave class, but I take a few breaths to calm myself down.",
+                "I practice my presentation.",
+                "I may want to give up, but decide to keep trying because I need to pass this class."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

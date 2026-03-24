@@ -1,0 +1,17 @@
+{
+    "header_text": "Spending Time With Family",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are going to see your family for a holiday. You enjoy seeing your family, but recently it has been getting more difficult to get out to see... "
+        },
+        {
+            "type": "Entry",
+            "name": "spending_time_with_family--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

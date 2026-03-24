@@ -1,0 +1,17 @@
+{
+    "header_text": "New outfit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You arrive at a party in a new outfit. Everyone turns to look at you as you walk in. You decide that they must think that you look..."
+        },
+        {
+            "type": "Entry",
+            "name": "new_outfit--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

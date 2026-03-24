@@ -1,0 +1,16 @@
+{
+    "header_text": "An Important Presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "An Important Presentation"
+        },
+        {
+            "type": "Media",
+            "url": "./images/63.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 9
+}

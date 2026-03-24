@@ -1,0 +1,25 @@
+{
+    "header_text": "Finding a Place to Sit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's your first day of a new semester with all new classes, and it's time for you to eat lunch. A group of students goes quiet after you ask them if you can sit at their table. They are probably..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "finding_a_place_to_sit--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "nice"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

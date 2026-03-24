@@ -1,0 +1,25 @@
+{
+    "header_text": "Different Music Tastes",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After having a discussion about the pros and cons of different music styles, you realize that she probably does not mind that your tastes clash and simply sees you as..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "different_music_tastes--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "knowledgeable"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

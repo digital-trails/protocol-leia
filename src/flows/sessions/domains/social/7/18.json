@@ -1,0 +1,17 @@
+{
+    "header_text": "Alternative Contact ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You meet a new classmate in your online class and they ask for your name on social media. When you tell them that you don't have that app, they grow quiet. They coud be brainstorming other ways to contact you, which makes you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "alternative_contact_--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

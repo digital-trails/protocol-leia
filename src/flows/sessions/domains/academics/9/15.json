@@ -1,0 +1,16 @@
+{
+    "header_text": "Zoning Out",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Zoning Out"
+        },
+        {
+            "type": "Media",
+            "url": "./images/76.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 6
+}

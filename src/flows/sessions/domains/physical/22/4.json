@@ -1,0 +1,17 @@
+{
+    "header_text": "Cold Weather",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you keep walking, you feel a bit uncomfortable but decide that your body's response to the cold is..."
+        },
+        {
+            "type": "Entry",
+            "name": "cold_weather--physical_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

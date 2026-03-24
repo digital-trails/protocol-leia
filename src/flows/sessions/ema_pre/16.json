@@ -1,0 +1,32 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "If this situation did turn out badly, how well or badly would you be able to handle it?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Very well",
+                "1::Somewhat well",
+                "2::Neutral",
+                "3::Somewhat badly",
+                "4::Very badly",
+                "5::Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "imagery_handling"
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        0,
+        "&&",
+        "preanxious",
+        "<",
+        3
+    ]
+}

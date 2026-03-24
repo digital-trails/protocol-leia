@@ -1,0 +1,25 @@
+{
+    "header_text": "Messy to Live With ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you bring it up, they explain that they've been extremely overwhelmed recently and it's been hard for them to keep up with things. You come to an agreement on how to keep the space..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "messy_to_live_with_--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "clean"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

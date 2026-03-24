@@ -1,0 +1,17 @@
+{
+    "header_text": "Finding Balance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are having friends over later, and there are a lot of things to clean before tonight. You also have a big project to work on that will take a lot of time. Balancing your home life and school life is..."
+        },
+        {
+            "type": "Entry",
+            "name": "finding_balance--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

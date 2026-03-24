@@ -1,0 +1,25 @@
+{
+    "header_text": "Missing spider: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you're getting into the shower, you see a huge spider on the wall. You turn away for a second and look back and realize it's gone. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm anxious about getting into the shower, but know I can overcome my fear.",
+                "I'm calm as I get into the shower.",
+                "I'm grossed out, but remind myself that the spider probably can't hurt me.",
+                "I'm curious where it went.",
+                "I'm scared the spider will show up when I least expect it."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

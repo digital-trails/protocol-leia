@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Notice the thoughts that you have when you feel a negative emotion and determine whether those thoughts accurately reflect the reality of the situation."
+        }
+    ]
+}

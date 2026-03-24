@@ -1,0 +1,16 @@
+{
+    "header_text": "Writing workshop",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Writing workshop"
+        },
+        {
+            "type": "Media",
+            "url": "./images/34.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 6
+}

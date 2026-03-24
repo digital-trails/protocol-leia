@@ -1,0 +1,17 @@
+{
+    "header_text": "Opposing Opinions ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your family has strong opinions that you don't always agree with. As you listen to your family talk, you feel that you are pretty different from them. You feel having your own unique views is..."
+        },
+        {
+            "type": "Entry",
+            "name": "opposing_opinions_--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

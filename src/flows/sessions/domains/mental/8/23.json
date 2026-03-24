@@ -1,0 +1,17 @@
+{
+    "header_text": "Your Own Style",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You made plans with a group of friends to go out to dinner on a Friday night. When they come to pick you up, you see that they are dressed casually, but you decided to dress up a bit, and you think they might judge you. You decide that you like what you're wearing, and go to dinner... "
+        },
+        {
+            "type": "Entry",
+            "name": "your_own_style--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

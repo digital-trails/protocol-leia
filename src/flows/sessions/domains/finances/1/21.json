@@ -1,0 +1,25 @@
+{
+    "header_text": "Applying for a Grant",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You want to start doing undergraduate research, so you apply for a grant for funding. Without this funding, you won't be able to do the research you're hoping to do, but you don't know if your proposal is good enough. You think you won't get the... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "applying_for_a_grant--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "funding"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

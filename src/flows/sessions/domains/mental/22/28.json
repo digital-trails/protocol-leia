@@ -1,0 +1,25 @@
+{
+    "header_text": "A New Relationship",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are in a new relationship, and you are very into your partner. However, your partner doesn't express much adoration towards you, and you wonder if they like you as much as you like them. You think that they don't like... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "a_new_relationship--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "you"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

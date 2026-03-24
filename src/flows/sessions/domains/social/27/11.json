@@ -1,0 +1,29 @@
+{
+    "header_text": "The Dance Showcase",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "If you invite your friends and family, they will probably think"
+        },
+        {
+            "type": "Buttons",
+            "name": "the_dance_showcase--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "You did a good job and they hope you invite them to future showcases.",
+                "You looked really silly and hope they're not invited again."
+            ],
+            "column_count": 1,
+            "correct_value": "You looked really silly and hope they're not invited again."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

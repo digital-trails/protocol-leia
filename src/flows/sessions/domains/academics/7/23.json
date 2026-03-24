@@ -1,0 +1,17 @@
+{
+    "header_text": "An Important Presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A recruiter for your dream internship is watching your class presentations. During the presentation, you stumble over your words a lot. You feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "an_important_presentation--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

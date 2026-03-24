@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Try to identify what emotions you're feeling, as well as your reaction to those emotions. Remind yourself that there is no such thing as a 'wrong' emotion."
+        }
+    ]
+}

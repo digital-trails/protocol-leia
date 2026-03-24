@@ -1,0 +1,17 @@
+{
+    "header_text": "Feeling Numb",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have been dealing with some stressful situations recently. You are reflecting on the past few weeks and realize you haven't been very emotional which makes you think you've become numb. You remember that you've been coping well and likely have just kept your emotions..."
+        },
+        {
+            "type": "Entry",
+            "name": "feeling_numb--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

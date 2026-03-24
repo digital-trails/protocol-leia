@@ -1,0 +1,22 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The program helped me think about a stressful or upsetting situation in a new or different way."
+        },
+        {
+            "type": "Text",
+            "Text": "Not at all true\n\nVery true"
+        },
+        {
+            "type": "Slider",
+            "min": 1,
+            "max": 7,
+            "others": [],
+            "name": "thinkdifferent",
+            "variable_name": "thinkdifferent"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "New opportunity",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The next day, you bump into the exec member in the corridor. You then realize that although they think you may not be ready for promotion just yet, they strongly believe you are capable of being ready for one next year and are likely to..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "new_opportunity--academics_work_career_development--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "succeed"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Discussing the Evaluation ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your final grades have been posted and you notice a few grades are lower than you normally get. You need a certain GPA for your major. Your major advisor may want to discuss your recent grades during your next meeting. While you're waiting for this meeting, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "discussing_the_evaluation_--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "ready"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

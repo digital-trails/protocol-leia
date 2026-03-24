@@ -1,0 +1,14 @@
+{
+    "header_text": "Apply to Daily Life: Make It Work for You!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Imagine you are teaching a workshop on thinking flexibly about ambiguous, potentially threatening situations. What would be your take-home message(s) for the participants?"
+        },
+        {
+            "type": "Entry",
+            "name": "tip #6--entry"
+        }
+    ]
+}

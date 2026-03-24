@@ -1,0 +1,16 @@
+{
+    "header_text": "Taking Your Own Career Path",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Taking Your Own Career Path"
+        },
+        {
+            "type": "Media",
+            "url": "./images/40.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

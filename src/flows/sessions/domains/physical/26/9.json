@@ -1,0 +1,25 @@
+{
+    "header_text": "Snakes in the park: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm scared to go into the park, but then realize I've never heard of someone getting bitten in that park.",
+                "I'm so worried about whether I will see a snake.",
+                "I'm anxious thinking about a snake biting me, but know that I'll be OK on this walk.",
+                "I'm excited to catch up with my friend.",
+                "I'm eager to tell my friend about what happened in class today."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

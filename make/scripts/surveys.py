@@ -21,21 +21,21 @@ def _create_survey_page(row):
     
     text = clean_up_unicode(row[2])
     title = row[1].strip()
-    
-    input         = row[3]
+
+    input_type    = row[3]
     values        = row[4]
     variable_name = row[5]
     condition     = row[6]
     output_name   = row[7]
     media         = media_url(row[8])
-    image_framed  = True
+    image_framed  = "true"
     show_buttons  = None
-    is_html       = False
+    is_html       = None
     timeout       = None
 
     return create_survey_page(condition=condition, text=text, show_buttons=show_buttons, 
                               media=media, image_framed=image_framed, values=values, 
-                              input=input, variable_name=variable_name, title=title, 
+                              input_type=input_type, variable_name=variable_name, title=title, 
                               output_name=output_name, timeout=timeout, is_html=is_html)
 
 def _create_practice_pages():
@@ -48,8 +48,8 @@ def _create_practice_pages():
             yield create_video_page(scenario_num+1)
 
             domain, label = row[0].strip(), row[3]
-            puzzle1,puzzle2 = map(create_puzzle,row[i:i+2])
-            question, choices, answer = row[i+2], row[7:9], row[7]
+            puzzle1,puzzle2 = map(create_puzzle,row[4:6])
+            question, choices, answer = row[6], row[7:9], row[7]
             image_url = media_url(row[10])
 
             choices = [c.strip() for c in choices]

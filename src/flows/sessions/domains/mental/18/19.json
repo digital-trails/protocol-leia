@@ -1,0 +1,17 @@
+{
+    "header_text": "Applying for a Grant",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You want to start doing undergraduate research, so you apply for a grant for funding. Without this funding, you won't be able to do the research you're hoping to do, but you don't know if your proposal is good enough. You think you won't get the... "
+        },
+        {
+            "type": "Entry",
+            "name": "applying_for_a_grant--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

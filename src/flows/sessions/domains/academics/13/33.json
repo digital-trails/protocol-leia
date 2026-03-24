@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Academics/Work/Career Development",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Try the Pomodoro method: take a 5 minute break after every 30 minutes of work for your mind to rejuvenate."
+        }
+    ]
+}

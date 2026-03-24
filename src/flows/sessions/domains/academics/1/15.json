@@ -1,0 +1,25 @@
+{
+    "header_text": "Showcasing your experience",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your new teaching assistant calls a meeting to meet everyone and asks each of you in turn to present yourself and your prior experience. When it is your turn to speak, you pause frequently. As you reflect on the meeting later in the day, you feel that the teaching assistant thought you sounded..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "showcasing_your_experience--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "silly"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

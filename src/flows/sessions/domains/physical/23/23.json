@@ -1,0 +1,17 @@
+{
+    "header_text": "Exercise Class with Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you begin to have anxious thoughts about passing out, you decide to simply notice..."
+        },
+        {
+            "type": "Entry",
+            "name": "exercise_class_with_friend--physical_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

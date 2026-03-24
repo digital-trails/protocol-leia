@@ -1,0 +1,17 @@
+{
+    "header_text": "A sudden stumble",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It is your first day at a new job, and you report to your manager. As you approach them, you stumble, then recover. They noticed, and their first impression of you is probably that you are very..."
+        },
+        {
+            "type": "Entry",
+            "name": "a_sudden_stumble--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

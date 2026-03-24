@@ -1,0 +1,17 @@
+{
+    "header_text": "Meeting New Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You get hired for a new part-time job where you do not know anyone. On the first day of work, you put yourself out there to try to meet new friends. When you think about asking some colleagues if they want to grab dinner after work, you expect them to say..."
+        },
+        {
+            "type": "Entry",
+            "name": "meeting_new_friends--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

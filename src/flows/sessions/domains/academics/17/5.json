@@ -1,0 +1,17 @@
+{
+    "header_text": "Out of Your Control",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are taking the first online test in your world history class. In the middle of the test, your Internet cuts out. You think about losing time on the test and feel ..."
+        },
+        {
+            "type": "Entry",
+            "name": "out_of_your_control--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

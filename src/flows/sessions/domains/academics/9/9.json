@@ -1,0 +1,16 @@
+{
+    "header_text": "Group Project Due",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Group Project Due"
+        },
+        {
+            "type": "Media",
+            "url": "./images/73.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

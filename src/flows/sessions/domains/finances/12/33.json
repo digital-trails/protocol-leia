@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you have an urge to buy something you cannot afford, pay attention to what the urge feels like and practice tolerating the sensations until they pass."
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "New outfit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You arrive at a party in a new outfit. Everyone turns to look at you as you walk in. You decide that they must think that you look..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "new_outfit--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "stylish"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

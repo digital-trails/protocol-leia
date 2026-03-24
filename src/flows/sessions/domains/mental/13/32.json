@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Try the STOPP method: \\nS- Stop and pause for a moment.\\nT- Take a breath.\\nO- Observe what you're feeling.\\nP- Pull back and put the situation into perspective.\\nP- Practice what works, do something you enjoy/something that calms you."
+        }
+    ]
+}

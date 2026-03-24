@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "If you're reading this UVA\n\nIf You're Reading This UVA is a mental health resource where students, faculty, and alumni share their journeys and offer words of support. You can also read letters from other universities and submit your own story.  "
+        }
+    ]
+}

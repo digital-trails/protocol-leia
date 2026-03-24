@@ -1,0 +1,17 @@
+{
+    "header_text": "Feeling Dizzy",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a party and start to dance with your friends. You start to feel dizzy as the beat gets faster. You think that this feeling is a sign of..."
+        },
+        {
+            "type": "Entry",
+            "name": "feeling_dizzy--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

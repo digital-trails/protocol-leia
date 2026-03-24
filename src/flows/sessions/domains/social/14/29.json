@@ -1,0 +1,16 @@
+{
+    "header_text": "Receiving Explicit Social Media Messages",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Receiving Explicit Social Media Messages"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 9
+}

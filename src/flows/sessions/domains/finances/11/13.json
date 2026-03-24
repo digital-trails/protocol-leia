@@ -1,0 +1,25 @@
+{
+    "header_text": "Financial responsibilities: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parent was in the hospital recently and your family has been dealing with the medical bills. You wonder what this will mean for your family's finances moving forward.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I want to avoid the situation, but I choose to spend quality time with my family.",
+                "I avoid spending time at home.",
+                "I ask my parents if there's anything I can do to help.",
+                "I want to bury my emotions, but I decide to share how I'm feeling with my family.",
+                "I learn about budgeting so I can be prepared for situations like this in the future"
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "A Toothache",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your tooth has been hurting recently, so you decide to make a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "a_toothache--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

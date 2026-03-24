@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Student Health\n\nVisit Student Health, located at 550 Brandon Avenue, for all of your medical, laboratory, and pharmacy needs. "
+        }
+    ]
+}

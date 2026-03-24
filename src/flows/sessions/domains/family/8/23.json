@@ -1,0 +1,17 @@
+{
+    "header_text": "Prospective Excitement",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You'd like to get a job after graduation. Your family expects you to go to graduate school, and you don't want to let them down. When considering your plans for after graduation, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "prospective_excitement--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

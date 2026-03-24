@@ -1,0 +1,17 @@
+{
+    "header_text": "Thoughts at the train station",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are waiting for the train in a big city, and you notice your leg begin to ache. You worry that you will have to stand on the train, and the pain will get worse. Thinking about how you didn't do anything to injure your leg, you figure this pain is..."
+        },
+        {
+            "type": "Entry",
+            "name": "thoughts_at_the_train_station--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

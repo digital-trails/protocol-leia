@@ -1,0 +1,25 @@
+{
+    "header_text": "Friendships in the Future",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you think about the next 50 years, you wonder which friends will still be a part of your life. You hope to keep in touch with your closest friends but know that it will be difficult. When you imagine yourself in 50 years, you see you and your close friends..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "friendships_in_the_future--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "apart"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

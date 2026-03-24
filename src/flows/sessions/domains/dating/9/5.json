@@ -1,0 +1,17 @@
+{
+    "header_text": "No Notifications",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's pretty late in the day, and you haven't talked to your partner at all. You don't think you did anything to upset them, but it seems like they're ignoring you. You realize that they're probably just having a busy..."
+        },
+        {
+            "type": "Entry",
+            "name": "no_notifications--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

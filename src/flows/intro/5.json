@@ -1,0 +1,15 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In this exercise - and throughout the training program - please remember to imagine what is happening through your own eyes, similar to the picture on the left. This is more effective than viewing the situation as an outside observer, like the picture on the right."
+        },
+        {
+            "type": "Media",
+            "url": "./images/lemon_pic1.jpeg",
+            "border": true
+        }
+    ]
+}

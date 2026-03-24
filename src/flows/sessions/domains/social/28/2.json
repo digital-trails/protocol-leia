@@ -1,0 +1,25 @@
+{
+    "header_text": "Wearing Something Old",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You get invited to a pool party and you decide to wear a suit you got last year. You arrive and everyone else seems to have a swimsuit that is brand new. As you walk around, the host comes up to you and says you look..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "wearing_something_old--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "nice"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

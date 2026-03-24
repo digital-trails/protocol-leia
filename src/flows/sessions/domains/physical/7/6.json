@@ -1,0 +1,17 @@
+{
+    "header_text": "Running a Marathon",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have run a few 10ks and are thinking about training to run a marathon. You enjoy the feeling of accomplishment when you finish a 10k, but you are worried about whether you have what it takes to run more than four times that... "
+        },
+        {
+            "type": "Entry",
+            "name": "running_a_marathon--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

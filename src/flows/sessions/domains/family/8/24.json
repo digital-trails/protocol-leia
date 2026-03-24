@@ -1,0 +1,14 @@
+{
+    "header_text": "Apply to Daily Life: Make It Work for You!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Think about a situation that you would love to be in, or that you believe might lead to personal growth, but that you are too scared or anxious to actually put yourself in. What strategies could you put into practice to help get yourself there?"
+        },
+        {
+            "type": "Entry",
+            "name": "tip #10--entry"
+        }
+    ]
+}

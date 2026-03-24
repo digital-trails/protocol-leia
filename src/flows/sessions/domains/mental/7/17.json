@@ -1,0 +1,17 @@
+{
+    "header_text": "Applying to Jobs",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You applied to a job a few weeks ago and just got a response. They tell you they already filled the position, and you feel like you are not smart enough. You think that in the future, you will get a..."
+        },
+        {
+            "type": "Entry",
+            "name": "applying_to_jobs--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

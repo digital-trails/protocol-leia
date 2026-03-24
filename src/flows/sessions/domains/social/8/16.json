@@ -1,0 +1,17 @@
+{
+    "header_text": "Mistake on a task",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are new to a class, and your professor asks you to do a task. You finish it before the deadline and your professor immediately points out that you made a mistake. Your professor probably thinks you are a..."
+        },
+        {
+            "type": "Entry",
+            "name": "mistake_on_a_task--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

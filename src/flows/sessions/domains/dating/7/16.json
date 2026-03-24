@@ -1,0 +1,17 @@
+{
+    "header_text": "Dating Apps",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have been single for a while and would really like to meet someone. Your friends keep suggesting dating apps, but you don’t think this approach will work for you. You think about the many different ways to meet someone and feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "dating_apps--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

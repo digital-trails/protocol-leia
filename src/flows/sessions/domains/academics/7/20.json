@@ -1,0 +1,16 @@
+{
+    "header_text": "Participation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Participation"
+        },
+        {
+            "type": "Media",
+            "url": "./images/62.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 8
+}

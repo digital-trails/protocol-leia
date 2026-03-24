@@ -1,0 +1,17 @@
+{
+    "header_text": "Issues While Shopping",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're at the thrift store with your friends and you're looking through the clothes. You notice two people from your evening class in the other part of the store laughing. They are probably laughing at a..."
+        },
+        {
+            "type": "Entry",
+            "name": "issues_while_shopping--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

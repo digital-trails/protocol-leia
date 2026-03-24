@@ -1,0 +1,29 @@
+{
+    "header_text": "Argument With Your Sister",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "You think the next time you speak you with your sister, the two of you will"
+        },
+        {
+            "type": "Buttons",
+            "name": "argument_with_your_sister--family_&_home_life--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Stick to your guns and continue fighting.",
+                "Put aside your difference and restore your relationship."
+            ],
+            "column_count": 1,
+            "correct_value": "Put aside your difference and restore your relationship."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

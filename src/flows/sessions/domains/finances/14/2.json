@@ -1,0 +1,25 @@
+{
+    "header_text": "Balancing Responsibilities",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have been really busy with school and social commitments recently, but some new expenses have come up and you know you need to get a job. The thought of having to fit a new job into your schedule on top of everything else seems impossible. You think that your new situation will be doable with some..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "balancing_responsibilities--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "rescheduling"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

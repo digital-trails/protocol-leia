@@ -1,0 +1,17 @@
+{
+    "header_text": "Job Market",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently saw on the news that the economy has been particularly bad. Even though you have an above-average resume, you wonder whether you'll be able to find a job after graduating. You think you will likely be..."
+        },
+        {
+            "type": "Entry",
+            "name": "job_market--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

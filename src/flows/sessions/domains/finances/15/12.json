@@ -1,0 +1,25 @@
+{
+    "header_text": "Relying on Parents",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently lost your part-time job and you will need to ask your parents for some money this month for food. You feel terrible asking since they already support you a lot financially. You remind yourself that needing a little extra help every now and then is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "relying_on_parents--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "okay"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

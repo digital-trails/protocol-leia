@@ -1,0 +1,17 @@
+{
+    "header_text": "Meeting the Parents",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your partner's parents are visiting and you are getting dinner with them. You have never met them before, but you know that they hold very different political beliefs than you. As you think about meeting them, you know you will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "meeting_the_parents--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

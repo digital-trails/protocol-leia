@@ -1,0 +1,25 @@
+{
+    "header_text": "Feeling Lesser Than For Being Single",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "All of your friends have been dating significant others for a while or are just getting into relationships.  You have not been on a single date, and you start to wonder why. Even though you're disappointed, you remember that your worth is not defined by your relationship..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "feeling_lesser_than_for_being_single--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "status"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

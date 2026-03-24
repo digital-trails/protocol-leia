@@ -1,0 +1,25 @@
+{
+    "header_text": "Approaching Deadline",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your hall share a printer. You have an assignment due in class today but there is a long line for the printer. When you think about printing your assignment in time, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "approaching_deadline--family_&_home_life--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "confident"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

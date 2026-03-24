@@ -1,0 +1,17 @@
+{
+    "header_text": "Corner laughter",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are giving a presentation during your evening class. As you talk, you hear a few of your classmates laughing in the corner. You look over at them and realize they were probably laughing at..."
+        },
+        {
+            "type": "Entry",
+            "name": "corner_laughter--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

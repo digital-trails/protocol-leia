@@ -1,0 +1,29 @@
+{
+    "header_text": "Texting Someone You Like",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Your classmate probably asked for your phone number because"
+        },
+        {
+            "type": "Buttons",
+            "name": "texting_someone_you_like--romantic_relationships--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Your classmate has a question about the syllabus.",
+                "Your classmate thinks you are attractive."
+            ],
+            "column_count": 1,
+            "correct_value": "Your classmate has a question about the syllabus."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 0
+}

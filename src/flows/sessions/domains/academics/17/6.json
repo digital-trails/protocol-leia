@@ -1,0 +1,17 @@
+{
+    "header_text": "Out of Your Control",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a minute, your Internet comes back. You log back in and realize you feel more..."
+        },
+        {
+            "type": "Entry",
+            "name": "out_of_your_control--academics_work_career_development--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

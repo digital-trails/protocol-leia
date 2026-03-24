@@ -1,0 +1,29 @@
+{
+    "header_text": "Planning Payments",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Your choices for your paayment plan will probably mean"
+        },
+        {
+            "type": "Buttons",
+            "name": "planning_payments--finances--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "You will have to worry about money during school.",
+                "You will have a comfortable financial future."
+            ],
+            "column_count": 1,
+            "correct_value": "You will have to worry about money during school."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

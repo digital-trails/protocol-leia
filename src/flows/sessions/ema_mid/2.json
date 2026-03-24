@@ -1,0 +1,24 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "What area of stress would you like to work on right now in this program?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "OMAIN SELECTION"
+            ],
+            "ColumnCount": 1,
+            "name": "domain",
+            "variable_name": "domain"
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        0
+    ]
+}

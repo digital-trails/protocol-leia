@@ -1,0 +1,14 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Please enter your participant ID provided by the researcher."
+        },
+        {
+            "type": "Entry",
+            "name": "participantid"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Speaking Up in Class",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your professer is talking about one of your role models in your field of study during a class and she asks if anyone knows about their work. In front of everyone you quickly raise your hand and the class turns to you. You realize that you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "speaking_up_in_class--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "confident"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Future Relationships",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you think about your future love life, you don't worry you will be alone, and the idea of finding a good life partner seems..."
+        },
+        {
+            "type": "Entry",
+            "name": "future_relationships--romantic_relationships--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

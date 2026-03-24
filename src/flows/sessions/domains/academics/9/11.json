@@ -1,0 +1,16 @@
+{
+    "header_text": "Important evaluation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Important evaluation"
+        },
+        {
+            "type": "Media",
+            "url": "./images/74.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

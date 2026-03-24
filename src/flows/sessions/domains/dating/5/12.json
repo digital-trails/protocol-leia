@@ -1,0 +1,25 @@
+{
+    "header_text": "Tough Topics",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your significant other have been together for a long time and are dealing with a recurring argument. You love your significant other, but every time this topic comes up, you always disagree and it makes you wonder if you all are really compatible. You remember that it is normal to have disagreements and many couples have conversations that are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "tough_topics--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "challenging"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

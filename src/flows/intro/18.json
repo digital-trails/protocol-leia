@@ -1,0 +1,23 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How likely is it that the situation or task will turn out well versus turn out badly?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Very likely to turn out well",
+                "1::Somewhat likely to turn out well",
+                "2::Neutral",
+                "3::Somewhat likely to turn out badly",
+                "4::Very likely to turn out badly",
+                "5::Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "imagery_well"
+        }
+    ]
+}

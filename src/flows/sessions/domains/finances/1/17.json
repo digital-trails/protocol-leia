@@ -1,0 +1,25 @@
+{
+    "header_text": "Retirement Funds",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been hearing your friends recently talk about their retirement funds. You haven't been putting much money, or thought, into your retirement yet, and start to worry whether you'll be able to retire at a reasonable age when the time comes. You think that you are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "retirement_funds--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "behind"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

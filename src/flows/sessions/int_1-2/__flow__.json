@@ -1,0 +1,22 @@
+{
+    "mode": "sequential",
+    "take": 1,
+    "condition": [
+        "interest",
+        "=",
+        0,
+        "&&",
+        "socialcontext",
+        "in",
+        [
+            0,
+            1,
+            2
+        ],
+        "&&",
+        "preanxious",
+        ">",
+        "2"
+    ],
+    "repeat": true
+}

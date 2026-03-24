@@ -1,0 +1,25 @@
+{
+    "header_text": "Group Project Due",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In class, you have been assigned a group project worth a large part of your grade. The due date is soon, and your groupmates still haven't completed their portion of the work. You reach out to them, and they begin working in a timely..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "group_project_due--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "manner"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

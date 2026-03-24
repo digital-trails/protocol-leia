@@ -1,0 +1,17 @@
+{
+    "header_text": "Asking Someone Out",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are on a long train ride, and really hit it off with an attractive person sitting next to you. As the train ride nears an end, you think about how you would really like to see this person again, but you worry that you might come off as being too... "
+        },
+        {
+            "type": "Entry",
+            "name": "asking_someone_out--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

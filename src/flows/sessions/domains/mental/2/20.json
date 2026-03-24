@@ -1,0 +1,25 @@
+{
+    "header_text": "Being a Parent",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are babysitting for your family friend while they are out on a date night. Your family friend's daughter is very sweet, but you sometimes get frustrated with her and wonder how you will get along with your own kids someday. When you think about your future relationship with your own kids, you see yourself as being..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "being_a_parent--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "patient"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

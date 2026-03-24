@@ -1,0 +1,29 @@
+{
+    "header_text": "Group Project Due",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Your groupmates are likely..."
+        },
+        {
+            "type": "Buttons",
+            "name": "group_project_due--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Grateful that you politely communicated your concerns over their contribution.",
+                "Annoyed that you're telling them what to do."
+            ],
+            "column_count": 1,
+            "correct_value": "Grateful that you politely communicated your concerns over their contribution."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 6
+}

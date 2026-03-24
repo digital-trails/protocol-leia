@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Region Ten\n\nRegion Ten offers a variety of mental health services to people of all ages and backgrounds in the Charlottesville community and beyond. "
+        }
+    ]
+}

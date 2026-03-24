@@ -1,0 +1,17 @@
+{
+    "header_text": "Trying New Foods",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's a weeknight and your new roommate brings back some very spicy food for dinner. After eating some, your face begins to sweat, and you can feel your heart beating in your chest. These sensations trigger streams of anxious thoughts. You decide to focus on the conversation, and you experience the rest of dinner as..."
+        },
+        {
+            "type": "Entry",
+            "name": "trying_new_foods--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

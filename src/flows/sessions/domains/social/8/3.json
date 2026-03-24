@@ -1,0 +1,17 @@
+{
+    "header_text": "Assessments at School",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are currently going through a long week of midterms and projects. Your friend who you have not seen at all this semester has asked you to hang out the night before an exam. You know that you need to study but worry that your friend will be upset for not making time for them at all this... "
+        },
+        {
+            "type": "Entry",
+            "name": "assessments_at_school--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

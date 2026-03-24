@@ -1,0 +1,17 @@
+{
+    "header_text": "Special Day",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a date scheduled with someone you have liked for a while. On the day of the date, you feel a little nervous, as you wonder whether your date will like you as much as you like your date. Feeling nervous is..."
+        },
+        {
+            "type": "Entry",
+            "name": "special_day--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

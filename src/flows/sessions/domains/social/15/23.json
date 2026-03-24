@@ -1,0 +1,17 @@
+{
+    "header_text": "A heated discussion",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you are leaving afterwards, you realize that despite it being heated, the debate between your guests was respectful and refreshing. They probably found the party..."
+        },
+        {
+            "type": "Entry",
+            "name": "a_heated_discussion--social_situations--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

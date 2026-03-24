@@ -1,0 +1,25 @@
+{
+    "header_text": "Waiting for Big News",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Today, you will receive an important email. It will tell you whether you got accepted to or rejected from the summer intership you really want to do. As you think about waiting for the email, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "waiting_for_big_news--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "excited"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

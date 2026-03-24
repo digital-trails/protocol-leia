@@ -1,0 +1,17 @@
+{
+    "header_text": "Tripping in Public",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're called up to the front of the class to give your presentation. You stumble as you get up from your chair. When you think about everyone seeing you stumble, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "tripping_in_public--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

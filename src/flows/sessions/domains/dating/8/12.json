@@ -1,0 +1,17 @@
+{
+    "header_text": "Expressing Your Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your partner has been spending a lot of time with their friends lately. You feel as though they would rather hang out with their friends than you. You decide to tell your partner how you... "
+        },
+        {
+            "type": "Entry",
+            "name": "expressing_your_feelings--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

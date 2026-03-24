@@ -1,0 +1,17 @@
+{
+    "header_text": "Masks for Guests",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your roommate invites a few friends over for the evening, and you both agreed that everyone would wear masks. When their friends arrive, they don't have masks and your roommate doesn't say anything to them. You pull your roommate aside and ask them to speak to their... "
+        },
+        {
+            "type": "Entry",
+            "name": "masks_for_guests--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Awkward Conversations",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You invited your partner to hang out with you and your friends so everyone could get to know each other. As it got later, your partner brought up a controversial topic and your friends seemed unsure about how to respond. You know that your friends recognize that many people, including you and your partner, have different..."
+        },
+        {
+            "type": "Entry",
+            "name": "awkward_conversations--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

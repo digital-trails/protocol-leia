@@ -1,0 +1,25 @@
+{
+    "header_text": "How You Look",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are going on a first date. You look in the mirror before you leave and you wonder if your date will find you attractive. You realize that the only opinion that matters about your appreance is...  "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "how_you_look--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "yours"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Anticipating a Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the end, you think about how you would feel if your date spilled a glass of water. You realize that you, as well as most people, probably wouldn't care, and that spilling one glass of water is likely to be..."
+        },
+        {
+            "type": "Entry",
+            "name": "anticipating_a_response--mental_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

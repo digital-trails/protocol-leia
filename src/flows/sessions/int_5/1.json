@@ -1,0 +1,17 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "No problem, sounds like this isn't a great time for you - we'll try again later! Don't forget that you can always take a few slow breaths to help manage tough feelings.\n\nLet us know a better time to suggest an exercise."
+        },
+        {
+            "type": "Scheduler",
+            "days_ahead": 0,
+            "action": "flow://flows/session",
+            "count": 1,
+            "message": "It's time for your session."
+        }
+    ]
+}

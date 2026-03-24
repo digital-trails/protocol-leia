@@ -1,0 +1,17 @@
+{
+    "header_text": "The Soccer Tournament",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After being inactive for a few years, you recently joined a recreational soccer league. There is a tournament at the end of the season. You believe that you will contribute to your team's..."
+        },
+        {
+            "type": "Entry",
+            "name": "the_soccer_tournament--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

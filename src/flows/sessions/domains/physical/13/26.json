@@ -1,0 +1,25 @@
+{
+    "header_text": "Running a Marathon",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have run a few 10ks and are thinking about training to run a marathon. You enjoy the feeling of accomplishment when you finish a 10k, but you are worried about whether you have what it takes to run more than four times that distance. As you consider the idea of taking on a marathon, you believe that you will probably be good..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "running_a_marathon--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "enough"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

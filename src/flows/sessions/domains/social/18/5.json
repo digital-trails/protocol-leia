@@ -1,0 +1,17 @@
+{
+    "header_text": "Cohabitation Conflicts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your current roommates have been living together for a few months and some issues have started coming up. Your friend is visiting soon and when you ask your roommates if they can stay with you while they're in town, your roommates get angry and start to raise their... "
+        },
+        {
+            "type": "Entry",
+            "name": "cohabitation_conflicts--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

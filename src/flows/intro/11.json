@@ -1,0 +1,15 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "That was the Lemon Exercise! Don't worry if you didn't experience all of the sensations strongly. This is completely normal."
+        },
+        {
+            "type": "Media",
+            "url": "./images/lemon_pic7.jpeg",
+            "border": true
+        }
+    ]
+}

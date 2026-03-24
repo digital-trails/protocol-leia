@@ -1,0 +1,25 @@
+{
+    "header_text": "Leaning on your Peers",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You got your grades back today and you got a couple lower grades than you expected. Your friends are talking about their grades, and they said they got straight As. If you tell your friends your grades, they will be..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "leaning_on_your_peers--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "understanding"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

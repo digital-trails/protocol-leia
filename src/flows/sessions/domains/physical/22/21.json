@@ -1,0 +1,17 @@
+{
+    "header_text": "Spider bite",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While out hiking you are bitten by a spider. Your friend assures you that the spider was not venomous and that you will be fine. You worry that it could have been a deadly spider, but you continue your hike anyway, and your worries for the rest of the hike are... "
+        },
+        {
+            "type": "Entry",
+            "name": "spider_bite--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

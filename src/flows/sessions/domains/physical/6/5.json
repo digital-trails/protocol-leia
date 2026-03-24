@@ -1,0 +1,25 @@
+{
+    "header_text": "Giving a Presentation: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have to give a presentation in your class today. When you stand up in front of the class, you feel your cheeks get hot and your hands start to tremble.\n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I've done everything I can to prepare for this presentation.",
+                "Everyone will see that my hands are shaking.",
+                "It's normal to feel a little warm when you're anxious about presenting.",
+                "I want to sit back down, but decide to go forward with the presentation knowing my hard work will pay off.",
+                "I want to cover my face, but know I can do this even if it's uncomfortable."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

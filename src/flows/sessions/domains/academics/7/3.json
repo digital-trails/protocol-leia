@@ -1,0 +1,17 @@
+{
+    "header_text": "A lengthy read",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have an essay to write, and you try very hard to make sure it is comprehensive. The final copy is quite long. When your professor reads it, you think they will judge your efforts as..."
+        },
+        {
+            "type": "Entry",
+            "name": "a_lengthy_read--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

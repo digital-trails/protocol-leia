@@ -1,0 +1,22 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Overall, today I felt..."
+        },
+        {
+            "type": "Text",
+            "Text": "Very bad/negative\n\nVery good/positive"
+        },
+        {
+            "type": "Slider",
+            "min": 1,
+            "max": 7,
+            "others": [],
+            "name": "eodaffect",
+            "variable_name": "eodaffect"
+        }
+    ]
+}

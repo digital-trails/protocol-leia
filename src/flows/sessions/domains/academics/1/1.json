@@ -1,0 +1,16 @@
+{
+    "header_text": "The Meeting",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The Meeting"
+        },
+        {
+            "type": "Media",
+            "url": "./images/1.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 0
+}

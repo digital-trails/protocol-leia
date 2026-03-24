@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Aquatic and Fitness Center\n\nThe Aquatic Fitness Center, located on 450 Whitehead Rd, offers an Olympic sized pool, fitness classes, and many other opportunities to engage in physical exercise. "
+        }
+    ]
+}

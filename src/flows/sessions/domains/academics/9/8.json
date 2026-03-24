@@ -1,0 +1,17 @@
+{
+    "header_text": "Judging Your Performance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Right now you aren't happy, but you think about your overall course grade. You realize that you will..."
+        },
+        {
+            "type": "Entry",
+            "name": "judging_your_performance--academics_work_career_development--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

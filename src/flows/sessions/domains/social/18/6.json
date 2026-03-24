@@ -1,0 +1,17 @@
+{
+    "header_text": "Cohabitation Conflicts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After talking about it, your roommates calm down and hear your side. The conversation ends up being productive, and you look forward to communicating with each other about issues more in the..."
+        },
+        {
+            "type": "Entry",
+            "name": "cohabitation_conflicts--social_situations--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

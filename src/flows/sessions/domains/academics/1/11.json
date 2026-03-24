@@ -1,0 +1,16 @@
+{
+    "header_text": "A sudden stumble",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A sudden stumble"
+        },
+        {
+            "type": "Media",
+            "url": "./images/4.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

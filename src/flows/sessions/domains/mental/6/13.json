@@ -1,0 +1,25 @@
+{
+    "header_text": "Struggling with a Presentation: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During today's class, you have to present in front of your classmates and professor. You've been struggling to put this presentation together, but you haven't reached out to your professor about it yet. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'll skip this class tomorrow.",
+                "I want to avoid working on the presentation, but I know that making some progress will help me feel accomplished.",
+                "I'll ask my professor how to bring up my grade.",
+                "I won't hide in my room after my presentation.",
+                "I want to ask my classmates how they thought I did, but it doesn't really matter what other people think."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

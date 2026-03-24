@@ -1,0 +1,17 @@
+{
+    "header_text": "Saving for Repairs",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your car needs important repairs. Your friends invite you to go out with them this weekend, but you need to save your money to pay for your car. You deny your friends' invitiation, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "saving_for_repairs--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

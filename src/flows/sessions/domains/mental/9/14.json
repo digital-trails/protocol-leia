@@ -1,0 +1,17 @@
+{
+    "header_text": "Stuck in the Middle",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re at home reading a book when you hear your roommates fighting. You wonder why they are yelling at each other, and then one of them says your name. You realize that the reason why they’re arguing is probably not your..."
+        },
+        {
+            "type": "Entry",
+            "name": "stuck_in_the_middle--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

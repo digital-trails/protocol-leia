@@ -1,0 +1,25 @@
+{
+    "header_text": "Hot surface burn",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While eating at a dining hall, you accidentally touch a very hot surface. You quickly put your finger under cold water and can already see your skin turning red. After a few minutes, you think the burn is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "hot_surface_burn--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "minor"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

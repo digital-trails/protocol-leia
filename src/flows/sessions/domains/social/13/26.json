@@ -1,0 +1,25 @@
+{
+    "header_text": "Taking a call",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After you hang up, you realize that although everyone could hear your conversation, it was a short call and you were being as quiet as possible. You believe that your classmates probably think calling your father while working means you are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "taking_a_call--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "caring"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

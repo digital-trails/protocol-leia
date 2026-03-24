@@ -1,0 +1,17 @@
+{
+    "header_text": "Running a Mile",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're doing a mile run and you want to get a good time. You notice that your heart is racing more quickly than usual after you stop. You think that this is..."
+        },
+        {
+            "type": "Entry",
+            "name": "running_a_mile--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Ending Long Distance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your partner have been dating long-distance for awhile and you're going to be living in the same place in just a few months. You’ve never lived in the same place before, and you’re not quite sure how this change could impact your relationship. Even though you feel a bit nervous, you know that this is... "
+        },
+        {
+            "type": "Entry",
+            "name": "ending_long_distance--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

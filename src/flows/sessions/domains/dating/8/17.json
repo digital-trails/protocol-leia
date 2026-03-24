@@ -1,0 +1,17 @@
+{
+    "header_text": "Past Experiences",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your last relationship did not end very well. You are entering a new relationship, but you are still dealing with the feelings from your past relationship. When you think about discussing this with your new partner, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "past_experiences--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

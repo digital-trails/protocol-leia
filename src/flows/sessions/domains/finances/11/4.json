@@ -1,0 +1,15 @@
+{
+    "header_text": "Financial responsibilities",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parent was in the hospital recently and your family has been dealing with the medical bills. You wonder what this will mean for your family's finances moving forward.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/109.jpeg",
+            "border": true
+        }
+    ]
+}

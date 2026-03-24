@@ -1,0 +1,17 @@
+{
+    "header_text": "Future Relationships",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have just broken up with your partner, who you were with longer than any other significant other you've had before. You believe it was for the best, but you also worry if you will ever meet someone else you feel so strongly... "
+        },
+        {
+            "type": "Entry",
+            "name": "future_relationships--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

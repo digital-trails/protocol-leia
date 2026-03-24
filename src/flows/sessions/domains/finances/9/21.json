@@ -1,0 +1,17 @@
+{
+    "header_text": "Spending Money with Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your budget has been tighter this month. Your friends want to go out to eat this weekend, and they choose a very expensive place. If you ask them to choose a different restaurant, you think they will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "spending_money_with_friends--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

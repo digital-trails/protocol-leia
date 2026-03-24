@@ -1,0 +1,17 @@
+{
+    "header_text": "Learning how to ski",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are on holiday at a mountain resort and are learning how to ski. This is your first attempt to ski downhill on your own. You approach the first bend at a moderate speed and think that skiing is..."
+        },
+        {
+            "type": "Entry",
+            "name": "learning_how_to_ski--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

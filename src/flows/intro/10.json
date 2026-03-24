@@ -1,0 +1,15 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Now imagine that you squeeze the lemon and some of the juice squirts right into your eyes, and it is really stinging, making your eyes water."
+        },
+        {
+            "type": "Media",
+            "url": "./images/lemon_pic6.jpeg",
+            "border": true
+        }
+    ]
+}

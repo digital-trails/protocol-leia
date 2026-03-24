@@ -1,0 +1,17 @@
+{
+    "header_text": "Recent Exposure",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You were recently exposed to someone who tested positive, but you got tested and haven't experienced any symptoms. Your friends invite you to get dinner with them, and you wonder if you should go. You test negative and go out with your... "
+        },
+        {
+            "type": "Entry",
+            "name": "recent_exposure--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

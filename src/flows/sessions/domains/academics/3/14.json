@@ -1,0 +1,16 @@
+{
+    "header_text": "Mind Going Blank",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Mind Going Blank"
+        },
+        {
+            "type": "Media",
+            "url": "./images/25.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

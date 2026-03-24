@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "ODOS\n\nIf you experiecing a financial emergency, you can apply for an Honor Loan or an SFS Emergency Loan through ODOS."
+        }
+    ]
+}

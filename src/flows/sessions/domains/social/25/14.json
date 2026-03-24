@@ -1,0 +1,17 @@
+{
+    "header_text": "Old friend ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While dancing at a club, you spot an old friend not far away and call out to them. They do not reply to you. You decide that this is because they are..."
+        },
+        {
+            "type": "Entry",
+            "name": "old_friend_--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

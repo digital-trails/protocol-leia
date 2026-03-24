@@ -1,0 +1,25 @@
+{
+    "header_text": "Haircut Headache",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Today you're taking pictures for a club you are in and you got a new haircut for it. It didn't turn out the way you wanted it to. When you think about others seeing your new haircut in the pictures, you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "haircut_headache--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "embarrassed"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Annual checkup results",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You get blood drawn for your annual physical. Your doctor tells you that you will have to wait a few days to receive the results, and you worry about what the results will say. Over the next few days, the worries are..."
+        },
+        {
+            "type": "Entry",
+            "name": "annual_checkup_results--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

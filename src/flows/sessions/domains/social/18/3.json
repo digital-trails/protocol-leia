@@ -1,0 +1,17 @@
+{
+    "header_text": "Talking with Advisor",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "There's a personal question that you've been wanting to ask your advisor for a while, but you haven't. You picture yourself asking when you meet next. As you think about the question, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "talking_with_advisor--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

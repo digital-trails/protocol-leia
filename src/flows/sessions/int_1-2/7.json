@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Social anxiety often fills in the blanks with worst-case assumptions. This exercise helps you slow down and separate facts from guesses."
+        }
+    ]
+}

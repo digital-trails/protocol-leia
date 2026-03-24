@@ -1,0 +1,25 @@
+{
+    "header_text": "Savings Scandal",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've recently been putting money in savings, to have in case of emergencies. Your credit card bill was more expensive than you had expected this month, and you had to take a large bit of money from your savings to pay for it. You decide this is okay, and there is plenty of time to bulk up your... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "savings_scandal--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "savings"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

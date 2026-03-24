@@ -1,32 +1,35 @@
 {
-    "type": "list",
-    "elements": [
-        {
-            "type": "alert",
-            "title": "Recovery",
-            "message": "Learning how we can help.",
-        },
-        {
-            "type": "button",
-            "action": {
-                "text": "Show Surveys",
-                "action": "navmodal://Survey"
+    "title": "MindTrails",
+    "element": {
+        "type": "list",
+        "elements": [
+            {
+                "type": "alert",
+                "title": "Recovery",
+                "message": "Learning how we can help."
+            },
+            {
+                "type": "button",
+                "action": {
+                    "text": "Show Surveys",
+                    "action": "navmodal://Survey"
+                }
+            },
+            {
+                "type": "tiles",
+                "actions": [
+                    {
+                        "text": "What is this study?",
+                        "action": "flow://flows/rationale.json",
+                        "backgroundcolor": "#1A206AFF"
+                    },
+                    {
+                        "text": "What can I expect?",
+                        "action": "flow://flows/instructions.json",
+                        "backgroundcolor": "#1A00E05A"
+                    }
+                ]
             }
-        },
-        {
-            "type": "tiles",
-            "actions": [
-                {
-                    "text": "What is this study?",
-                    "action": "flow://flows/rationale.json",
-                    "backgroundcolor": "#1A206AFF"
-                },
-                {
-                    "text": "What can I expect?",
-                    "action": "flow://flows/instructions.json",
-                    "backgroundcolor": "#1A00E05A"
-                },
-            ]
-        }
-    ]
+        ]
+    }
 }

@@ -1,0 +1,25 @@
+{
+    "header_text": "Bumping into someone",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "On your way out from class, you stop in the restroom. As you leave the bathroom stall, your classmate passes you and gives you a funny look. Your classmate is probably..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "bumping_into_someone--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "distracted"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

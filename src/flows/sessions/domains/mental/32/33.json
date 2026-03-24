@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Is there a time over the next day or two when you think you'll feel anxious? Consider setting an alarm to remind yourself to practice flexible thinking in that moment. "
+        }
+    ]
+}

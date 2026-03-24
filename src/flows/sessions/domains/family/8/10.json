@@ -1,0 +1,17 @@
+{
+    "header_text": "Introducing Your Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You invited your parents to meet your friends from class tonight. You know that they can often tell embarrassing stories about you to other people. You think about what they're going to do tonight, and feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "introducing_your_friends--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Parental Advice",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide to go visit your family on a long weekend. When talking with your parent(s), they give you advice that you do not agree with but you are scared to speak up and tell them. You think if you tell them you disagree, they will be disappointed in..."
+        },
+        {
+            "type": "Entry",
+            "name": "parental_advice--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

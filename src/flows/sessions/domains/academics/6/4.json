@@ -1,0 +1,15 @@
+{
+    "header_text": "Important Assignment",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a midterm next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/17.jpeg",
+            "border": true
+        }
+    ]
+}

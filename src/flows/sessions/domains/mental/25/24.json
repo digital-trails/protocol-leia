@@ -1,0 +1,17 @@
+{
+    "header_text": "Book Club",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are trying to meet new people and you decide to join a book club. The book for the week is really interesting, but when you show up at the meeting people are asking questions about the book that seem more in depth than you can answer. You remember that you read the book too and have valuable thoughts just like everyone..."
+        },
+        {
+            "type": "Entry",
+            "name": "book_club--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

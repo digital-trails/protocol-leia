@@ -1,0 +1,17 @@
+{
+    "header_text": "Being Near Someone Sick",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You go to the hospital to visit a friend. Someone behind you coughs a few times while you are in the waiting room. The chance that you will get sick is..."
+        },
+        {
+            "type": "Entry",
+            "name": "being_near_someone_sick--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

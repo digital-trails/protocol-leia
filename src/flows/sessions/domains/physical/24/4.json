@@ -1,0 +1,17 @@
+{
+    "header_text": "Walking to clear mind",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remember that this is the first time you have been on a long walk for a couple weeks. You are probably feeling your heart race because of the..."
+        },
+        {
+            "type": "Entry",
+            "name": "walking_to_clear_mind--physical_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

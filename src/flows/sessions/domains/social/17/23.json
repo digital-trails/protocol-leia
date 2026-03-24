@@ -1,0 +1,17 @@
+{
+    "header_text": "Bus buddy",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a long day of shopping, you get onto a bus with a lot of bags and notice that the only open seat is one that is facing another rider. As you sit down, the rider across from you doesn’t look at you. This is probably because they are lost in..."
+        },
+        {
+            "type": "Entry",
+            "name": "bus_buddy--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

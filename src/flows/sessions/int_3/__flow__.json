@@ -1,0 +1,18 @@
+{
+    "mode": "sequential",
+    "take": 1,
+    "condition": [
+        "interest",
+        "=",
+        0,
+        "&&",
+        "socialcontext",
+        "=",
+        1,
+        "&&",
+        "preanxious",
+        "<",
+        3
+    ],
+    "repeat": true
+}

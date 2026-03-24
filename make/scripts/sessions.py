@@ -18,59 +18,28 @@ dir_out    = f"{dir_root}/~out"
 Path(dir_out).mkdir(parents=True,exist_ok=True)
 
 def flat(dictionary, key):
-    return list(chain.from_iterable(dictionary[lower(key)].values()))
-
-def _create_practice_pages():
-    with open(f"{dir_csv}/dose1_scenarios - HTC.csv", "r", encoding="utf-8") as dose1_read_obj:  # scenarios for first dose in file
-        
-        scenario_num = 0
-        for row in islice(csv.reader(dose1_read_obj),1,None):
-
-            # First, add the video that goes before each scenario
-            yield create_video_page(scenario_num+1)
-
-            domain, label = row[0].strip(), row[3]
-            puzzle1,puzzle2 = map(create_puzzle,row[i:i+2])
-            question, choices, answer = row[i+2], row[7:9], row[7]
-            image_url = media_url(row[10])
-
-            choices = [c.strip() for c in choices]
-            answer = answer.strip()
-
-            shuffle(choices)
-
-            yield from create_scenario_pages(domain=domain, title=label, scenario_num=scenario_num,
-                                                    puzzle_text_1=puzzle1[0], word_1=puzzle1[1],
-                                                    comp_question=question, answers=choices,
-                                                    correct_answer=answer, word_2=puzzle2[1],
-                                                    puzzle_text_2=puzzle2[0], image_url=image_url,
-                                                    is_first=scenario_num==0)
-            scenario_num += 1
+    return list(dictionary[lower(key)])
 
 def _create_survey_page(row):
-    text = clean_up_unicode(row[4])
-
+    text = clean_up_unicode(row[2])
     title = row[1].strip()
-    input_1 = row[5]
-    minimum = row[7]
-    maximum = row[8]
-    media = media_url(row[9])
-    items = row[10]
-    image_framed = row[11]
-    timeout = row[12]
-    show_buttons = row[13]
-    variable_name = row[16]
-    conditions = row[17]
-    input_name = row[18]
 
-    is_html = row[0] == "MDS-UPDRS"
+    input_type    = row[3]
+    values        = row[4]
+    variable_name = row[5]
+    condition     = row[6]
+    output_name   = row[7]
+    media         = media_url(row[8])
+    image_framed  = "true"
+    show_buttons  = None
+    is_html       = None
+    timeout       = None
 
-    return create_survey_page(condition=conditions, text=text,
-                              show_buttons=show_buttons, media=media,
-                              image_framed=image_framed, values=items,
-                              input=input_1,variable_name=variable_name, 
-                              title=title, output_name=input_name, minimum=minimum,
-                              maximum=maximum, timeout=timeout,is_html=is_html)
+    return create_survey_page(condition=condition, text=text, show_buttons=show_buttons, 
+                              media=media, image_framed=image_framed, values=values, 
+                              input_type=input_type, variable_name=variable_name, title=title, 
+                              output_name=output_name, timeout=timeout, is_html=is_html)
+
 
 def domain_selection_text():
     return (
@@ -149,17 +118,16 @@ def create_short_sessions():
 
             is_first_scenario = len(scenarios) == 0
 
-            scenarios.append(
-                create_scenario_pages(domain=domain, title=title, 
-                                        scenario_num=len(d_scenarios[domain]),
-                                        puzzle_text_1=puzzle1[0], word_1=puzzle1[1],
-                                        comp_question=comp_question, answers=choices,
-                                        correct_answer=answer, word_2=puzzle2[1],
-                                        puzzle_text_2=puzzle2[0], image_url=image_url,
-                                        n_missing=letters_missing,
-                                        is_first=is_first_scenario, tipe=tipe
-                )
-            )
+            scenario = create_scenario_pages(domain=domain, title=title, 
+                                            scenario_num=len(d_scenarios[domain]),
+                                            puzzle_text_1=puzzle1[0], word_1=puzzle1[1],
+                                            comp_question=comp_question, answers=choices,
+                                            correct_answer=answer, word_2=puzzle2[1],
+                                            puzzle_text_2=puzzle2[0], image_url=image_url,
+                                            n_missing=letters_missing,
+                                            is_first=is_first_scenario, tipe=tipe)
+
+            scenarios.append(scenario)
 
             if len(scenarios) == 10:
                 sessions.append(list(chain(*scenarios)))
@@ -168,20 +136,22 @@ def create_short_sessions():
     return d_sessions
 
 def create_surveys():
-    accepted = [f"beforedomain_all", f"afterdomain_all"]
+    accepted = ["ema_pre", "ema_mid", "ema_post", "int_1", "int_2", "int_3", "int_4", "int_5"]
     accepted = [lower(a) for a in accepted]
-    surveys  = defaultdict(lambda:defaultdict(list))
-    notin = set()
+    surveys  = defaultdict(list)
 
     # Open the file with all the content
-    with open(f"{dir_csv}/MTM_survey_questions - Final_{popname} MTM_survey_questions.csv", "r", encoding="utf-8") as read_obj:
+    with open(f"{dir_csv}/LEIA Interventions, Resources, and Tips - Surveys.csv", "r", encoding="utf-8") as read_obj:
         for row in islice(csv.reader(read_obj),1,None):
-            lookup_id, subgroup_id = f"{row[3]}_{row[2]}".lower(), row[0]
+            lookup_id = row[0].lower()
 
-            if lookup_id not in accepted:
-                notin.add(lookup_id)
-            elif row[2]:
-                surveys[lookup_id][subgroup_id].append(_create_survey_page(row))
+            if lookup_id in accepted:
+                survey_page = _create_survey_page(row)
+                
+                if(lookup_id in ["int_1","int_2","int_3","int_4","int_5"]):
+                    del survey_page["condition"]
+                
+                surveys[lookup_id].append(survey_page)
 
     return surveys
 
@@ -213,22 +183,68 @@ domains  = short_sessions.keys()
 sessions = defaultdict(list)
 
 for domain in domains:
-    for short_session in short_sessions[domain]:
+    for short_session in short_sessions[domain]:        
         if sessions[domain] and len(sessions[domain]) % 5 == 0:
             sessions[domain].append(next(long_sessions[domain]) + resources(domain))
         else:
             sessions[domain].append(short_session + resources(domain))
 
+internal_selections = {
+    "Academics/Work/Career Development" : "academics",
+    "Family & Home Life"                : "family",
+    "Romantic Relationships"            : "dating",
+    "Finances"                          : "finances",
+    "Mental Health"                     : "mental",
+    "Physical Health"                   : "physical",
+    "Social Situations"                 : "social",
+}
+shown_selections = {
+    "Academics/Work/Career" : "academics",
+    "Family & Home Life"    : "family",
+    "Romantic Relationships": "dating",
+    "Finances"              : "finances",
+    "Mental Health"         : "mental",
+    "Physical Health"       : "physical",
+    "Social Situations"     : "social",
+}
+
+surveys["int_1-2"] = surveys["int_1"] + surveys["int_2"]
+shuffle(surveys["int_1-2"], "int_1-2")
+del surveys["int_1"]
+del surveys["int_2"]
+
 # Define folders
 folders = {}
-folders['sessions/__flow__.json'] = {"mode":"select", "title_case": True, "column_count":2, "text": domain_selection_text(), "title":"MindTrails" }
-folders['sessions/__before__'] = flat(surveys,"beforedomain_all")
-folders['sessions/__after__'] = flat(surveys,"afterdomain_all")
 
+folders['sessions/__flow__.json'] = {"mode":"sequential", "order": ["ema_pre","int_1-2","ema_mid","domains","int_3","int_4","int_5","ema_post"] }
+folders['sessions/ema_pre'] = flat(surveys,"ema_pre")
+folders['sessions/int_1-2/__flow__.json'] = {"mode":"sequential", "take": 1, "condition": ["interest","=",0,"&&","socialcontext","in",[0,1,2],"&&","preanxious",">","2"], "repeat":True }
+folders['sessions/int_1-2'] = flat(surveys,"int_1-2")
+folders['sessions/ema_mid'] = flat(surveys,"ema_mid")
+
+folders['sessions/domains/__flow__.json'] = {"mode":"select", "column_count":2, "text": domain_selection_text(), "title":"MindTrails", "selections": shown_selections }
 for domain, doses in sessions.items():
-    folders[f'sessions/{dir_safe(domain)}/__flow__.json'] ={"mode":"sequential", "take":1, "repeat":True}
-    for i, dose in enumerate(doses,1):
-        folders[f'sessions/{dir_safe(domain)}/{i}'] = dose
+        folders[f'sessions/domains/{internal_selections[domain]}/__flow__.json'] ={"mode":"sequential", "take":1, "repeat":True }
+        for i, dose in enumerate(doses,1):
+            folders[f'sessions/domains/{internal_selections[domain]}/{i}'] = dose
+
+folders['sessions/int_3/__flow__.json'] = {"mode":"sequential", "take": 1, "condition": ["interest","=",0,"&&","socialcontext","=",1,"&&","preanxious","<",3], "repeat":True }
+folders['sessions/int_3'] = flat(surveys,"int_3")
+folders['sessions/int_4/__flow__.json'] = {"mode":"sequential", "take": 1, "condition": ["interest","=",1,"&&","socialcontext","in",[1,2]], "repeat":True }
+folders['sessions/int_4'] = flat(surveys,"int_4")
+folders['sessions/int_5/__flow__.json'] = {"mode":"sequential", "take": 1, "condition": ["interest","=",1,"&&","socialcontext","=",0], "repeat":True }
+folders['sessions/int_5'] = flat(surveys,"int_5")
+folders['sessions/ema_post'] = flat(surveys,"ema_post")
+
+#SESSION
+    #EMA_PRE (always do this and follow conditions within)
+    #INT_1&2 (randomly shuffled; do 1; only do if interest = 0 & socialcontext in 0 1 2 & preanxious > 2)
+    #EMA_MID (always do this)
+    #DOMAIN (only do this if interest = 0)
+    #INT_3 (only do 1; do it in order; only do this if #interest = 0 & socialcontext = 1 & preanxious < 3)
+    #INT_4 (only do 1; do it in order; only do this if interest = 1 & socialcontext in 1 2)
+    #INT_5 (only do 1; do it in order; only do this if interest = 1 & socialcontext = 0)
+    #EMA_POST (always do this and follow conditions within)
 
 # Delete old JSON
 shutil.rmtree(f"{dir_out}/sessions",ignore_errors=True)

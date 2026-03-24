@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "UVA Mindfulness Center\n\nThrough UVA's Medical School, the Mindfulness Center offers online classes, events, recordings, and resources for people interested in developing mindfulness skills. "
+        }
+    ]
+}

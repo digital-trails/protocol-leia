@@ -1,0 +1,17 @@
+{
+    "header_text": "Relationship Worries",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you wonder about your future with your significant other you don't believe you will break up, and you feel strongly that you two will keep..."
+        },
+        {
+            "type": "Entry",
+            "name": "relationship_worries--romantic_relationships--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

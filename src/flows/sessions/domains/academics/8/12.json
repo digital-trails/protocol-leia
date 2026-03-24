@@ -1,0 +1,17 @@
+{
+    "header_text": "Class Clowns",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your Professor calls on you to answer a question. As you start to talk you hear a loud burst of laughter behind you. Your classmates are laughing at a..."
+        },
+        {
+            "type": "Entry",
+            "name": "class_clowns--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

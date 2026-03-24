@@ -1,0 +1,17 @@
+{
+    "header_text": "One-On-One Meeting",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a one-on-one meeting today with your intimidating professor, which you are nervous about. During the meeting, you momentarily lose your train of thought. After that, your anxiety is..."
+        },
+        {
+            "type": "Entry",
+            "name": "one-on-one_meeting--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

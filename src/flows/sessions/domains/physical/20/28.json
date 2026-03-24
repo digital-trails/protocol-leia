@@ -1,0 +1,25 @@
+{
+    "header_text": "Dry mouth cause",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have experienced dry mouth for a few days. You wonder whether the dry mouth is a minor side effect from a medicine you just started taking, or something more serious. The likelihood that your dry mouth reflects a serious health problem is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "dry_mouth_cause--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "minimal"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

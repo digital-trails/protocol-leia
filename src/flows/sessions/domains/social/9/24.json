@@ -1,0 +1,25 @@
+{
+    "header_text": "Waiting For A Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After thinking about it, you recognize that your friend is a busy person, and that people miss notifications all the time. You bump your message, and find that your friend had forgotten to respond, but is very eager to make plans with..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "waiting_for_a_response--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "you"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

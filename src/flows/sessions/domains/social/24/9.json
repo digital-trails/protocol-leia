@@ -1,0 +1,17 @@
+{
+    "header_text": "Long Weekend Alone",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have off on Monday for a holiday, and you know people will make plans for the long weekend. After a close friend said they're out of town for the weekend, you realize you don't have anyone to hang out with for the long weekend. This makes you optimistic about making new friends next..."
+        },
+        {
+            "type": "Entry",
+            "name": "long_weekend_alone--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

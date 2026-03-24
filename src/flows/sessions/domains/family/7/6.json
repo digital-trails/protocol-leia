@@ -1,0 +1,17 @@
+{
+    "header_text": "Parental Advice",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You realize that your parent(s) value your opinion and were giving theirs because they wanted to help you. You feel as if you will be able to tell them you disagree and they will respect your..."
+        },
+        {
+            "type": "Entry",
+            "name": "parental_advice--family_&_home_life--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

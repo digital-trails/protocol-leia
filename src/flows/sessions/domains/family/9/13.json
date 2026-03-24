@@ -1,0 +1,17 @@
+{
+    "header_text": "Space heater",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You rushed out of your dorm this morning. Once at school, you wonder whether you forgot to turn off your space heater. The likelihood that the space heater will cause a fire is..."
+        },
+        {
+            "type": "Entry",
+            "name": "space_heater--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

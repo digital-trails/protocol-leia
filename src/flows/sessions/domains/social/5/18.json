@@ -1,0 +1,25 @@
+{
+    "header_text": "No Weekend Plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You realize it has been a busy week and they are probably resting. You and your friends often take breaks after a long week in order to..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "no_weekend_plans--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "rest"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

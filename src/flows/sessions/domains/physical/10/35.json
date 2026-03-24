@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Set a time/date when you will make a decision about whether you need to see a doctor (e.g., if I still feel sick 3 days from now, I will schedule an appointment)."
+        }
+    ]
+}

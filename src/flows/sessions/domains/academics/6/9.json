@@ -1,0 +1,25 @@
+{
+    "header_text": "Important Assignment: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a midterm next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I feel excited to prove myself wrong.",
+                "I am worried about taking this test and failing.",
+                "I feel ready to get going with studying.",
+                "I will feel disappointed in myself if I don't do well on this test, but that feeling will pass.",
+                "I feel stupid for asking for help, but I'm probably not the only one who has questions."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

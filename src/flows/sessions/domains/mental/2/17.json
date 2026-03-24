@@ -1,0 +1,25 @@
+{
+    "header_text": "Mask Insecurities",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a crush on someone in your class and you have really been enjoying getting to know them. Now that masks are no longer required, you are feeling self-conscious and wondering if they are judging what you look like without a mask. You remind yourself that a mask does not change how much you enjoy each other's... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "mask_insecurities--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "company"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

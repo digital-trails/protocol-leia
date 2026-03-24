@@ -1,0 +1,22 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "To what extent is your anxiety a central part of who you are currently?"
+        },
+        {
+            "type": "Media",
+            "url": "./images/anxiety.jpeg",
+            "border": true
+        },
+        {
+            "type": "Buttons",
+            "buttons": [],
+            "multiselect": true,
+            "name": "anxidentity",
+            "variable_name": "anxidentity"
+        }
+    ]
+}

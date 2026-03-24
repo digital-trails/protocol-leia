@@ -1,0 +1,16 @@
+{
+    "header_text": "Speaking Up in Class",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Speaking Up in Class"
+        },
+        {
+            "type": "Media",
+            "url": "./images/33.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 5
+}

@@ -1,0 +1,10 @@
+{
+    "header_text": "Tagged in a photo: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Great job! Now you'll see some behaviors."
+        }
+    ]
+}

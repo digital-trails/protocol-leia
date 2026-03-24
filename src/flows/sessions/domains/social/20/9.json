@@ -1,0 +1,25 @@
+{
+    "header_text": "Playing the Piano",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Walking up to the piano, you think to yourself, this is nothing to worry about, these people are going to be..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "playing_the_piano--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "pleased"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

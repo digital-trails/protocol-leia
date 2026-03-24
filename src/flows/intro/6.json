@@ -1,0 +1,15 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Okay...let's begin! Imagine you are holding the lemon in your right hand, and you can feel its shape and its weight."
+        },
+        {
+            "type": "Media",
+            "url": "./images/lemon_pic2.jpeg",
+            "border": true
+        }
+    ]
+}

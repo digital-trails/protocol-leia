@@ -1,0 +1,29 @@
+{
+    "header_text": "Changing Your Trajectory",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Given your likely outcome on the job market, your best bet is"
+        },
+        {
+            "type": "Buttons",
+            "name": "changing_your_trajectory--academics_work_career_development--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "To try and switch your major for another that you find fulfilling",
+                "To stay in your major even though it is boring"
+            ],
+            "column_count": 1,
+            "correct_value": "To stay in your major even though it is boring"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Healthy But Expensive ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You want to start eating healthier, so you start researching tips and recipes online. You quickly realize that many foods recommended by health experts cost a lot of money. When you think about eating healthier on a budget, you think you can be... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "healthy_but_expensive_--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "successful"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

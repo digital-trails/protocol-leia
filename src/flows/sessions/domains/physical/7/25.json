@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Peer Health Educators (PHEs)\n\nPHEs are trained undergraduate students who share their knowledge of  health and wellness topics with residence halls, fraternity/sororities (FOA approved), and student groups. They also offer one-on-one health consultations. "
+        }
+    ]
+}

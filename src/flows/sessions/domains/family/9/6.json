@@ -1,0 +1,17 @@
+{
+    "header_text": "Quality Time",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "With busy scehdules, you and your partner don't get to spend a lot of quality time together. You feel as though you and your partner are drifting apart. You decide to plan a date night just for the two of... "
+        },
+        {
+            "type": "Entry",
+            "name": "quality_time--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

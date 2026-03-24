@@ -1,0 +1,17 @@
+{
+    "header_text": "Greeting Someone",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While walking, you see a classmate that you do not know well. You decide to say hello in passing but then wonder if you annoyed the classmate. After the brief encounter, you believe they think that you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "greeting_someone--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

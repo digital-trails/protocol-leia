@@ -1,0 +1,25 @@
+{
+    "header_text": "Giving a Presentation: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have to give a presentation in your class today. When you stand up in front of the class, you feel your cheeks get hot and your hands start to tremble.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm relieved to know this topic well.",
+                "I'm happy with how much I've prepared for this presentation.",
+                "I'm scared that my cheeks feeling hot means that I'm going to faint, but I will take a few deep breaths and remember this feeling will pass.",
+                "I'm worried that I'm going to pass out.",
+                "I'm nervous that people can see my hands shaking, but it's probably not as noticeable to them as it feels to me."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

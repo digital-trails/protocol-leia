@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Social Situations",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you feel like comparing yourself to others in your life, try to give yourself a compliment instead."
+        }
+    ]
+}

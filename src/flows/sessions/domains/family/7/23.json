@@ -1,0 +1,17 @@
+{
+    "header_text": "Making a Good Impression",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've never met your significant other's parents. They have just told you their parents have invited you to dinner tonight, and your significant other mentions that they can be critical. When you think about meeting them, your anxiety is..."
+        },
+        {
+            "type": "Entry",
+            "name": "making_a_good_impression--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

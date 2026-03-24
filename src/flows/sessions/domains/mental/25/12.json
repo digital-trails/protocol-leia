@@ -1,0 +1,17 @@
+{
+    "header_text": "Achieving Your Goals",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You would like to go to graduate school and further your studies. You know that the process of getting in is difficult and expensive, but you feel very passionate about achieving this goal and have worked hard to make yourself a good applicant. You feel that your chances of getting into graduate school are..."
+        },
+        {
+            "type": "Entry",
+            "name": "achieving_your_goals--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

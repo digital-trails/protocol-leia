@@ -1,0 +1,17 @@
+{
+    "header_text": "Comedic Genius",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're talking to a group of your friends at lunch. You make a joke that you think is really funny, but no one really laughs. They were probably..."
+        },
+        {
+            "type": "Entry",
+            "name": "comedic_genius--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

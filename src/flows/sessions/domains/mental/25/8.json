@@ -1,0 +1,17 @@
+{
+    "header_text": "Pool Time",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remember that they will be focused on swimming and everyone else will be wearing swimsuits too. This makes you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "pool_time--mental_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

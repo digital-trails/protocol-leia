@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "If you notice that your heart is racing or you’re having trouble breathing, ask yourself if there might be a perfectly harmless explanation for why your body is reacting that way (e.g. did you just walk up a flight of stairs?)."
+        }
+    ]
+}

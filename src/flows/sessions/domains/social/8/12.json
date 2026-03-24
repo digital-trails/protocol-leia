@@ -1,0 +1,17 @@
+{
+    "header_text": "Late Communication",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend invites you to a party and after you leave, they casually mention that one of the people there had been exposed and was waiting on a test result. You can’t believe your friend wouldn’t tell you this before they took you to the party. You decide to talk to your friend about it and you both decide to isolate until the test comes back and communicate better about risky..."
+        },
+        {
+            "type": "Entry",
+            "name": "late_communication--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

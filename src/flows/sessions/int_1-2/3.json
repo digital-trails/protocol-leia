@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Pick one activity you might enjoy - keep it low-pressure. It can be something you do alone or with others. Take a moment to schedule it so it's more likely to happen.\n\nThe goal isn't to feel anxiety-free, but to make room for enjoyment even if some anxiety shows up."
+        }
+    ]
+}

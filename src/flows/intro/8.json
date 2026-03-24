@@ -1,0 +1,15 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Now imagine that you scratch the skin with your fingernail, then you bring the lemon up to your nose, and you can smell the fresh zesty juice from the skin."
+        },
+        {
+            "type": "Media",
+            "url": "./images/lemon_pic4.jpeg",
+            "border": true
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Insurance Claim",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You receieve an insurance claim from a recent medical appointment that doesn't make sense. You call your insurance company to learn more, and you are anxious about what they are going to say. After the phone call, you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "insurance_claim--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "relieved"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

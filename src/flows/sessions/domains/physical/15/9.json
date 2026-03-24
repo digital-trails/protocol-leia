@@ -1,0 +1,17 @@
+{
+    "header_text": "Friendly Neighbor",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice that you haven't seen your elderly neighbor recently. You normally visit them regularly, so it is strange that you have not seen them lately. Your neighbor has probably been..."
+        },
+        {
+            "type": "Entry",
+            "name": "friendly_neighbor--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Preparing for evaluation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are preparing for a final exam. You heard from other people that the exam is incredibly difficult. You studied a lot and think it is likely you will..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "preparing_for_evaluation--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "pass"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

@@ -1,0 +1,29 @@
+{
+    "header_text": "Hot surface burn",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "After running water over your finger, your burn will probably ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "hot_surface_burn--physical_health--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Remain very painful.",
+                "Hurt much less."
+            ],
+            "column_count": 1,
+            "correct_value": "Hurt much less."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

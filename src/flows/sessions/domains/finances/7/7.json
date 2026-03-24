@@ -1,0 +1,17 @@
+{
+    "header_text": "Starting a Small Business",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are planning to start your own small business after graduation and are ready to work hard. You are excited, but you also know that many start-ups can end up crashing and burning. Thinking about the future of your business, it will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "starting_a_small_business--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "A lucky find",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are looking for a new apartment. While on your first tour, you fall in love with the place and decide to sign a lease. The fact that you did not check out other apartments makes you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "a_lucky_find--family_&_home_life--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "fine"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Mindfulness Meditation Group\n\nUVA's Mindfulness Center offers weekly, free, 30-minute guided meditations followed by open discussion and questions. The meditation is led by Sam Green, PhD on Tuesdays from 5:30-6:30pm in McCleod Hall Room 2025."
+        }
+    ]
+}

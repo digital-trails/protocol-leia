@@ -1,0 +1,17 @@
+{
+    "header_text": "Your Resume",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are preparing to apply to graduate school. You have a meeting with a potential advisor tomorrow, and you know that a good resume will be an important factor.  As you look over your resume, you think that the potential advisor will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "your_resume--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

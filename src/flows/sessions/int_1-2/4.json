@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Take a moment to consider whether your anxious thoughts are helpful or accurate right now? Or, are you automatically assuming the worst will happen? Think about what information is guiding your thoughts, and whether you think it's actually meaningful evidence."
+        }
+    ]
+}

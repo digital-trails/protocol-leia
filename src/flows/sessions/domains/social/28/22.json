@@ -1,0 +1,25 @@
+{
+    "header_text": "Party People",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You arrive at a large party and quickly realize that there are a lot of people you do not know there. You feel anxious and consider going home. Looking around the room, you decide to..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "party_people--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "stay"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

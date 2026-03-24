@@ -1,0 +1,25 @@
+{
+    "header_text": "Giving a Presentation: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have to give a presentation in your class today. When you stand up in front of the class, you feel your cheeks get hot and your hands start to tremble.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I speak with a strong voice.",
+                "I want to go to the bathroom and splash my face with water, but decide to refocus on my surroundings to relax and power through.",
+                "I consider pretending that I'm sick so I don't have to present, but challenge myself to give the presentation anyway.",
+                "I ask the professor if I can present another day.",
+                "I smile and start my presentation."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

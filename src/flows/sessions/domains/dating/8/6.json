@@ -1,0 +1,17 @@
+{
+    "header_text": "Holiday Plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your significant other's parents have invited you to join them for the holidays. You are excited to spend time with your partner's family, but you worry your own parents will be disappointed that you are not with them. When you think about telling your parents you would like to spend the holidays with your partner, you believe that they will take the news..."
+        },
+        {
+            "type": "Entry",
+            "name": "holiday_plans--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

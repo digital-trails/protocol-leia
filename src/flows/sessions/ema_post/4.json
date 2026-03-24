@@ -1,0 +1,22 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "With the program, I am able to manage my current feelings..."
+        },
+        {
+            "type": "Text",
+            "Text": "Not at all effectively\n\nVery effectively"
+        },
+        {
+            "type": "Slider",
+            "min": 1,
+            "max": 7,
+            "others": [],
+            "name": "managefeelings",
+            "variable_name": "managefeelings"
+        }
+    ]
+}

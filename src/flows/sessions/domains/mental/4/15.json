@@ -1,0 +1,25 @@
+{
+    "header_text": "Insightful Email",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During a class discussion today, you have a thought that you think is really insightful. You didn't get the chance to bring it up in class, but you want to email your professor about it. When you send the email, you feel proud of yourself for sharing your..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "insightful_email--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "thoughts"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

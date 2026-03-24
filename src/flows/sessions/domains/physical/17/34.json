@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "UVA Walking Trails\n\nLooking to incorporate physical activity into your day? There are a lot of places to walk around Grounds, including the McCormick Dorms Loop (.6 mi), Old Ivy Trail (.8 mi), West Lawn Loop (.4 mi), and more!"
+        }
+    ]
+}

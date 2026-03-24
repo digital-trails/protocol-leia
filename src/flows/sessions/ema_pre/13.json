@@ -1,0 +1,30 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider."
+        },
+        {
+            "type": "Text",
+            "Text": "Absolutely no anxiety\n\nTotally anxious"
+        },
+        {
+            "type": "Slider",
+            "min": 0,
+            "max": 10,
+            "others": [],
+            "name": "imagery_anxiety"
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        0,
+        "&&",
+        "preanxious",
+        "<",
+        3
+    ]
+}

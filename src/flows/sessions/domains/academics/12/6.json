@@ -1,0 +1,25 @@
+{
+    "header_text": "Brief call",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After class you realize that the other students were probably just surprised that the door suddenly opened. Chances are they think that your opening and closing the door quietly means you are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "brief_call--academics_work_career_development--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "considerate"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

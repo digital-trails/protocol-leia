@@ -1,0 +1,29 @@
+{
+    "header_text": "Working to Get Ahead",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "The future you see for yourself is"
+        },
+        {
+            "type": "Buttons",
+            "name": "working_to_get_ahead--mental_health--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Having the job you want in the company you admire.",
+                "Being stuck in a position below the one you've always envisioned."
+            ],
+            "column_count": 1,
+            "correct_value": "Being stuck in a position below the one you've always envisioned."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 5
+}

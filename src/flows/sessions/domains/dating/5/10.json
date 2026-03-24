@@ -1,0 +1,29 @@
+{
+    "header_text": "Long-Term Relationship",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "You think your talk with your partner will most likely:"
+        },
+        {
+            "type": "Buttons",
+            "name": "long-term_relationship--romantic_relationships--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Break down into an argument.",
+                "Be a positive exchange about how you feel about each other."
+            ],
+            "column_count": 1,
+            "correct_value": "Be a positive exchange about how you feel about each other."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 2
+}

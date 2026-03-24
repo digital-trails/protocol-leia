@@ -1,0 +1,25 @@
+{
+    "header_text": "Truthful Texting",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You got someone's number from a dating app and have been texting them back and forth for a few days now. You do not feel very interested in them, but they text you today saying that they are extremely interested in you and want to meet up for a date and you are worried they will be angry if you decline their offer. You decide to be truthful about not feeling the same and tell them you do not see your relationship going any..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "truthful_texting--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "further"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

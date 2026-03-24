@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Take a moment to think of someone who helps you feel supported, and send them a quick message or check-in. Even a brief connection can remind you that you're not alone and help ease anxiety. Try to disconnect these messages from your worries. Examples could be: \n\n\"Hi! Just wanted to say I was thinking of you and hope you're having a good day.\"\n\n\"Random check-in - no need to reply right away 😊\"\n\n\"I'm taking a moment to reach out to people I appreciate. You're one of them.\""
+        }
+    ]
+}
