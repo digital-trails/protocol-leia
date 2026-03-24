@@ -1,10 +1,10 @@
 [
     {
-      "text": "Intake",
+      "text": "Intro",
       "action": "flow://flows/intro"
     },
     {
-      "text": "Daily",
+      "text": "End of Day",
       "action": "flow://flows/end of day"
     },
     {
