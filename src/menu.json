@@ -20,6 +20,10 @@
       "action": "flow://flows/sessions_testing/int_1-2"
     },
     {
+      "text": "EMA Mid",
+      "action": "flow://flows/sessions_testing/ema_mid"
+    },
+    {
       "text": "Domains",
       "action": "flow://flows/sessions_testing/domains"
     },
