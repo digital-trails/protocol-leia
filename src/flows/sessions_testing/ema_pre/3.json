@@ -1,0 +1,24 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "What do you feel anxious about?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::A social situation",
+                "1::Feelings in my body",
+                "2::Thoughts I am having",
+                "3::Nothing specific (generalized anxiety).",
+                "!4::Something else",
+                "^5::Nothing"
+            ],
+            "multiselect": true,
+            "name": "anxietytopic",
+            "variable_name": "anxietytopic"
+        }
+    ]
+}

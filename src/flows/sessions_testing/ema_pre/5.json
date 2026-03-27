@@ -1,0 +1,20 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Are you interested in doing a short exercise on your phone to help reduce feelings of anxiety or tolerate stress that you may feel now or in the future?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Interested",
+                "1::Not interested"
+            ],
+            "ColumnCount": 1,
+            "name": "interest",
+            "variable_name": "interest"
+        }
+    ]
+}

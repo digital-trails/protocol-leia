@@ -1,0 +1,23 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Please describe the situation in a few words:"
+        },
+        {
+            "type": "Entry",
+            "name": "entry_anxious_imagery"
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        0,
+        "&&",
+        "preanxious",
+        "<",
+        3
+    ]
+}

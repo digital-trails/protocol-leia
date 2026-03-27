@@ -1,0 +1,28 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Why don't you want to do something to help manage your anxiety right now?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Limited time/busy",
+                "1::Don't want to change my feelings",
+                "2::Not likely to help",
+                "3::Not sure what to do",
+                "!4::Other"
+            ],
+            "multiselect": true,
+            "name": "reason_not",
+            "variable_name": "reason_not"
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        1
+    ]
+}

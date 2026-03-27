@@ -1,0 +1,21 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How would you describe your current social context?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Alone - not around any other people",
+                "1::Around other people that I am not actively interacting with (e.g., eating lunch in a crowded cafeteria but sitting alone)",
+                "2::Around other people that I am actively interacting with (e.g., studying with a group of friends)"
+            ],
+            "ColumnCount": 1,
+            "name": "socialcontext",
+            "variable_name": "socialcontext"
+        }
+    ]
+}

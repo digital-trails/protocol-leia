@@ -1,0 +1,25 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Play this situation in your head for the next 20 seconds. \n\nThe screen will change in 20 seconds."
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        0,
+        "&&",
+        "preanxious",
+        "<",
+        3
+    ],
+    "navigation_conditions": [
+        {
+            "wait_for_time": 20000
+        },
+        "wait_for_click"
+    ]
+}

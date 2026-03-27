@@ -1,0 +1,22 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Let's reschedule this session to another time - when is a good time later today for you to work on managing stress?"
+        },
+        {
+            "type": "Scheduler",
+            "days_ahead": 0,
+            "action": "flow://flows/session",
+            "count": 1,
+            "message": "It's time for your session."
+        }
+    ],
+    "condition": [
+        "interest",
+        "=",
+        1
+    ]
+}

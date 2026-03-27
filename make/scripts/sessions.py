@@ -236,6 +236,7 @@ folders['sessions/int_5/__flow__.json'] = {"mode":"sequential", "take": 1, "cond
 folders['sessions/int_5'] = flat(surveys,"int_5")
 folders['sessions/ema_post'] = flat(surveys,"ema_post")
 
+folders['sessions_testing/ema_pre'] = flat(surveys,"ema_pre")
 folders['sessions_testing/int_1-2'] = flat(surveys,"int_1-2")
 folders['sessions_testing/domains/__flow__.json'] = {"mode":"select", "column_count":2, "text": domain_selection_text(), "title":"MindTrails", "selections": shown_selections }
 for domain, doses in sessions.items():

@@ -36,7 +36,7 @@
       "action": "flow://flows/sessions_testing/int_5"
     },
     {
-      "text": "EMA Pre",
+      "text": "EMA post",
       "action": "flow://flows/sessions_testing/ema_post"
     }
   ]
