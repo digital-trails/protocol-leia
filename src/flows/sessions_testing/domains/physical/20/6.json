@@ -1,0 +1,25 @@
+{
+    "header_text": "Hiking with Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends have decided to go hiking, even though you are scared you will become too exhausted. A while into the hike, you start breathing heavily. You think the chances you will have to stop are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "hiking_with_friends--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "large"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

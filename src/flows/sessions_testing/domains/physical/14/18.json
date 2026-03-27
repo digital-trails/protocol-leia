@@ -1,0 +1,16 @@
+{
+    "header_text": "Long Walk Outside",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Long Walk Outside"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 7
+}

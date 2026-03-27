@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Academics/Work/Career Development",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "UVA Career Center\n\nThe UVA Career Center houses information, tips, and job or internship ideas depending on your chosen career."
+        }
+    ]
+}

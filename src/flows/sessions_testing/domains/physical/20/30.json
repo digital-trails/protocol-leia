@@ -1,0 +1,16 @@
+{
+    "header_text": "Running your first race",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Running your first race"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 9
+}

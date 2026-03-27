@@ -1,0 +1,25 @@
+{
+    "header_text": "Putting in the Work",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "This year, you've decied to take a 4000 level class. This is your first 4000 class and you've heard from your classmates that it's a lot of work. When you think about the class, you think that you will be able to do..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "putting_in_the_work--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "well"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

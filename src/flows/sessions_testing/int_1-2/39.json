@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Sometimes when we are experiencing an intense emotion, simply naming what we are feeling can be helpful."
+        }
+    ]
+}

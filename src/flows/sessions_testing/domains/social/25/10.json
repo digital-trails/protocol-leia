@@ -1,0 +1,17 @@
+{
+    "header_text": "Posting New Content",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide to come up with a creative post that is very different from what you usually post. You post something new, and do not get any responses yet. When you think about the challenge of making creative content, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "posting_new_content--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

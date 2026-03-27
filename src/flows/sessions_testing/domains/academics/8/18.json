@@ -1,0 +1,17 @@
+{
+    "header_text": "Disappointing News",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have recieved a poor score on an exam and tell your parents over the phone. They don't say anything when you tell them your grade. They are probably feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "disappointing_news--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Fruit slice",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Fruit slice"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 8
+}

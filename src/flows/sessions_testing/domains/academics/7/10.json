@@ -1,0 +1,17 @@
+{
+    "header_text": "Important opinion",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the end, you realize that the tutor brought the error to your attention so you could improve it before turning it in. You fix the incomplete section and believe that the tutor thinks you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "important_opinion--academics_work_career_development--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Career Pressures",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Career Pressures"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 9
+}

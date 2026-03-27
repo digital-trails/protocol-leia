@@ -1,0 +1,16 @@
+{
+    "header_text": "Leaning on your Peers",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Leaning on your Peers"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 8
+}

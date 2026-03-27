@@ -1,0 +1,14 @@
+{
+    "header_text": "Apply to Daily Life: Make It Work for You!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Think about a scenario in your daily or weekly routine that makes you anxious. What strategies can you apply from this training to help calm your anxiety?"
+        },
+        {
+            "type": "Entry",
+            "name": "tip #11--entry"
+        }
+    ]
+}

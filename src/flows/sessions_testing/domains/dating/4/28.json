@@ -1,0 +1,25 @@
+{
+    "header_text": "Issues with Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your partner tells you that they have issues with some of your friends. You have been noticing this, too, but do not want to make anyone upset. When you think about discussing the issues with your friends, you think the conversation will go... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "issues_with_friends--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "well"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

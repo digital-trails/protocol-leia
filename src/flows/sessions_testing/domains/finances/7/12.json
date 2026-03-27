@@ -1,0 +1,17 @@
+{
+    "header_text": "Affording Education",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Imagining yourself at 50 years old, you don't imagine yourself racked with debt, and you think your student loans will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "affording_education--finances--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

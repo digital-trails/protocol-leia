@@ -1,0 +1,14 @@
+{
+    "header_text": "Apply to Daily Life: Make It Work for You!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "For a recent situation that made you anxious, think: Did the way you thought about it align with what actually happened? How might I have thought about it another time, in another mood? How would thinking about it differently have changed what I did?"
+        },
+        {
+            "type": "Entry",
+            "name": "tip #8--entry"
+        }
+    ]
+}

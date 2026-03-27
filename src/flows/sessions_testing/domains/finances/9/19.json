@@ -1,0 +1,17 @@
+{
+    "header_text": "Retirement Funds",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Talking about this with your parents, they reassure you that you have plenty of time to save for retirement. You feel hopeful that you will be able to retire whenever you'd... "
+        },
+        {
+            "type": "Entry",
+            "name": "retirement_funds--finances--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

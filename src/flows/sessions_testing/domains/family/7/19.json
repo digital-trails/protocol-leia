@@ -1,0 +1,17 @@
+{
+    "header_text": "Spending Time With Family",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you imagine the amount of time you will spend with your loved ones over the next few years,  you are not worried that your relationship will deteriorate, and you believe your family will stay..."
+        },
+        {
+            "type": "Entry",
+            "name": "spending_time_with_family--family_&_home_life--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

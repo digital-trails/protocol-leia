@@ -1,0 +1,29 @@
+{
+    "header_text": "A sip of water",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "When you feel anxious during a presentation..."
+        },
+        {
+            "type": "Buttons",
+            "name": "a_sip_of_water--academics_work_career_development--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "You have to stop your talk and flee the situation.",
+                "You have the ability to continue with your talk."
+            ],
+            "column_count": 1,
+            "correct_value": "You have the ability to continue with your talk."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 0
+}

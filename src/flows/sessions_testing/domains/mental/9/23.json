@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "CAPS Individual Therapy\n\nDon't be afraid to reach out to CAPS for free, individualized therapy."
+        }
+    ]
+}

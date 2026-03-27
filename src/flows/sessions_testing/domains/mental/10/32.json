@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "CAPS Group Therapy\n\nCAPS offers multiple group options, such as skills groups, support groups, and interpersonal process groups that can  help you tackle challenging subjects while building bonds with community members. "
+        }
+    ]
+}

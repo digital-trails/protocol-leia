@@ -1,0 +1,25 @@
+{
+    "header_text": "Dinner Plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Some friends have reached out to you about going out to dinner for a friend's birthday. You've had some unforseen expenses this month, and you're worried about being able to afford a nice dinner. You decide that it is okay to miss one dinner, and let them know you'll catch up with them next..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "dinner_plans--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "time"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

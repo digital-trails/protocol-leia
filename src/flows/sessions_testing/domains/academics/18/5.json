@@ -1,0 +1,17 @@
+{
+    "header_text": "Balancing Tasks",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You been very busy this semester and haven't had the time for extracurriculars. All of your friends are heavily involved, and seem to get all of their school work done on top of their committments. This makes you feel like a...  "
+        },
+        {
+            "type": "Entry",
+            "name": "balancing_tasks--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

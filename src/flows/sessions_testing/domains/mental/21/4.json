@@ -1,0 +1,15 @@
+{
+    "header_text": "Turned off appliances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your roommates are heading out of town for a few days and your roommate asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/97.jpeg",
+            "border": true
+        }
+    ]
+}

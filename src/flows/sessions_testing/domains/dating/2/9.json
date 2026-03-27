@@ -1,0 +1,25 @@
+{
+    "header_text": "Anniversary Let-down",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your anniversary with your significant other is this weekend, but they haven't mentioned to you that they made any big plans. Having your expectations let down seems to be a recurring event, and you think it's time to bring it up to them. You figure out a way to bring it up calmly, without starting a... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "anniversary_let-down--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "fight"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

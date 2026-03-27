@@ -1,0 +1,17 @@
+{
+    "header_text": "Using a Different Caption",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are trying to think of a good caption for your next post. You find a really funny one on a website after doing a quick search, but it's different from the captions you usually see on the app. Your followers will think that it's..."
+        },
+        {
+            "type": "Entry",
+            "name": "using_a_different_caption--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

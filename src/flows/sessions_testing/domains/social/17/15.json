@@ -1,0 +1,17 @@
+{
+    "header_text": "Honest Feedback",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While your peer didn't express themselves in the best way, you realize that everyone is entitled to their own opinion. You feel proud of putting yourself out... "
+        },
+        {
+            "type": "Entry",
+            "name": "honest_feedback--social_situations--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

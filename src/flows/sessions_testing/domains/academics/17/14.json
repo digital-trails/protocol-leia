@@ -1,0 +1,17 @@
+{
+    "header_text": "Future limitations",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "This morning you hear the news that a lot of classes are currently limiting their number of students. You are in your last year of undergrad and you think about what will happen if you cannot enroll for the classes you need to finish your major this semester. You decide that finding classes next semester will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "future_limitations--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

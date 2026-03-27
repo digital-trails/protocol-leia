@@ -1,0 +1,17 @@
+{
+    "header_text": "Expectations",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Finals just ended and you know your parents are going to want to know how you did. They have high expectations for your scores, but you did worse than you expected on a couple of your exams. Your parents will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "expectations--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "An Invitation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You invite your alumnus/alumna mentor to a college event this weekend. You're the only one of your friends with an alumnus/alumna mentor and are unsure of how others will percieve you. As you get ready for the event, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "an_invitation--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "happy"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

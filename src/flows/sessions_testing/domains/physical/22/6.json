@@ -1,0 +1,17 @@
+{
+    "header_text": "Upset Stomach",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been feeling sick to your stomach for a few days. You make an appointment with your doctor. The nausea probably means that you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "upset_stomach--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

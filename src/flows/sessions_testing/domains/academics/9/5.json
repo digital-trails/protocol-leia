@@ -1,0 +1,17 @@
+{
+    "header_text": "Managing Multiple Positions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently decided to join a new club on top of being on the executive team in another club. At a meeting for the new club, you brought the wrong notebook and have notes for the other club, which aren't useful here. You think managing being in both clubs will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "managing_multiple_positions--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

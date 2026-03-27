@@ -1,0 +1,17 @@
+{
+    "header_text": "Providing for Family",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You hope to have children of your own in the future and want them to have good educational opportunities. You want your kids to be able to attend good colleges, but understand that this comes with a high price... "
+        },
+        {
+            "type": "Entry",
+            "name": "providing_for_family--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

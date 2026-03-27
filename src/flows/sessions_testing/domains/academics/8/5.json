@@ -1,0 +1,17 @@
+{
+    "header_text": "Brief Introduction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are in class, and the professor asks all students to stand up and introduce themselves. During your brief presentation, you momentarily forget what you planned to say, and the class stares at you looking... "
+        },
+        {
+            "type": "Entry",
+            "name": "brief_introduction--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

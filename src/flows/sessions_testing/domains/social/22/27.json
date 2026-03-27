@@ -1,0 +1,25 @@
+{
+    "header_text": "An engaged audience",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are required to give a presentation to a group of classmates that you know well. They all are quiet during your presentation. As you think about it later in your dorm room, you think that your classmates found your presentation..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "an_engaged_audience--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "interesting"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

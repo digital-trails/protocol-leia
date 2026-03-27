@@ -1,0 +1,29 @@
+{
+    "header_text": "Friendships in the Future",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "When you think about the next fifty years, your friends"
+        },
+        {
+            "type": "Buttons",
+            "name": "friendships_in_the_future--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Eventually fade out of the picture.",
+                "Stay an important part of your life."
+            ],
+            "column_count": 1,
+            "correct_value": "Eventually fade out of the picture."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 5
+}

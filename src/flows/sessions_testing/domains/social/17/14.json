@@ -1,0 +1,17 @@
+{
+    "header_text": "Honest Feedback",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You present an idea for an event in an organization you're in. When you ask people what they think, one member raises their hand and says that they hate the..."
+        },
+        {
+            "type": "Entry",
+            "name": "honest_feedback--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

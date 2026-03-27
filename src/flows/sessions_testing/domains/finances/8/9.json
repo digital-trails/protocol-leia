@@ -1,0 +1,17 @@
+{
+    "header_text": "Gift Giving",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parents' birthdays are approaching, and you want to show them how much you appreciate them through gifts. However, you're worried about if you'll be able to afford the gifts you think they deserve. When you think about their birthdays, you think that they will be happy with something..."
+        },
+        {
+            "type": "Entry",
+            "name": "gift_giving--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

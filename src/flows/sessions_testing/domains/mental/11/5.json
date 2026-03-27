@@ -1,0 +1,25 @@
+{
+    "header_text": "Turned off appliances: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your roommates are heading out of town for a few days and your roommate asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything.\n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I think about how excited I am for our trip.",
+                "It's possible that an appliance could start a fire, but pretty unlikely. Even if it did happen, our fire alarm would alert the neighbors.",
+                "I worry that having thoughts about terrible things happening will make them more likely to occur, but I remind myself that isn't true.",
+                "I think about how something bad may happen because I didn't get to check the appliances properly.",
+                "I think about how everything is fine."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

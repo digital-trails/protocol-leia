@@ -1,0 +1,25 @@
+{
+    "header_text": "Stuttering in office ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are having a conversation with your professor in their office. You notice that you are stuttering over your words a bit more than you normally do. As the conversation continues, you decide this is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "stuttering_in_office_--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "okay"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

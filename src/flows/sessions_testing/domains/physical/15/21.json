@@ -1,0 +1,17 @@
+{
+    "header_text": "An unwashed table",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You meet a friend for lunch at a new restaurant. Once you sit down, you realize that your table was not wiped down after the previous customers left, which makes you anxious about germs. You decide to stay and have lunch with your friend, and your anxiety is..."
+        },
+        {
+            "type": "Entry",
+            "name": "an_unwashed_table--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

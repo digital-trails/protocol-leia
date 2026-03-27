@@ -1,0 +1,17 @@
+{
+    "header_text": "Train of thought",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are giving a presentation in class. During one of your slides, you lose your train of thought and have to take a moment to look over your notes. As you start again, you think that losing one's train of thought while presenting is..."
+        },
+        {
+            "type": "Entry",
+            "name": "train_of_thought--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

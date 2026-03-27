@@ -1,0 +1,17 @@
+{
+    "header_text": "Going out to Lunch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend invited you to go out for lunch in between your classes. You want to go and build your relationship with that friend, but you do not want to overspend your budget for the week. You decide to ask your friend to hang out another time without spending money, and you think they will..."
+        },
+        {
+            "type": "Entry",
+            "name": "going_out_to_lunch--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

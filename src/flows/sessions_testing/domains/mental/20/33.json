@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Sadness is a natural response when we can't control a situation or have experienced a loss. If you find yourself feeling sad, try to figure out what is causing that feeling. "
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Your Resume",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you look over your resume, you do not anticipate your potential advisor writing you off, and you think that they will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "your_resume--academics_work_career_development--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

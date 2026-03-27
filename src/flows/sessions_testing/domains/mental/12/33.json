@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "All emotions serve a purpose. They tell us about what's going on in our lives and help motivate us. Even the negative feelings, like fear and anxiety, help us navigate the world around us. "
+        }
+    ]
+}

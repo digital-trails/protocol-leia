@@ -1,0 +1,25 @@
+{
+    "header_text": "Critical Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are having a conversation with your best friend of many years. During the conversation, they criticize you, saying that they don't think your major is worth studying. You wonder whether you should remain friends with... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "critical_friend--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "them"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

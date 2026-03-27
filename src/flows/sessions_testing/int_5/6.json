@@ -1,0 +1,17 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Not a problem - let's pause for now. If it helps, try focusing on one sound or color around you to give your mind a small break.\n\nLet us know a better time to suggest an exercise."
+        },
+        {
+            "type": "Scheduler",
+            "days_ahead": 0,
+            "action": "flow://flows/session",
+            "count": 1,
+            "message": "It's time for your session."
+        }
+    ]
+}

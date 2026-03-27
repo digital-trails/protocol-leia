@@ -1,0 +1,25 @@
+{
+    "header_text": "Aging family member: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You go to your grandparents' home for the first time in a while and notice that your grandfather looks a lot less healthy than you remember. No one in your family mentions it.\n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I want to make the most of my time with my grandfather.",
+                "My grandfather must be dying.",
+                "He's happy to see me.",
+                "I think about how miserable I will be when he passes away, but then remind myself to enjoy my time with him today.",
+                "My family must be keeping a secret about his health, but then tell myself that everyone ages."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

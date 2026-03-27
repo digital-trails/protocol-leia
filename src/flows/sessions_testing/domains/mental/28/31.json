@@ -1,0 +1,25 @@
+{
+    "header_text": "Deciding to Share a Picture",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You take a picture of your friend that is really great. You are about to post it but remember that you just posted yesterday. If you post again, you think people won't..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "deciding_to_share_a_picture--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "notice"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

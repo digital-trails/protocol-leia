@@ -1,0 +1,17 @@
+{
+    "header_text": "The Dance Showcase",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have been taking a dance class at the local community center, and the time has come for your end of class showcase. You want to invite your friends and family to the showcase, but you worry you'll embarrass yourself if you are not very..."
+        },
+        {
+            "type": "Entry",
+            "name": "the_dance_showcase--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

@@ -1,0 +1,14 @@
+{
+    "header_text": "Apply to Daily Life: Make It Work for You!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Think about an upcoming situation that you want to avoid because it makes you anxious. How can you think about it differently so that it feels less scary?"
+        },
+        {
+            "type": "Entry",
+            "name": "tip #9--entry"
+        }
+    ]
+}

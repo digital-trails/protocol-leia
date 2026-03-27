@@ -1,0 +1,25 @@
+{
+    "header_text": "Theater group thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are in a theater organization on Grounds, which is planning a new production. At the first meeting, the producer asks you for ideas about which play to perform. Everybody pauses after you say your ideas, and you think the others find your thoughts... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "theater_group_thoughts--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "interesting"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "A big laugh",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At a house party, your friend tells a funny joke. You laugh so much that it feels like you can't get enough air. This experience is... "
+        },
+        {
+            "type": "Entry",
+            "name": "a_big_laugh--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

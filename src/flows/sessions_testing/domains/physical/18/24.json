@@ -1,0 +1,25 @@
+{
+    "header_text": "Coughing friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Yesterday you got together with a friend who coughed a few times while you were out. You are nervous that you might have caught something from your friend. You decide that your anxiety is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "coughing_friend--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "manageable"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

@@ -1,0 +1,29 @@
+{
+    "header_text": "The Difficult Course",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "You will most likely "
+        },
+        {
+            "type": "Buttons",
+            "name": "the_difficult_course--academics_work_career_development--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Pass the course and learn some useful programming skills.",
+                "Quit this class because you are doing poorly."
+            ],
+            "column_count": 1,
+            "correct_value": "Quit this class because you are doing poorly."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 5
+}

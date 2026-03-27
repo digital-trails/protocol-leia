@@ -1,0 +1,25 @@
+{
+    "header_text": "Plans for the Weekend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's finally Friday, and you overhear some classmates talking about their plans for the weekend. You didn't have anything big planned for the weekend, and you feel like you aren't social enough to be in college. When you imagine relaxing after a hard week of work, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "plans_for_the_weekend--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "content"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

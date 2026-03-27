@@ -1,0 +1,17 @@
+{
+    "header_text": "Your First Child",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have just had your first child. You want to have a good relationship throughout your kid's life, but you worry about making mistakes as a..."
+        },
+        {
+            "type": "Entry",
+            "name": "your_first_child--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

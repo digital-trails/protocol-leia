@@ -1,0 +1,12 @@
+{
+    "header_text": "Instructions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The stories you're about to see are a little bit different than ones you've seen before. Rather than fill in missing letters to complete the final word, we're going to challenge you to generate your own final word that will complete the story. Your goal is to think of a word that will end the story on a positive note. The ending doesn't have to be so positive that it doesn't seem possible, but we want you to imagine you are handling the situation well."
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 0
+}

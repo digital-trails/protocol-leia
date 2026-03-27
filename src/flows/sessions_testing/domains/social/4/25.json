@@ -1,0 +1,25 @@
+{
+    "header_text": "Feeling Excluded by Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You don't like being left out. But, you decide that you can tolerate this..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "feeling_excluded_by_friends--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "feeling"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

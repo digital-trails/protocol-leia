@@ -1,0 +1,25 @@
+{
+    "header_text": "Presentation Practice ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a big presentation coming up soon. You fear that you will be unable to present it accurately, so you dedicate a few hours the weekend before to practice. You ask your friend to come and listen to your presentation to receive feedback. When you are finished, your friend tells you that you did a really good job and that you will do well in front of the... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "presentation_practice_--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "crowd"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

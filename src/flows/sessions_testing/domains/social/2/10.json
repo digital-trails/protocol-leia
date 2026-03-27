@@ -1,0 +1,16 @@
+{
+    "header_text": "Dinner at a Friend's House",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Dinner at a Friend's House"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

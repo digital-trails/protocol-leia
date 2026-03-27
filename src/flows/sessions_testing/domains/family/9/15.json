@@ -1,0 +1,17 @@
+{
+    "header_text": "Dealing with Embarrassment",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your guardian is moving you in at the start of a new semester. As they drop you off, they are really loud and make you feel embarrassed. As you get out of the car, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "dealing_with_embarrassment--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

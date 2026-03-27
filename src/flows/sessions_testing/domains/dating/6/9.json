@@ -1,0 +1,25 @@
+{
+    "header_text": "Spilled drink: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're on a date at a coffee shop with a person you really like. As you walk back to the table, you trip and fall and spill coffee everywhere.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm upset that the date started off this way, but it might help us feel more comfortable talking to each other.",
+                "I feel like a fool.",
+                "I'm embarrassed that I tripped in front of my date, but this feeling will pass.",
+                "I feel lucky I didn't hurt myself.",
+                "I'm confident that we'll have a great conversation."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

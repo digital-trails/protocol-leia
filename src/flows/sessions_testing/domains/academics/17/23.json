@@ -1,0 +1,17 @@
+{
+    "header_text": "Coming up with Questions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are in a challenging class on a topic you're really excited about. You have a lot of thoughts on the subject but you feel like the questions everyone else are asking are smarter than yours. You think about how all of them probably get nervous about talking too, and know they aren't there to..."
+        },
+        {
+            "type": "Entry",
+            "name": "coming_up_with_questions--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

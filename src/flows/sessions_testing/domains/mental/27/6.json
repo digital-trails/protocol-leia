@@ -1,0 +1,25 @@
+{
+    "header_text": "Important opinion",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the end, you realize that the tutor brought the error to your attention so you could improve it before turning it in. You fix the incomplete section and believe that the tutor thinks you are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "important_opinion--mental_health--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "learning"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

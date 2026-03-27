@@ -1,0 +1,17 @@
+{
+    "header_text": "Sitting in a Meeting",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are in an important meeting and you need to pay attention. Halfway through the meeting you realize you have been zoning out and don't know what is going on. You think something must be wrong with..."
+        },
+        {
+            "type": "Entry",
+            "name": "sitting_in_a_meeting--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

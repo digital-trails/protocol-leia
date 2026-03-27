@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The Counseling Alliance of Virginia (CAVA)\n\nCAVA's mission is to provide an environment of support for individuals, couples, and families experiencing a wide range of life stressors in Charlottesville and Richmond. "
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Overhearing an Argument",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your partner got into an argument last night at a family dinner. While you tried to keep your voices low, your younger sibling overheard. You think that your sibling will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "overhearing_an_argument--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

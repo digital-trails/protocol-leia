@@ -1,0 +1,16 @@
+{
+    "header_text": "Argument with Your Partner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Argument with Your Partner"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

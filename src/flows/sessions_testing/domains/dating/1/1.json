@@ -1,0 +1,16 @@
+{
+    "header_text": "Texting Someone You Like",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Texting Someone You Like"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 0
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Zoning Out",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are sitting in your online classroom and space out for a minute. Your professor calls on you to answer a question and you didn't hear it. You ask her to repeat her question and this makes you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "zoning_out--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

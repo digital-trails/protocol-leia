@@ -1,0 +1,25 @@
+{
+    "header_text": "Unstable WiFi",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You don't have stable internet access at home and you found out UVA has converted to online learning. You wonder how you'll be able to keep up with your classes. As you think about the situation, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "unstable_wifi--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "stressed"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

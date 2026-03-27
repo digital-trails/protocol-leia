@@ -1,0 +1,25 @@
+{
+    "header_text": "Snakes in the park: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "The weather is really nice.",
+                "I'm going to die if a snake bites me.",
+                "Even though it makes me uncomfortable thinking about snakes in the park, I know that I can go into the park anyway.",
+                "I think about telling my friend that I've changed my mind, but go with them anyway.",
+                "I like talking to this friend."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

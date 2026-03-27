@@ -1,0 +1,16 @@
+{
+    "header_text": "Not Having Much to Say",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Not Having Much to Say"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 6
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Receiving Recognition",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Receiving Recognition"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

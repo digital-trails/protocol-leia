@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "HELP Line\n\nHELP Line is a free, confidential, 24/7 telephone hotline serving Albemarle County. Volunteers can provide judgement-free listening and help refer you to long-term services. You can reach them at 434-924-TALK. "
+        }
+    ]
+}

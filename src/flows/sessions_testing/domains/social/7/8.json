@@ -1,0 +1,17 @@
+{
+    "header_text": "Watching a Movie with Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and some friends are watching a movie at your home. At the end of the movie, your friend asks what that funny smell is. You know that's your dinner, and when you think about how to answer you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "watching_a_movie_with_friends--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

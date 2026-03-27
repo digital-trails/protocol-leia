@@ -1,0 +1,29 @@
+{
+    "header_text": "Providing for Family",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "When you think about talking to your children about their education, you can imagine telling them:"
+        },
+        {
+            "type": "Buttons",
+            "name": "providing_for_family--finances--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "\"I will help you go to a good school.\"",
+                "\"I don't think we're going to be able to afford sending you to that school.\""
+            ],
+            "column_count": 1,
+            "correct_value": "\"I don't think we're going to be able to afford sending you to that school.\""
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 2
+}

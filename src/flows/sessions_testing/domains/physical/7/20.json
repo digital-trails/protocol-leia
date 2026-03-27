@@ -1,0 +1,17 @@
+{
+    "header_text": "Vision Troubles",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You take a deep breath and realize that your vision is completely back. Then you remember that sometimes this happens when you sit up too..."
+        },
+        {
+            "type": "Entry",
+            "name": "vision_troubles--physical_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "New Style",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After battling with yourself in the dressing room, you find yourself feeling confident and wanting to wear it out so you purchase the new..."
+        },
+        {
+            "type": "Entry",
+            "name": "new_style--mental_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

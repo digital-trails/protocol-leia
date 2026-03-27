@@ -1,0 +1,17 @@
+{
+    "header_text": "Managing Credit Cards",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your bank has contacted you about signing up for a credit card with a very low interest rate. You are a responsible spender, but you worry about accruing debt if you sign up for a new credit card. As you think about what you would do with the credit card, you think that you would probably spend money..."
+        },
+        {
+            "type": "Entry",
+            "name": "managing_credit_cards--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

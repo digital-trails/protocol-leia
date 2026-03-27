@@ -1,0 +1,17 @@
+{
+    "header_text": "Argument With Your Sister",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your sister recently had an argument, and you haven't talked to each other in weeks. You love your sister very much, but both of you are still upset by what the other said the last time you two spoke. As you think about talking to your sister again you believe the two of you will drift... "
+        },
+        {
+            "type": "Entry",
+            "name": "argument_with_your_sister--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

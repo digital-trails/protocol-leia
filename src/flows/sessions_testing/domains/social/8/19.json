@@ -1,0 +1,17 @@
+{
+    "header_text": "Social Media Scores",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You check your score on a social media app, and your score is getting really high. If your score gets much higher, people will think that you use the app a lot. This makes you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "social_media_scores--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Social Media Messaging",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The person you have a crush on starts sending you funny pictures on social media. Today you notice they opened your last picture and didn't respond. They must have... "
+        },
+        {
+            "type": "Entry",
+            "name": "social_media_messaging--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

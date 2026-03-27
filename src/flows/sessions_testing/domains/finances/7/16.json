@@ -1,0 +1,17 @@
+{
+    "header_text": "Deciding on one thing",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at the local electronics store looking to buy a new laptop. After considering all the options, you are still torn between two laptops. When you decide which one you want to buy, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "deciding_on_one_thing--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

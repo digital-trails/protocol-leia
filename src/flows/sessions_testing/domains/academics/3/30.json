@@ -1,0 +1,16 @@
+{
+    "header_text": "Discussing the Evaluation ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Discussing the Evaluation "
+        },
+        {
+            "type": "Media",
+            "url": "./images/26.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 9
+}

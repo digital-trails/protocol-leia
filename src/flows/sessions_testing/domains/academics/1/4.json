@@ -1,0 +1,16 @@
+{
+    "header_text": "A big presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A big presentation"
+        },
+        {
+            "type": "Media",
+            "url": "./images/2.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

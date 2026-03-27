@@ -1,0 +1,16 @@
+{
+    "header_text": "Managing Multiple Positions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Managing Multiple Positions"
+        },
+        {
+            "type": "Media",
+            "url": "./images/72.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

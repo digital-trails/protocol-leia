@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Student Health and Wellness\n\nStudent Health and Wellness offers financial resources and tips that can help you improve your financial security, such as budgeting, emergency funds, and reducing expenses. "
+        }
+    ]
+}

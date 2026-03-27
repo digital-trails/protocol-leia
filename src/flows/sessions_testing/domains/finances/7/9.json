@@ -1,0 +1,17 @@
+{
+    "header_text": "Funding Good Habits ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently picked up a new hobby in an effort to improve your work-life balance, and you’re really enjoying it so far. However, this new hobby requires you to purchase materials from the store, and the expenses can quickly add up. You decide to do some research online and realize that many places sell the materials you need at a... "
+        },
+        {
+            "type": "Entry",
+            "name": "funding_good_habits_--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

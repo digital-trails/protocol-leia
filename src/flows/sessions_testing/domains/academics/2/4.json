@@ -1,0 +1,16 @@
+{
+    "header_text": "Finishing Work",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Finishing Work"
+        },
+        {
+            "type": "Media",
+            "url": "./images/12.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

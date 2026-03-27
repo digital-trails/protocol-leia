@@ -1,0 +1,17 @@
+{
+    "header_text": "New Partner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It is a cousin's birthday next month, and you are attending a large family gathering. You are bringing your partner to the event, and it is the first time some of your family is meeting them. When you think about everyone meeting each other, you think that everything will go..."
+        },
+        {
+            "type": "Entry",
+            "name": "new_partner--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

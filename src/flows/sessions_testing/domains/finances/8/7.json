@@ -1,0 +1,17 @@
+{
+    "header_text": "Budgeting Your Allowance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You realize that you just received your monthly allowance a week ago. You notice that your bank account is lower than expected. You are worried about your spending, but know you can budget..."
+        },
+        {
+            "type": "Entry",
+            "name": "budgeting_your_allowance--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

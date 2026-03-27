@@ -1,0 +1,29 @@
+{
+    "header_text": "An engaged audience",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Your classmates were probably quiet because ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "an_engaged_audience--academics_work_career_development--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "They were bored by your presentation.",
+                "They were engaged by your presentation."
+            ],
+            "column_count": 1,
+            "correct_value": "They were engaged by your presentation."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 2
+}

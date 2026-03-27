@@ -1,0 +1,25 @@
+{
+    "header_text": "Getting a Credit Card",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You want to build up your credit score and decide to get a credit card. You start to research different cards and feel overwhelmed with the options, worrying you'll pick one that will only make your score worse. You take a deep breath and remember that you will find something that works for..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "getting_a_credit_card--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "you"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Differing opinion",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You meet someone new at a CIO club and have a stimulating discussion. Towards the end you find that they disagree with something that you said. When the CIO meets next, you expect that you will be..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "differing_opinion--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "included"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

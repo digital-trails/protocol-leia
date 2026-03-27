@@ -1,0 +1,17 @@
+{
+    "header_text": "Single Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been hanging out with your friends a lot recently, and it's becoming apparent that everyone is in a relationship except for you. You've been single for a long time, and a friend points this out to you. You realize that it's okay to be single, and there is no pressure for you to be dating right..."
+        },
+        {
+            "type": "Entry",
+            "name": "single_friend--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

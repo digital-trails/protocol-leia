@@ -1,0 +1,17 @@
+{
+    "header_text": "In A Hurry",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Instead of going back to your room, you decide to observe these sensations without reacting and keep..."
+        },
+        {
+            "type": "Entry",
+            "name": "in_a_hurry--mental_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,4 +1,5 @@
 import csv
+import json
 
 from typing import Literal
 from itertools import islice
@@ -62,18 +63,18 @@ def create_conditions(args):
 
     return { "condition": condition }
 
-def create_nav_conditions(buttons:Literal["WhenCorrect","AfterTimeout","Never","WhenComplete"]=None,timeout=None,inputs=None):
-    buttons = lower(buttons)
+def create_nav_conditions(show_next:Literal["WhenCorrect","AfterTimeout","Never","WhenComplete"]=None,timeout=None,inputs=None):
+    show_next = lower(show_next)
     inputs = inputs or []
     if 'puzzle' in list(map(lower,inputs)):
         return {"navigation_conditions": "wait_for_correct"}
-    if timeout and buttons == "aftertimeout":
-        return {"navigation_conditions": [{"wait_for_time": int(timeout)*1000}, "wait_for_click"]}
     if timeout:
-        return {"navigation_conditions": [{"wait_for_time": int(timeout)*1000}]}
-    if buttons == "whencorrect":
+        return {"navigation_conditions": [{"wait_for_time": int(timeout)*1000}, "wait_for_click"]}
+    # if timeout:
+    #     return {"navigation_conditions": [{"wait_for_time": int(timeout)}]}
+    if show_next == "whencorrect":
         return {"navigation_conditions": ["wait_for_correct", "wait_for_click"]}
-    if buttons == "whencomplete":
+    if show_next == "whencomplete":
         return {"navigation_conditions": ["wait_for_complete", "wait_for_click"]}
     return {}
 
@@ -84,12 +85,12 @@ def create_input(tipe, values, output_name, variable_name = ""):
 
     tipe = lower(tipe)
 
-    names = {}
-    if output_name: names["name"] = output_name
-    if variable_name: names["variable_name"] = variable_name
+    shared = {}
+    if output_name: shared["name"] = output_name
+    if variable_name: shared["variable_name"] = variable_name
 
     if tipe == "entry":
-        yield {"type": "Entry", **names}
+        yield {"type": "Entry", **shared}
         return
 
     if tipe == "slider":
@@ -97,17 +98,17 @@ def create_input(tipe, values, output_name, variable_name = ""):
         others = to_button_values(values[3:])
         _min, _max = int(values[0][0]), int(values[1][0])
         yield {"type": "Text", "Text": f"{values[0][1]}\n\n{values[1][1]}"}
-        yield {"type": "Slider", "min": _min, "max": _max, "others": others, **names}
+        yield {"type": "Slider", "min": _min, "max": _max, "others": others, **shared}
         return
 
     if tipe == "single":
         values = to_button_values(parse_values(values))
-        yield {"type": "Buttons", "buttons": values, "ColumnCount": (2 if is_yesno(values) else 1), **names}
+        yield {"type": "Buttons", "buttons": values, "ColumnCount": (2 if is_yesno(values) else 1), **shared}
         return
 
     if tipe == "multi":
         values = to_button_values(parse_values(values))
-        yield {"type": "Buttons", "buttons": values, "multiselect": True, **names}
+        yield {"type": "Buttons", "buttons": values, "multiselect": True, **shared}
         return
 
     if tipe == "scheduler": 
@@ -126,7 +127,7 @@ def create_input(tipe, values, output_name, variable_name = ""):
             "incorrect_delay": 5000,
             "display_delay": 2000,
             "words": values,
-            **names }
+            **shared }
         return
 
 def create_long_pages(label, scenario_description, thoughts, feelings, behaviors, image_url):
@@ -389,7 +390,7 @@ def create_survey_page(text=None, media=None, image_framed=None, values=None, in
 
     input = create_input(input_type, values, output_name, variable_name)
     
-    page     = {
+    page = {
         "header_text": title,
         "header_icon": "assets/subtitle.png",
         "elements": list(filter(None,[textinput, mediainput, *input])),

@@ -1,0 +1,17 @@
+{
+    "header_text": "Having People Over",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your housing is smaller and not as stylish or well organized as those of others that you know. Your friend has never been to your place, but wants to come over and spend the night. You think their reaction to your home will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "having_people_over--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

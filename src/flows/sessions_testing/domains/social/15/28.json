@@ -1,0 +1,14 @@
+{
+    "header_text": "Apply to Daily Life: Make It Work for You!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Think about a situation that you face regularly that causes some anxiety. What do you usually tell yourself? Is there another thought that you could say to yourself that may make it less anxiety-provoking? "
+        },
+        {
+            "type": "Entry",
+            "name": "tip #12--entry"
+        }
+    ]
+}

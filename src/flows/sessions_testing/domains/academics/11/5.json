@@ -1,0 +1,25 @@
+{
+    "header_text": "Walking up stairs: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are meeting with your professor. To make it on-time, you just walked up two flights of stairs quickly, and feel your heart beating very rapidly.\n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "Am I having a heart attack?",
+                "It's scary to feel my heart beating fast, but I know that it will be over soon.",
+                "My professor might notice how out of breath I am, and it's okay if they do.",
+                "I made it up those stairs really quickly.",
+                "I am excited for the meeting."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

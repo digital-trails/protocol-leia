@@ -1,0 +1,17 @@
+{
+    "header_text": "Others' Opinions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have received a poor score on an exam and know that your guardian will ask how you did on the exam. They frown when you tell them your exam grade. You tell them that you studied extremely hard despite the grade, and they are proud of the effort you put into the..."
+        },
+        {
+            "type": "Entry",
+            "name": "others'_opinions--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

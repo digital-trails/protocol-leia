@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Reflect on the last time you were worried about how a situation or conversation would go."
+        }
+    ]
+}

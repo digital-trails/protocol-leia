@@ -1,0 +1,29 @@
+{
+    "header_text": "Sunday Morning Run",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "You should ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "sunday_morning_run--physical_health--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Grab a bottle of water and a post-workout snack.",
+                "Make an emergency call because this is a sign of something serious."
+            ],
+            "column_count": 1,
+            "correct_value": "Grab a bottle of water and a post-workout snack."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 9
+}

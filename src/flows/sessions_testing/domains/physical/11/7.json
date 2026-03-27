@@ -1,0 +1,20 @@
+{
+    "header_text": "New grocery store: Write Some Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're at a new grocery store and you're looking for bread. Suddenly you notice that your heart is beating quickly and pounding.\n\nPlease take 30 seconds to write different thoughts. The next button will appear automatically. \n\nThoughts in the moment:"
+        },
+        {
+            "type": "Entry",
+            "name": "long6"
+        }
+    ],
+    "navigation_conditions": [
+        {
+            "wait_for_time": 30000
+        },
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Contributing to a discussion",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Contributing to a discussion"
+        },
+        {
+            "type": "Media",
+            "url": "./images/56.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 2
+}

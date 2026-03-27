@@ -1,0 +1,29 @@
+{
+    "header_text": "Getting an Opportunity",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Your qualifications..."
+        },
+        {
+            "type": "Buttons",
+            "name": "getting_an_opportunity--academics_work_career_development--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Are probably not strong enough to make you stand out.",
+                "Put you in a good position to get an interview."
+            ],
+            "column_count": 1,
+            "correct_value": "Put you in a good position to get an interview."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Stuttering in office ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are having a conversation with your professor in their office. You notice that you are stuttering over your words a bit more than you normally do. As the conversation continues, you decide this is..."
+        },
+        {
+            "type": "Entry",
+            "name": "stuttering_in_office_--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

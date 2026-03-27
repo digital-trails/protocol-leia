@@ -1,0 +1,25 @@
+{
+    "header_text": "Long-Term Relationship",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your significant other, whom you have been dating for a year, wants to talk about where your relationship is going. This is the first time you have dated someone for such a long..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "long-term_relationship--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "time"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

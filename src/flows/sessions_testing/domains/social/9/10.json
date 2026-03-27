@@ -1,0 +1,17 @@
+{
+    "header_text": "Meeting an old acquaintance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "An old acquaintance just moved to Charlottesville and asks you out to coffee. You are nervous about seeing them again after many years and could easily tell them that you are too busy. You are in your dorm when they call about meeting, and you decide to..."
+        },
+        {
+            "type": "Entry",
+            "name": "meeting_an_old_acquaintance--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

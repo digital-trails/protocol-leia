@@ -1,0 +1,25 @@
+{
+    "header_text": "Morning meeting",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the end, you realize that your classmates are just good students who were enthusiastic to get the discussion started. They responded to you during the rest of the class quite..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "morning_meeting--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "positively"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

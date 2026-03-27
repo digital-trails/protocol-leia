@@ -1,0 +1,17 @@
+{
+    "header_text": "Attractive New Follower",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You meet a cute person and they ask for your social media. You notice they added you, and now they can see that you don't have many followers. They will think that this is..."
+        },
+        {
+            "type": "Entry",
+            "name": "attractive_new_follower--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

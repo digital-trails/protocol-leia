@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "TimelyCare\n\nFree scheduled telehealth visits with a mental health provider for UVA students. Access 24/7 virtual care from anywhere!"
+        }
+    ]
+}

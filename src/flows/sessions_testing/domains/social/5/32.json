@@ -1,0 +1,25 @@
+{
+    "header_text": "Critical Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After thinking about it, you realize that people don't have to agree with everything you do. You love your friend and will continue to be friends with... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "critical_friend--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "them"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

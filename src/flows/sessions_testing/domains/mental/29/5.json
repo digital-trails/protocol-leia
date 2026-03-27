@@ -1,0 +1,17 @@
+{
+    "header_text": "Anticipating a Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While on a date, you accidentally spill a glass of water. You feel slightly embarrassed as your date helps you clean up the spill. When everything is dry again, you feel that the rest of the date is likely to be..."
+        },
+        {
+            "type": "Entry",
+            "name": "anticipating_a_response--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

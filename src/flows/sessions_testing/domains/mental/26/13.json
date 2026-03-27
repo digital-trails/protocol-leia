@@ -1,0 +1,25 @@
+{
+    "header_text": "Missing spider: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you're getting into the shower, you see a huge spider on the wall. You turn away for a second and look back and realize it's gone. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I decide to turn the water on.",
+                "I start to play some music.",
+                "I want to spray bug spray everywhere, but decide to continue my shower routine since spray might do more harm than the spider.",
+                "I scream and run away.",
+                "I want to call someone to help me find the spider, but decide to just take my shower."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

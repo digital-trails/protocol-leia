@@ -1,0 +1,17 @@
+{
+    "header_text": "Presentation Panic",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide to take a slow, deep breath. As you start to talk again, you realize that what you felt was..."
+        },
+        {
+            "type": "Entry",
+            "name": "presentation_panic--physical_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

@@ -1,0 +1,15 @@
+{
+    "header_text": "The birthday gift",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend is having a huge birthday party and most of the people in your group of friends will be there. You know you can't afford a gift for your friend.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/91.jpeg",
+            "border": true
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Not Invited to Dinner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You just started at a new job and you work with lots of new people. You hear a few of them laughing together and talking about going out to dinner, but they don't invite you along. As you think about your future with this group, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "not_invited_to_dinner--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

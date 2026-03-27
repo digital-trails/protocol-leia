@@ -1,0 +1,17 @@
+{
+    "header_text": "Visiting a New Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have been invited to a friend's house for a holiday and you want to bring a gift, but can't afford to buy one. You decide to write a poem and recite it for their family. As you picture yourself reading it, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "visiting_a_new_friend--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

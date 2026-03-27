@@ -1,0 +1,25 @@
+{
+    "header_text": "The birthday gift: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend is having a huge birthday party and most of the people in your group of friends will be there. You know you can't afford a gift for your friend.\n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "My friend will be embarrassed to have me as a friend because I don't have a gift.",
+                "My friend will be happy that I'm able to go.",
+                "My friend may be disappointed that I didn't bring a gift, but I'm still glad I came and showed I cared.",
+                "If people judge me for not bringing a gift, I'll still have a good time at the party.",
+                "It'll be good to see lots of my friends."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

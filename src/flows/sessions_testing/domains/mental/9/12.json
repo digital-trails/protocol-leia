@@ -1,0 +1,17 @@
+{
+    "header_text": "Sharing Favorite Shows",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are talking with a group of friends about TV shows. When you say what you like about an old TV show that you just discovered, no one responds. They probably think that you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "sharing_favorite_shows--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

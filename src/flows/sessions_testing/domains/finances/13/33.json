@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "UVA Parents Program\n\nIf you are facing unexpected financial hardships, you can apply for a one-time grant through the UVA Parents Rainy Day Fund to help cover travel expenses, tuition payments, and more. "
+        }
+    ]
+}

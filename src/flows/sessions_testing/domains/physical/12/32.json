@@ -1,0 +1,14 @@
+{
+    "header_text": "Apply to Daily Life: Make It Work for You!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you find yourself jumping to the worst-case scenario without all the information, what are some things that you could tell yourself instead? Think about some skills from the stories you've read that might be helpful for you. "
+        },
+        {
+            "type": "Entry",
+            "name": "tip #4--entry"
+        }
+    ]
+}

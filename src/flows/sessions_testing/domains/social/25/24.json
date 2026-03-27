@@ -1,0 +1,17 @@
+{
+    "header_text": "Comparing with Others",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You don't use the app often and that's why your score is lower than theirs. You know your friends know this and they weren't trying to be..."
+        },
+        {
+            "type": "Entry",
+            "name": "comparing_with_others--social_situations--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

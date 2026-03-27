@@ -1,0 +1,25 @@
+{
+    "header_text": "Snakes in the park: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I meet my friend at the park entrance.",
+                "I put on my shoes and head out the door.",
+                "I consider bailing on my friend, but push myself to go on the walk anyway.",
+                "I want to avoid going to the park, but challenge myself to go.",
+                "I tell my friend that I'm not feeling well and that I can't go."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

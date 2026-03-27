@@ -1,0 +1,17 @@
+{
+    "header_text": "Bill for a fix",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "One of your decorations pulls the paint off your wall, and your room is getting inspected soon. You think it is going to be an expensive charge for the building to fix it. As you think about paying the bill to have the the wall fixed, you feel that you will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "bill_for_a_fix--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

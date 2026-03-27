@@ -1,0 +1,25 @@
+{
+    "header_text": "Your New Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You just posted a new picture an hour ago. When you check how many likes it's gotten, you see no one has liked it yet. It's late at night, which means that everyone is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "your_new_post--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "sleeping"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

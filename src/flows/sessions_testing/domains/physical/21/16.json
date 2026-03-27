@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Office of Health Promotion: Nutrition Services\n\nInterested in meeting with a registered dietician? You can schedule a nutrition consulation, which is grounded in a weight-neutral, health-forward approach, through the Office of Health Promotion."
+        }
+    ]
+}

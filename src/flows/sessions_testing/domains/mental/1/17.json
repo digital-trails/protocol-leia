@@ -1,0 +1,25 @@
+{
+    "header_text": "A missed opportunity ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are driving home after a soccer game your team won. As your mind wanders, you think about the one goal that you missed. Overall, you consider your performance a..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "a_missed_opportunity_--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "success"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Student Health and Wellness - Care Management\n\nNot sure where to start? Questions about insurance? A CAPS Care Manager can help you get started and access mental health care both on- and off- Grounds."
+        }
+    ]
+}

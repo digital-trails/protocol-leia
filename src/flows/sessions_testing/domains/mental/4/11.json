@@ -1,0 +1,16 @@
+{
+    "header_text": "Looking at your Qualifications",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Looking at your Qualifications"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

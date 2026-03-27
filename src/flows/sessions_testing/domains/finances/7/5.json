@@ -1,0 +1,17 @@
+{
+    "header_text": "Worrying About Spending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A group of your friends are going out to dinner and they invited you. You know that you all have been going out to dinner a lot recently, and you don't know if you can keep up with this lifestyle. You tell your friends that you'll catch up with them next time, and you're happy staying at home for the..."
+        },
+        {
+            "type": "Entry",
+            "name": "worrying_about_spending--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Ready to Work",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a big assignment due tomorrow. You've been procrastinating getting it done because it is going to be hard. When you think about whether you will be able to do the work, you think you..."
+        },
+        {
+            "type": "Entry",
+            "name": "ready_to_work--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

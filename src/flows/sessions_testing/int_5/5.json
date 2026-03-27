@@ -1,0 +1,17 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "That's ok, we'll come back to this when it fits better. For now, maybe just check in with how your body feels - soften your shoulders, unclench your jaw.\n\nLet us know when might be a better time to suggest an exercise."
+        },
+        {
+            "type": "Scheduler",
+            "days_ahead": 0,
+            "action": "flow://flows/session",
+            "count": 1,
+            "message": "It's time for your session."
+        }
+    ]
+}

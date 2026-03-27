@@ -1,0 +1,25 @@
+{
+    "header_text": "Masks with Sensitive Skin",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After thinking about it, you realize that you tend to notice aspects about yourself that others don't. You feel good about how you're protecting people by wearing your..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "masks_with_sensitive_skin--physical_health--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "mask"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

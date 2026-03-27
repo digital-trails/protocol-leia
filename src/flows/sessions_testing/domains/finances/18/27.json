@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "UVA Community Food Pantry\n\nThe UVA Community Food Pantry, now located in Newcomb Hall, is open to all students during SAC hours (7am-12am Monday through Thursday & Saturday, 7am-9pm Friday, 8am-12am Sunday). "
+        }
+    ]
+}

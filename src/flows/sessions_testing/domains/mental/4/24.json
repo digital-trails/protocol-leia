@@ -1,0 +1,25 @@
+{
+    "header_text": "Accepting Praise",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Over the weekend, you caught up with some old friends. You told them about the classes you're taking and they make comments about how smart you must be, but you don't think the classes are special. You allow yourself to feel proud of what you're studying either..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "accepting_praise--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "way"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

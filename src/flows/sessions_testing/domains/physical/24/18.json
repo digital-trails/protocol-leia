@@ -1,0 +1,17 @@
+{
+    "header_text": "Catching Your Breath",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's a cool morning and you're walking up a flight of stairs to get to your first class. You start to feel really winded as you make it to the top step. You take a second to breathe and feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "catching_your_breath--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

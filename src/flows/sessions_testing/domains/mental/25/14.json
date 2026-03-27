@@ -1,0 +1,17 @@
+{
+    "header_text": "Answering Unexpected Questions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are presenting your work to a group of your peers. After you present, someone asks you a very specific question that you do not know the answer to and you feel like you are unqualified. You remember that you did a lot of research, and this question may just not be..."
+        },
+        {
+            "type": "Entry",
+            "name": "answering_unexpected_questions--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Showcasing your experience",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Showcasing your experience"
+        },
+        {
+            "type": "Media",
+            "url": "./images/5.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

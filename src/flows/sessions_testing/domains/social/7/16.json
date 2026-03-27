@@ -1,0 +1,17 @@
+{
+    "header_text": "Having Someone Over",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You invite your classmate over after class and your roommate is home. Your roommate is pretty opinionated and may say something embarrassing to your classmate. As you and your classmate walk in, you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "having_someone_over--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

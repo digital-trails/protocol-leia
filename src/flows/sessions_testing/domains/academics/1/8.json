@@ -1,0 +1,25 @@
+{
+    "header_text": "New opportunity",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a CIO meeting and find out that an opportunity for promotion in your organization just came up. You think you might be eligible and decide to ask your friend in exec for more details. They tell you that the selection criteria are very strict and that your application will likely be..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "new_opportunity--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "rejected"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

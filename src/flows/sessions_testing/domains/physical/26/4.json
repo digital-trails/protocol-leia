@@ -1,0 +1,15 @@
+{
+    "header_text": "Snakes in the park",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/99.jpeg",
+            "border": true
+        }
+    ]
+}

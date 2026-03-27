@@ -1,0 +1,17 @@
+{
+    "header_text": "Important evaluation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have almost completed an important course. Part of your grade will be determined by a presentation that is to be graded by your classmates. You know most of them and feel that their opinions of you will make them grade your work more..."
+        },
+        {
+            "type": "Entry",
+            "name": "important_evaluation--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

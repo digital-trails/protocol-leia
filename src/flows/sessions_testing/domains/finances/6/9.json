@@ -1,0 +1,25 @@
+{
+    "header_text": "Managing bills: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your rent is due soon, and you also need to buy textbooks for your classes. Your budget is tight this month, and you think about how you'll afford all of this.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm anxious that I won't save money this month, but I am hopeful that I will be able to save in the future.",
+                "I am confident in my ability to come up with a solution.",
+                "I'm proud of myself for handling a tough financial situation.",
+                "I'm really frustrated that this is all happening at once, and I recognize that it's okay to feel that way.",
+                "I feel completely underwater."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

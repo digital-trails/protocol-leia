@@ -1,0 +1,16 @@
+{
+    "header_text": "Letting Others See Your Work",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Letting Others See Your Work"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

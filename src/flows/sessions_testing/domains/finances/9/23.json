@@ -1,0 +1,17 @@
+{
+    "header_text": "Holiday Gifts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A holiday that your family celebrates is coming up. You want to buy gifts for everyone, but you can't afford it. You decide to buy one gift for your family to share, and you think that it will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "holiday_gifts--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

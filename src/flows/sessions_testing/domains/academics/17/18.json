@@ -1,0 +1,17 @@
+{
+    "header_text": "Giving a Presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a lot of work to do for one of your major classes. One of your most important homework assignments for the class is to do research about a topic and make a well-prepared, lengthy presentation to your classmates. As you imagine yourself giving your presentation, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "giving_a_presentation--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

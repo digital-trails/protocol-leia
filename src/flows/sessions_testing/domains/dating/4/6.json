@@ -1,0 +1,25 @@
+{
+    "header_text": "A Delayed Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You texted your partner several hours ago. They haven't responded to it yet, even though they usually respond right away, and their read receipts are on. You think that they probably forgot to... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "a_delayed_response--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "reply"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

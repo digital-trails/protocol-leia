@@ -1,0 +1,17 @@
+{
+    "header_text": "Walking Up Steps",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The elevator in your building is broken again and you have to walk up a few flights of steps to get to where you need to go. You feel your chest tighten and you feel out of breath as you reach the top step. You feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "walking_up_steps--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

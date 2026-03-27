@@ -1,0 +1,25 @@
+{
+    "header_text": "Family Not Approving of Significant Other",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently started dating someone whom you really like a lot. You introduce them to your family and they do not seem to approve of them. You remind yourself that this was just the first meeting and your family will get to know your partner better with... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "family_not_approving_of_significant_other--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "time"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

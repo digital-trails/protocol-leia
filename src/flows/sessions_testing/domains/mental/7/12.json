@@ -1,0 +1,17 @@
+{
+    "header_text": "Exercise Class with Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's Wednesday night and your friend convinces you to take a high-intensity cardio class. About halfway through you stop exercising, because you feel you can't catch your breath. You worry you might..."
+        },
+        {
+            "type": "Entry",
+            "name": "exercise_class_with_friend--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

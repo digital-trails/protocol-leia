@@ -1,0 +1,17 @@
+{
+    "header_text": "Health evaluation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At your routine doctor's appointment, your doctor decides to run a few tests to evaluate your health based on your family's medical history. Your results will be ready within a week. While waiting for your results, you think you are likely..."
+        },
+        {
+            "type": "Entry",
+            "name": "health_evaluation--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

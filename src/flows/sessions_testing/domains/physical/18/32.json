@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "UVA Intramurals\n\nPhysical exercise is important. UVA Intramurals offers many opportunities to get involved in an intramural sport or recreation that you enjoy, such as tennis, volleyball, and more!"
+        }
+    ]
+}

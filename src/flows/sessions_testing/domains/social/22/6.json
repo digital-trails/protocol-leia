@@ -1,0 +1,29 @@
+{
+    "header_text": "Cooking a Casserole",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "When you think about the reactions to your casserole, you see the other guests"
+        },
+        {
+            "type": "Buttons",
+            "name": "cooking_a_casserole--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Leaving their servings on their plates.",
+                "Going for seconds"
+            ],
+            "column_count": 1,
+            "correct_value": "Leaving their servings on their plates."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

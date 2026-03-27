@@ -1,0 +1,25 @@
+{
+    "header_text": "Important Assignment: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a midterm next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'll pretend to be sick on the day of the class so I don't have to take the test.",
+                "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways.",
+                "I want to study for the test instead of going to sleep, but I realize it's important to rest too.",
+                "I'll set aside time every day to study before the test.",
+                "I'll ask my friends in the class questions if I don't understand something."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

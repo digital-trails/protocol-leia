@@ -1,0 +1,25 @@
+{
+    "header_text": "Hiking with a Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You take a few deep breaths. Paying attention to what it feels like to breathe in and out helps to focus your mind, and you decide to..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "hiking_with_a_friend--physical_health--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "continue"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

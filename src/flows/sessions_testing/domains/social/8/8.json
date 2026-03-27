@@ -1,0 +1,17 @@
+{
+    "header_text": "Collecting an old friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You arrange to meet up with a friend you have not seen for many years. You drive to the train station to pick them up. When you arrive, you know they will find spending time with you..."
+        },
+        {
+            "type": "Entry",
+            "name": "collecting_an_old_friend--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

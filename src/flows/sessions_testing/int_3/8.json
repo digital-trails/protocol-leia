@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Picture a situation where you accomplished something, and ask yourself these four questions: what went well, what didn't go well, what would you do again, and what would you change?"
+        }
+    ]
+}

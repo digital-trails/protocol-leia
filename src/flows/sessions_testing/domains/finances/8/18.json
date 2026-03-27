@@ -1,0 +1,17 @@
+{
+    "header_text": "Saving Money",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a meal plan scholarship so you always eat the dining hall food. When you eat with your friends, they. all want to go eat somewhere in town instead of at the dining hall. You realize that you have a different situation than your friends and that's..."
+        },
+        {
+            "type": "Entry",
+            "name": "saving_money--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

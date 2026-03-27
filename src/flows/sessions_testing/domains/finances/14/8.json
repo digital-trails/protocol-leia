@@ -1,0 +1,16 @@
+{
+    "header_text": "Financial Dependence ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Financial Dependence "
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Paying Bills",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your tuition payments for the upcoming semester will be due soon. In the past, your family has helped you pay tuition, but they have been dealing with some financial problems and you’re worried about burdening them. You think that working with your parents to come up with a plan to pay tuition will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "paying_bills--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Struggling with a Presentation: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During today's presentation, you have to present in front of your classmates and professor. You've been struggling to put this presentation together, but you haven't reached out to your professor about it yet. \n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "My professor will be proud of me that I'm trying hard.",
+                "My professor will be disappointed by my efforts, but I can still feel proud of the work I put in.",
+                "My classmates are going to be bored and talk to each other during my presentation.",
+                "",
+                "This presentation will be a good opportunity for me to practice my public speaking skills."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Turned off appliances: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your roommates are heading out of town for a few days and your roommate asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm scared that our house is going to burn down.",
+                "I'm miserable worrying about whether everything is off, but remind myself to focus on the present and take a deep breath.",
+                "I am satisfied that I checked the appliances that I could on my way out.",
+                "I feel calm now that I'm in the car and on my way out of town with my roommates.",
+                "I feel worried about the house burning down, but know that I can tolerate this feeling and it will pass."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

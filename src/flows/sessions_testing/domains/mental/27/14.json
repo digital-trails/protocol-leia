@@ -1,0 +1,16 @@
+{
+    "header_text": "Comparing Your Work to Others'",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Comparing Your Work to Others'"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

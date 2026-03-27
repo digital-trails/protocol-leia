@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Teaching Kitchen\n\nJoin students at the Teaching Kitchen at Student Health and Wellness. The Kitchen is home to the Hoo’s Cooking nutrition education and culinary skills classes, which are hands-on and led by fellow students, dietic interns, registered dieticians, professional chefs, and special guests. "
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Mental Health Resources",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Recently, your partner has been struggling with their mental health. You want to help them, but you don’t know how. You decide to do research on possible resources you can share to be... "
+        },
+        {
+            "type": "Entry",
+            "name": "mental_health_resources--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

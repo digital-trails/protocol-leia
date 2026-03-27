@@ -1,0 +1,25 @@
+{
+    "header_text": "Writing workshop",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A friend suggests that you join an evening class on creative writing. You go online and read information about the class and see that all your work will be reveiwed by your classmates. As you navigate through the site, the thought of other people looking at your writing makes you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "writing_workshop--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "enthusiastic"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Managing Responsibilities",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have started a new part time job and have had a difficult time managing it with school. Your boss asked if you would be willing to help her out with a project outside of your usual responsibilities, and you are worried if she will be dissappointed if you say no. After thinking on it, you tell her that you can't help out with this project because of school, but are willing to help out on the next..."
+        },
+        {
+            "type": "Entry",
+            "name": "managing_responsibilities--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

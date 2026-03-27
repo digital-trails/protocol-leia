@@ -1,0 +1,16 @@
+{
+    "header_text": "Missing meeting",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Missing meeting"
+        },
+        {
+            "type": "Media",
+            "url": "./images/44.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 7
+}

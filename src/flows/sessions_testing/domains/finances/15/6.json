@@ -1,0 +1,25 @@
+{
+    "header_text": "Unexpected Medical Visit ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently had an unexpected medical visit. You are still on your parents' insurance plan, and you're afraid that they'll see it on their insurance statement. If they ask you about it, you think they will be... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "unexpected_medical_visit_--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "understanding"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

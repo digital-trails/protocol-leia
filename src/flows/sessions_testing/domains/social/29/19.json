@@ -1,0 +1,29 @@
+{
+    "header_text": "Cancelled plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Your friend probably cancelled your plans together because ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "cancelled_plans--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "They are mad at you because of your previous disagreement.",
+                "They remembered they had an important meeting for class at the same time."
+            ],
+            "column_count": 1,
+            "correct_value": "They remembered they had an important meeting for class at the same time."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 5
+}

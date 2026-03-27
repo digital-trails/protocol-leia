@@ -1,0 +1,25 @@
+{
+    "header_text": "Buying New Clothes",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have just started a new semester, and it seems like everyone has new outfits. You’ve been wearing the same clothes for years, and you start to wonder whether people are judging you. You realize that you like the clothes you have, and they make you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "buying_new_clothes--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "good"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

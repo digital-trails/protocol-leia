@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Family & Home Life",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The Better Health Channel\n\nThe Better Help Channel provides resources to help people maintain their health and well-being, including how to navigate conflict that might arise within your family."
+        }
+    ]
+}

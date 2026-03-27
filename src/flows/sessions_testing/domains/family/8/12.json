@@ -1,0 +1,17 @@
+{
+    "header_text": "Big Families ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your partner comes from a large family, while you do not. You don’t know how you’ll adjust to large family gatherings or having a big family around. When you think about being around them, you think they will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "big_families_--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

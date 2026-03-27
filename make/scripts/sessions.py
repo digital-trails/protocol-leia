@@ -30,10 +30,10 @@ def _create_survey_page(row):
     condition     = row[6]
     output_name   = row[7]
     media         = media_url(row[8])
+    timeout       = row[9]
     image_framed  = "true"
     show_buttons  = None
     is_html       = None
-    timeout       = None
 
     return create_survey_page(condition=condition, text=text, show_buttons=show_buttons, 
                               media=media, image_framed=image_framed, values=values, 
@@ -236,6 +236,17 @@ folders['sessions/int_5/__flow__.json'] = {"mode":"sequential", "take": 1, "cond
 folders['sessions/int_5'] = flat(surveys,"int_5")
 folders['sessions/ema_post'] = flat(surveys,"ema_post")
 
+folders['sessions_testing/int_1-2'] = flat(surveys,"int_1-2")
+folders['sessions_testing/domains/__flow__.json'] = {"mode":"select", "column_count":2, "text": domain_selection_text(), "title":"MindTrails", "selections": shown_selections }
+for domain, doses in sessions.items():
+        folders[f'sessions_testing/domains/{internal_selections[domain]}/__flow__.json'] ={"mode":"sequential", "take":1, "repeat":True }
+        for i, dose in enumerate(doses,1):
+            folders[f'sessions_testing/domains/{internal_selections[domain]}/{i}'] = dose
+folders['sessions_testing/int_3'] = flat(surveys,"int_3")
+folders['sessions_testing/int_4'] = flat(surveys,"int_4")
+folders['sessions_testing/int_5'] = flat(surveys,"int_5")
+folders['sessions_testing/ema_post'] = flat(surveys,"ema_post")
+
 #SESSION
     #EMA_PRE (always do this and follow conditions within)
     #INT_1&2 (randomly shuffled; do 1; only do if interest = 0 & socialcontext in 0 1 2 & preanxious > 2)
@@ -248,6 +259,7 @@ folders['sessions/ema_post'] = flat(surveys,"ema_post")
 
 # Delete old JSON
 shutil.rmtree(f"{dir_out}/sessions",ignore_errors=True)
+shutil.rmtree(f"{dir_out}/sessions_testing",ignore_errors=True)
 
 # Write new JSON
 write_output(f"{dir_out}", folders)

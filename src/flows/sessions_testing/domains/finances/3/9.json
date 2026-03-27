@@ -1,0 +1,25 @@
+{
+    "header_text": "Job Market",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently saw on the news that the economy has been particularly bad. Even though you have an above-average resume, you wonder whether you'll be able to find a job after graduating. You think you will likely be..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "job_market--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "fine"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

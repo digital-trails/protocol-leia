@@ -1,0 +1,17 @@
+{
+    "header_text": "Troublesome Typos",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You just turned in an important paper. As you're checking your submission, you see a typo in the first sentence. You believe that you should be..."
+        },
+        {
+            "type": "Entry",
+            "name": "troublesome_typos--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

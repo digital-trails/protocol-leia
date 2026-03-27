@@ -1,0 +1,25 @@
+{
+    "header_text": "Yourself in Old Age",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are walking through the park, and you see an elderly couple walking hand in hand. You begin thinking about your own life and wonder whether you will feel close to someone at their... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "yourself_in_old_age--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "age"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

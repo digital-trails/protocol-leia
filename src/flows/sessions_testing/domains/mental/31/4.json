@@ -1,0 +1,15 @@
+{
+    "header_text": "Tagged in a photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends took some pictures together. You look through your social media feed and see that they tagged you in a post. You don't like how you look in the picture.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/89.jpeg",
+            "border": true
+        }
+    ]
+}

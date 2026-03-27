@@ -1,0 +1,17 @@
+{
+    "header_text": "Dancing class",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are taking a dancing class and, during a break, find yourself talking to a newcomer about your major. As you chat, you notice that you are sweating. They probably assume this is a result of..."
+        },
+        {
+            "type": "Entry",
+            "name": "dancing_class--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

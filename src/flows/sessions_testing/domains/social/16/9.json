@@ -1,0 +1,25 @@
+{
+    "header_text": "Strong opinions: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your roommates have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner and sense some possible tension. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm scared that my roommates will say something offensive, but know that what they say is not a reflection on me.",
+                "I'm worried that my roommates will say something embarrassing.",
+                "I'm happy to have my friend over for dinner.",
+                "I'm concerned that my friend will judge me for what my roomates think, but am still happy we can get together and talk about it.",
+                "I'm calm as we sit and eat dinner together."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

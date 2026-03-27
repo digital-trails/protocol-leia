@@ -1,0 +1,25 @@
+{
+    "header_text": "Saving up Money",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are going over your monthly expenses, and realize you spent more than you had planned on a new hobby. It doesn't put you in a financial bind now, but you are trying to save up money to go on a ski trip you have been planning for months. As you think about cutting back on your expenses, you think that saving enough for your trip is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "saving_up_money--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "hopeless"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

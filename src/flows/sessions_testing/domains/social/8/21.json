@@ -1,0 +1,17 @@
+{
+    "header_text": "Leaning on your Peers",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You got your grades back today and you got a couple lower grades than you expected. Your friends are talking about their grades, and they said they got straight As. If you tell your friends your grades, they will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "leaning_on_your_peers--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

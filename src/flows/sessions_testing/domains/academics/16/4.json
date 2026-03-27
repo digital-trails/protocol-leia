@@ -1,0 +1,15 @@
+{
+    "header_text": "Struggling with a Presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During today's presentation, you have to present in front of your classmates and professor. You've been struggling to put this presentation together, but you haven't reached out to your professor about it yet. \n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/74.jpeg",
+            "border": true
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you experience an uncomfortable bodily sensation (e.g., racing heart or sweaty palms), simply sit with that sensation for a moment before you react to it. These sensations often pass quickly without any intervention."
+        }
+    ]
+}

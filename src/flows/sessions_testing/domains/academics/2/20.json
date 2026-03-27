@@ -1,0 +1,16 @@
+{
+    "header_text": "Putting Preparation to the Test",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Putting Preparation to the Test"
+        },
+        {
+            "type": "Media",
+            "url": "./images/17.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 6
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Birthday Jitters",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend is organizing a birthday party for you at her home. She invited a lot of people who will all be there for you. When you think about all of the people coming, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "birthday_jitters--family_&_home_life--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "nervous"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

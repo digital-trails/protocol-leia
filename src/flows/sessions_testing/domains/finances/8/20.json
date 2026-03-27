@@ -1,0 +1,17 @@
+{
+    "header_text": "Savings Account",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recently received a medical bill that was more than you were expecting. You will have to take a significant amount of money out of your savings account to pay for it. You worry about not having a lot of money left in your savings account after you pay for this..."
+        },
+        {
+            "type": "Entry",
+            "name": "savings_account--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

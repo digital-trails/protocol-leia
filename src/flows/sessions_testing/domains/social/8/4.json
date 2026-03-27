@@ -1,0 +1,17 @@
+{
+    "header_text": "Assessments at School",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You realize that there is still time left in the semester to see your friend and that they will understand you need this time to study for your..."
+        },
+        {
+            "type": "Entry",
+            "name": "assessments_at_school--social_situations--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

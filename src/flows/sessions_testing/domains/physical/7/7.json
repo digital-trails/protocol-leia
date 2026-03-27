@@ -1,0 +1,17 @@
+{
+    "header_text": "Running a Marathon",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you consider the idea of taking on a marathon, you don't think it is too much for you because you believe that you will probably be good... "
+        },
+        {
+            "type": "Entry",
+            "name": "running_a_marathon--physical_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

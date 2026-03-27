@@ -1,0 +1,25 @@
+{
+    "header_text": "Relationship Worries",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You receive a call from a friend of yours, telling you that he is breaking up with his partner. You reflect on your own relationship; and though you love your significant other, you got the same impression from your friend and his partner. As you wonder about your future with your significant other, you feel strongly that you two will end..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "relationship_worries--romantic_relationships--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "things"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

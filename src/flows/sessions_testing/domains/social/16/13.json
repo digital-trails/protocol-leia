@@ -1,0 +1,25 @@
+{
+    "header_text": "Strong opinions: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your roommates have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner and sense some possible tension. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I start a text to cancel the dinner, but remind myself that I really want my friend and roommates to get to know each other.",
+                "I start to tell my roommates not to say anything embarrassing in front of my friend, but take a deep breath instead.",
+                "I smile as my friend and my roommates talk.",
+                "I practice listening closely with an open mind.",
+                "I snap at my roommates and tell them to be quiet."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

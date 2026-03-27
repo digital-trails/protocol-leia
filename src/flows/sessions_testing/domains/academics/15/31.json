@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Academics/Work/Career Development",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Before you begin studying/working, take a moment to jot down how you're feeling, and what goals you can meet based on how you're feeling."
+        }
+    ]
+}

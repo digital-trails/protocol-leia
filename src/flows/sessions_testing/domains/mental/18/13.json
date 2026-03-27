@@ -1,0 +1,17 @@
+{
+    "header_text": "Putting Yourself Out There",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide to open up and share, and they do the same. As you talk, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "putting_yourself_out_there--mental_health--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

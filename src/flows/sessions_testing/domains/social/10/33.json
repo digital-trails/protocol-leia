@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Social Situations",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Ask a friend or family member if you can confide in them about an uncomfortable interaction. See if they can provide insight from an outsider's point of view."
+        }
+    ]
+}

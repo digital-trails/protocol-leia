@@ -1,0 +1,17 @@
+{
+    "header_text": "Checks at the dentist",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a routine dentist appointment and find out that you need some tests to check the health of your gums and teeth. After the dentist performs the tests, you continue to lie in the dentist chair while waiting for the results. You think your teeth and gums are probably..."
+        },
+        {
+            "type": "Entry",
+            "name": "checks_at_the_dentist--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

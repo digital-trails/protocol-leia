@@ -1,0 +1,16 @@
+{
+    "header_text": "Unstable WiFi",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Unstable WiFi"
+        },
+        {
+            "type": "Media",
+            "url": "./images/28.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 7
+}

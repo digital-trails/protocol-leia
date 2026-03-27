@@ -1,0 +1,29 @@
+{
+    "header_text": "Controversial news story",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "The next time you meet, your classmate will most likely ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "controversial_news_story--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Avoid speaking with you.",
+                "Start up a conversation."
+            ],
+            "column_count": 1,
+            "correct_value": "Start up a conversation."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Feeling Worried by the News",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "This morning you watch the news and hear that a lot of businesses are currently downsizing. You think about what will happen if your guardian loses their job. You feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "feeling_worried_by_the_news--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

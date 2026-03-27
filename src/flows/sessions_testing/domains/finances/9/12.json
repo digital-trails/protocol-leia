@@ -1,0 +1,17 @@
+{
+    "header_text": "Feeling Worried by the News",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice that your guardian does not sound upset about the news when you talk on the phone later. You think that things will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "feeling_worried_by_the_news--finances--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

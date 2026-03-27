@@ -1,0 +1,16 @@
+{
+    "header_text": "Masks with Sensitive Skin",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Masks with Sensitive Skin"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 0
+}

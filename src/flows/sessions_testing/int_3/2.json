@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Pick your challenge! Try to talk to someone around you. It could be a stranger, friend, coworker, sales clerk... Say hi or ask a question, and see how the conversation goes."
+        }
+    ]
+}

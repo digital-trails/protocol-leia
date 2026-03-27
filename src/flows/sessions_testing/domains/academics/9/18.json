@@ -1,0 +1,17 @@
+{
+    "header_text": "Supportive Person ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You want to talk to someone about your plans for the future, but don't want to talk to your guardian about it. You think about other adults in your life, and decide to talk to your mentor. When you think about their reaction, you think they will probably be..."
+        },
+        {
+            "type": "Entry",
+            "name": "supportive_person_--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

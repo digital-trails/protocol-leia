@@ -1,0 +1,16 @@
+{
+    "header_text": "Word stumbling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Word stumbling"
+        },
+        {
+            "type": "Media",
+            "url": "./images/10.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 9
+}

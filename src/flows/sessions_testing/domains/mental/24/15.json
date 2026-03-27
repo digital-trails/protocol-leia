@@ -1,0 +1,25 @@
+{
+    "header_text": "Committing to Activities",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You realize that being back in-person is an adjustement, and it will take some time to get used to the busyness of an in-person semester. You think that with everything you have going on, you're doing a great... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "committing_to_activities--mental_health--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "job"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

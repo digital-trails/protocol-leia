@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "If you are facing financial difficulties, take a step back and try to identify what you do have control over (versus what you do not). For example, you can create a budget and track your spending going forward, though you might not be able to return something you've already purchased. "
+        }
+    ]
+}

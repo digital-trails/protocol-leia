@@ -1,0 +1,25 @@
+{
+    "header_text": "Posting about Family",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You look through your social media feed. You notice you posted a picture with your parents and none of your other friends have posted pictures with their family. Your followers must think that you're..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "posting_about_family--family_&_home_life--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "genuine"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

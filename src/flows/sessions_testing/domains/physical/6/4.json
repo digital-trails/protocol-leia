@@ -1,0 +1,15 @@
+{
+    "header_text": "Giving a Presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have to give a presentation in your class today. When you stand up in front of the class, you feel your cheeks get hot and your hands start to tremble.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/58.jpeg",
+            "border": true
+        }
+    ]
+}

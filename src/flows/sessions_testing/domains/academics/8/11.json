@@ -1,0 +1,16 @@
+{
+    "header_text": "Class Clowns",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Class Clowns"
+        },
+        {
+            "type": "Media",
+            "url": "./images/68.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

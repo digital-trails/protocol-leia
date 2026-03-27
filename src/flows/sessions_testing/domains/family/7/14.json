@@ -1,0 +1,17 @@
+{
+    "header_text": "Reconciling with your sibling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A few days after an argument with your sibling, you decide to break the ice by asking them out for a drink. You get ready, and as you are about to leave, they call to say they can't make it after all. As you hang up, you think that this is because they are feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "reconciling_with_your_sibling--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

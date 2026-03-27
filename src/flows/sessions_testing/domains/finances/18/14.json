@@ -1,0 +1,17 @@
+{
+    "header_text": "Expensive Dinner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide to talk to your friends about it. They are very understanding, and they choose a more afforable place to eat. You feel proud of sticking up for... "
+        },
+        {
+            "type": "Entry",
+            "name": "expensive_dinner--finances--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

@@ -8,7 +8,35 @@
       "action": "flow://flows/end of day"
     },
     {
-      "text": "Sessions",
+      "text": "Session",
       "action": "flow://flows/sessions"
+    },
+    {
+      "text": "EMA Pre",
+      "action": "flow://flows/sessions_testing/ema_pre"
+    },
+    {
+      "text": "INT 1-2",
+      "action": "flow://flows/sessions_testing/int_1-2"
+    },
+    {
+      "text": "Domains",
+      "action": "flow://flows/sessions_testing/domains"
+    },
+    {
+      "text": "INT 3",
+      "action": "flow://flows/sessions_testing/int_3"
+    },
+    {
+      "text": "INT 4",
+      "action": "flow://flows/sessions_testing/int_4"
+    },
+    {
+      "text": "INT 5",
+      "action": "flow://flows/sessions_testing/int_5"
+    },
+    {
+      "text": "EMA Pre",
+      "action": "flow://flows/sessions_testing/ema_post"
     }
   ]

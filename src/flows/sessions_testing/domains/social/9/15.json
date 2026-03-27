@@ -1,0 +1,17 @@
+{
+    "header_text": "Fear of Missing Out",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a new post on you social media app and realize some of your friends are hanging out right now. You don't remember being invited to hangout with them. You think about missing out on the fun, and think that you weren't invited because you are..."
+        },
+        {
+            "type": "Entry",
+            "name": "fear_of_missing_out--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

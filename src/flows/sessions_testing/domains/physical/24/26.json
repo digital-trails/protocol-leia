@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Planned Parenthood\n\nCheck out Planned Parenthood for both informational resources on STDs, pregnancy, birth control options, etc., or to schedule an in-person or telehealth appointment with a medical professional. "
+        }
+    ]
+}

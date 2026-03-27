@@ -1,0 +1,25 @@
+{
+    "header_text": "Assessments at School",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are currently going through a long week of midterms and projects. Your friend who you have not seen at all this semester has asked you to hang out the night before an exam. You know that you need to study but worry that your friend will be upset for not making time for them at all this... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "assessments_at_school--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "semester"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Answering Unexpected Questions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Answering Unexpected Questions"
+        },
+        {
+            "type": "Media",
+            "url": "./images/38.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

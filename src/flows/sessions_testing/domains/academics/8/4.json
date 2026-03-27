@@ -1,0 +1,16 @@
+{
+    "header_text": "Brief Introduction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Brief Introduction"
+        },
+        {
+            "type": "Media",
+            "url": "./images/65.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

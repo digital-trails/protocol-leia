@@ -1,0 +1,25 @@
+{
+    "header_text": "Tagged in a photo: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends took some pictures together. You look through your social media feed and see that they tagged you in a post. You don't like how you look in the picture.\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I feel angry at my friend, but know that they didn't know how I feel about the picture.",
+                "I'm insecure about how I look in the picture, but that was only one moment in time.",
+                "I'm annoyed that this isn't a flattering picture of me.",
+                "I'm confident in my friendships.",
+                "I'm happy with the memories we made."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

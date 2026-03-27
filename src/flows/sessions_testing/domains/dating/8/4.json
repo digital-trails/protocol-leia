@@ -1,0 +1,17 @@
+{
+    "header_text": "Marrying Your Partner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Reflecting on the idea of marrying your partner you don't feel too scared, and you believe your marriage would be..."
+        },
+        {
+            "type": "Entry",
+            "name": "marrying_your_partner--romantic_relationships--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

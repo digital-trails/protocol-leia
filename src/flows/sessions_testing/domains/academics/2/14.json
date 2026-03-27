@@ -1,0 +1,16 @@
+{
+    "header_text": "Certainty of being correct",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Certainty of being correct"
+        },
+        {
+            "type": "Media",
+            "url": "./images/15.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

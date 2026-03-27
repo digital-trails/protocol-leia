@@ -1,0 +1,17 @@
+{
+    "header_text": "The Difficult Course",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Imagining how you will do in the class, you do not see yourself failing, but instead you believe your efforts to learn some programming skills will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "the_difficult_course--academics_work_career_development--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

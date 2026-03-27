@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Mental Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "All feelings pass. When it feels like a negative feeling (like sadness or fear) will never end, gently remind yourself that this feeling will eventually pass. "
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Comfortable couch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You had a very busy day, and in the evening you are finally able to relax. As you sit on your couch, you feel spacey. You are..."
+        },
+        {
+            "type": "Entry",
+            "name": "comfortable_couch--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

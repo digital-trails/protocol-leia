@@ -1,0 +1,17 @@
+{
+    "header_text": "Your First Child",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When your child is an adult, you do not believe that your kid will resent you, and you think that relationship will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "your_first_child--family_&_home_life--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

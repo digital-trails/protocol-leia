@@ -1,0 +1,17 @@
+{
+    "header_text": "Dinner with Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends invite you to go out to dinner with them. You realize that going out to dinner might cause you to go over your dinner budget. You decline the invitation and think that your friends will..."
+        },
+        {
+            "type": "Entry",
+            "name": "dinner_with_friends--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

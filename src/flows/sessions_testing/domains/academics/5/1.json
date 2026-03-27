@@ -1,0 +1,16 @@
+{
+    "header_text": "An engaged audience",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "An engaged audience"
+        },
+        {
+            "type": "Media",
+            "url": "./images/37.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 0
+}

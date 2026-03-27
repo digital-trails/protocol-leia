@@ -1,0 +1,25 @@
+{
+    "header_text": "Working in Groups: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your professor tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'll want to skip class, but I'll go anyway and cope with feeling anxious.",
+                "During class, I'll do my best to include everyone in our group conversation.",
+                "I'll make sure that I understand what's going on in the book before tomorrow's class.",
+                "I'll ask others to be in their group, even if I really don't want to.",
+                "I'll pretend to be sick and just won't go to class."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Often, when we feel anxious, our mind is telling us that the worst case scenario will happen."
+        }
+    ]
+}

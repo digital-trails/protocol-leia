@@ -1,0 +1,25 @@
+{
+    "header_text": "Using Different Technology",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You arrive at your first class of the semester and notice that everyone has an expensive-looking laptop. As the professor is discussing the syllabus, you realize that your cheaper laptop does not have an application that you need for the course. When you think about completing your work for this class, you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "using_different_technology--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "capable"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

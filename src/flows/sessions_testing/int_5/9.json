@@ -1,0 +1,17 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "That's ok, we can come back to this another time. If you want, you can do something small to have a quick mental break, like listening to a song that fits your mood, or listen for the furthest sound you can hear, then the nearest.\n\nLet us know a better time to suggest an exercise."
+        },
+        {
+            "type": "Scheduler",
+            "days_ahead": 0,
+            "action": "flow://flows/session",
+            "count": 1,
+            "message": "It's time for your session."
+        }
+    ]
+}

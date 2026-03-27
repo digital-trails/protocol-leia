@@ -1,0 +1,10 @@
+{
+    "header_text": "Managing bills",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Picture yourself in the situation on the next page."
+        }
+    ]
+}

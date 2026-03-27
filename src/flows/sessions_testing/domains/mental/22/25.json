@@ -1,0 +1,25 @@
+{
+    "header_text": "Trying Different Foods ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends are at a restaurant. While your friends all order the same dish, you want to order something different and adventurous, but you're worried that they'll think it's weird or gross. You decide to order the dish anyways, and enjoy the new..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "trying_different_foods_--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "flavors"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

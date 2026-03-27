@@ -1,0 +1,15 @@
+{
+    "header_text": "New grocery store",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're at a new grocery store and you're looking for bread. Suddenly you notice that your heart is beating quickly and pounding.\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/85.jpeg",
+            "border": true
+        }
+    ]
+}

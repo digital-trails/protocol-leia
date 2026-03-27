@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "SFS\n\nLooking to apply for a scholarship or grant? Student Financial Services provides information on the application process for scholarships and grants funded by and outside of the university and how they affect your financial aid. "
+        }
+    ]
+}

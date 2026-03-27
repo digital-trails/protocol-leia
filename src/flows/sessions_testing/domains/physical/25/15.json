@@ -1,0 +1,25 @@
+{
+    "header_text": "Catching up to Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see your friends across the street and jog over to them. You feel a little disoriented and dizzy as you reach them. You consider what this means, and realize that it probably means that you ran..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "catching_up_to_friends--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "quickly"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Backpacking plans ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are backpacking abroad with your best friend. You have a general idea of what you will do each day, but you didn't plan out every detail ahead of time. This uncertainty causes some anxiety that is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "backpacking_plans_--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "tolerable"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

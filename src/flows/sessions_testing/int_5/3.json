@@ -1,0 +1,17 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "No worries at all, we can try again later. Remember that you've managed hard situations before - think about what helps you & we can practice the thinking exercises later.\nLet us know a better time."
+        },
+        {
+            "type": "Scheduler",
+            "days_ahead": 0,
+            "action": "flow://flows/session",
+            "count": 1,
+            "message": "It's time for your session."
+        }
+    ]
+}

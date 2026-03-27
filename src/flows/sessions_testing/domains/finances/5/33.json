@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Identify specific things about your finances that are causing you stress and come up with goals to better manage those stressors (e.g., if your budget is causing you stress, Google look up if there are any budgeting tools that can make that process easier)."
+        }
+    ]
+}

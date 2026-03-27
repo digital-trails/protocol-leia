@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Getting enough sleep can make a huge difference in how you feel both physically and mentally. Check in with your sleep schedule and see if there are ways you can increase sleep."
+        }
+    ]
+}

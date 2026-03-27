@@ -1,0 +1,25 @@
+{
+    "header_text": "Family Member Tension",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and a family member had tension build up during a conversation a couple months back. You have not talked since that interaction, but there is a holiday event coming up that you and your family member will both attend. You wonder if they will confront you..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "family_member_tension--family_&_home_life--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "again"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

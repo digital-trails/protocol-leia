@@ -1,0 +1,17 @@
+{
+    "header_text": "Finding Balance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You look for a good artist to listen to while you do your chores. As you start to tackle your to-do list, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "finding_balance--family_&_home_life--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

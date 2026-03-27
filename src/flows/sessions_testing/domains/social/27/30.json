@@ -1,0 +1,25 @@
+{
+    "header_text": "New Apartment to Yourself",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You just moved to a new apartment and you are living alone for the first time. Your days are very quiet and you often find yourself staying in on the weekends with much fewer plans  than you had when you were living with people. This feels like a relaxing change of..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "new_apartment_to_yourself--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "pace"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

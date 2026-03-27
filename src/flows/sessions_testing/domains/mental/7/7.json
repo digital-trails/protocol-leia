@@ -1,0 +1,17 @@
+{
+    "header_text": "In A Hurry",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's Monday morning and you are hurrying out of your room to walk to class. You feel your heart racing as you step onto the street and start walking. Fearing that you might have a panic attack, you have a strong urge to turn back..."
+        },
+        {
+            "type": "Entry",
+            "name": "in_a_hurry--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Managing Jobs",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've recently gotten a job to help support your family during the semester. As your workload for classes gets heavier, you worry about maintaining your grades while working, but don't want to quit your job. You decide to tell your professors and supervisors about your situation, and realize that it is okay to ask for an extension or day off when... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "managing_jobs--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "needed"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

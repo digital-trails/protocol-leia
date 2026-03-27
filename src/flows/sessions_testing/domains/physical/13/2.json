@@ -1,0 +1,25 @@
+{
+    "header_text": "Finger cut",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You accidentally cut your finger slightly while cutting your food in the dining hall. You promptly clean the cut and put on a bandage. Later that evening, the cut hurts a little bit, and you think that it is likely..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "finger_cut--physical_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "healing"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

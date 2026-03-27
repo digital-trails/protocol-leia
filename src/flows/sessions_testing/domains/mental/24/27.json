@@ -1,0 +1,25 @@
+{
+    "header_text": "Change of Plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide to change your major to something very different from what you originally had planned. Your family still does not know about this decision, and you worry about them being dissappointed about it. You think that they will be happy that you are finally following your..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "change_of_plans--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "passions"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

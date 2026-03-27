@@ -1,0 +1,14 @@
+{
+    "header_text": "Apply to Daily Life: Make It Work for You!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Think of something that caused you anxiety the first time you did it. What strategies helped you work through that?"
+        },
+        {
+            "type": "Entry",
+            "name": "tip #1--entry"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Extra Income",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've recently been feeling overwhelmed with your classes, but you know that you need to get a job to be in a more stable financial situation. While searching online for jobs, you saw an application for a job that sounds really fun for you. You think that working this job on top of school will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "extra_income--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

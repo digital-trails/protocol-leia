@@ -1,0 +1,17 @@
+{
+    "header_text": "Expensive Dinner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends want to go out to celebrate one of their birthdays. They choose to eat at an expensive restaurant that is out of your price range. You feel like a bad friend because you can't afford to..."
+        },
+        {
+            "type": "Entry",
+            "name": "expensive_dinner--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

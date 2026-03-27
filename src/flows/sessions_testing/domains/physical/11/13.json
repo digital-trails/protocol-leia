@@ -1,0 +1,25 @@
+{
+    "header_text": "New grocery store: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're at a new grocery store and you're looking for bread. Suddenly you notice that your heart is beating quickly and pounding.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I notice the feeling in my chest and keep looking for the bread.",
+                "I feel uncomfortable but take a few slow breaths and keep shopping.",
+                "I ask an employee where the bread is.",
+                "I freeze in place and start to panic.",
+                "I start to leave but turn around and tell myself I can handle it."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

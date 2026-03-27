@@ -1,0 +1,25 @@
+{
+    "header_text": "Working in Groups: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your professor tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. They also say that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I want to stay quiet, but decide to contribute.",
+                "I'll go to the bathroom so that I don't have to ask anyone to be in their group.",
+                "I'll express how excited I am to get to know everyone.",
+                "I will talk to people in class and ask to be in a group.",
+                "I want to work alone, but give the group a try."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Planning Payments",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You just started the semester, and need to select one of the tuition payment plans that your college offers. You have been doing some research into the different types of plans, but you feel a little overwhelmed and your deadline to choose is fast..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "planning_payments--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "approaching"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

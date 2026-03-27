@@ -1,0 +1,29 @@
+{
+    "header_text": "Your First Child",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "You think there is a good chance that when your child is an adult"
+        },
+        {
+            "type": "Buttons",
+            "name": "your_first_child--family_&_home_life--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "You two will hardly see each other",
+                "You two will talk to each other regularly"
+            ],
+            "column_count": 1,
+            "correct_value": "You two will hardly see each other"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 3
+}

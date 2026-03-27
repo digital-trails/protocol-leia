@@ -1,0 +1,17 @@
+{
+    "header_text": "Strong opinions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The morning of your first assigned meeting with your TA has arrived. They tell you that they have strong views about your work that they would like to review. You think that they will likely find your work..."
+        },
+        {
+            "type": "Entry",
+            "name": "strong_opinions--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

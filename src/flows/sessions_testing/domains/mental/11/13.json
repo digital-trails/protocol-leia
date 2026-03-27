@@ -1,0 +1,25 @@
+{
+    "header_text": "Turned off appliances: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your roommates are heading out of town for a few days and your roommate asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I talk to my friends about what we're going to do on our trip.",
+                "I'll remember that I don't have to check all of the appliances multiple times before we leave.",
+                "I want to be upset about the situation, but decide to chat with my roommates.",
+                "I want to ask my roommates whether they think all of the appliances are off, but I decide to talk about the parts of the trip I'm looking forward to instead.",
+                "I focus on everything that could go wrong because I didn't have time to check."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

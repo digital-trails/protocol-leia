@@ -1,0 +1,15 @@
+{
+    "header_text": "Strong opinions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your roommates have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner and sense some possible tension. \n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/95.jpeg",
+            "border": true
+        }
+    ]
+}

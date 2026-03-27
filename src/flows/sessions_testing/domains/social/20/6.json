@@ -1,0 +1,29 @@
+{
+    "header_text": "Book Club Friends ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "The other book club members probably"
+        },
+        {
+            "type": "Buttons",
+            "name": "book_club_friends_--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Will enjoy your company outside the book club.",
+                "Will not want to be friends outside of the book club."
+            ],
+            "column_count": 1,
+            "correct_value": "Will enjoy your company outside the book club."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

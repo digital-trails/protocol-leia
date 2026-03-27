@@ -1,0 +1,17 @@
+{
+    "header_text": "Differing Beliefs",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your extended family have very different political and religious beliefs. You make a strong effort to have a good relationship with your family, but disagreements at a recent gathering caused some tension. As time goes on, you think that your family will become... "
+        },
+        {
+            "type": "Entry",
+            "name": "differing_beliefs--family_&_home_life--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Making a Plan",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have been offered an internship that is important for your career, but the timing conflicts with your paid job. You really want to take the internship, but you rely on your job for financial support and you’re not sure if you will have time to do them both. When you think about balancing your job and internship, you think it will be... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "making_a_plan--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "manageable"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

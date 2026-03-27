@@ -1,0 +1,29 @@
+{
+    "header_text": "Anticipating a Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Your date probably thinks that you spilling water ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "anticipating_a_response--romantic_relationships--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Is not a big deal at all.",
+                "Means you are clumsy and careless."
+            ],
+            "column_count": 1,
+            "correct_value": "Is not a big deal at all."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 7
+}

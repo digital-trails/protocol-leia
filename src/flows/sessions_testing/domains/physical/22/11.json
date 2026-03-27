@@ -1,0 +1,17 @@
+{
+    "header_text": "Trampoline Safety",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are bouncing on your friend's trampoline. You have fun with your friends but also consider your safety, knowing that trampolines can be dangerous. While bouncing up and down on the trampoline, you feel quite..."
+        },
+        {
+            "type": "Entry",
+            "name": "trampoline_safety--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

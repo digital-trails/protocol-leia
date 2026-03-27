@@ -1,0 +1,17 @@
+{
+    "header_text": "A heated discussion",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You invite classmates to go out for a dinner party, although you know they don't always get along. At dinner, the discussion gets very loud and..."
+        },
+        {
+            "type": "Entry",
+            "name": "a_heated_discussion--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Paying it Forward",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have some money you would like to try investing. As you read more about investing, you realize that you’re not completely sure what you’re doing. You think that your investment skills are likely to keep improving with... "
+        },
+        {
+            "type": "Entry",
+            "name": "paying_it_forward--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

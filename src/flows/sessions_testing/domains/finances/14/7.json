@@ -1,0 +1,29 @@
+{
+    "header_text": "Jacket return",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "The sales associate didn't smile much because ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "jacket_return--finances--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "They think you are annoying.",
+                "They were annoyed by someone else."
+            ],
+            "column_count": 1,
+            "correct_value": "They were annoyed by someone else."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 1
+}

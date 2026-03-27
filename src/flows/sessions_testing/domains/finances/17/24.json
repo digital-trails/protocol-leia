@@ -1,0 +1,10 @@
+{
+    "header_text": "Resource: Finances",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "ODOS\n\nODOS has partnered with the Career Center to help students find employment opportunities on- and off-grounds. Check out listings that may be the right fit for you!"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "A lengthy read",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A lengthy read"
+        },
+        {
+            "type": "Media",
+            "url": "./images/55.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 0
+}

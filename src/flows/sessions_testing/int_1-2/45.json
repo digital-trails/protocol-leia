@@ -1,0 +1,10 @@
+{
+    "header_text": "",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Take a moment to name the emotions you are feeling. Is it just anxiety, or another emotion as well, like sadness or anger? And does the anxiety feel general and focused on the future, like apprehension, or does it feel extreme and like the threat is happening now, like panic? Describing emotions can help them feel less overwhelming."
+        }
+    ]
+}

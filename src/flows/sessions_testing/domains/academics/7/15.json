@@ -1,0 +1,17 @@
+{
+    "header_text": "Quick correction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the end, you remind yourself that occasionally making mistakes does not make you a bad student. Your professor had corrected you kindly, as was their job, and you feel that the whole interaction went..."
+        },
+        {
+            "type": "Entry",
+            "name": "quick_correction--academics_work_career_development--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Walking up stairs: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are meeting with your professor. To make it on-time, you just walked up two flights of stairs quickly, and feel your heart beating very rapidly.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I smile at the professor once I make it to the meeting.",
+                "I ask my professor if I could be having a heart attack.",
+                "I breathe deeply and focus on calming myself.",
+                "I feel the urge to look up my symptoms online, but remind myself that feeling this way is normal after going up a lot of stairs.",
+                "I remind myself to take a few slow breaths to recenter my thoughts after I feel the urge to cry."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

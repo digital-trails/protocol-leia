@@ -1,0 +1,16 @@
+{
+    "header_text": "Poor Performance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Poor Performance"
+        },
+        {
+            "type": "Media",
+            "url": "./images/18.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 7
+}

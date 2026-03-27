@@ -1,0 +1,17 @@
+{
+    "header_text": "Opening Up",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've recently been feeling more anxious than usual, and this is affecting your ability to do things with your partner. You've never told your partner about your anxiety, and you wonder if they'll judge you for it. When you talk to your partner about your mental health, you expect them to be..."
+        },
+        {
+            "type": "Entry",
+            "name": "opening_up--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

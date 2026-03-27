@@ -1,0 +1,25 @@
+{
+    "header_text": "Breakfast with Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends want to grab breakfast together. You don’t want to miss out on spending time with them, but you’re trying not to eat out as much. When you tell them you’ll eat the food you have at home, you think they’ll be... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "breakfast_with_friends--finances--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "reasonable"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

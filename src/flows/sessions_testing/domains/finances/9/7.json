@@ -1,0 +1,17 @@
+{
+    "header_text": "Affording Education",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You would like to further your education after undergrad, but think you would have to take out a loan to do so. You remember stories you have heard of people still paying their student loans when they are 50 years old. Imagining yourself at 50 years old, you think your student loans will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "affording_education--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 2
+}

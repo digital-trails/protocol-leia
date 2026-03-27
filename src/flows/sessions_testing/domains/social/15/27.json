@@ -1,0 +1,17 @@
+{
+    "header_text": "Saturday Without Plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's Saturday night and you are at home. You hear your neighbors having a party and laughing on the porch, and you feel sad since you don't have plans or friends to be with tonight. You remember that  there will be many other chances to see your friends and you feel happy to be relaxing at..."
+        },
+        {
+            "type": "Entry",
+            "name": "saturday_without_plans--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

@@ -1,0 +1,15 @@
+{
+    "mode": "select",
+    "column_count": 2,
+    "text": "The domains listed here are some areas that may cause you to feel anxious. Please select the one that you'd like to work on during today's training.\n\nWe encourage you to choose different domains to practice thinking flexibly across areas of your life!",
+    "title": "MindTrails",
+    "selections": {
+        "Academics/Work/Career": "academics",
+        "Family & Home Life": "family",
+        "Romantic Relationships": "dating",
+        "Finances": "finances",
+        "Mental Health": "mental",
+        "Physical Health": "physical",
+        "Social Situations": "social"
+    }
+}

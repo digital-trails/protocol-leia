@@ -1,0 +1,17 @@
+{
+    "header_text": "Finish a Long Run",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You finish a long run. You notice that your heart is racing very fast and your chest feels tight. You think you are about to..."
+        },
+        {
+            "type": "Entry",
+            "name": "finish_a_long_run--physical_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Comparing with Others",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends are comparing scores on a social media app. You have a low score and your friends start teasing you. You begin to feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "comparing_with_others--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 9
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Trying Out a Funny Caption",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Trying Out a Funny Caption"
+        },
+        {
+            "type": "Media",
+            "url": ""
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 9
+}

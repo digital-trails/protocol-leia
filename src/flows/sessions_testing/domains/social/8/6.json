@@ -1,0 +1,17 @@
+{
+    "header_text": "On a jog",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are outside jogging and see a group of people ahead of you. As you pass them, you stumble slightly and feel a little foolish. You hear them laugh as you pass by, and assume that they are laughing at..."
+        },
+        {
+            "type": "Entry",
+            "name": "on_a_jog--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

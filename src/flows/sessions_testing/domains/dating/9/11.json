@@ -1,0 +1,17 @@
+{
+    "header_text": "Online Dating",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend has convinced you to sign up on an online dating website. You look over your profile and though you think it reflects who you are very well, you worry if it displays the kind of qualities people are looking for online. Thinking about your prospects of finding someone online, you believe that your chances of meeting someone soon are..."
+        },
+        {
+            "type": "Entry",
+            "name": "online_dating--romantic_relationships--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

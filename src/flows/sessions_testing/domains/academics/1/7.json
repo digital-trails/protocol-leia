@@ -1,0 +1,16 @@
+{
+    "header_text": "New opportunity",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "New opportunity"
+        },
+        {
+            "type": "Media",
+            "url": "./images/3.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 2
+}

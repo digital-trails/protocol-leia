@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Physical Health",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Before looking up the same question about your health online again, ask yourself if you are really seeking new infomration information or just re-checking something. Reduce time spent re-checking."
+        }
+    ]
+}

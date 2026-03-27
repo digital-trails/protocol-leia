@@ -1,0 +1,17 @@
+{
+    "header_text": "Talking about Housing",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are hanging our with a new group of people and they are all talking about their housing situations for next year. You want to chime in, but you don't have any plans and you feel like you're falling behind on life experiences. You think that you still have plenty of..."
+        },
+        {
+            "type": "Entry",
+            "name": "talking_about_housing--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

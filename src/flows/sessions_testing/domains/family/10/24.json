@@ -1,0 +1,25 @@
+{
+    "header_text": "Bilingual Home",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You invite your roommate to visit you and your family.  While you're eating dinner together, your family switches back and forth between English and another language. You never told your roommate that your family members are bilingual. You think about your roommate's reaction, and think that she'll think it is..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "bilingual_home--family_&_home_life--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "interesting"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Halloween party: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are invited to a Halloween party and you will only know a couple of people there. You decide to wear a really elaborate costume. When you arrive, everyone looks at you. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I want to go to the bathroom and try to tone down what I'm wearing.",
+                "I want to start crying, but then remind myself I did a great job on this costume.",
+                "I want to ask someone if my costume is too much, but decide not to ask for opinions.",
+                "I'll start dancing because there's great music on.",
+                "I will smile and wear my outfit proudly."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

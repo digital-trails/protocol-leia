@@ -1,0 +1,17 @@
+{
+    "header_text": "Brief Introduction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the end, you realize that everyone has these moments, and you quickly recover. As you finish introducing yourself, you see that the others are listening with keen..."
+        },
+        {
+            "type": "Entry",
+            "name": "brief_introduction--academics_work_career_development--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

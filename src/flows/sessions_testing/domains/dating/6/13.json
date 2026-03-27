@@ -1,0 +1,25 @@
+{
+    "header_text": "Spilled drink: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're on a date at a coffee shop with a person you really like. As you walk back to the table, you trip and fall and spill coffee everywhere.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I clean up and buy another coffee.",
+                "I feel the urge to avoid talking to my date after this, but I decide to ask them if they want to hang out again.",
+                "I laugh with my date about my spill.",
+                "I feel like crying, but take a deep breath.",
+                "I end the date early because I'm so embarrassed."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

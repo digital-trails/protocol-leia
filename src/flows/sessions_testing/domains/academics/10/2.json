@@ -1,0 +1,25 @@
+{
+    "header_text": "Recovering From a Mistake",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are giving a presentation in class and accidentally skip a section so have to start again. You are embarrassed by the mistake and worry what the audience thought of you. The audience probably thinks your delivery after starting over was..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "recovering_from_a_mistake--academics_work_career_development--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "awkward"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

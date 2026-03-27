@@ -1,0 +1,25 @@
+{
+    "header_text": "Out of breath",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that it's normal to need to catch your breath after running, and that people will only be looking at you for a few seconds. You find your seat and start to..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "out_of_breath--social_situations--puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "relax"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

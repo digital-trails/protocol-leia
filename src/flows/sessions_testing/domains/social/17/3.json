@@ -1,0 +1,17 @@
+{
+    "header_text": "Meeting New People",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You started at a new school this fall. Since classes are all online, you haven't been able to meet any of your classmates in person. You have seen some of them hanging out and feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "meeting_new_people--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 0
+}

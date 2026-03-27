@@ -1,0 +1,17 @@
+{
+    "header_text": "Putting Yourself Out There",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You go on a date. You and your date have a really good conversation and they ask you some questions that make you feel vulnerable. If they get to know the 'real you' you think they will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "putting_yourself_out_there--mental_health--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

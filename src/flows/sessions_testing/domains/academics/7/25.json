@@ -1,0 +1,10 @@
+{
+    "header_text": "Manage Your Feelings: Academics/Work/Career Development",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you feel stuck, pick one small step you feel you can do and start with that."
+        }
+    ]
+}

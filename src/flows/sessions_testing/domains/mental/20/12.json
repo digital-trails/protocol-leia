@@ -1,0 +1,25 @@
+{
+    "header_text": "Presenting your Work",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been working hard all year for a project for your major and your your dean has invited you to talk about it at an event. A lot of your friends and some professors will be there, and you don't think your work will be enough to impress them. You think that your professor invited you for a reason and your work is worth..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "presenting_your_work--mental_health--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "seeing"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 3
+}

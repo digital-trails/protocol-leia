@@ -1,0 +1,25 @@
+{
+    "header_text": "Using What You Have",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are invited to a formal event for an organization you are a part of. You can't afford something new to wear, so have to wear an old outfit. When thinking about others' opinions on your outfit, you know you'll feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "using_what_you_have--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "confident"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 6
+}

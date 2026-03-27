@@ -1,0 +1,25 @@
+{
+    "header_text": "New Opportunity",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You want to go to graduate school, but no one in your family has ever gone. You think about how your family will react when you tell them your decision and they may not like the idea of you going to graduate school. As you imagine telling them, you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "new_opportunity--family_&_home_life--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "excited"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

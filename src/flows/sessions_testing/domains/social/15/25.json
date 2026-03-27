@@ -1,0 +1,17 @@
+{
+    "header_text": "Inside Jokes ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a short video. Your best friend comments something really embarassing. Your followers will think that you and your friend are..."
+        },
+        {
+            "type": "Entry",
+            "name": "inside_jokes_--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 8
+}

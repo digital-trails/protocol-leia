@@ -1,0 +1,17 @@
+{
+    "header_text": "Managing bills",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your tuition bill for the semester will arrive soon. You spent a bit more this semester than you normally do, and did not consider saving for tuition. When you think about your future finances, you feel that you will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "managing_bills--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

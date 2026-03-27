@@ -1,0 +1,17 @@
+{
+    "header_text": "Affording a Trip",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends really want to go on a group vacation to the beach this year. You've been researching the cost of the trip, and you don't think you can afford it. You think that you can find an alternative trip that you and your friends will still... "
+        },
+        {
+            "type": "Entry",
+            "name": "affording_a_trip--finances--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 7
+}

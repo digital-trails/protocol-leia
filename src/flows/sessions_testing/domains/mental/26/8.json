@@ -1,0 +1,10 @@
+{
+    "header_text": "Missing spider: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Great job! Now you'll see some feelings."
+        }
+    ]
+}

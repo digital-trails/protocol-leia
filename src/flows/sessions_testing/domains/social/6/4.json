@@ -1,0 +1,15 @@
+{
+    "header_text": "Working in Groups",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your professor tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. They also say that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/79.jpeg",
+            "border": true
+        }
+    ]
+}

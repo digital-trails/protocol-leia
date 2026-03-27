@@ -1,0 +1,15 @@
+{
+    "header_text": "Missing spider",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you're getting into the shower, you see a huge spider on the wall. You turn away for a second and look back and realize it's gone. \n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/96.jpeg",
+            "border": true
+        }
+    ]
+}

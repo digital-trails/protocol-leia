@@ -1,0 +1,29 @@
+{
+    "header_text": "Feedback on your work",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Your TA probably thinks that ..."
+        },
+        {
+            "type": "Buttons",
+            "name": "feedback_on_your_work--academics_work_career_development--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "You are incapable.",
+                "You have great potential."
+            ],
+            "column_count": 1,
+            "correct_value": "You have great potential."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "unknown",
+    "scenario_num": 4
+}

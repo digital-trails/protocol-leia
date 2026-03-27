@@ -1,0 +1,16 @@
+{
+    "header_text": "First Impressions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "First Impressions"
+        },
+        {
+            "type": "Media",
+            "url": "./images/70.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 8
+}

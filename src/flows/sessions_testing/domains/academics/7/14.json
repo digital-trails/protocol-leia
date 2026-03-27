@@ -1,0 +1,17 @@
+{
+    "header_text": "Quick correction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the hallway outside of the classroom, your professor asks you a question, and you realize you respond incorrectly. Your professor corrects you. You think the experience of being corrected by your professor is..."
+        },
+        {
+            "type": "Entry",
+            "name": "quick_correction--academics_work_career_development--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 5
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "A different haircut",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While at the hairdresser's, you opt for a completely different haircut. When you see your friend afterwards, they gasp. Their gasp probably means that they think the new style makes you look..."
+        },
+        {
+            "type": "Entry",
+            "name": "a_different_haircut--social_situations--puzzle1_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 1
+}

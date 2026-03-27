@@ -1,0 +1,17 @@
+{
+    "header_text": "Asking Someone Out",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you consider asking the other passenger out for coffee you do not worry that you will be rejected because you are fairly sure this person will..."
+        },
+        {
+            "type": "Entry",
+            "name": "asking_someone_out--romantic_relationships--puzzle2_entry"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "unknown",
+    "scenario_num": 4
+}

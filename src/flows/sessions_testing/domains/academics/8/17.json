@@ -1,0 +1,16 @@
+{
+    "header_text": "Disappointing News",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Disappointing News"
+        },
+        {
+            "type": "Media",
+            "url": "./images/61.jpeg"
+        }
+    ],
+    "type": "unknown",
+    "scenario_num": 7
+}
