@@ -9,7 +9,7 @@
         {
             "type": "Buttons",
             "buttons": [
-                "OMAIN SELECTION"
+                "DOMAIN SELECTION"
             ],
             "ColumnCount": 1,
             "name": "domain",

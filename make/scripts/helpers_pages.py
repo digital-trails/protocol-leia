@@ -14,7 +14,7 @@ def parse_value(value: str):
     value = value.strip()
     i = value.index(".") if "." in value else 0
     k = value[:i] if value[:i].isdigit() else None
-    v = value[i+1:].strip()
+    v = value[i:].strip(". ")
     return (k, v)
 
 def parse_values(values: str):
