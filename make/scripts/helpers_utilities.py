@@ -47,6 +47,24 @@ def write_output(dir_out, structure):
                 with open(f"{path}/{i}.json", 'w', encoding='utf-8') as f:
                     json.dump(page, f, indent=4, ensure_ascii=False)
             continue
+            
+        if path.suffix != ".json" and isinstance(content, defaultdict):
+            folder_index = 0
+            for key, values in content.items():
+                if key == "default" or values==[]:
+                    sub_path = path
+                else:
+                    folder_index +=1
+                    sub_path = path/str(folder_index)
+                sub_path.mkdir(parents=True, exist_ok=True)
+                for i,page in enumerate(values,1):
+                    with open(f"{sub_path}/{i}.json", 'w', encoding='utf-8') as f:
+                        json.dump(page, f, indent=4, ensure_ascii=False)
+
+            path.mkdir(parents=True, exist_ok=True)
+            
+            continue
+
 
         raise Exception()
 

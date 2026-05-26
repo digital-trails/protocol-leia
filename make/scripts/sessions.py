@@ -18,7 +18,7 @@ dir_out    = f"{dir_root}/~out"
 Path(dir_out).mkdir(parents=True,exist_ok=True)
 
 def flat(dictionary, key):
-    return list(dictionary[lower(key)])
+    return dictionary[lower(key)]
 
 def _create_survey_page(row):
     text = clean_up_unicode(row[2])
@@ -138,21 +138,25 @@ def create_short_sessions():
 def create_surveys():
     accepted = ["ema_pre", "ema_mid", "ema_post", "int_1", "int_2", "int_3", "int_4", "int_5"]
     accepted = [lower(a) for a in accepted]
-    surveys  = defaultdict(list)
+    surveys  = defaultdict(lambda: defaultdict(list))
 
     # Open the file with all the content
     with open(f"{dir_csv}/LEIA Interventions, Resources, and Tips - Surveys.csv", "r", encoding="utf-8") as read_obj:
         for row in islice(csv.reader(read_obj),1,None):
             lookup_id = row[0].lower()
+            group_id = row[5].lower()
 
             if lookup_id in accepted:
                 survey_page = _create_survey_page(row)
                 
                 if(lookup_id in ["int_1","int_2","int_3","int_4","int_5"]):
                     del survey_page["condition"]
-                
-                surveys[lookup_id].append(survey_page)
 
+                if(lookup_id in ["int_1", "int_2"]):
+                    surveys[lookup_id][group_id].append(survey_page)
+                else:
+                    surveys[lookup_id]['default'].append(survey_page)
+                
     return surveys
 
 def create_write_your_own_session():
@@ -183,7 +187,7 @@ domains  = short_sessions.keys()
 sessions = defaultdict(list)
 
 for domain in domains:
-    for short_session in short_sessions[domain]:        
+    for short_session in short_sessions[domain]:
         if sessions[domain] and len(sessions[domain]) % 5 == 0:
             sessions[domain].append(next(long_sessions[domain]))
         else:
@@ -208,7 +212,9 @@ shown_selections = {
     "Social Situations"     : "social",
 }
 
-surveys["int_1-2"] = surveys["int_1"] + surveys["int_2"]
+surveys["int_1-2"] = surveys["int_1"]
+surveys["int_1-2"].update(surveys["int_2"])
+
 shuffle(surveys["int_1-2"], "int_1-2")
 del surveys["int_1"]
 del surveys["int_2"]
@@ -217,7 +223,7 @@ del surveys["int_2"]
 folders = {}
 
 folders['sessions/__flow__.json'] = {"mode":"sequential", "order": ["ema_pre","int_1-2","ema_mid","domains","int_3","int_4","int_5","ema_post"] }
-folders['sessions/ema_pre'] = flat(surveys,"ema_pre")
+folders['sessions/ema_pre'] = flat(surveys, "ema_pre")
 folders['sessions/int_1-2/__flow__.json'] = {"mode":"sequential", "take": 1, "condition": ["interest","=",0,"&&","socialcontext","in",[0,1,2],"&&","preanxious",">","2"], "repeat":True }
 folders['sessions/int_1-2'] = flat(surveys,"int_1-2")
 folders['sessions/ema_mid'] = flat(surveys,"ema_mid")
