@@ -185,9 +185,9 @@ sessions = defaultdict(list)
 for domain in domains:
     for short_session in short_sessions[domain]:        
         if sessions[domain] and len(sessions[domain]) % 5 == 0:
-            sessions[domain].append(next(long_sessions[domain]) + resources(domain))
+            sessions[domain].append(next(long_sessions[domain]))
         else:
-            sessions[domain].append(short_session + resources(domain))
+            sessions[domain].append(short_session)
 
 internal_selections = {
     "Academics/Work/Career Development" : "academics",
