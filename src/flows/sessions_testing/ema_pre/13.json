@@ -8,7 +8,7 @@
         },
         {
             "type": "Text",
-            "Text": "Absolutely no anxiety\n\nTotally anxious"
+            "Text": "0. Absolutely no anxiety\n\n10. Totally anxious"
         },
         {
             "type": "Slider",

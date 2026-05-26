@@ -8,7 +8,7 @@
         },
         {
             "type": "Text",
-            "Text": "Not at all true\n\nVery true"
+            "Text": "1. Not at all true\n\n7. Very true"
         },
         {
             "type": "Slider",

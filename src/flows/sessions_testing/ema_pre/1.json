@@ -8,7 +8,7 @@
         },
         {
             "type": "Text",
-            "Text": "Very bad/negative\n\nVery good/positive"
+            "Text": "1. Very bad/negative\n\n7. Very good/positive"
         },
         {
             "type": "Slider",
