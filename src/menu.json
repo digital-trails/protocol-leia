@@ -42,5 +42,9 @@
     {
       "text": "EMA post",
       "action": "flow://flows/sessions_testing/ema_post"
+    },
+    {
+      "text": "Video Test",
+      "action": "flow://flows/intro/31.json"
     }
   ]

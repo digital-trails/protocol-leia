@@ -7,7 +7,7 @@
         {
             "type": "Media",
             "url": "/videos/video1.mp4",
-            "border": true
+            "border": false
         }
     ]
 }

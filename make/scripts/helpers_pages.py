@@ -412,7 +412,7 @@ def create_video_page(video_number):
     return {
         "elements": [
             {"type": "Text" , "text": "Please press play on the training video below to learn more!"},
-            {"type": "Media", "url": f"/videos/video{video_number}.mp4", "border": True}
+            {"type": "Media", "url": f"/videos/video{video_number}.mp4", "border": False}
         ]
     }
 
