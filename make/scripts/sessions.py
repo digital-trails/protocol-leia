@@ -152,7 +152,7 @@ def create_surveys():
                 if(lookup_id in ["int_1","int_2","int_3","int_4","int_5"]):
                     del survey_page["condition"]
 
-                if(lookup_id in ["int_1", "int_2"]):
+                if(lookup_id in ["int_1", "int_2", "int_3"]):
                     surveys[lookup_id][group_id].append(survey_page)
                 else:
                     surveys[lookup_id]['default'].append(survey_page)
