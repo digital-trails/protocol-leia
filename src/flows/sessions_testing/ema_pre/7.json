@@ -4,19 +4,21 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Let's reschedule this session to another time - when is a good time later today for you to work on managing stress?"
+            "text": "Really try to imagine yourself in the upcoming situations as vividly as possible."
         },
         {
-            "type": "Scheduler",
-            "days_ahead": 0,
-            "action": "flow://flows/session",
-            "count": 1,
-            "message": "It's time for your session."
+            "type": "Media",
+            "url": "./images/lemon_pic3.jpeg",
+            "border": true
         }
     ],
     "condition": [
         "interest",
         "=",
-        1
+        0,
+        "&&",
+        "preanxious",
+        ">",
+        2
     ]
 }

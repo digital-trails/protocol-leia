@@ -228,7 +228,7 @@ folders['sessions/int_1-2/__flow__.json'] = {"mode":"sequential", "take": 1, "co
 folders['sessions/int_1-2'] = flat(surveys,"int_1-2")
 folders['sessions/ema_mid'] = flat(surveys,"ema_mid")
 
-folders['sessions/domains/__flow__.json'] = {"mode":"select", "column_count":2, "text": domain_selection_text(), "title":"MindTrails", "selections": shown_selections }
+folders['sessions/domains/__flow__.json'] = {"mode":"select", "column_count":2, "text": domain_selection_text(), "title":"MindTrails", "selections": shown_selections, "condition": ["interest","=",0] }
 for domain, doses in sessions.items():
         folders[f'sessions/domains/{internal_selections[domain]}/__flow__.json'] ={"mode":"sequential", "take":1, "repeat":True }
         for i, dose in enumerate(doses,1):
@@ -241,11 +241,12 @@ folders['sessions/int_4'] = flat(surveys,"int_4")
 folders['sessions/int_5/__flow__.json'] = {"mode":"sequential", "take": 1, "condition": ["interest","=",1,"&&","socialcontext","=",0], "repeat":True }
 folders['sessions/int_5'] = flat(surveys,"int_5")
 folders['sessions/ema_post'] = flat(surveys,"ema_post")
+folders['sessions/ema_post/__flow__.json'] = {"condition":["interest","=",0]}
 
 folders['sessions_testing/ema_pre'] = flat(surveys,"ema_pre")
 folders['sessions_testing/int_1-2'] = flat(surveys,"int_1-2")
 folders['sessions_testing/ema_mid'] = flat(surveys,"ema_mid")
-folders['sessions_testing/domains/__flow__.json'] = {"mode":"select", "column_count":2, "text": domain_selection_text(), "title":"MindTrails", "selections": shown_selections }
+folders['sessions_testing/domains/__flow__.json'] = {"mode":"select", "column_count":2, "text": domain_selection_text(), "title":"MindTrails", "selections": shown_selections, "condition": ["interest","=",0] }
 for domain, doses in sessions.items():
         folders[f'sessions_testing/domains/{internal_selections[domain]}/__flow__.json'] ={"mode":"sequential", "take":1, "repeat":True }
         for i, dose in enumerate(doses,1):

@@ -1,0 +1,7 @@
+{
+    "condition": [
+        "interest",
+        "=",
+        0
+    ]
+}
