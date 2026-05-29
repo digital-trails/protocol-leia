@@ -17,7 +17,6 @@ with open(f"{dir_csv}/images.csv", "r", encoding="utf-8") as read_obj:
                 start_index = url.index("/d/") + 3
                 end_index = url.index("/view")
             else:
-                #e.g., https://drive.google.com/file/d/1agACToHkWhDmNIHThNfXgoaZQzoBzUw1/view?usp=drive_link
                 start_index = url.index("id=") + 3
                 end_index = url.index("&usp")
 
