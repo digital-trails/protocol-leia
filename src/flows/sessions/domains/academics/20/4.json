@@ -1,5 +1,5 @@
 {
-    "header_text": "Crowd of speech",
+    "header_text": "Discussion Section",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Buttons",
-            "name": "crowd_of_speech--academics_work_career_development--comp_question",
+            "name": "discussion_section--academics_work_career_development--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

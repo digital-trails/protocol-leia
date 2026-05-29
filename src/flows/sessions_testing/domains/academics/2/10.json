@@ -1,10 +1,10 @@
 {
-    "header_text": "Crowd of speech",
+    "header_text": "Discussion Section",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Crowd of speech"
+            "text": "Discussion Section"
         },
         {
             "type": "Media",
