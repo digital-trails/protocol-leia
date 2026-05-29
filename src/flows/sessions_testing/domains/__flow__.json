@@ -11,5 +11,10 @@
         "Mental Health": "mental",
         "Physical Health": "physical",
         "Social Situations": "social"
-    }
+    },
+    "condition": [
+        "interest",
+        "=",
+        0
+    ]
 }
