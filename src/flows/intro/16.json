@@ -7,13 +7,13 @@
             "text": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider."
         },
         {
-            "type": "Text",
-            "Text": "0. Absolutely no anxiety\n\n10. Totally anxious"
-        },
-        {
             "type": "Slider",
             "min": 0,
             "max": 10,
+            "labels": [
+                "Absolutely no anxiety",
+                "Totally anxious"
+            ],
             "others": [],
             "name": "imagery_anxiety"
         }

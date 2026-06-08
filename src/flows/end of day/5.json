@@ -7,13 +7,13 @@
             "text": "I was able to manage my emotions today."
         },
         {
-            "type": "Text",
-            "Text": "1. Not at all effectively\n\n7. Very effectively"
-        },
-        {
             "type": "Slider",
             "min": 1,
             "max": 7,
+            "labels": [
+                "Not at all effectively",
+                "Very effectively"
+            ],
             "others": [],
             "name": "eodmanagefeelings",
             "variable_name": "eodmanagefeelings"

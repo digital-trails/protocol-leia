@@ -97,8 +97,7 @@ def create_input(tipe, values, output_name, variable_name = ""):
         values = parse_values(values)
         others = to_button_values(values[3:])
         _min, _max = int(values[0][0]), int(values[1][0])
-        yield {"type": "Text", "Text": f"{_min}. {values[0][1]}\n\n{_max}. {values[1][1]}"}
-        yield {"type": "Slider", "min": _min, "max": _max, "others": others, **shared}
+        yield {"type": "Slider", "min": _min, "max": _max, "labels": [values[0][1], values[1][1]], "others": others, **shared}
         return
 
     if tipe == "single":
