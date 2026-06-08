@@ -110,6 +110,11 @@ def create_input(tipe, values, output_name, variable_name = ""):
         yield {"type": "Buttons", "buttons": values, "multiselect": True, **shared}
         return
 
+    if tipe == "imagemulti":
+        values = values.split(";")
+        yield {"type": "ImagePicker", "items": values, **shared}
+        return
+
     if tipe == "scheduler": 
         yield {"type": "Scheduler", "days_ahead": int(values), "action": "flow://flows/session", "count":1, "message": "It's time for your session."}
         return
