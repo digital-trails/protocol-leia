@@ -5,15 +5,6 @@
         {
             "type": "Text",
             "text": "To what extent is your anxiety a central part of who you are currently?"
-        },
-        {
-            "type": "ImagePicker",
-            "items": [
-                "images/anxiety/1.png",
-                "images/anxiety/5.png"
-            ],
-            "name": "anxidentity",
-            "variable_name": "anxidentity"
         }
     ]
 }

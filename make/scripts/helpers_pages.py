@@ -112,7 +112,7 @@ def create_input(tipe, values, output_name, variable_name = ""):
 
     if tipe == "imagemulti":
         values = values.split(";")
-        yield {"type": "ImagePicker", "items": values, **shared}
+        yield {"type": "VennSlider", "left_label": "My Anxiety", "right_label": "Me", **shared}
         return
 
     if tipe == "scheduler": 
