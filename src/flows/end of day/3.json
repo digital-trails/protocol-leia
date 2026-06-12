@@ -5,6 +5,13 @@
         {
             "type": "Text",
             "text": "To what extent is your anxiety a central part of who you are currently?"
+        },
+        {
+            "type": "VennSlider",
+            "left_label": "My Anxiety",
+            "right_label": "Me",
+            "name": "anxidentity",
+            "variable_name": "anxidentity"
         }
     ]
 }
