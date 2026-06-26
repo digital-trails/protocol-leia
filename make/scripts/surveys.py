@@ -8,7 +8,7 @@ from pathlib import Path
 from helpers_pages import create_scenario_pages, create_survey_page,create_video_page
 from helpers_utilities import clean_up_unicode, create_puzzle, shuffle, write_output, media_url, lower
 
-dir_root = "./make"
+dir_root = str(Path(__file__).resolve().parent.parent)
 dir_csv  = f"{dir_root}/CSV"
 dir_out  = f"{dir_root}/~out"
 

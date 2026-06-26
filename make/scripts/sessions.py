@@ -11,7 +11,7 @@ from helpers_utilities import get_strategies, get_tips, clean_up_unicode, has_va
 from helpers_utilities import dir_safe, shuffle, write_output, media_url, lower, get_page_index 
 from helpers_utilities import get_reminder_element, get_resources
 
-dir_root = "./make"
+dir_root = str(Path(__file__).resolve().parent.parent)
 dir_csv    = f"{dir_root}/CSV"
 dir_out    = f"{dir_root}/~out"
 

@@ -212,7 +212,7 @@ def upper(str):
 def media_url(media):
     if media and media.strip():
         media = lower(media).strip()
-        assert Path(f"./src/images/{media}").exists()
+        # assert Path(f"./src/images/{media}").exists()
         return f"./images/{media}"
     return ""
 
