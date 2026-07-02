@@ -1,5 +1,5 @@
 {
   "home": { "type": "ref", "path": "home.json" },
   "menu": { "type": "ref", "path": "menu.json"},
-  "surveys": {"type": "ef", "path": "surveys.json"}
+  "surveys": {"type": "ref", "path": "surveys.json"}
 }

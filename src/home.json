@@ -12,7 +12,11 @@
                 "type": "button",
                 "action": {
                     "text": "Show Surveys",
-                    "actio
+                    "action": "navmodal://Survey"
+                }
+            },
+            {
+                "type": "tiles",
                 "actions": [
                     {
                         "text": "What is this study?",
