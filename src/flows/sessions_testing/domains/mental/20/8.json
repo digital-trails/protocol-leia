@@ -1,10 +1,10 @@
 {
-    "header_text": "Canceling on Friends ",
+    "header_text": "Canceling on familys ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Canceling on Friends "
+            "text": "Canceling on familys "
         },
         {
             "type": "Media",

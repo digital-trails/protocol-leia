@@ -1,5 +1,5 @@
 {
-    "header_text": "Hiking with Friends",
+    "header_text": "Hiking with familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Entry",
-            "name": "hiking_with_friends--physical_health--puzzle2_entry"
+            "name": "hiking_with_familys--physical_health--puzzle2_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

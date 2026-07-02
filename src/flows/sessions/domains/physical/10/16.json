@@ -1,14 +1,14 @@
 {
-    "header_text": "Running with a Friend",
+    "header_text": "Running with a family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You are going on a run tomorrow with a friend who jogs every day. You have not been on a run in quite some time, and worry if you can keep up or not. You think that tomorrow the chances you can keep up with your friend are..."
+            "text": "You are going on a run tomorrow with a family who jogs every day. You have not been on a run in quite some time, and worry if you can keep up or not. You think that tomorrow the chances you can keep up with your family are..."
         },
         {
             "type": "WordPuzzle",
-            "name": "running_with_a_friend--physical_health--puzzle1",
+            "name": "running_with_a_family--physical_health--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

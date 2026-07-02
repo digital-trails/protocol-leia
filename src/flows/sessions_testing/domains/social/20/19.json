@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You're hanging out with a new group of people. You tell a funny joke that you think goes along with the topic of conversation, and no one laughs. The new friends will find you.."
+            "text": "You're hanging out with a new group of people. You tell a funny joke that you think goes along with the topic of conversation, and no one laughs. The new familys will find you.."
         },
         {
             "type": "WordPuzzle",
@@ -14,7 +14,7 @@
             "incorrect_delay": 5000,
             "display_delay": 2000,
             "words": [
-                "friendly"
+                "familyly"
             ],
             "missing_letter_count": 1
         }

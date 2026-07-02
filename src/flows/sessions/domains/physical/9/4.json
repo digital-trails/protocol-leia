@@ -1,10 +1,10 @@
 {
-    "header_text": "Seeing an Old Friend",
+    "header_text": "Seeing an Old family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Seeing an Old Friend"
+            "text": "Seeing an Old family"
         },
         {
             "type": "Media",

@@ -1,10 +1,10 @@
 {
-    "header_text": "Coughing friend",
+    "header_text": "Coughing family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Coughing friend"
+            "text": "Coughing family"
         },
         {
             "type": "Media",

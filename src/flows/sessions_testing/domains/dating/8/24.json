@@ -1,14 +1,14 @@
 {
-    "header_text": "Asking Out Your Friend",
+    "header_text": "Asking Out Your family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "If you were to ask your friend on a date, it would not be awkward, and you think your friend would find it..."
+            "text": "If you were to ask your family on a date, it would not be awkward, and you think your family would find it..."
         },
         {
             "type": "Entry",
-            "name": "asking_out_your_friend--romantic_relationships--puzzle2_entry"
+            "name": "asking_out_your_family--romantic_relationships--puzzle2_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

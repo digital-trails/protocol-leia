@@ -1,10 +1,10 @@
 {
-    "header_text": "Running with a Friend",
+    "header_text": "Running with a family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Running with a Friend"
+            "text": "Running with a family"
         },
         {
             "type": "Media",

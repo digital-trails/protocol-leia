@@ -13,11 +13,11 @@
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Rest and spend time with friends or family.",
+                "Rest and spend time with familys or family.",
                 "Worry about whether you locked the door."
             ],
             "column_count": 1,
-            "correct_value": "Rest and spend time with friends or family."
+            "correct_value": "Rest and spend time with familys or family."
         }
     ],
     "navigation_conditions": [

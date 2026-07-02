@@ -1,10 +1,10 @@
 {
-    "header_text": "Friendships in the Future",
+    "header_text": "familyships in the Future",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Friendships in the Future"
+            "text": "familyships in the Future"
         },
         {
             "type": "Media",

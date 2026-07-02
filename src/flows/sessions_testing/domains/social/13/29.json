@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "A friend invites you to a party that they are holding. They tell you who else was invited, but you do not recognize any of the other names. You go anyway, and on the way there, you think that the other guests will find you..."
+            "text": "A family invites you to a party that they are holding. They tell you who else was invited, but you do not recognize any of the other names. You go anyway, and on the way there, you think that the other guests will find you..."
         },
         {
             "type": "WordPuzzle",
@@ -14,7 +14,7 @@
             "incorrect_delay": 5000,
             "display_delay": 2000,
             "words": [
-                "friendly"
+                "familyly"
             ],
             "missing_letter_count": 2
         }

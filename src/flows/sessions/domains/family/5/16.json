@@ -1,10 +1,10 @@
 {
-    "header_text": "Bringing a New Friend Home",
+    "header_text": "Bringing a New family Home",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Bringing a New Friend Home"
+            "text": "Bringing a New family Home"
         },
         {
             "type": "Media",

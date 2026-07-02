@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You were recently exposed to someone who tested positive, but you got tested and haven't experienced any symptoms. Your friends invite you to get dinner with them, and you wonder if you should go. You test negative and go out with your... "
+            "text": "You were recently exposed to someone who tested positive, but you got tested and haven't experienced any symptoms. Your familys invite you to get dinner with them, and you wonder if you should go. You test negative and go out with your... "
         },
         {
             "type": "WordPuzzle",
@@ -14,7 +14,7 @@
             "incorrect_delay": 5000,
             "display_delay": 2000,
             "words": [
-                "friends"
+                "familys"
             ],
             "missing_letter_count": 2
         }

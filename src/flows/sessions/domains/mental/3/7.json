@@ -1,10 +1,10 @@
 {
-    "header_text": "Picture with Friends",
+    "header_text": "Picture with familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Picture with Friends"
+            "text": "Picture with familys"
         },
         {
             "type": "Media",

@@ -1,14 +1,14 @@
 {
-    "header_text": "Work Friend",
+    "header_text": "Work family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your partner let you know that they're getting dinner with a friend from work. You've never heard your partner talk about any work friends, and you're concerned about who your partner is having dinner with. However, you trust your partner, and tell them to enjoy their..."
+            "text": "Your partner let you know that they're getting dinner with a family from work. You've never heard your partner talk about any work familys, and you're concerned about who your partner is having dinner with. However, you trust your partner, and tell them to enjoy their..."
         },
         {
             "type": "Entry",
-            "name": "work_friend--romantic_relationships--puzzle1_entry"
+            "name": "work_family--romantic_relationships--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

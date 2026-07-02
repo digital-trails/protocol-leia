@@ -1,14 +1,14 @@
 {
-    "header_text": "Breakfast with Friends",
+    "header_text": "Breakfast with familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your friends want to grab breakfast together. You don’t want to miss out on spending time with them, but you’re trying not to eat out as much. When you tell them you’ll eat the food you have at home, you think they’ll be... "
+            "text": "Your familys want to grab breakfast together. You don’t want to miss out on spending time with them, but you’re trying not to eat out as much. When you tell them you’ll eat the food you have at home, you think they’ll be... "
         },
         {
             "type": "Entry",
-            "name": "breakfast_with_friends--finances--puzzle1_entry"
+            "name": "breakfast_with_familys--finances--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

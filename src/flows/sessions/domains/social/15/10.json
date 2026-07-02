@@ -1,14 +1,14 @@
 {
-    "header_text": "Close Friend's Birthday",
+    "header_text": "Close family's Birthday",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "You think that your friend is likely to think your gift is"
+            "Text": "You think that your family is likely to think your gift is"
         },
         {
             "type": "Buttons",
-            "name": "close_friend's_birthday--social_situations--comp_question",
+            "name": "close_family's_birthday--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

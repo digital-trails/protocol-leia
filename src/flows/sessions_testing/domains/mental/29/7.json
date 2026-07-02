@@ -1,10 +1,10 @@
 {
-    "header_text": "Party with Friends",
+    "header_text": "Party with familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Party with Friends"
+            "text": "Party with familys"
         },
         {
             "type": "Media",

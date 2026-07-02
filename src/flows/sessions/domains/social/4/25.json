@@ -1,5 +1,5 @@
 {
-    "header_text": "Feeling Excluded by Friends",
+    "header_text": "Feeling Excluded by familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "WordPuzzle",
-            "name": "feeling_excluded_by_friends--social_situations--puzzle_word2",
+            "name": "feeling_excluded_by_familys--social_situations--puzzle_word2",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

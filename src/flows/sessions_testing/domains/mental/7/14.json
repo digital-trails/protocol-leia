@@ -1,10 +1,10 @@
 {
-    "header_text": "Friend in the Hospital",
+    "header_text": "family in the Hospital",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Friend in the Hospital"
+            "text": "family in the Hospital"
         },
         {
             "type": "Media",

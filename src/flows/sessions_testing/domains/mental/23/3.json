@@ -1,14 +1,14 @@
 {
-    "header_text": "Confronting a Friend ",
+    "header_text": "Confronting a family ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Are you proud that you communicated with your friend?"
+            "Text": "Are you proud that you communicated with your family?"
         },
         {
             "type": "Buttons",
-            "name": "confronting_a_friend_--mental_health--comp_question",
+            "name": "confronting_a_family_--mental_health--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

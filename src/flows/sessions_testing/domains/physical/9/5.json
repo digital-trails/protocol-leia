@@ -1,14 +1,14 @@
 {
-    "header_text": "Seeing an Old Friend",
+    "header_text": "Seeing an Old family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You see an old friend you haven't spoken to in years. Your heart skips a beat. You feel..."
+            "text": "You see an old family you haven't spoken to in years. Your heart skips a beat. You feel..."
         },
         {
             "type": "Entry",
-            "name": "seeing_an_old_friend--physical_health--puzzle1_entry"
+            "name": "seeing_an_old_family--physical_health--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

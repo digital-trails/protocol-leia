@@ -1,5 +1,5 @@
 {
-    "header_text": "Friendly Neighbor",
+    "header_text": "familyly Neighbor",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Entry",
-            "name": "friendly_neighbor--physical_health--puzzle1_entry"
+            "name": "familyly_neighbor--physical_health--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

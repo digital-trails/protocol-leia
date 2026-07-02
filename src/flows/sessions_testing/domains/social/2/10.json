@@ -1,10 +1,10 @@
 {
-    "header_text": "Dinner at a Friend's House",
+    "header_text": "Dinner at a family's House",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Dinner at a Friend's House"
+            "text": "Dinner at a family's House"
         },
         {
             "type": "Media",

@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Your roommate invites a few friends over for the evening, and you both agreed that everyone would wear masks. When their friends arrive, they don't have masks and your roommate doesn't say anything to them. You pull your roommate aside and ask them to speak to their... "
+            "text": "Your roommate invites a few familys over for the evening, and you both agreed that everyone would wear masks. When their familys arrive, they don't have masks and your roommate doesn't say anything to them. You pull your roommate aside and ask them to speak to their... "
         },
         {
             "type": "WordPuzzle",
@@ -14,7 +14,7 @@
             "incorrect_delay": 5000,
             "display_delay": 2000,
             "words": [
-                "friends"
+                "familys"
             ],
             "missing_letter_count": 2
         }

@@ -1,14 +1,14 @@
 {
-    "header_text": "Late Friend",
+    "header_text": "Late family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Did your friend stand you up?"
+            "Text": "Did your family stand you up?"
         },
         {
             "type": "Buttons",
-            "name": "late_friend--social_situations--comp_question",
+            "name": "late_family--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

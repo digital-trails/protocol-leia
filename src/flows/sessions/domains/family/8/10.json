@@ -1,14 +1,14 @@
 {
-    "header_text": "Introducing Your Friends",
+    "header_text": "Introducing Your familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You invited your parents to meet your friends from class tonight. You know that they can often tell embarrassing stories about you to other people. You think about what they're going to do tonight, and feel..."
+            "text": "You invited your parents to meet your familys from class tonight. You know that they can often tell embarrassing stories about you to other people. You think about what they're going to do tonight, and feel..."
         },
         {
             "type": "Entry",
-            "name": "introducing_your_friends--family_&_home_life--puzzle1_entry"
+            "name": "introducing_your_familys--family_&_home_life--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

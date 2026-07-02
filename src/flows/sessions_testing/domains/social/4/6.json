@@ -1,14 +1,14 @@
 {
-    "header_text": "Friendships in the Future",
+    "header_text": "familyships in the Future",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "When you imagine yourself in 50 years, you do not think you will have drifted from your good friends, and you see you and your close friends..."
+            "text": "When you imagine yourself in 50 years, you do not think you will have drifted from your good familys, and you see you and your close familys..."
         },
         {
             "type": "WordPuzzle",
-            "name": "friendships_in_the_future--social_situations--puzzle_word2",
+            "name": "familyships_in_the_future--social_situations--puzzle_word2",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

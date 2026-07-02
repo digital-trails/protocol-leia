@@ -1,5 +1,5 @@
 {
-    "header_text": "Sharing Social Media with New Friend",
+    "header_text": "Sharing Social Media with New family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Buttons",
-            "name": "sharing_social_media_with_new_friend--social_situations--comp_question",
+            "name": "sharing_social_media_with_new_family--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

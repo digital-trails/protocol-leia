@@ -1,10 +1,10 @@
 {
-    "header_text": "Collecting an old friend",
+    "header_text": "Collecting an old family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Collecting an old friend"
+            "text": "Collecting an old family"
         },
         {
             "type": "Media",

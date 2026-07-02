@@ -1,10 +1,10 @@
 {
-    "header_text": "Asking Out Your Friend",
+    "header_text": "Asking Out Your family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Asking Out Your Friend"
+            "text": "Asking Out Your family"
         },
         {
             "type": "Media",

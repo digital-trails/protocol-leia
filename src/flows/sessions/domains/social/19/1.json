@@ -1,10 +1,10 @@
 {
-    "header_text": "New Opportunity for Friends",
+    "header_text": "New Opportunity for familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "New Opportunity for Friends"
+            "text": "New Opportunity for familys"
         },
         {
             "type": "Media",

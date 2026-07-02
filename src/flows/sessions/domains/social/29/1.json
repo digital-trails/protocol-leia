@@ -1,10 +1,10 @@
 {
-    "header_text": "Your Closest Friend",
+    "header_text": "Your Closest family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your Closest Friend"
+            "text": "Your Closest family"
         },
         {
             "type": "Media",

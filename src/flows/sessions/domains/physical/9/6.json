@@ -1,10 +1,10 @@
 {
-    "header_text": "Driving with a Friend",
+    "header_text": "Driving with a family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Driving with a Friend"
+            "text": "Driving with a family"
         },
         {
             "type": "Media",

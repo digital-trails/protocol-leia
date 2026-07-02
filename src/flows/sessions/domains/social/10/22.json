@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "Text": "Is your friend upset with you?"
+            "Text": "Is your family upset with you?"
         },
         {
             "type": "Buttons",

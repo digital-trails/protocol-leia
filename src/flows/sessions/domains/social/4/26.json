@@ -1,14 +1,14 @@
 {
-    "header_text": "Feeling Excluded by Friends",
+    "header_text": "Feeling Excluded by familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Can you handle that sometimes your friends hang out without you?"
+            "Text": "Can you handle that sometimes your familys hang out without you?"
         },
         {
             "type": "Buttons",
-            "name": "feeling_excluded_by_friends--social_situations--comp_question",
+            "name": "feeling_excluded_by_familys--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

@@ -1,10 +1,10 @@
 {
-    "header_text": "Friend Troubles",
+    "header_text": "family Troubles",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Friend Troubles"
+            "text": "family Troubles"
         },
         {
             "type": "Media",

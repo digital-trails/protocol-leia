@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You go to the hospital to visit a friend. In the waiting room, someone behind you coughs. If you wash your hands, the probability that you will get sick is..."
+            "text": "You go to the hospital to visit a family. In the waiting room, someone behind you coughs. If you wash your hands, the probability that you will get sick is..."
         },
         {
             "type": "WordPuzzle",

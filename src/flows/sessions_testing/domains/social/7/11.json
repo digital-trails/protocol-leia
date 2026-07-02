@@ -1,10 +1,10 @@
 {
-    "header_text": "Late Friend",
+    "header_text": "Late family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Late Friend"
+            "text": "Late family"
         },
         {
             "type": "Media",

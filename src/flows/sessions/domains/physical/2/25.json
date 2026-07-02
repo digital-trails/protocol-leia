@@ -1,5 +1,5 @@
 {
-    "header_text": "Exercise Class with Friend",
+    "header_text": "Exercise Class with family",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Buttons",
-            "name": "exercise_class_with_friend--physical_health--comp_question",
+            "name": "exercise_class_with_family--physical_health--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

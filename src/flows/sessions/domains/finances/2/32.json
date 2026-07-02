@@ -1,14 +1,14 @@
 {
-    "header_text": "Breakfast with Friends",
+    "header_text": "Breakfast with familys",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Will your friends be upset at you for saying no? "
+            "Text": "Will your familys be upset at you for saying no? "
         },
         {
             "type": "Buttons",
-            "name": "breakfast_with_friends--finances--comp_question",
+            "name": "breakfast_with_familys--finances--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

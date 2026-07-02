@@ -1,14 +1,14 @@
 {
-    "header_text": "Friend in the Hospital",
+    "header_text": "family in the Hospital",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You get a text from a friend that they are in the hospital, but they don't tell you why. You start to worry about whether they're going to be OK. As you think about your friend, you feel..."
+            "text": "You get a text from a family that they are in the hospital, but they don't tell you why. You start to worry about whether they're going to be OK. As you think about your family, you feel..."
         },
         {
             "type": "WordPuzzle",
-            "name": "friend_in_the_hospital--physical_health--puzzle1",
+            "name": "family_in_the_hospital--physical_health--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

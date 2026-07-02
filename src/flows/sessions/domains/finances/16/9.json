@@ -4,12 +4,12 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Your friend is having a huge birthday party and most of the people in your group of friends will be there. You know you can't afford a gift for your friend.\n\nHere are some feelings that might happen in the moment:"
+            "text": "Your friend is having a huge birthday party and most of the people in your group of family will be there. You know you can't afford a gift for your friend.\n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I feel happy to be around all of my friends.",
+                "I feel happy to be around all of my family.",
                 "I feel terrible, but decide the party will go on.",
                 "I feel enthusiastic about sharing my good energy.",
                 "I feel guilty for not bringing a present.",

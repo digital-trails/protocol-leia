@@ -1,14 +1,14 @@
 {
-    "header_text": "Friends in Relationships",
+    "header_text": "familys in Relationships",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your friends are all in relationships. You are not currently in a relationship, and you wonder if there is something wrong with you. You think that you are... "
+            "text": "Your familys are all in relationships. You are not currently in a relationship, and you wonder if there is something wrong with you. You think that you are... "
         },
         {
             "type": "WordPuzzle",
-            "name": "friends_in_relationships--mental_health--puzzle1",
+            "name": "familys_in_relationships--mental_health--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
