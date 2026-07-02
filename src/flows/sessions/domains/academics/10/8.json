@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "Text": "Will your professor view you negatively because of this?"
+            "Text": "Will your boss view you negatively because of this?"
         },
         {
             "type": "Buttons",
