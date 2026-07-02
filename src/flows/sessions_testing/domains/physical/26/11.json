@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+            "text": "Your family convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
         },
         {
             "type": "Entry",

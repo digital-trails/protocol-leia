@@ -4,16 +4,16 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Your friend is having a huge birthday party and most of the people in your group of friends will be there. You know you can't afford a gift for your friend.\n\nHere are some thoughts that might pop into mind:"
+            "text": "Your family is having a huge birthday party and most of the people in your group of familys will be there. You know you can't afford a gift for your family.\n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "My friend will be embarrassed to have me as a friend because I don't have a gift.",
-                "My friend will be happy that I'm able to go.",
-                "My friend may be disappointed that I didn't bring a gift, but I'm still glad I came and showed I cared.",
+                "My family will be embarrassed to have me as a family because I don't have a gift.",
+                "My family will be happy that I'm able to go.",
+                "My family may be disappointed that I didn't bring a gift, but I'm still glad I came and showed I cared.",
                 "If people judge me for not bringing a gift, I'll still have a good time at the party.",
-                "It'll be good to see lots of my friends."
+                "It'll be good to see lots of my familys."
             ],
             "Duration": 15000
         }

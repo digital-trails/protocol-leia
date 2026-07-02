@@ -4,16 +4,16 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You are at a restaurant with some friends and go to use the restroom. When you come back to the table your friends are at, they stop their conversation and it's silent. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "You are at a restaurant with some familys and go to use the restroom. When you come back to the table your familys are at, they stop their conversation and it's silent. \n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
                 "I'll ask what they were talking about in a nice way.",
                 "I'll ask them defensively why they are so quiet.",
-                "I'll make a joke with my friends.",
-                "I want to leave immediately, but I'll go back to my friends and focus on enjoying the good parts of the dinner.",
-                "I want to go back into the bathroom forever, but know that talking to my friends will make me feel better about the whole situation."
+                "I'll make a joke with my familys.",
+                "I want to leave immediately, but I'll go back to my familys and focus on enjoying the good parts of the dinner.",
+                "I want to go back into the bathroom forever, but know that talking to my familys will make me feel better about the whole situation."
             ],
             "Duration": 15000
         }
