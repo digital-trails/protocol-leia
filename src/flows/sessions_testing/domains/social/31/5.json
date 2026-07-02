@@ -4,16 +4,16 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a family over for dinner. \n\nHere are some thoughts that might pop into mind:"
+            "text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. \n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "My family will be interested in hearing what my family has to say.",
+                "My friend will be interested in hearing what my family has to say.",
                 "My parents are going to say something that makes me upset.",
                 "I appreciate having different views than my family.",
-                "If my family doesn't agree with my parents' point of view, they'll still want to be familys with me.",
-                "If my parents say something that I don't agree with, my family and I can always talk about it later."
+                "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me.",
+                "If my parents say something that I don't agree with, my friend and I can always talk about it later."
             ],
             "Duration": 15000
         }

@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You are at a restaurant with some familys and go to use the restroom. When you come back to the table your familys are at, they stop their conversation and it's silent. \n\nHere are some feelings that might happen in the moment:"
+            "text": "You are at a restaurant with some friends and go to use the restroom. When you come back to the table your friends are at, they stop their conversation and it's silent. \n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",

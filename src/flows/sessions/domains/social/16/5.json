@@ -4,16 +4,16 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Your roommates have some strong opinions and you don't always agree with them. One evening, you invite a family over for dinner and sense some possible tension. \n\nHere are some thoughts that might pop into mind:"
+            "text": "Your roommates have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner and sense some possible tension. \n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "Even if my roommates say something that's upsetting, my family and I can talk about it later.",
-                "My family will be my family no matter what my roommates think.",
+                "Even if my roommates say something that's upsetting, my friend and I can talk about it later.",
+                "My friend will be my friend no matter what my roommates think.",
                 "If my roommates say things that I don't agree with, they're still my roommates and I love living with them.",
                 "We will be able to discuss the different opinions thoughtfully.",
-                "My rommates will say something that makes my family hate me."
+                "My rommates will say something that makes my friend hate me."
             ],
             "Duration": 15000
         }
