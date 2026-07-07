@@ -1,14 +1,14 @@
 {
-    "header_text": "Picture with familys",
+    "header_text": "Picture with Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You and your family took some pictures together. You look through your feed and see that they tagged you in a post and you really don't like how you look. But, you know that in the long run it won't..."
+            "text": "You and your friend took some pictures together. You look through your feed and see that they tagged you in a post and you really don't like how you look. But, you know that in the long run it won't..."
         },
         {
             "type": "WordPuzzle",
-            "name": "picture_with_familys--social_situations--puzzle1",
+            "name": "picture_with_friends--social_situations--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

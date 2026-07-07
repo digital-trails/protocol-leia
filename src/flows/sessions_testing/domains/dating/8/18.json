@@ -1,10 +1,10 @@
 {
-    "header_text": "Work family",
+    "header_text": "Work Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Work family"
+            "text": "Work Friend"
         },
         {
             "type": "Media",

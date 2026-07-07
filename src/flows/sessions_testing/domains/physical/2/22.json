@@ -1,10 +1,10 @@
 {
-    "header_text": "Exercise Class with family",
+    "header_text": "Exercise Class with Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Exercise Class with family"
+            "text": "Exercise Class with Friend"
         },
         {
             "type": "Media",

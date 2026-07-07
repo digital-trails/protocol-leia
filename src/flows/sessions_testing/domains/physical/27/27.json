@@ -1,10 +1,10 @@
 {
-    "header_text": "Cardio with family",
+    "header_text": "Cardio with friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Cardio with family"
+            "text": "Cardio with friend"
         },
         {
             "type": "Media",

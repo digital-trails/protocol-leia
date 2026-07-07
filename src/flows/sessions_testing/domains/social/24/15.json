@@ -1,14 +1,14 @@
 {
-    "header_text": "Bringing a New family Home",
+    "header_text": "Bringing a New Friend Home",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You live with a few extended family members. Your family asks if they can come over after school to study, and they don't know how many people live in your home. As you picture your family coming into your home, you think they will be..."
+            "text": "You live with a few extended family members. Your friend asks if they can come over after school to study, and they don't know how many people live in your home. As you picture your friend coming into your home, you think they will be..."
         },
         {
             "type": "Entry",
-            "name": "bringing_a_new_family_home--social_situations--puzzle1_entry"
+            "name": "bringing_a_new_friend_home--social_situations--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

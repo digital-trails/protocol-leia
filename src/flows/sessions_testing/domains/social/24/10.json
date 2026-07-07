@@ -1,10 +1,10 @@
 {
-    "header_text": "Meeting New familys",
+    "header_text": "Meeting New Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Meeting New familys"
+            "text": "Meeting New Friends"
         },
         {
             "type": "Media",

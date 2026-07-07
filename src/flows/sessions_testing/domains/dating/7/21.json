@@ -1,5 +1,5 @@
 {
-    "header_text": "familys in Relationships",
+    "header_text": "Friends in Relationships",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Entry",
-            "name": "familys_in_relationships--romantic_relationships--puzzle2_entry"
+            "name": "friends_in_relationships--romantic_relationships--puzzle2_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

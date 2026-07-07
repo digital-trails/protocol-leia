@@ -1,14 +1,14 @@
 {
-    "header_text": "Critical family",
+    "header_text": "Critical Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Are you going to let a disagreement ruin your familyship?"
+            "Text": "Are you going to let a disagreement ruin your friendship?"
         },
         {
             "type": "Buttons",
-            "name": "critical_family--social_situations--comp_question",
+            "name": "critical_friend--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

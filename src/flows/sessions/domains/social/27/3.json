@@ -1,14 +1,14 @@
 {
-    "header_text": "Jokes with familys ",
+    "header_text": "Jokes with Friends ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "A group of your familys are whispering and looking in your direction. Some of them are laughing really hard. You don't have time to go say hi, and you think they were probably laughing at a..."
+            "text": "A group of your friends are whispering and looking in your direction. Some of them are laughing really hard. You don't have time to go say hi, and you think they were probably laughing at a..."
         },
         {
             "type": "Entry",
-            "name": "jokes_with_familys_--social_situations--puzzle1_entry"
+            "name": "jokes_with_friends_--social_situations--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

@@ -1,23 +1,23 @@
 {
-    "header_text": "Keeping Up With familys ",
+    "header_text": "Keeping Up With Friends ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Since you have been out of touch, your family is probably thinking"
+            "Text": "Since you have been out of touch, your friend is probably thinking"
         },
         {
             "type": "Buttons",
-            "name": "keeping_up_with_familys_--social_situations--comp_question",
+            "name": "keeping_up_with_friends_--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "\"I guess this familyship isn't worth very much.\"",
+                "\"I guess this friendship isn't worth very much.\"",
                 "\"I'm sure things are just really busy right now.\""
             ],
             "column_count": 1,
-            "correct_value": "\"I guess this familyship isn't worth very much.\""
+            "correct_value": "\"I guess this friendship isn't worth very much.\""
         }
     ],
     "navigation_conditions": [

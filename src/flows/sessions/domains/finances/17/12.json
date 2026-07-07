@@ -1,10 +1,10 @@
 {
-    "header_text": "Dinner with familys",
+    "header_text": "Dinner with Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Dinner with familys"
+            "text": "Dinner with Friends"
         },
         {
             "type": "Media",

@@ -1,10 +1,10 @@
 {
-    "header_text": "Spotting a family",
+    "header_text": "Spotting a friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Spotting a family"
+            "text": "Spotting a friend"
         },
         {
             "type": "Media",

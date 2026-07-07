@@ -1,10 +1,10 @@
 {
-    "header_text": "Feeling Excluded by familys",
+    "header_text": "Feeling Excluded by Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Feeling Excluded by familys"
+            "text": "Feeling Excluded by Friends"
         },
         {
             "type": "Media",

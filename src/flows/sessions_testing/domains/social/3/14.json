@@ -1,10 +1,10 @@
 {
-    "header_text": "New City, New familys",
+    "header_text": "New City, New Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "New City, New familys"
+            "text": "New City, New Friends"
         },
         {
             "type": "Media",

@@ -1,14 +1,14 @@
 {
-    "header_text": "Keeping Up With familys ",
+    "header_text": "Keeping Up With Friends ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You have been very busy and are having trouble keeping in contact with one of your best familys. You are usually good about calling them, but your schedule has been very hectic. As you think about their reaction to this lull in contact, you think that your family will be..."
+            "text": "You have been very busy and are having trouble keeping in contact with one of your best friends. You are usually good about calling them, but your schedule has been very hectic. As you think about their reaction to this lull in contact, you think that your friend will be..."
         },
         {
             "type": "WordPuzzle",
-            "name": "keeping_up_with_familys_--social_situations--puzzle1",
+            "name": "keeping_up_with_friends_--social_situations--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

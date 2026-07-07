@@ -1,10 +1,10 @@
 {
-    "header_text": "familyly Neighbor",
+    "header_text": "Friendly Neighbor",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "familyly Neighbor"
+            "text": "Friendly Neighbor"
         },
         {
             "type": "Media",

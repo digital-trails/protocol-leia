@@ -1,5 +1,5 @@
 {
-    "header_text": "Introducing Your familys",
+    "header_text": "Introducing Your Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Buttons",
-            "name": "introducing_your_familys--social_situations--comp_question",
+            "name": "introducing_your_friends--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

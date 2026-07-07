@@ -1,14 +1,14 @@
 {
-    "header_text": "Bringing a New family Home",
+    "header_text": "Bringing a New Friend Home",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You consider that you live in a different situation compared to your family. You also know that your family is really nice, so will be..."
+            "text": "You consider that you live in a different situation compared to your friend. You also know that your friend is really nice, so will be..."
         },
         {
             "type": "Entry",
-            "name": "bringing_a_new_family_home--social_situations--puzzle2_entry"
+            "name": "bringing_a_new_friend_home--social_situations--puzzle2_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

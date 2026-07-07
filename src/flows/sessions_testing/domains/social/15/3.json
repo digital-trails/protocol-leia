@@ -1,14 +1,14 @@
 {
-    "header_text": "family Troubles",
+    "header_text": "Friend Troubles",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You realize you told your familys you had a lot of homework to do. This makes you feel..."
+            "text": "You realize you told your friends you had a lot of homework to do. This makes you feel..."
         },
         {
             "type": "WordPuzzle",
-            "name": "family_troubles--social_situations--puzzle_word2",
+            "name": "friend_troubles--social_situations--puzzle_word2",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

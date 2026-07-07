@@ -1,14 +1,14 @@
 {
-    "header_text": "Old family ",
+    "header_text": "Old friend ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Your family probably did not reply to you because ..."
+            "Text": "Your friend probably did not reply to you because ..."
         },
         {
             "type": "Buttons",
-            "name": "old_family_--social_situations--comp_question",
+            "name": "old_friend_--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

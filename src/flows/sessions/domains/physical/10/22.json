@@ -1,10 +1,10 @@
 {
-    "header_text": "Hiking with familys",
+    "header_text": "Hiking with Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Hiking with familys"
+            "text": "Hiking with Friends"
         },
         {
             "type": "Media",

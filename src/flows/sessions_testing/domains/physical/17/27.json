@@ -1,14 +1,14 @@
 {
-    "header_text": "family in the Hospital",
+    "header_text": "Friend in the Hospital",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Will your family probably be OK? "
+            "Text": "Will your friend probably be OK? "
         },
         {
             "type": "Buttons",
-            "name": "family_in_the_hospital--physical_health--comp_question",
+            "name": "friend_in_the_hospital--physical_health--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

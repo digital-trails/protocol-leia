@@ -1,14 +1,14 @@
 {
-    "header_text": "Keeping Up With familys ",
+    "header_text": "Keeping Up With Friends ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Your family will most likely"
+            "Text": "Your friend will most likely"
         },
         {
             "type": "Buttons",
-            "name": "keeping_up_with_familys_--social_situations--comp_question",
+            "name": "keeping_up_with_friends_--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

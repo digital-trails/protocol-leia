@@ -1,10 +1,10 @@
 {
-    "header_text": "Breakfast with familys",
+    "header_text": "Breakfast with Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Breakfast with familys"
+            "text": "Breakfast with Friends"
         },
         {
             "type": "Media",

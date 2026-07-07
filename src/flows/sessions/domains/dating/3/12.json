@@ -1,14 +1,14 @@
 {
-    "header_text": "Advice for a family",
+    "header_text": "Advice for a friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Did your family think you gave them good advice about relationships?"
+            "Text": "Did your friend think you gave them good advice about relationships?"
         },
         {
             "type": "Buttons",
-            "name": "advice_for_a_family--romantic_relationships--comp_question",
+            "name": "advice_for_a_friend--romantic_relationships--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

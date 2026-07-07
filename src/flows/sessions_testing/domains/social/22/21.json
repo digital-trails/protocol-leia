@@ -1,14 +1,14 @@
 {
-    "header_text": "Book Club familys ",
+    "header_text": "Book Club Friends ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You have recently joined a local book club, and think the other members are very cool. You would like to hang out more often, but you worry about whether they will want to be familys outside of the book club. You consider inviting them over for dinner, and you think that they will think you are..."
+            "text": "You have recently joined a local book club, and think the other members are very cool. You would like to hang out more often, but you worry about whether they will want to be friends outside of the book club. You consider inviting them over for dinner, and you think that they will think you are..."
         },
         {
             "type": "WordPuzzle",
-            "name": "book_club_familys_--social_situations--puzzle1",
+            "name": "book_club_friends_--social_situations--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

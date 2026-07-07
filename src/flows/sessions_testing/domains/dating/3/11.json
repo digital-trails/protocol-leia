@@ -1,14 +1,14 @@
 {
-    "header_text": "Advice for a family",
+    "header_text": "Advice for a friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You spend an evening with a family and end up talking about their relationship problems. As you give them some advice, you notice they are quiet. Once you get home later, you reflect on the evening and think that they found your advice..."
+            "text": "You spend an evening with a friend and end up talking about their relationship problems. As you give them some advice, you notice they are quiet. Once you get home later, you reflect on the evening and think that they found your advice..."
         },
         {
             "type": "WordPuzzle",
-            "name": "advice_for_a_family--romantic_relationships--puzzle1",
+            "name": "advice_for_a_friend--romantic_relationships--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

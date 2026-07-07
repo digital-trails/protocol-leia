@@ -1,10 +1,10 @@
 {
-    "header_text": "Spending Money with familys",
+    "header_text": "Spending Money with Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Spending Money with familys"
+            "text": "Spending Money with Friends"
         },
         {
             "type": "Media",

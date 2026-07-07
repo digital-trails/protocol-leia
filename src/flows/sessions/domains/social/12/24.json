@@ -1,5 +1,5 @@
 {
-    "header_text": "Meeting New familys",
+    "header_text": "Meeting New Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Buttons",
-            "name": "meeting_new_familys--social_situations--comp_question",
+            "name": "meeting_new_friends--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

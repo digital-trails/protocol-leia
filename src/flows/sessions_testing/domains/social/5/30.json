@@ -1,10 +1,10 @@
 {
-    "header_text": "Critical family",
+    "header_text": "Critical Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Critical family"
+            "text": "Critical Friend"
         },
         {
             "type": "Media",

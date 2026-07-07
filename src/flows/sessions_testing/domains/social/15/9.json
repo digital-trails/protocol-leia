@@ -1,14 +1,14 @@
 {
-    "header_text": "Close family's Birthday",
+    "header_text": "Close Friend's Birthday",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Tomorrow is a close family's birthday. You forgot to get them a gift and don't have much time to shop for something good. You pick up something mediocre from a nearby store and you think they will be..."
+            "text": "Tomorrow is a close friend's birthday. You forgot to get them a gift and don't have much time to shop for something good. You pick up something mediocre from a nearby store and you think they will be..."
         },
         {
             "type": "WordPuzzle",
-            "name": "close_family's_birthday--social_situations--puzzle1",
+            "name": "close_friend's_birthday--social_situations--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

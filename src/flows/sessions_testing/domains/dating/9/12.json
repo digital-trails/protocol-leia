@@ -1,10 +1,10 @@
 {
-    "header_text": "Single family",
+    "header_text": "Single Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Single family"
+            "text": "Single Friend"
         },
         {
             "type": "Media",

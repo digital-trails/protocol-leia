@@ -1,10 +1,10 @@
 {
-    "header_text": "family Neglecting Chores",
+    "header_text": "Friend Neglecting Chores",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "family Neglecting Chores"
+            "text": "Friend Neglecting Chores"
         },
         {
             "type": "Media",

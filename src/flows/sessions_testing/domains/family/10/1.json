@@ -1,10 +1,10 @@
 {
-    "header_text": "Introducing Your familys",
+    "header_text": "Introducing Your Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Introducing Your familys"
+            "text": "Introducing Your Friends"
         },
         {
             "type": "Media",

@@ -1,10 +1,10 @@
 {
-    "header_text": "familys Hanging Out",
+    "header_text": "Friends Hanging Out",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "familys Hanging Out"
+            "text": "Friends Hanging Out"
         },
         {
             "type": "Media",

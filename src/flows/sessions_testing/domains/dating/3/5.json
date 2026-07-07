@@ -1,14 +1,14 @@
 {
-    "header_text": "Asking Out Your family",
+    "header_text": "Asking Out Your Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You have been good familys with someone for a few years, and really value your relationship. You are very attracted to your family, but are unsure how admitting your feelings would affect your familyship. If you were to ask your family on a date you think your family would find it..."
+            "text": "You have been good friends with someone for a few years, and really value your relationship. You are very attracted to your friend, but are unsure how admitting your feelings would affect your friendship. If you were to ask your friend on a date you think your friend would find it..."
         },
         {
             "type": "WordPuzzle",
-            "name": "asking_out_your_family--romantic_relationships--puzzle1",
+            "name": "asking_out_your_friend--romantic_relationships--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

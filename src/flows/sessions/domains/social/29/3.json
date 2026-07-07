@@ -1,5 +1,5 @@
 {
-    "header_text": "Your Closest family",
+    "header_text": "Your Closest Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,16 +8,16 @@
         },
         {
             "type": "Buttons",
-            "name": "your_closest_family--social_situations--comp_question",
+            "name": "your_closest_friend--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "You think your best family will not empathize with your experiences.",
-                "You expect your best family will try to understand what you're going through."
+                "You think your best friend will not empathize with your experiences.",
+                "You expect your best friend will try to understand what you're going through."
             ],
             "column_count": 1,
-            "correct_value": "You expect your best family will try to understand what you're going through."
+            "correct_value": "You expect your best friend will try to understand what you're going through."
         }
     ],
     "navigation_conditions": [

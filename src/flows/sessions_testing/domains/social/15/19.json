@@ -1,10 +1,10 @@
 {
-    "header_text": "Loud family",
+    "header_text": "Loud friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Loud family"
+            "text": "Loud friend"
         },
         {
             "type": "Media",

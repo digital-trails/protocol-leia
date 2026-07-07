@@ -1,5 +1,5 @@
 {
-    "header_text": "Spotting a family",
+    "header_text": "Spotting a friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "type": "Buttons",
-            "name": "spotting_a_family--social_situations--comp_question",
+            "name": "spotting_a_friend--social_situations--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

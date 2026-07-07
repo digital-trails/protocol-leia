@@ -1,14 +1,14 @@
 {
-    "header_text": "Coughing family",
+    "header_text": "Coughing friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Can you manage your anxiety about potentially getting sick from your family?"
+            "Text": "Can you manage your anxiety about potentially getting sick from your friend?"
         },
         {
             "type": "Buttons",
-            "name": "coughing_family--physical_health--comp_question",
+            "name": "coughing_friend--physical_health--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

@@ -1,14 +1,14 @@
 {
-    "header_text": "Balancing Home Life and familys",
+    "header_text": "Balancing Home Life and Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Are you calm about your family coming over this afternoon?"
+            "Text": "Are you calm about your friend coming over this afternoon?"
         },
         {
             "type": "Buttons",
-            "name": "balancing_home_life_and_familys--family_&_home_life--comp_question",
+            "name": "balancing_home_life_and_friends--family_&_home_life--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

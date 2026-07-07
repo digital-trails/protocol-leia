@@ -1,14 +1,14 @@
 {
-    "header_text": "Catching up to familys",
+    "header_text": "Catching up to Friends",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You see your familys across the street and jog over to them. You feel a little disoriented and dizzy as you reach them. You consider what this means, and realize that it probably means that you ran..."
+            "text": "You see your friends across the street and jog over to them. You feel a little disoriented and dizzy as you reach them. You consider what this means, and realize that it probably means that you ran..."
         },
         {
             "type": "Entry",
-            "name": "catching_up_to_familys--physical_health--puzzle1_entry"
+            "name": "catching_up_to_friends--physical_health--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

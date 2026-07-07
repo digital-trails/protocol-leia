@@ -1,14 +1,14 @@
 {
-    "header_text": "Bringing a New family Home",
+    "header_text": "Bringing a New Friend Home",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "Does your family judge you for living with lots of extended family members?"
+            "Text": "Does your friend judge you for living with lots of extended family members?"
         },
         {
             "type": "Buttons",
-            "name": "bringing_a_new_family_home--family_&_home_life--comp_question",
+            "name": "bringing_a_new_friend_home--family_&_home_life--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

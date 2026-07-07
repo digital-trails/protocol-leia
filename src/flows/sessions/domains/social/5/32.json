@@ -1,14 +1,14 @@
 {
-    "header_text": "Critical family",
+    "header_text": "Critical Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "After thinking about it, you realize that people don't have to agree with everything you do. You love your family and will continue to be familys with... "
+            "text": "After thinking about it, you realize that people don't have to agree with everything you do. You love your friend and will continue to be friends with... "
         },
         {
             "type": "WordPuzzle",
-            "name": "critical_family--social_situations--puzzle_word2",
+            "name": "critical_friend--social_situations--puzzle_word2",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

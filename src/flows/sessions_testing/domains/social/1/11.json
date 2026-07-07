@@ -1,10 +1,10 @@
 {
-    "header_text": "Keeping Up With familys ",
+    "header_text": "Keeping Up With Friends ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Keeping Up With familys "
+            "text": "Keeping Up With Friends "
         },
         {
             "type": "Media",

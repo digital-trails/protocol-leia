@@ -1,10 +1,10 @@
 {
-    "header_text": "Old familys ",
+    "header_text": "Old Friends ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Old familys "
+            "text": "Old Friends "
         },
         {
             "type": "Media",

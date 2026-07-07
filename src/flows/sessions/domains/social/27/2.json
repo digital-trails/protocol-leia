@@ -1,10 +1,10 @@
 {
-    "header_text": "Jokes with familys ",
+    "header_text": "Jokes with Friends ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Jokes with familys "
+            "text": "Jokes with Friends "
         },
         {
             "type": "Media",

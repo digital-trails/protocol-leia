@@ -1,10 +1,10 @@
 {
-    "header_text": "Advice for a family",
+    "header_text": "Advice for a friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Advice for a family"
+            "text": "Advice for a friend"
         },
         {
             "type": "Media",

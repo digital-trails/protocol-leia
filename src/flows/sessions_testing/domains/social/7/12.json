@@ -1,14 +1,14 @@
 {
-    "header_text": "Late family",
+    "header_text": "Late Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You're meeting a family at a local park. After 20 minutes, your family still hasn't arrived. You think they probably are..."
+            "text": "You're meeting a friend at a local park. After 20 minutes, your friend still hasn't arrived. You think they probably are..."
         },
         {
             "type": "Entry",
-            "name": "late_family--social_situations--puzzle1_entry"
+            "name": "late_friend--social_situations--puzzle1_entry"
         }
     ],
     "navigation_conditions": "wait_for_correct",

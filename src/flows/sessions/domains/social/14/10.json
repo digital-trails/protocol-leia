@@ -1,10 +1,10 @@
 {
-    "header_text": "Borrowing from a family",
+    "header_text": "Borrowing from a Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Borrowing from a family"
+            "text": "Borrowing from a Friend"
         },
         {
             "type": "Media",

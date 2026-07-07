@@ -1,5 +1,5 @@
 {
-    "header_text": "Running with a family",
+    "header_text": "Running with a Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
@@ -8,16 +8,16 @@
         },
         {
             "type": "Buttons",
-            "name": "running_with_a_family--physical_health--comp_question",
+            "name": "running_with_a_friend--physical_health--comp_question",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Fall way behind your family during your run.",
-                "Be able to keep up with your family."
+                "Fall way behind your friend during your run.",
+                "Be able to keep up with your friend."
             ],
             "column_count": 1,
-            "correct_value": "Be able to keep up with your family."
+            "correct_value": "Be able to keep up with your friend."
         }
     ],
     "navigation_conditions": [

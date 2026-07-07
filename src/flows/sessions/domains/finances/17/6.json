@@ -1,10 +1,10 @@
 {
-    "header_text": "Treating a family",
+    "header_text": "Treating a Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Treating a family"
+            "text": "Treating a Friend"
         },
         {
             "type": "Media",

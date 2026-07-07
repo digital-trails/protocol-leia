@@ -1,10 +1,10 @@
 {
-    "header_text": "Feeling Abandoned By a Close family",
+    "header_text": "Feeling Abandoned By a Close Friend",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Feeling Abandoned By a Close family"
+            "text": "Feeling Abandoned By a Close Friend"
         },
         {
             "type": "Media",

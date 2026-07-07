@@ -1,14 +1,14 @@
 {
-    "header_text": "Old family ",
+    "header_text": "Old friend ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "While dancing at a club, you spot an old family not far away and call out to them. They do not reply to you. You decide that this is because they are..."
+            "text": "While dancing at a club, you spot an old friend not far away and call out to them. They do not reply to you. You decide that this is because they are..."
         },
         {
             "type": "WordPuzzle",
-            "name": "old_family_--social_situations--puzzle1",
+            "name": "old_friend_--social_situations--puzzle1",
             "correct_feedback": "Correct!",
             "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
             "incorrect_delay": 5000,

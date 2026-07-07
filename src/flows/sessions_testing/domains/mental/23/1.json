@@ -1,10 +1,10 @@
 {
-    "header_text": "Confronting a family ",
+    "header_text": "Confronting a Friend ",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Confronting a family "
+            "text": "Confronting a Friend "
         },
         {
             "type": "Media",
