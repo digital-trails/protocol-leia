@@ -9,7 +9,7 @@
     ],
     "navigation_conditions": [
         {
-            "wait_for_time": 4
+            "wait_for_time": 4000
         }
     ]
 }

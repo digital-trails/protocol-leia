@@ -18,7 +18,7 @@
     ],
     "navigation_conditions": [
         {
-            "wait_for_time": 20
+            "wait_for_time": 20000
         }
     ]
 }

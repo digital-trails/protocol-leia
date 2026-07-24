@@ -71,7 +71,7 @@ def create_nav_conditions(show_next:Literal["WhenCorrect","AfterTimeout","Never"
     if timeout and show_next=="aftertimeout":
         return {"navigation_conditions": [{"wait_for_time": int(timeout)*1000}, "wait_for_click"]}
     if timeout:
-        return {"navigation_conditions": [{"wait_for_time": int(timeout)}]}
+        return {"navigation_conditions": [{"wait_for_time": int(timeout)*1000}]}
     if show_next == "whencorrect":
         return {"navigation_conditions": ["wait_for_correct", "wait_for_click"]}
     if show_next == "whencomplete":
