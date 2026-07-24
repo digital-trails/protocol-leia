@@ -1,21 +1,15 @@
 {
-    "header_text": "",
+    "header_text": "Contributing to a discussion",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider."
+            "text": "Contributing to a discussion"
         },
         {
-            "type": "Slider",
-            "min": 0,
-            "max": 10,
-            "labels": [
-                "Absolutely no anxiety",
-                "Totally anxious"
-            ],
-            "others": [],
-            "name": "imagery_anxiety"
+            "type": "Media",
+            "url": "./images/56.jpeg"
         }
-    ]
+    ],
+    "scenario_num": 0
 }

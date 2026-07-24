@@ -4,12 +4,11 @@
     "elements": [
         {
             "type": "Text",
-            "text": "In this exercise - and throughout the training program - please remember to imagine what is happening through your own eyes, similar to the picture on the left. This is more effective than viewing the situation as an outside observer, like the picture on the right."
+            "text": "Please describe the situation in a few words:"
         },
         {
-            "type": "Media",
-            "url": "./images/lemon_pic1.jpeg",
-            "border": true
+            "type": "Entry",
+            "name": "entry_anxious_imagery"
         }
     ]
 }

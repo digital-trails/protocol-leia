@@ -1,23 +1,28 @@
 {
-    "header_text": "",
+    "header_text": "Contributing to a discussion",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "How likely is it that the situation or task will turn out well versus turn out badly?"
+            "Text": "The people in your class will probably ..."
         },
         {
             "type": "Buttons",
+            "name": "contributing_to_a_discussion--academics_work_career_development--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
             "buttons": [
-                "0::Very likely to turn out well",
-                "1::Somewhat likely to turn out well",
-                "2::Neutral",
-                "3::Somewhat likely to turn out badly",
-                "4::Very likely to turn out badly",
-                "5::Prefer not to answer"
+                "Dislike your ideas.",
+                "Support your ideas."
             ],
-            "ColumnCount": 1,
-            "name": "imagery_well"
+            "column_count": 1,
+            "correct_value": "Support your ideas."
         }
-    ]
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "scenario_num": 0
 }
