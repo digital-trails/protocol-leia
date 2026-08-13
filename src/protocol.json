@@ -1,5 +1,6 @@
 {
   "home": { "type": "ref", "path": "home.json" },
   "menu": { "type": "ref", "path": "menu.json"},
-  "surveys": {"type": "ref", "path": "surveys.json"}
+  "surveys": {"type": "ref", "path": "surveys.json"},
+  "probes": {"type": "ref", "path": "probes.json" }
 }

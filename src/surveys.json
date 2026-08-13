@@ -1,11 +1,22 @@
 {
-	"eod": {
-		"type": "frequency",
-		"time": "20:00",
+	"ema": {
+		"type": "cron",
 		"skip": 0,
 		"take": 14,
-		"frequency": "1",
+		"cron": "0 9,12,15,18 * * *",
+		"expiry": "01:00",
+		"span": "02:00",
+		"path": "flow://flows/sessions",
+		"name": "Session"
+	},
+	"eod": {
+		"type": "cron",
+		"skip": 0,
+		"take": 14,
+		"cron": "0 20 * * *",
 		"expiry": "04:00",
-		"path": "flow://flows/end of day"
+		"span": "0",
+		"path": "flow://flows/end of day",
+		"name": "End of Day"
 	}
 }

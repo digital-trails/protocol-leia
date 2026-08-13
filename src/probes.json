@@ -1,0 +1,16 @@
+[
+	{
+		"type":"accelerometer"
+	},
+	{
+		"type":"location",
+		"accuracy": "Best",
+		"interval": "00:05:00"
+	},
+	{
+		"type":"battery"
+	},
+	{
+		"type":"AmbientLight"
+	}
+]
