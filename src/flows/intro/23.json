@@ -1,15 +1,28 @@
 {
-    "header_text": "Contributing to a discussion",
+    "header_text": "Attention in store",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Contributing to a discussion"
+            "Text": "The other shoppers probably think you are ..."
         },
         {
-            "type": "Media",
-            "url": "./images/56.jpeg"
+            "type": "Buttons",
+            "name": "attention_in_store--social_situations--comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Awkward and uncoordinated.",
+                "Considerate for apologizing."
+            ],
+            "column_count": 1,
+            "correct_value": "Considerate for apologizing."
         }
     ],
-    "scenario_num": 0
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "scenario_num": 1
 }

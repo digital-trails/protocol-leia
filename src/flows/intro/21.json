@@ -1,10 +1,24 @@
 {
-    "header_text": "",
+    "header_text": "Attention in store",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "For the next 2 weeks, you will receive notifications prompting you to open the app to complete activities and surveys. We hope that you will use the app 4 times daily, but we understand that life can get in the way and that you may need to skip some sessions. That's okay, but just remember that the program only lasts for 2 weeks. You will also be able to access the contents of the app (activities, resources, etc.) at any time by visiting the on-demand library from the homepage."
+            "text": "You are in a store and accidentally knock over a few picture frames in one of the aisles. You feel your cheeks become hot as people in the store turn and look at you. When the shop owner comes over to rearrange the picture frames, they are..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "attention_in_store--social_situations--puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "frowning"
+            ],
+            "missing_letter_count": 1
         }
-    ]
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "scenario_num": 1
 }

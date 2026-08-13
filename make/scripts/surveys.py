@@ -30,7 +30,7 @@ def _create_survey_page(row):
     media         = media_url(row[8])
     timeout       = row[9]
     image_framed  = "true"
-    show_buttons  = None
+    show_buttons  = row[11]
     is_html       = None
 
     return create_survey_page(condition=condition, text=text, show_buttons=show_buttons, 
