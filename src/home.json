@@ -5,8 +5,9 @@
         "elements": [
             {
                 "type": "alert",
-                "title": "Leia",
-                "message": "Live Ecological Intervention for Anxiety"
+                "title": "MindTrails",
+                "message": "Understand Your Thinking. Feel Less Anxious.",
+                "icon": "/assets/home_banner.png"
             },
             {
                 "type": "survey",

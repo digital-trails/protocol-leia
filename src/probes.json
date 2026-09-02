@@ -4,7 +4,7 @@
 	},
 	{
 		"type":"location",
-		"accuracy": "Best",
+		"accuracy": 5,
 		"interval": "00:05:00"
 	},
 	{
