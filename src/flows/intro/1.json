@@ -4,11 +4,12 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Please enter your participant ID provided by the researcher."
+            "text": "Please enter your participant ID provided by the researcher.",
         },
         {
             "type": "Entry",
-            "name": "participantid"
+            "name": "participantid",
+            "border": false
         }
     ]
 }
