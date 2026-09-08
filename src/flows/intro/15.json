@@ -1,13 +1,23 @@
 {
+    "header_text": "Demographics",
+    "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please press play on the training video below to learn more!"
+            "text": "What sex were you assigned at birth on your original birth certificate?"
         },
         {
-            "type": "Media",
-            "url": "/videos/video1.mp4",
-            "border": false
+            "type": "Buttons",
+            "buttons": [
+                "1::Female",
+                "2::Intersex",
+                "3::Male",
+                "!4::Something not listed (please specify)",
+                "^5::Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "sex",
+            "variable_name": "sex"
         }
     ]
 }

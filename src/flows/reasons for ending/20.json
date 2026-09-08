@@ -1,0 +1,40 @@
+{
+    "header_text": "Reasons for Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Did you contact any of the following resources or referrals at any point since you started using MindTrails? Please select all that apply."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "g., cultural groups, volunteering)",
+                "Counseling and Pyscological Services (CAPS)",
+                "Faculty and Employee Assistance Program (FEAP)",
+                "Food pantries",
+                "HELP Line",
+                "HoosWell",
+                "g., Interfaith, Latinx, LGBTQ)",
+                "Office for Equal Opportunity and Civil Rights (EOCR)",
+                "Office of African-American Affairs (OAAA)",
+                "Office of Graduate and Postdoctoral Affairs",
+                "Office of the Dean of Students (ODOS)",
+                "PhD Plus",
+                "Student Disability Access Center (SDAC)",
+                "Student Financial Services",
+                "Student Health and Wellness",
+                "TimelyCare",
+                "UVA Career Center",
+                "UVA Human Resources (HR)",
+                "UVA Women's Center",
+                "UVA Writing Center",
+                "WahooWell",
+                "!Other",
+                "I did not contact any of these resources/referrals since starting this program"
+            ],
+            "multiselect": true,
+            "name": "rfe_resources_contacted"
+        }
+    ]
+}

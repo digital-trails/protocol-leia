@@ -1,0 +1,21 @@
+{
+    "header_text": "Reasons for Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Do you have moderate-to-severe anxiety or depression symptoms?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Yes",
+                "2::No",
+                "3::Unsure"
+            ],
+            "ColumnCount": 1,
+            "name": "rfe_symptoms",
+            "variable_name": "rfesymptoms"
+        }
+    ]
+}

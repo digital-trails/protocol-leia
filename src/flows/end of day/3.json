@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "To what extent is your anxiety a central part of who you are currently?"
+            "text": "Regardless of how often or intensely you experienced anxiety today, to what extent is your anxiety a central part of who you are currently?"
         },
         {
             "type": "VennSlider",

@@ -1,0 +1,32 @@
+{
+    "header_text": "Reasons for Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Much more likely",
+                "A little more likely",
+                "Equally likely",
+                "A little less likely",
+                "Much less likely",
+                "g. I'm currently undergoing another form of treatment)",
+                "^Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "rfe_treatment_interest"
+        }
+    ],
+    "condition": [
+        "rfesymptoms",
+        "in",
+        [
+            1,
+            3
+        ]
+    ]
+}

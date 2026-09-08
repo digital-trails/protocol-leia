@@ -1,13 +1,10 @@
 {
+    "header_text": "Demographics",
+    "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please press play on the training video below to learn more!"
-        },
-        {
-            "type": "Media",
-            "url": "/videos/video2.mp4",
-            "border": false
+            "text": "What is your current age in years?"
         }
     ]
 }

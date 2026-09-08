@@ -1,0 +1,23 @@
+{
+    "header_text": "Reasons for Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "To the extent you completed the program, how helpful did you find MindTrails for reducing your anxiety?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Not at all",
+                "2::Slightly",
+                "3::Somewhat",
+                "4::Mostly",
+                "5::Very",
+                "^Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "rfe_helpfulness"
+        }
+    ]
+}

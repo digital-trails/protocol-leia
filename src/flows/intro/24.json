@@ -1,13 +1,29 @@
 {
+    "header_text": "Demographics",
+    "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please press play on the training video below to learn more!"
+            "text": "Which of the following best describes your employment status?"
         },
         {
-            "type": "Media",
-            "url": "/videos/video3.mp4",
-            "border": false
+            "type": "Buttons",
+            "buttons": [
+                "1::Student",
+                "2::Employed full time",
+                "3::Employed part time",
+                "4::Self-employed full time",
+                "5::Self-employed part time",
+                "6::Not employed, but looking for work",
+                "7::Not employed and not looking for work",
+                "8::Not employed and unable to work due to a disability or illness",
+                "9::Retired",
+                "10::Stay-at-home spouse or partner",
+                "!11::Prefer to self-describe (please specify)",
+                "^12::Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "employment_status"
         }
     ]
 }

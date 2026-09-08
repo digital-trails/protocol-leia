@@ -4,20 +4,20 @@
     "elements": [
         {
             "type": "Text",
-            "text": "How vividly did you imagine the situation?"
+            "text": "If this situation did turn out badly, how well or badly would you be able to handle it?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "0::Not at all vivid",
-                "1::Somewhat vivid",
-                "2::Moderately vivid",
-                "3::Very vivid",
-                "4::Totally vivid",
+                "0::Very well",
+                "1::Somewhat well",
+                "2::Neutral",
+                "3::Somewhat badly",
+                "4::Very badly",
                 "5::Prefer not to answer"
             ],
             "ColumnCount": 1,
-            "name": "imagery_vivid"
+            "name": "imagery_handling"
         }
     ],
     "condition": [

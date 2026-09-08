@@ -1,0 +1,29 @@
+{
+    "header_text": "Demographics",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How would you describe your disability? (Please select all that apply.)"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Cognitive/learning disability",
+                "2::Long-term medical illness",
+                "3::Long-term mental health condition",
+                "4::Physical disability",
+                "5::Sensory disability",
+                "!6::Prefer to self-describe (please specify)",
+                "^7::Prefer not to answer"
+            ],
+            "multiselect": true,
+            "name": "disability_description"
+        }
+    ],
+    "condition": [
+        "disability",
+        "=",
+        1
+    ]
+}

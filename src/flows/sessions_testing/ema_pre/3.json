@@ -4,21 +4,18 @@
     "elements": [
         {
             "type": "Text",
-            "text": "What do you feel anxious about?"
+            "text": "How would you describe your current social context?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "0::A social situation",
-                "1::Feelings in my body",
-                "2::Thoughts I am having",
-                "3::Nothing specific (generalized anxiety)",
-                "!4::Something else",
-                "^5::Nothing"
+                "0::Alone - not around any other people",
+                "1::Around other people that I am not actively interacting with (e.g., eating lunch in a crowded cafeteria but sitting alone)",
+                "2::Around other people that I am actively interacting with (e.g., studying with a group of friends)"
             ],
-            "multiselect": true,
-            "name": "anxietytopic",
-            "variable_name": "anxietytopic"
+            "ColumnCount": 1,
+            "name": "socialcontext",
+            "variable_name": "socialcontext"
         }
     ]
 }

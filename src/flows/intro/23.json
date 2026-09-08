@@ -1,28 +1,29 @@
 {
-    "header_text": "Attention in store",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "The other shoppers probably think you are ..."
+            "text": "What is your present religion, if any? (Please select all that apply.)"
         },
         {
             "type": "Buttons",
-            "name": "attention_in_store--social_situations--comp_question",
-            "correct_feedback": "Correct!",
-            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-            "incorrect_delay": 5000,
             "buttons": [
-                "Awkward and uncoordinated.",
-                "Considerate for apologizing."
+                "1::Protestant",
+                "2::Roman Catholic",
+                "3::Mormon",
+                "4::Orthodox such as Greek or Russian Orthodox",
+                "5::Jewish",
+                "6::Muslim",
+                "7::Buddhist",
+                "8::Hindu",
+                "9::atheist",
+                "10::agnostic",
+                "!11::Somthing else (please specify)",
+                "12::Nothing in particular"
             ],
-            "column_count": 1,
-            "correct_value": "Considerate for apologizing."
+            "multiselect": true,
+            "name": "religion"
         }
-    ],
-    "navigation_conditions": [
-        "wait_for_correct",
-        "wait_for_click"
-    ],
-    "scenario_num": 1
+    ]
 }

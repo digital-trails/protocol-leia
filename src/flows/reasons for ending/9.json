@@ -1,0 +1,23 @@
+{
+    "header_text": "Reasons for Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "I found the training sessions to be:"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Way too short",
+                "Somewhat too short",
+                "The right length",
+                "Somewhat too long",
+                "Way too long",
+                "^Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "rfe_session_length"
+        }
+    ]
+}

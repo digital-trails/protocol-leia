@@ -1,0 +1,26 @@
+{
+    "header_text": "Reasons For Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Why did you decide to end the program? Please check all that apply."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "I did not have enough time to complete the program",
+                "I did not find the program helpful for reducing my anxiety",
+                "I did not find the program interesting",
+                "I did not believe a program like this could work",
+                "I found the program frustrating to use",
+                "e., I no longer felt anxious)",
+                "e., the condition that was not expected to change anxiety)",
+                "!Other (please specify)",
+                "^Prefer not to answer"
+            ],
+            "multiselect": true,
+            "name": "reasons_for_ending"
+        }
+    ]
+}

@@ -4,18 +4,20 @@
     "elements": [
         {
             "type": "Text",
-            "text": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider."
+            "text": "How likely is it that the situation or task will turn out well versus turn out badly?"
         },
         {
-            "type": "Slider",
-            "min": 0,
-            "max": 10,
-            "labels": [
-                "Absolutely no anxiety",
-                "Totally anxious"
+            "type": "Buttons",
+            "buttons": [
+                "0::Very likely to turn out well",
+                "1::Somewhat likely to turn out well",
+                "2::Neutral",
+                "3::Somewhat likely to turn out badly",
+                "4::Very likely to turn out badly",
+                "5::Prefer not to answer"
             ],
-            "others": [],
-            "name": "imagery_anxiety"
+            "ColumnCount": 1,
+            "name": "imagery_well"
         }
     ],
     "condition": [

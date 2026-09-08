@@ -4,18 +4,17 @@
     "elements": [
         {
             "type": "Text",
-            "text": "How would you describe your current social context?"
+            "text": "Are you interested in doing a short exercise on your phone to help reduce feelings of anxiety or tolerate stress that you may feel now or in the future?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "0::Alone - not around any other people",
-                "1::Around other people that I am not actively interacting with (e.g., eating lunch in a crowded cafeteria but sitting alone)",
-                "2::Around other people that I am actively interacting with (e.g., studying with a group of friends)"
+                "0::Interested",
+                "1::Not interested"
             ],
             "ColumnCount": 1,
-            "name": "socialcontext",
-            "variable_name": "socialcontext"
+            "name": "interest",
+            "variable_name": "interest"
         }
     ]
 }

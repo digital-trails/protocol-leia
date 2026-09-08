@@ -1,0 +1,23 @@
+{
+    "header_text": "Reasons for Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How useful did you find the strategies and tips provided by the app?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Not at all",
+                "2::Slightly",
+                "3::Somewhat",
+                "4::Mostly",
+                "5::Very",
+                "^Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "rfe_tips"
+        }
+    ]
+}

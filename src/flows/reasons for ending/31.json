@@ -1,0 +1,26 @@
+{
+    "header_text": "Reasons for Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During this program, did you change any dose of medication, therapy, or other intervention to help your mental health? Please check all that apply."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "I seek in-person therapy more now",
+                "I seek in-person therapy less now",
+                "I use prescription medication more now",
+                "I use prescription medication less now",
+                "I use online computer programs or mobile apps (other than MindTrails) more now",
+                "I use online computer programs or mobile apps (other than MindTrails) less now",
+                "!Other",
+                "I did not change my intervention habits",
+                "^Prefer not to answer"
+            ],
+            "multiselect": true,
+            "name": "rfe_intervention_changes"
+        }
+    ]
+}

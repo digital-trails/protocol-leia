@@ -1,0 +1,10 @@
+{
+    "header_text": "Reasons for Ending",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Some people have problems when trying to use a mobile application. Please read the following statments and tell us how much of a problem you had when trying to use the app."
+        }
+    ]
+}

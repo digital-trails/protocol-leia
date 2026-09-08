@@ -4,12 +4,11 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Really try to imagine yourself in the upcoming situations as vividly as possible."
+            "text": "Please describe the situation in a few words:"
         },
         {
-            "type": "Media",
-            "url": "./images/lemon_pic3.jpeg",
-            "border": true
+            "type": "Entry",
+            "name": "entry_anxious_imagery"
         }
     ],
     "condition": [
@@ -18,7 +17,7 @@
         0,
         "&&",
         "preanxious",
-        ">",
-        2
+        "<",
+        3
     ]
 }

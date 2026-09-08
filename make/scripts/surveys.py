@@ -75,7 +75,7 @@ with open(f"{dir_csv}/LEIA Interventions, Resources, and Tips - Surveys.csv", "r
         survey = lower(row[0])
         section = row[1]
 
-        if survey in ["intro","eod"]: 
+        if survey in ["intro","eod","reasonsforending"]: 
 
             if section != "Practice CBM-I":
                 survey_pages[survey][section].append(_create_survey_page(row))
@@ -85,7 +85,8 @@ with open(f"{dir_csv}/LEIA Interventions, Resources, and Tips - Surveys.csv", "r
 # Define folders
 folders = {
     'intro': flat(survey_pages["intro"]),
-    'end of day': flat(survey_pages["eod"])
+    'end of day': flat(survey_pages["eod"]),
+    'reasons for ending': flat(survey_pages['reasonsforending'])
 }
 
 # Delete old JSON
