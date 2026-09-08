@@ -1,16 +1,18 @@
 [
 	{
-		"type":"accelerometer"
+		"type": "accelerometer"
 	},
 	{
-		"type":"location",
-		"accuracy": 5,
-		"interval": "00:05:00"
+		"type": "Location",
+		"interval": "00:00:01",
+		"accuracy": 5
 	},
 	{
-		"type":"battery"
+		"type": "Battery",
+		"interval": "00:00:01"
 	},
 	{
-		"type":"AmbientLight"
+		"type": "AmbientLight",
+		"interval": "00:00:01"
 	}
 ]
