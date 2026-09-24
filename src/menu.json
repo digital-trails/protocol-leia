@@ -1,5 +1,28 @@
 [
     {
+      "text": "Resources",
+      "icon": "/assets/menu_resources.png",
+      "action": "flow://flows/resources.json"
+    },
+    {
+      "text": "F.A.Q.",
+      "icon": "/assets/menu_faq.png",
+      "action": "flow://flows/faq.json"
+    },
+    {
+      "text": "Meet the Team",
+      "icon": "/assets/menu_team.png",
+      "action": "flow://flows/team.json"
+    },
+    {
+      "text": "Privacy Plan",
+      "icon": "/assets/menu_information.png",
+      "action": "flow://flows/privacy.json"
+    },
+    {
+      "text": "------------------------------"
+    },
+    {
       "text": "Intro",
       "action": "flow://flows/intro"
     },

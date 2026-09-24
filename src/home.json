@@ -10,11 +10,58 @@
                 "icon": "/assets/home_banner.png"
             },
             {
-                "type": "survey",
+                "type": "button",
+                "hideoncomplete": true,
                 "action": {
-                    "text": "Surveys",
+                    "text": "Show Surveys",
                     "action": "navmodal://Survey"
                 }
+            },
+            {
+                "type": "tiles",
+                "title": "More resources",
+                "icon": {
+                    "url": "/assets/home_resources.png",
+                    "tint": false
+                },
+                "actions": [
+                    {
+                        "text": "What is Anxiety?",
+                        "action": "flow://flows/anxiety.json",
+                        "backgroundcolor": "#1A206AFF",
+                        "icon": {
+                            "url": "/assets/home_anxiety.png",
+                            "tint": false
+                        }
+                    },
+                    {
+                        "text": "What is MindTrails?",
+                        "action": "flow://flows/mindtrails.json",
+                        "backgroundcolor": "#1A00E05A",
+                        "icon": {
+                            "url": "/assets/home_mindtrails.png",
+                            "tint": false
+                        }
+                    },
+                    {
+                        "text": "Instructions",
+                        "action": "flow://flows/instructions.json",
+                        "backgroundcolor": "#1A00C2FF",
+                        "icon": {
+                            "url": "/assets/home_instructions.png",
+                            "tint": false
+                        }
+                    },
+                    {
+                        "text": "Contact Us",
+                        "action": "flow://flows/contact.json",
+                        "backgroundcolor": "#1A5C2FDA",
+                        "icon": {
+                            "url": "/assets/home_resources.png",
+                            "tint": false
+                        }
+                    }
+                ]
             }
         ]
     }
