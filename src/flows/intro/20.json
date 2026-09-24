@@ -1,28 +1,21 @@
 {
-    "header_text": "Demographics",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please select the categories that comprise your race or ethnicity. (Please select all that apply.)"
+            "text": "I couldn't seem to experience any positive feeling at all"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::American Indian or Alaska Native",
-                "2::Arab, Middle Eastern, or North African",
-                "3::East Asian",
-                "4::South Asian",
-                "5::Southeast Asian",
-                "6::Native Hawaiian or other Pacific Islander",
-                "7::Black or African American",
-                "8::Hispanic or Latine",
-                "9::White",
-                "!10::Identity not listed (please specify)",
-                "^11::Prefer not to answer"
+                "0::Did not apply to me at all",
+                "1::Applied to me to some degree, or some of the time",
+                "2::Applied to me to a considerable degree, or a good part of time",
+                "3::Applied to me very much, or most of the time"
             ],
-            "multiselect": true,
-            "name": "ethnicity"
+            "ColumnCount": 1,
+            "name": "dass_3"
         }
     ]
 }

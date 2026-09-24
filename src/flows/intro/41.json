@@ -1,28 +1,22 @@
 {
-    "header_text": "A birthday cake",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "Text": "If you eat the cake, you will probably ..."
+            "text": "When you feel anxious, how intense or severe is your anxiety?"
         },
         {
             "type": "Buttons",
-            "name": "a_birthday_cake--physical_health--comp_question",
-            "correct_feedback": "Correct!",
-            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-            "incorrect_delay": 5000,
             "buttons": [
-                "Get sick.",
-                "Not get sick."
+                "0::None",
+                "1::Mild",
+                "2::Moderate",
+                "3::Severe",
+                "4::Extreme"
             ],
-            "column_count": 1,
-            "correct_value": "Get sick."
+            "ColumnCount": 1,
+            "name": "oasis_2"
         }
-    ],
-    "navigation_conditions": [
-        "wait_for_correct",
-        "wait_for_click"
-    ],
-    "scenario_num": 2
+    ]
 }

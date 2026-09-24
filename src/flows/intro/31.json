@@ -1,24 +1,21 @@
 {
-    "header_text": "Contributing to a discussion",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your professor is leading a discussion on creating areas of focus for the final project. You are suddenly asked to contribute your ideas to the discussion. You quickly come up with some ideas on the spot and think that your professor and the class will find your ideas to be..."
+            "text": "I was intolerant of anything that kept me from getting on with what I was doing"
         },
         {
-            "type": "WordPuzzle",
-            "name": "contributing_to_a_discussion--academics_work_career_development--puzzle1",
-            "correct_feedback": "Correct!",
-            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-            "incorrect_delay": 5000,
-            "display_delay": 2000,
-            "words": [
-                "exciting"
+            "type": "Buttons",
+            "buttons": [
+                "0::Did not apply to me at all",
+                "1::Applied to me to some degree, or some of the time",
+                "2::Applied to me to a considerable degree, or a good part of time",
+                "3::Applied to me very much, or most of the time"
             ],
-            "missing_letter_count": 1
+            "ColumnCount": 1,
+            "name": "dass_14"
         }
-    ],
-    "navigation_conditions": "wait_for_correct",
-    "scenario_num": 0
+    ]
 }

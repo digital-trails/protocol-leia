@@ -1,0 +1,21 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Have you ever used a digital tool (app, website, etc.) to track your mental health, such as mood, stress, or coping strategies?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Yes, and I liked it/used it often",
+                "Yes, and I did not like it/stopped using it",
+                "No, but I'm interested",
+                "No, and I'm not interested"
+            ],
+            "ColumnCount": 1,
+            "name": "digital_intervention_3"
+        }
+    ]
+}

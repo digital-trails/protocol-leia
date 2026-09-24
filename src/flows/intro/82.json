@@ -1,0 +1,10 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "We are interested in how you feel about the following statements. Read each statement carefully. Indicate how you feel about each statement."
+        }
+    ]
+}

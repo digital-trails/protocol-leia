@@ -1,0 +1,23 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "I don't really look forward to family get-togethers or gatherings."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "6::Very false for me",
+                "5::Moderately false for me",
+                "4::Slightly false for me",
+                "3::Slightly true for me",
+                "2::Moderately true for me",
+                "1::Very true for me"
+            ],
+            "ColumnCount": 1,
+            "name": "acips_3"
+        }
+    ]
+}

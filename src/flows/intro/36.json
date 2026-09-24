@@ -1,24 +1,21 @@
 {
-    "header_text": "Attention in store",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "After a few moments, the other shoppers turn away; they were just startled by the loud noise. The store owner kindly accepts your apology and tells you not to worry about the mess, so you then feel..."
+            "text": "I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)"
         },
         {
-            "type": "WordPuzzle",
-            "name": "attention_in_store--social_situations--puzzle_word2",
-            "correct_feedback": "Correct!",
-            "incorrect_feedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-            "incorrect_delay": 5000,
-            "display_delay": 2000,
-            "words": [
-                "calm"
+            "type": "Buttons",
+            "buttons": [
+                "0::Did not apply to me at all",
+                "1::Applied to me to some degree, or some of the time",
+                "2::Applied to me to a considerable degree, or a good part of time",
+                "3::Applied to me very much, or most of the time"
             ],
-            "missing_letter_count": 1
+            "ColumnCount": 1,
+            "name": "dass_19"
         }
-    ],
-    "navigation_conditions": "wait_for_correct",
-    "scenario_num": 1
+    ]
 }

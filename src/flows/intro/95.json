@@ -1,0 +1,10 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Please read each statement carefully and decide how true that statement is for you in general. Please respond to all items. In the rare case where you have never had the experience described, think about the most similar experience you've had and make your response. Don't worry about being consistent in your responses. Choose from the following six response options."
+        }
+    ]
+}

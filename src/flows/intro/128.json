@@ -1,0 +1,24 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Overall, my anxiety has very little to do with how I feel about myself."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "7::Strongly disagree",
+                "6::Somewhat disagree",
+                "5::Slightly disagree",
+                "4::Neither agree nor disagree",
+                "3::Slightly agree",
+                "2::Somewhat agree",
+                "1::Strongly agree"
+            ],
+            "ColumnCount": 1,
+            "name": "identity_centrality_1"
+        }
+    ]
+}

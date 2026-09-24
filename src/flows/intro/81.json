@@ -1,0 +1,21 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Tackling a problem head on"
+        },
+        {
+            "type": "Slider",
+            "min": 1,
+            "max": 7,
+            "labels": [
+                "No effort at all",
+                "A lot of effort"
+            ],
+            "others": [],
+            "name": "er_effort_17"
+        }
+    ]
+}

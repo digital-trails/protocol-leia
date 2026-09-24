@@ -1,29 +1,21 @@
 {
-    "header_text": "Demographics",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "How would you describe your disability? (Please select all that apply.)"
+            "text": "I found myself getting agitated"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::Cognitive/learning disability",
-                "2::Long-term medical illness",
-                "3::Long-term mental health condition",
-                "4::Physical disability",
-                "5::Sensory disability",
-                "!6::Prefer to self-describe (please specify)",
-                "^7::Prefer not to answer"
+                "0::Did not apply to me at all",
+                "1::Applied to me to some degree, or some of the time",
+                "2::Applied to me to a considerable degree, or a good part of time",
+                "3::Applied to me very much, or most of the time"
             ],
-            "multiselect": true,
-            "name": "disability_description"
+            "ColumnCount": 1,
+            "name": "dass_11"
         }
-    ],
-    "condition": [
-        "disability",
-        "=",
-        1
     ]
 }

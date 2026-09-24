@@ -1,0 +1,22 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How much does anxiety or fear interfere with your ability to do the things you need to do at work, at school, or at home?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Not at all",
+                "1::Mild",
+                "2::Moderate",
+                "3::Severe",
+                "4::Extreme"
+            ],
+            "ColumnCount": 1,
+            "name": "oasis_4"
+        }
+    ]
+}

@@ -1,29 +1,21 @@
 {
-    "header_text": "Demographics",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "What is your sexual orientation and/or sexual identity? (Please select all that apply.)"
+            "text": "I found it hard to wind down"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::Asexual or aromantic",
-                "2::Bisexual",
-                "3::Demisexual",
-                "4::Gay",
-                "5::Lesbian",
-                "6::Pansexual",
-                "7::Queer",
-                "8::Questioning or uncertain",
-                "9::Sexually fluid",
-                "10::Straight or heterosexual",
-                "!11::Identity not listed (please specify)",
-                "^12::Prefer not to answer"
+                "0::Did not apply to me at all",
+                "1::Applied to me to some degree, or some of the time",
+                "2::Applied to me to a considerable degree, or a good part of time",
+                "3::Applied to me very much, or most of the time"
             ],
-            "multiselect": true,
-            "name": "sexuality"
+            "ColumnCount": 1,
+            "name": "dass_1"
         }
     ]
 }

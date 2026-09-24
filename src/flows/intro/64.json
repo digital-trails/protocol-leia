@@ -1,0 +1,10 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Individuals also vary in which coping strategies they find require a lot of effort versus little effort to do. Read each statement below and ask yourself how much effort (mental or physical) each strategy typically requires."
+        }
+    ]
+}

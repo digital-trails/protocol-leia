@@ -1,0 +1,22 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "How often do you avoid situations, places, objects, or activities because of anxiety or fear?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Never",
+                "1::Rarely",
+                "2::Occasionally",
+                "3::Frequently",
+                "4::All the Time"
+            ],
+            "ColumnCount": 1,
+            "name": "oasis_3"
+        }
+    ]
+}

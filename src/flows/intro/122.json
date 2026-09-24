@@ -1,0 +1,23 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Everyone, no matter who they are, can significantly change their basic characteristics."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Strongly Agree",
+                "2::Agree",
+                "3::Mostly Agree",
+                "4::Mostly Disagree",
+                "5::Disagree",
+                "6::Strongly Disagree"
+            ],
+            "ColumnCount": 1,
+            "name": "kind_of_person_3"
+        }
+    ]
+}

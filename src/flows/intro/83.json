@@ -1,0 +1,24 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "There is a special person who is around when I am in need."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Very Strongly Disagree",
+                "2::Strongly Disagree",
+                "3::Mildly Disagree",
+                "4::Neutral",
+                "5::Mildly Agree",
+                "6::Strongly Agree",
+                "7::Very Strongly Agree"
+            ],
+            "ColumnCount": 1,
+            "name": "perceived_social_support_1"
+        }
+    ]
+}

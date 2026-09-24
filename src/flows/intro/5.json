@@ -1,14 +1,27 @@
 {
-    "header_text": "",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please describe the situation in a few words:"
+            "text": "What is your gender identity? (Please select all that apply.)"
         },
         {
-            "type": "Entry",
-            "name": "entry_anxious_imagery"
+            "type": "Buttons",
+            "buttons": [
+                "1::Woman",
+                "2::Man",
+                "3::Nonbinary",
+                "4::Agender",
+                "5::Gender fluid",
+                "6::Genderqueer",
+                "7::Gender questioning",
+                "!8::Identity not listed (please specify)",
+                "^9::Prefer not to answer"
+            ],
+            "multiselect": true,
+            "name": "gender",
+            "variable_name": "gender"
         }
     ]
 }

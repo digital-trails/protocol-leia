@@ -1,15 +1,10 @@
 {
-    "header_text": "A birthday cake",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "A birthday cake"
-        },
-        {
-            "type": "Media",
-            "url": "./images/111.jpeg"
+            "text": "Please note that the following questions use a different rating scale"
         }
-    ],
-    "scenario_num": 2
+    ]
 }

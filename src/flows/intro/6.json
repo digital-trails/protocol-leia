@@ -1,15 +1,29 @@
 {
-    "header_text": "",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses."
-        }
-    ],
-    "navigation_conditions": [
+            "text": "What is your sexual orientation and/or sexual identity? (Please select all that apply.)"
+        },
         {
-            "wait_for_time": 4000
+            "type": "Buttons",
+            "buttons": [
+                "1::Asexual or aromantic",
+                "2::Bisexual",
+                "3::Demisexual",
+                "4::Gay",
+                "5::Lesbian",
+                "6::Pansexual",
+                "7::Queer",
+                "8::Questioning or uncertain",
+                "9::Sexually fluid",
+                "10::Straight or heterosexual",
+                "!11::Identity not listed (please specify)",
+                "^12::Prefer not to answer"
+            ],
+            "multiselect": true,
+            "name": "sexuality"
         }
     ]
 }

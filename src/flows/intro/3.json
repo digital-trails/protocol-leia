@@ -1,10 +1,23 @@
 {
-    "header_text": "",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "MindTrails is designed to help you change the way you think about common but potentially stressful situations in order to reduce anxiety and stress.\n\nWhen you complete sessions in the app, you will be asked to read brief stories about situations that often produce anxiety and fill in missing letters to complete words, fill in entire words, or come up with new stories that are personally relevant to you.\n\nTo help familiarize you with the program and help you get the most out of this experience, we would like you complete a few short exercises and watch some brief videos explaining how MindTrails works. You will also be presented with three example stories so that you can begin to get the hang of the training.\n\nClick next to get started!"
+            "text": "What sex were you assigned at birth on your original birth certificate?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Female",
+                "2::Intersex",
+                "3::Male",
+                "!4::Something not listed (please specify)",
+                "^5::Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "sex",
+            "variable_name": "sex"
         }
     ]
 }

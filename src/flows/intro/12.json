@@ -1,10 +1,29 @@
 {
-    "header_text": "",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "MindTrails is designed to help you change the way you think about common but potentially stressful situations in order to reduce anxiety and stress. \n\nWhen you complete sessions in the app, you will be asked to read brief stories about situations that often produce anxiety and fill in missing letters to complete words, fill in entire words, or come up with new stories that are personally relevant to you. \n\nTo help familiarize you with the program and help you get the most out of this experience, we would like you complete a few short exercises and watch some brief videos explaining how MindTrails works. You will also be presented with three example stories so that you can begin to get the hang of the training. \n\nClick next to get started"
+            "text": "Which of the following best describes your employment status?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Student",
+                "2::Employed full time",
+                "3::Employed part time",
+                "4::Self-employed full time",
+                "5::Self-employed part time",
+                "6::Not employed, but looking for work",
+                "7::Not employed and not looking for work",
+                "8::Not employed and unable to work due to a disability or illness",
+                "9::Retired",
+                "10::Stay-at-home spouse or partner",
+                "!11::Prefer to self-describe (please specify)",
+                "^12::Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "employment_status"
         }
     ]
 }

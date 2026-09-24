@@ -1,15 +1,20 @@
 {
-    "header_text": "",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses.\n\nWhat do you see?\nWhat do you hear?\nWhat do you smell?\nWhat are you thinking about?"
-        }
-    ],
-    "navigation_conditions": [
+            "text": "In which country were you born?"
+        },
         {
-            "wait_for_time": 4000
+            "type": "Buttons",
+            "buttons": [
+                "1::United States",
+                "!2::Someplace else (please specify)",
+                "^3::Prefer not to answer"
+            ],
+            "ColumnCount": 1,
+            "name": "birth_country"
         }
     ]
 }

@@ -1,0 +1,23 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "If I learned of a group where the people shared similar interests as me, I would be interested in joining it."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Very false for me",
+                "2::Moderately false for me",
+                "3::Slightly false for me",
+                "4::Slightly true for me",
+                "5::Moderately true for me",
+                "6::Very true for me"
+            ],
+            "ColumnCount": 1,
+            "name": "acips_8"
+        }
+    ]
+}

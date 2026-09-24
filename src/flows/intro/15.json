@@ -4,20 +4,19 @@
     "elements": [
         {
             "type": "Text",
-            "text": "What sex were you assigned at birth on your original birth certificate?"
+            "text": "Do you have a disability?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::Female",
-                "2::Intersex",
-                "3::Male",
-                "!4::Something not listed (please specify)",
-                "^5::Prefer not to answer"
+                "1::Yes",
+                "2::No",
+                "3::I don't know",
+                "^4::Prefer not to answer"
             ],
             "ColumnCount": 1,
-            "name": "sex",
-            "variable_name": "sex"
+            "name": "disability",
+            "variable_name": "disability"
         }
     ]
 }

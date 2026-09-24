@@ -1,0 +1,24 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "My anxiety is an important reflection of who I am."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Strongly disagree",
+                "2::Somewhat disagree",
+                "3::Slightly disagree",
+                "4::Neither agree nor disagree",
+                "5::Slightly agree",
+                "6::Somewhat agree",
+                "7::Strongly agree"
+            ],
+            "ColumnCount": 1,
+            "name": "identity_centrality_2"
+        }
+    ]
+}

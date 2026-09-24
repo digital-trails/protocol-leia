@@ -1,29 +1,21 @@
 {
-    "header_text": "Demographics",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "What is your present religion, if any? (Please select all that apply.)"
+            "text": "I tended to over-react to situations"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::Protestant",
-                "2::Roman Catholic",
-                "3::Mormon",
-                "4::Orthodox such as Greek or Russian Orthodox",
-                "5::Jewish",
-                "6::Muslim",
-                "7::Buddhist",
-                "8::Hindu",
-                "9::atheist",
-                "10::agnostic",
-                "!11::Somthing else (please specify)",
-                "12::Nothing in particular"
+                "0::Did not apply to me at all",
+                "1::Applied to me to some degree, or some of the time",
+                "2::Applied to me to a considerable degree, or a good part of time",
+                "3::Applied to me very much, or most of the time"
             ],
-            "multiselect": true,
-            "name": "religion"
+            "ColumnCount": 1,
+            "name": "dass_6"
         }
     ]
 }

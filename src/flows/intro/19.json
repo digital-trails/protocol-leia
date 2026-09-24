@@ -1,10 +1,21 @@
 {
-    "header_text": "Demographics",
+    "header_text": "Baseline Measurements Survey",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "What is your current age in years?"
+            "text": "I was aware of dryness of my mouth"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Did not apply to me at all",
+                "1::Applied to me to some degree, or some of the time",
+                "2::Applied to me to a considerable degree, or a good part of time",
+                "3::Applied to me very much, or most of the time"
+            ],
+            "ColumnCount": 1,
+            "name": "dass_2"
         }
     ]
 }

@@ -1,0 +1,22 @@
+{
+    "header_text": "Baseline Measurements Survey",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When I'm upset, I believe there is nothing I can do to make myself feel better."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Almost never (0-10%)",
+                "2::Sometimes (11-35%)",
+                "3::About half the time (36-65%)",
+                "4::Most of the time (66-90%)",
+                "5::Almost always (91-100%)"
+            ],
+            "ColumnCount": 1,
+            "name": "ders_sf_15"
+        }
+    ]
+}

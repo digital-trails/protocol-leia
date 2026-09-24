@@ -1,15 +1,10 @@
 {
-    "header_text": "",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses.\n\nWhat do you see?"
-        }
-    ],
-    "navigation_conditions": [
-        {
-            "wait_for_time": 4000
+            "text": "What is your current age in years?"
         }
     ]
 }
