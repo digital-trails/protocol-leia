@@ -10,7 +10,7 @@
             "type": "Scheduler",
             "days_ahead": 2,
             "action": "flow://flows/sessions",
-            "count": 1,
+            "count": 2,
             "message": "It's time for your session."
         }
     ]
