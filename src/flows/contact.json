@@ -4,7 +4,7 @@
         {
             "type": "Text",
             "html": true,
-            "text": "<b><font color=\"#9769ED\" size=6>Study Team</font></b><br/><br/>You can contact <a href="mailto:lakhtakia@virginia.edu">lakhtakia@virginia.edu</a> if you would like to reach out to the study team.<br/><br/><br/><br/><b><font color=\"#9769ED\" size=6>Tech Team</font></b><br/><br/> You can contact <a href="mailto:mr2an@virginia.edu">mr2an@virginia.edu</a> if you are experiencing any technical issues. For best assistance, please include the following information in your email:<ul><li>What device are you using (e.g., iPhone, Android phone)?</li><li>What operating system version are you using (e.g., iOS 26.6.1)?</li><li>What app version do you have (e.g., 1.9.8)?</li></ul>"
+            "text": "<b><font color=\"#9769ED\" size=6>Study Team</font></b><br/><br/>You can contact <a href=\"mailto:lakhtakia@virginia.edu\">lakhtakia@virginia.edu</a> if you would like to reach out to the study team.<br/><br/><br/><br/><b><font color=\"#9769ED\" size=6>Tech Team</font></b><br/><br/> You can contact <a href=\"mailto:mr2an@virginia.edu\">mr2an@virginia.edu</a> if you are experiencing any technical issues. For best assistance, please include the following information in your email:<ul><li>What device are you using (e.g., iPhone, Android phone)?</li><li>What operating system version are you using (e.g., iOS 26.6.1)?</li><li>What app version do you have (e.g., 1.9.8)?</li></ul>"
         }
     ]
 }
