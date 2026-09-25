@@ -116,7 +116,7 @@ def create_input(tipe, values, output_name, variable_name = ""):
         return
 
     if tipe == "scheduler":
-        yield {"type": "Scheduler", "days_ahead": int(values), "action": "flow://flows/session", "count":1, "message": "It's time for your session."}
+        yield {"type": "Scheduler", "days_ahead": int(values), "action": "flow://flows/sessions", "count":1, "message": "It's time for your session."}
         return
 
     if tipe == "timedtext": 
