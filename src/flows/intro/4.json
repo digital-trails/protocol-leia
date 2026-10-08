@@ -1,20 +1,14 @@
 {
-    "header_text": "Demographics",
+    "header_text": "Your First Session",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Do you identify as transgender?"
+            "text": "Please describe the situation in a few words:"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "1::Yes",
-                "2::No",
-                "^3::Prefer not to answer"
-            ],
-            "ColumnCount": 1,
-            "name": "transgender"
+            "type": "Entry",
+            "name": "entry_anxious_imagery"
         }
     ]
 }

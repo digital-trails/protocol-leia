@@ -1,27 +1,15 @@
 {
-    "header_text": "Demographics",
+    "header_text": "Your First Session",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "What is your gender identity? (Please select all that apply.)"
-        },
+            "text": "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses."
+        }
+    ],
+    "navigation_conditions": [
         {
-            "type": "Buttons",
-            "buttons": [
-                "1::Woman",
-                "2::Man",
-                "3::Nonbinary",
-                "4::Agender",
-                "5::Gender fluid",
-                "6::Genderqueer",
-                "7::Gender questioning",
-                "!8::Identity not listed (please specify)",
-                "^9::Prefer not to answer"
-            ],
-            "multiselect": true,
-            "name": "gender",
-            "variable_name": "gender"
+            "wait_for_time": 4000
         }
     ]
 }

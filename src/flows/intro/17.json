@@ -1,10 +1,15 @@
 {
-    "header_text": "Baseline Measurements Survey",
+    "header_text": "Attention in store",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please read each statement and circle a number 0, 1, 2 or 3 which indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement. The rating scale is as follows:\n\n0 = Did not apply to me at all\n1 = Applied to me to some degree, or some of the time\n2 = Applied to me to a considerable degree, or a good part of time\n3 = Applied to me very much, or most of the time"
+            "text": "Attention in store"
+        },
+        {
+            "type": "Media",
+            "url": "./images/110.jpeg"
         }
-    ]
+    ],
+    "scenario_num": 1
 }

@@ -1,21 +1,18 @@
 {
-    "header_text": "Baseline Measurements Survey",
+    "header_text": "Outro",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "I felt that I had nothing to look forward to"
+            "text": "You're going to be ask to do at least 1 set of these thinking exercises a day, and they should take about 5 minutes a day. Check this box to say that you agree."
         },
         {
             "type": "Buttons",
             "buttons": [
-                "0::Did not apply to me at all",
-                "1::Applied to me to some degree, or some of the time",
-                "2::Applied to me to a considerable degree, or a good part of time",
-                "3::Applied to me very much, or most of the time"
+                "0::I agree to complete at least on session per day"
             ],
             "ColumnCount": 1,
-            "name": "dass_10"
+            "name": "terms_agreement"
         }
     ]
 }

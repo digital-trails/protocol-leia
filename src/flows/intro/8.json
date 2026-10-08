@@ -1,28 +1,15 @@
 {
-    "header_text": "Demographics",
+    "header_text": "Your First Session",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Please select the categories that comprise your race or ethnicity. (Please select all that apply.)"
-        },
+            "text": "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses.\n\nWhat do you see?\nWhat do you hear?\nWhat do you smell?"
+        }
+    ],
+    "navigation_conditions": [
         {
-            "type": "Buttons",
-            "buttons": [
-                "1::American Indian or Alaska Native",
-                "2::Arab, Middle Eastern, or North African",
-                "3::East Asian",
-                "4::South Asian",
-                "5::Southeast Asian",
-                "6::Native Hawaiian or other Pacific Islander",
-                "7::Black or African American",
-                "8::Hispanic or Latine",
-                "9::White",
-                "!10::Identity not listed (please specify)",
-                "^11::Prefer not to answer"
-            ],
-            "multiselect": true,
-            "name": "ethnicity"
+            "wait_for_time": 4000
         }
     ]
 }
