@@ -9,7 +9,7 @@
         {
             "type": "Buttons",
             "buttons": [
-                "0::I agree to complete at least on session per day"
+                "0::I agree to complete at least one session per day"
             ],
             "ColumnCount": 1,
             "name": "terms_agreement"
