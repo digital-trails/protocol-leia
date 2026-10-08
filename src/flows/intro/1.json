@@ -8,7 +8,9 @@
         },
         {
             "type": "Entry",
-            "name": "participantid"
+            "name": "participantid",
+            "bordered": false,
+            "variable_name": "linking:code"
         }
     ]
 }
