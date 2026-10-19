@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "not_invited_to_dinner--academics_work_career_development--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "contributing_to_a_discussion--academics_work_career_development--puzzle1_entry"
         }
     ],

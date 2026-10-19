@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "a_rude_comment--mental_health--puzzle1_entry"
         }
     ],

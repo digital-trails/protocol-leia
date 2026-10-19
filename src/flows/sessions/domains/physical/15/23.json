@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "annual_checkup_results--physical_health--puzzle1_entry"
         }
     ],

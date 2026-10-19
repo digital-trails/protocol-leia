@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "hot_day_--physical_health--puzzle1_entry"
         }
     ],

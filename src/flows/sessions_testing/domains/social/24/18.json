@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "friends_hanging_out--social_situations--puzzle1_entry"
         }
     ],

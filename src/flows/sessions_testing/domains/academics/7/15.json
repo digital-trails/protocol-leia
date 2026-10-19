@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "quick_correction--academics_work_career_development--puzzle2_entry"
         }
     ],

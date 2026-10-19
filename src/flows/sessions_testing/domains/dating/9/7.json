@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "meeting_the_parents--romantic_relationships--puzzle1_entry"
         }
     ],

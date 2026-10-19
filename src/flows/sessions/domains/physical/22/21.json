@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "spider_bite--physical_health--puzzle1_entry"
         }
     ],

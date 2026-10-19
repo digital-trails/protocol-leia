@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "speaking_up--mental_health--puzzle1_entry"
         }
     ],

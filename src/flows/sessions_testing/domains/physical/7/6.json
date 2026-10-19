@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "running_a_marathon--physical_health--puzzle1_entry"
         }
     ],

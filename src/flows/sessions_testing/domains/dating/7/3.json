@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "no_notifications--romantic_relationships--puzzle1_entry"
         }
     ],

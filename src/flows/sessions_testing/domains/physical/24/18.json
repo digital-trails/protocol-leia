@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "catching_your_breath--physical_health--puzzle1_entry"
         }
     ],

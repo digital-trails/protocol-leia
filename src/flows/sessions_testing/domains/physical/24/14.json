@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "being_near_someone_sick--physical_health--puzzle1_entry"
         }
     ],

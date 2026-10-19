@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "vision_troubles--physical_health--puzzle2_entry"
         }
     ],

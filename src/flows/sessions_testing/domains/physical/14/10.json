@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "normal_functions_--physical_health--puzzle1_entry"
         }
     ],

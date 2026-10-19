@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "managing_multiple_positions--academics_work_career_development--puzzle1_entry"
         }
     ],

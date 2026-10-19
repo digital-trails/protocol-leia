@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "walking_up_steps--physical_health--puzzle1_entry"
         }
     ],

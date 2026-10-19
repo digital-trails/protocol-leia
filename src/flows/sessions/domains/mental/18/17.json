@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "views_towards_therapy--mental_health--puzzle1_entry"
         }
     ],

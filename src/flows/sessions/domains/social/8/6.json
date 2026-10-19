@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "on_a_jog--social_situations--puzzle1_entry"
         }
     ],

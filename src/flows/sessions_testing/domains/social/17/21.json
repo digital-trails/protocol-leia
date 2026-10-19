@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "funny_photos--social_situations--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "holiday_plans--romantic_relationships--puzzle1_entry"
         }
     ],

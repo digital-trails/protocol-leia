@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "budgeting_your_allowance--finances--puzzle1_entry"
         }
     ],

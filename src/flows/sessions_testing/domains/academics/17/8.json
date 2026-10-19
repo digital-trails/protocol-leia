@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "a_sudden_stumble--academics_work_career_development--puzzle1_entry"
         }
     ],

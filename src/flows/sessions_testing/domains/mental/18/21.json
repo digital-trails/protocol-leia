@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "instagram_post_feedback_--mental_health--puzzle1_entry"
         }
     ],

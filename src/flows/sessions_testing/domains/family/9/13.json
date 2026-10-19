@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "space_heater--family_&_home_life--puzzle1_entry"
         }
     ],

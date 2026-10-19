@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "dinner_with_friends--finances--puzzle1_entry"
         }
     ],

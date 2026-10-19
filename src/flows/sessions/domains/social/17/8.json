@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "comedic_genius--social_situations--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "single_friend--romantic_relationships--puzzle1_entry"
         }
     ],

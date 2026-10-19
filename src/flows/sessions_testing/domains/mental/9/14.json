@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "stuck_in_the_middle--mental_health--puzzle1_entry"
         }
     ],

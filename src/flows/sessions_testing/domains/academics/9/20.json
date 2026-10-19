@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "sitting_in_a_meeting--academics_work_career_development--puzzle1_entry"
         }
     ],

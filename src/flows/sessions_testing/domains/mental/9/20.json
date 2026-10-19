@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "party_with_friends--mental_health--puzzle1_entry"
         }
     ],

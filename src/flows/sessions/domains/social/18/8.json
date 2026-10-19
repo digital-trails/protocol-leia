@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "feeling_anxious--social_situations--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "your_first_child--family_&_home_life--puzzle1_entry"
         }
     ],

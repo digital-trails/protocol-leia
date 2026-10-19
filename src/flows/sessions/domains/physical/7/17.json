@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "health_evaluation--physical_health--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "applying_for_a_grant--mental_health--puzzle1_entry"
         }
     ],

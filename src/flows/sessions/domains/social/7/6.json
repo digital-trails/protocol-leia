@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "visiting_a_new_friend--social_situations--puzzle1_entry"
         }
     ],

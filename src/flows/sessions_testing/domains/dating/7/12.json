@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "asking_someone_out--romantic_relationships--puzzle2_entry"
         }
     ],

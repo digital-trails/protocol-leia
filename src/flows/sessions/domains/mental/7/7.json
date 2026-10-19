@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "in_a_hurry--mental_health--puzzle1_entry"
         }
     ],

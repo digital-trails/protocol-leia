@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "spending_time_with_family--family_&_home_life--puzzle2_entry"
         }
     ],

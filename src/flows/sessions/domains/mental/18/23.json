@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "deciding_to_share_a_picture--mental_health--puzzle1_entry"
         }
     ],

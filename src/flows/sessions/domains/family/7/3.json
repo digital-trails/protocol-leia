@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "noises_in_the_night_--family_&_home_life--puzzle1_entry"
         }
     ],

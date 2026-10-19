@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "meeting_new_people--social_situations--puzzle1_entry"
         }
     ],

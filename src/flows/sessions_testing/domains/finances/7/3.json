@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "extra_income--finances--puzzle1_entry"
         }
     ],

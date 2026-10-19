@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "the_soccer_tournament--social_situations--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "friend_in_the_hospital--mental_health--puzzle1_entry"
         }
     ],

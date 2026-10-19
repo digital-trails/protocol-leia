@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "thoughts_at_the_train_station--physical_health--puzzle1_entry"
         }
     ],

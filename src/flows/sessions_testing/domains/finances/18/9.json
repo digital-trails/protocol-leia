@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "affording_expenses--finances--puzzle1_entry"
         }
     ],

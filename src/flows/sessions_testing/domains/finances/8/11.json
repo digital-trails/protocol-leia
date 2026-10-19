@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "party_outfit--finances--puzzle1_entry"
         }
     ],

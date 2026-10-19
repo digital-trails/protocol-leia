@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "paying_it_forward--finances--puzzle1_entry"
         }
     ],

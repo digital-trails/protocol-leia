@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "walking_to_clear_mind--physical_health--puzzle1_entry"
         }
     ],

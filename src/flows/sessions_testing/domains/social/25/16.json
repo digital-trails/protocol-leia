@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "sweat_stains--social_situations--puzzle1_entry"
         }
     ],

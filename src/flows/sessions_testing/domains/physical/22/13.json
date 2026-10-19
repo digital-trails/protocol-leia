@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "checks_at_the_dentist--physical_health--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "deciding_on_one_thing--finances--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "putting_yourself_out_there--mental_health--puzzle1_entry"
         }
     ],

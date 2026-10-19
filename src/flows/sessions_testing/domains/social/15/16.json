@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "not_feeling_supported--social_situations--puzzle2_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "group_project_due--academics_work_career_development--puzzle1_entry"
         }
     ],

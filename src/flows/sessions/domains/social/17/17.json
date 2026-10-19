@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "creative_confidence_--social_situations--puzzle1_entry"
         }
     ],

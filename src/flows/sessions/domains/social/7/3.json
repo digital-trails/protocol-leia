@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "comparing_with_others--social_situations--puzzle1_entry"
         }
     ],

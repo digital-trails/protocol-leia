@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "talking_about_tv--social_situations--puzzle1_entry"
         }
     ],

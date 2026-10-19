@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "holiday_gifts--finances--puzzle1_entry"
         }
     ],

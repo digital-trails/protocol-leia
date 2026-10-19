@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "future_limitations--academics_work_career_development--puzzle1_entry"
         }
     ],

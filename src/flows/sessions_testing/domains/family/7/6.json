@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "parental_advice--family_&_home_life--puzzle2_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "retirement_funds--finances--puzzle2_entry"
         }
     ],

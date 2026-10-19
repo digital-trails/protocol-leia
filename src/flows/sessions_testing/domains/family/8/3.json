@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "argument_with_your_sister--family_&_home_life--puzzle1_entry"
         }
     ],

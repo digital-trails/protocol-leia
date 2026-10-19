@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "sweating_through_your_shirt--physical_health--puzzle1_entry"
         }
     ],

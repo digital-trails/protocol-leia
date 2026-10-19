@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "driving_with_a_friend--physical_health--puzzle1_entry"
         }
     ],

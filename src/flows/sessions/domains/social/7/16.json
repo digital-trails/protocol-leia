@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "having_someone_over--social_situations--puzzle1_entry"
         }
     ],

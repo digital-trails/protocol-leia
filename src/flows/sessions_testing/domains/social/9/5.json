@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "a_different_haircut--social_situations--puzzle1_entry"
         }
     ],

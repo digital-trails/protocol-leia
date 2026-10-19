@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "starting_a_small_business--finances--puzzle1_entry"
         }
     ],

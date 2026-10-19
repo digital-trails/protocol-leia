@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "train_of_thought--academics_work_career_development--puzzle1_entry"
         }
     ],
