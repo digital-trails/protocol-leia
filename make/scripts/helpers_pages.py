@@ -21,6 +21,10 @@ def parse_values(values: str):
     if not values: return []
     return list(map(parse_value,clean_up_unicode(values).split(";")))
 
+def create_header(title):
+    if not title or not title.strip(): return {}
+    return {"header_text": title, "header_icon": "assets/subtitle.png"}
+
 def to_button_value(item: Tuple[str,str]):
     p = item[1][0] if item[1][0] in ["^","!"] else ""
     k = str(item[0]) if item[0] is not None else None
@@ -179,8 +183,7 @@ def create_long_pages(label, scenario_description, thoughts, feelings, behaviors
             input = create_input(input_1, timedtext, f"long{i}")
 
             pages.append({
-                "header_text": title,
-                "header_icon": "assets/subtitle.png",
+                **create_header(title),
                 "elements": list(filter(None,[text,media,*input])),
                 **create_nav_conditions(show_buttons,timeout,[input_1])
             })
@@ -205,8 +208,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
 
     if include_lessons_learned and domain in lessons_learned_dict:  # if it should include a "lessons learned" page
         pages.append({
-            "header_text": "Lessons Learned",
-            "header_icon": "assets/subtitle.png",
+            **create_header("Lessons Learned"),
             "elements": [
                 {"type": "Text","Text": clean_up_unicode(lessons_learned_dict[domain])},
                 {"type": "Entry", "name": f"lessons_learned--{base_domain}--{scenario_num}"}
@@ -216,8 +218,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
     if n_missing == "all" and is_first:
         # if all letters missing, and it's the first scenario, add an instructions page
         pages.append({
-            "header_text": "Instructions",
-            "header_icon": "assets/subtitle.png",
+            **create_header("Instructions"),
             "elements": [{
                 "type": "Text",
                 "text": "The stories you're about to see are a little bit different than ones you've "
@@ -230,8 +231,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
         })
 
     pages.append({  # adding the image page
-        "header_text": title,
-        "header_icon": "assets/subtitle.png",
+        **create_header(title),
         "elements": [
             {"type": "Text", "text": title },
             {"type": "Media", "url": lower(image_url) }
@@ -239,8 +239,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
     })
 
     pages.append({  # adding the puzzle page
-        "header_text": title,
-        "header_icon": "assets/subtitle.png",
+        **create_header(title),
         "elements": [
             {
                 "type": "Text", "text": puzzle_text_1
@@ -265,8 +264,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
 
     if has_value(word_2) and has_value(puzzle_text_2):
         pages.append({
-            "header_text": title,
-            "header_icon": "assets/subtitle.png",
+            **create_header(title),
             "elements": [
                 {
                     "type": "Text", "text": puzzle_text_2
@@ -291,8 +289,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
 
     if n_missing != "all":
         pages.append({
-            "header_text": title,
-            "header_icon": "assets/subtitle.png",
+            **create_header(title),
             "elements": [
                 {
                     "type": "Text", "Text": comp_question
@@ -348,7 +345,7 @@ def create_resource_page(tips, strategies, resources, domain):
     text = { "type": "Text", "text": text }
     elements = [text,input] if input else [text]
 
-    return {"header_text": title, "header_icon": "assets/subtitle.png", "elements": elements }
+    return {**create_header(title), "elements": elements }
 
 def _create_discrimination_page(conditions, text, items, input_1, input_name, variable_name, title):
 
@@ -356,8 +353,7 @@ def _create_discrimination_page(conditions, text, items, input_1, input_name, va
     input = create_input(input_1, items, input_name, variable_name)
 
     page = {
-        "header_text": title,
-        "header_icon": "assets/subtitle.png",
+        **create_header(title),
         "elements": [text,*input],
         **create_conditions(conditions),
         **create_nav_conditions(inputs=[input_1])
@@ -406,8 +402,7 @@ def create_survey_page(text=None, media=None, image_framed=None, values=None, in
     input = create_input(input_type, values, output_name, variable_name)
     
     page = {
-        "header_text": title,
-        "header_icon": "assets/subtitle.png",
+        **create_header(title),
         "elements": list(filter(None,[textinput, mediainput, *input])),
         **create_conditions(condition),
         **create_nav_conditions(show_buttons,timeout,[input_type])
@@ -418,8 +413,7 @@ def create_survey_page(text=None, media=None, image_framed=None, values=None, in
 def create_resources_domain_page(domain, resource_texts):
     resource_text = '<br/><br/><br/><br/>'.join(resource_texts)
     return {
-        "header_text": domain,
-        "header_icon": "assets/subtitle.png",
+        **create_header(domain),
         "elements": [ { "type": "Text", "html": True, "text": resource_text } ]
     }
 
@@ -433,6 +427,5 @@ def create_video_page(video_number):
 
 def create_write_your_own_page(text, input_1, title, input_name):
     page = create_survey_page(text=text, input=input_1, title=title, output_name=input_name)
-    page["header_text"] = title or "Write Your Own"
-    page["header_icon"] = "assets/subtitle.png",
+    page.update(create_header(title or "Write Your Own"))
     return page
