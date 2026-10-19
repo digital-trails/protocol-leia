@@ -94,7 +94,7 @@ def create_input(tipe, values, output_name, variable_name = ""):
     if variable_name: shared["variable_name"] = variable_name
 
     if tipe == "entry":
-        yield {"type": "Entry", **shared}
+        yield {"type": "Entry", "bordered": False, **shared}
         return
 
     if tipe == "slider":
@@ -211,7 +211,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
             **create_header("Lessons Learned"),
             "elements": [
                 {"type": "Text","Text": clean_up_unicode(lessons_learned_dict[domain])},
-                {"type": "Entry", "name": f"lessons_learned--{base_domain}--{scenario_num}"}
+                {"type": "Entry", "bordered": False, "name": f"lessons_learned--{base_domain}--{scenario_num}"}
             ]
         })
 
@@ -260,7 +260,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
     if n_missing in ["1","2"]:
         pages[-1]["elements"][-1]["missing_letter_count"] = int(n_missing)
     elif n_missing == "all":
-        pages[-1]["elements"][-1] = {"type": "Entry", "name": f"{base_name}--puzzle1_entry"}
+        pages[-1]["elements"][-1] = {"type": "Entry", "bordered": False, "name": f"{base_name}--puzzle1_entry"}
 
     if has_value(word_2) and has_value(puzzle_text_2):
         pages.append({
@@ -285,7 +285,7 @@ def create_scenario_pages(domain, title, scenario_num, puzzle_text_1, word_1, co
         if n_missing in ["1","2"]:
             pages[-1]["elements"][-1]["missing_letter_count"] = int(n_missing)
         elif n_missing == "all":
-            pages[-1]["elements"][-1] = {"type": "Entry", "name": f"{base_name}--puzzle2_entry"}
+            pages[-1]["elements"][-1] = {"type": "Entry", "bordered": False, "name": f"{base_name}--puzzle2_entry"}
 
     if n_missing != "all":
         pages.append({
@@ -324,7 +324,7 @@ def create_resource_page(tips, strategies, resources, domain):
 
         title = "Apply to Daily Life: Make It Work for You!"
         text = text
-        input = {"type": "Entry", "name": f"{label}--entry".lower()}
+        input = {"type": "Entry", "bordered": False, "name": f"{label}--entry".lower()}
 
     if resource_type == "Strategy":
         [label,text] = strategies[domain].pop(0)
