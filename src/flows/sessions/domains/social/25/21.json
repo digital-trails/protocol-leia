@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "corner_laughter--social_situations--puzzle2_entry"
         }
     ],

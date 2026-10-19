@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "affording_education--finances--puzzle1_entry"
         }
     ],

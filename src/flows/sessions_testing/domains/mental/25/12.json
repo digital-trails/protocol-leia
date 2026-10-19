@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "achieving_your_goals--mental_health--puzzle1_entry"
         }
     ],

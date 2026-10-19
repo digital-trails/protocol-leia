@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "mistake_on_a_task--social_situations--puzzle1_entry"
         }
     ],

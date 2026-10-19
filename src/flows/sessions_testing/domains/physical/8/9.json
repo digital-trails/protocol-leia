@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "going_to_sleep--physical_health--puzzle1_entry"
         }
     ],

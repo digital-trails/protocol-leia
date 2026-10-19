@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "job_stability--finances--puzzle1_entry"
         }
     ],

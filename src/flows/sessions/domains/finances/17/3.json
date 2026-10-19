@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "saving_for_repairs--finances--puzzle1_entry"
         }
     ],

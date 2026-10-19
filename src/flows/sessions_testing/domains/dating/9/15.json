@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "making_a_decision--romantic_relationships--puzzle1_entry"
         }
     ],

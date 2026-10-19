@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "family_money_troubles--finances--puzzle1_entry"
         }
     ],

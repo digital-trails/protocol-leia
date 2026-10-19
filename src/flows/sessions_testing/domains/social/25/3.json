@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "old_friends_--social_situations--puzzle1_entry"
         }
     ],

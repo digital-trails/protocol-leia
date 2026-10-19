@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "savings_account--finances--puzzle2_entry"
         }
     ],

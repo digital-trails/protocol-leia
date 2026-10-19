@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "inside_jokes_--social_situations--puzzle1_entry"
         }
     ],

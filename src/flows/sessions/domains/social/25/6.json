@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "important_opinion--social_situations--puzzle2_entry"
         }
     ],

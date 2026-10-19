@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "a_new_opportunity--mental_health--puzzle1_entry"
         }
     ],

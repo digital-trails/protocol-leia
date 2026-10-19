@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "big_families_--romantic_relationships--puzzle1_entry"
         }
     ],

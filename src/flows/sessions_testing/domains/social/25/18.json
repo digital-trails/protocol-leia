@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "sharing_favorite_shows--social_situations--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "getting_over_it--romantic_relationships--puzzle1_entry"
         }
     ],

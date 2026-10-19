@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "one-on-one_meeting--mental_health--puzzle1_entry"
         }
     ],

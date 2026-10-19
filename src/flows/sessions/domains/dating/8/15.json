@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "future_relationships--romantic_relationships--puzzle2_entry"
         }
     ],

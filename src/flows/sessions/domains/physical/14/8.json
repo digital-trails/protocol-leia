@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "masks_for_guests--physical_health--puzzle1_entry"
         }
     ],

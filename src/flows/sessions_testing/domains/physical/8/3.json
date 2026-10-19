@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "catching_up_to_friends--physical_health--puzzle1_entry"
         }
     ],

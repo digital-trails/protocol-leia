@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "sitting_in_a_meeting--mental_health--puzzle2_entry"
         }
     ],

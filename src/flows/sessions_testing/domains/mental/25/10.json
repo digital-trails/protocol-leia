@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "favorite_watch_--mental_health--puzzle1_entry"
         }
     ],

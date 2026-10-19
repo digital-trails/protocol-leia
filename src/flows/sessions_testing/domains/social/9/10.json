@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "meeting_an_old_acquaintance--social_situations--puzzle1_entry"
         }
     ],

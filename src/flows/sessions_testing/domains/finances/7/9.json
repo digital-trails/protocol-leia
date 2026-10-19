@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "funding_good_habits_--finances--puzzle1_entry"
         }
     ],

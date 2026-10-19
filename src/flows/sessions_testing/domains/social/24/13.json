@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "trying_out_a_funny_caption--social_situations--puzzle1_entry"
         }
     ],

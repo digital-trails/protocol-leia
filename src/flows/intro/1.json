@@ -1,6 +1,4 @@
 {
-    "header_text": "",
-    "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
@@ -8,8 +6,8 @@
         },
         {
             "type": "Entry",
-            "name": "participantid",
             "bordered": false,
+            "name": "participantid",
             "variable_name": "linking:code"
         }
     ]

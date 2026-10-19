@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "awkward_conversations--romantic_relationships--puzzle1_entry"
         }
     ],

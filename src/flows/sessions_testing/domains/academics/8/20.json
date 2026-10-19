@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "first_impressions--academics_work_career_development--puzzle1_entry"
         }
     ],

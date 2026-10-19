@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "waiting_for_big_news--academics_work_career_development--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "answering_unexpected_questions--mental_health--puzzle1_entry"
         }
     ],

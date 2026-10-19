@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "recent_exposure--physical_health--puzzle1_entry"
         }
     ],

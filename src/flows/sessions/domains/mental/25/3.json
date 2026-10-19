@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "food_costs--mental_health--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "being_in_charge--mental_health--puzzle1_entry"
         }
     ],

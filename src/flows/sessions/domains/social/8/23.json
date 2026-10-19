@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "new_outfit--social_situations--puzzle1_entry"
         }
     ],

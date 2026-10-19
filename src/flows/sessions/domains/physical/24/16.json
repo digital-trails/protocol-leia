@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "a_toothache--physical_health--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "trying_new_foods--mental_health--puzzle1_entry"
         }
     ],

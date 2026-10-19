@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "greeting_someone--social_situations--puzzle1_entry"
         }
     ],

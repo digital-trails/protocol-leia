@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "leaning_on_your_peers--social_situations--puzzle1_entry"
         }
     ],

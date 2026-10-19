@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "dating_apps--romantic_relationships--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "issues_while_shopping--finances--puzzle1_entry"
         }
     ],

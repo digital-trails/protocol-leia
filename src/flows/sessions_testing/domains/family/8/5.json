@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "visiting_aging_family--family_&_home_life--puzzle1_entry"
         }
     ],

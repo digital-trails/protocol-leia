@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "finding_the_one--romantic_relationships--puzzle1_entry"
         }
     ],

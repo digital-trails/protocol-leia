@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "new_style--mental_health--puzzle1_entry"
         }
     ],

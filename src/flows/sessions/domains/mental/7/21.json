@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "office_talk--mental_health--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "walking_to_clear_mind--family_&_home_life--puzzle1_entry"
         }
     ],

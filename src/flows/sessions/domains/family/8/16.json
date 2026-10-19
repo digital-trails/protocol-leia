@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "dinner_at_a_friend's_house--family_&_home_life--puzzle1_entry"
         }
     ],

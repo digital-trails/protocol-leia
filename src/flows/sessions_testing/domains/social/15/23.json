@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "a_heated_discussion--social_situations--puzzle2_entry"
         }
     ],

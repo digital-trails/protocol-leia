@@ -3,6 +3,5 @@
   "home": { "type": "ref", "path": "home.json" },
   "surveys": {"type": "ref", "path": "surveys.json"},
   "probes": {"type": "ref", "path": "probes.json" },
-  "menu": { "type": "ref", "path": "menu.json"},
   "settings": { "unenroll": "flow://flows/reasons for ending/" }
 }

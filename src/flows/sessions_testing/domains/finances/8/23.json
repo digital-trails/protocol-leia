@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "visiting_a_new_friend--finances--puzzle1_entry"
         }
     ],

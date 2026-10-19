@@ -1,6 +1,4 @@
 {
-    "header_text": "",
-    "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
@@ -8,6 +6,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "entry_anxious_imagery"
         }
     ],

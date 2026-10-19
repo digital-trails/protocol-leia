@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "managing_credit_cards--finances--puzzle1_entry"
         }
     ],

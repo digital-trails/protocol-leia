@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "learning_how_to_ski--physical_health--puzzle1_entry"
         }
     ],

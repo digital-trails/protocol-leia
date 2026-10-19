@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "conversing_at_a_party--social_situations--puzzle1_entry"
         }
     ],

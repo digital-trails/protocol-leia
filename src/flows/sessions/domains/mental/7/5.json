@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "a_missed_opportunity_--mental_health--puzzle1_entry"
         }
     ],

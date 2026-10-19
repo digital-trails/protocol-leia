@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "overhearing_an_argument--romantic_relationships--puzzle1_entry"
         }
     ],

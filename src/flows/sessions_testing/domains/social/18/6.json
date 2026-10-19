@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "cohabitation_conflicts--social_situations--puzzle2_entry"
         }
     ],

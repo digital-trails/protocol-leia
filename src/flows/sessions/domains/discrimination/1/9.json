@@ -9,6 +9,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "discrim_wyo1_concern"
         }
     ],

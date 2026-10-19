@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "ending_long_distance--romantic_relationships--puzzle1_entry"
         }
     ],

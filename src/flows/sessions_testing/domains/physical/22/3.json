@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "cold_weather--physical_health--puzzle1_entry"
         }
     ],

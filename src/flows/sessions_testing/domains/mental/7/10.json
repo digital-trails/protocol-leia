@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "managing_responsibilities--mental_health--puzzle1_entry"
         }
     ],

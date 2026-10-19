@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "healthy_but_expensive_--physical_health--puzzle1_entry"
         }
     ],

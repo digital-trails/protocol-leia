@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "ready_to_work--academics_work_career_development--puzzle1_entry"
         }
     ],

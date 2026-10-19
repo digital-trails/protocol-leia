@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "feeling_sick_on_a_hot_day--mental_health--puzzle1_entry"
         }
     ],

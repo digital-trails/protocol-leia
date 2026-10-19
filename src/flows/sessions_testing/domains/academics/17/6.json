@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "out_of_your_control--academics_work_career_development--puzzle2_entry"
         }
     ],

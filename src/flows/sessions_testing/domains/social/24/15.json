@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "bringing_a_new_friend_home--social_situations--puzzle1_entry"
         }
     ],

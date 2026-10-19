@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "anticipating_a_response--mental_health--puzzle2_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "providing_for_family--finances--puzzle2_entry"
         }
     ],

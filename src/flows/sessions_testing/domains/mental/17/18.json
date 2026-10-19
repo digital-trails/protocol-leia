@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "monday_morning_--mental_health--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "intrusive_thoughts--mental_health--puzzle1_entry"
         }
     ],

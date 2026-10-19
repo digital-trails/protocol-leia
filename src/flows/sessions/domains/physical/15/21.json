@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "an_unwashed_table--physical_health--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "the_dance_showcase--social_situations--puzzle1_entry"
         }
     ],

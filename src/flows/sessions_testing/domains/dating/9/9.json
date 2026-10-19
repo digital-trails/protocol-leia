@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "for_the_first_time--romantic_relationships--puzzle1_entry"
         }
     ],

@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "divorced_parents--family_&_home_life--puzzle1_entry"
         }
     ],

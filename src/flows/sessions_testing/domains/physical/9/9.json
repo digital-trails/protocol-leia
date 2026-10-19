@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "meeting_someone_new--physical_health--puzzle1_entry"
         }
     ],

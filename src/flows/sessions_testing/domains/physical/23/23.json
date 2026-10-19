@@ -8,6 +8,7 @@
         },
         {
             "type": "Entry",
+            "bordered": false,
             "name": "exercise_class_with_friend--physical_health--puzzle2_entry"
         }
     ],
