@@ -1,6 +1,6 @@
 [
 	{
-		"type": "accelerometer"
+		"type": "Accelerometer"
 	},
 	{
 		"type": "Location",
