@@ -14,4 +14,4 @@ jobs:
       - name: checkout protocol
         uses: actions/checkout@v4
       - name: release protocol
-        uses: uvamaplab/protocol-releaser@v1
+        uses: uvamaplab/protocol-releaser@main
