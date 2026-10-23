@@ -13,24 +13,5 @@ jobs:
     steps:
       - name: checkout protocol
         uses: actions/checkout@v4
-      # protocol-releaser runs at its latest release, as GitHub marks it. A `uses:` line can't name
-      # "latest", so the release is looked up, checked out beside the protocol and run from there.
-      # Setting this repo's PROTOCOL_RELEASER_REF variable to a tag, branch or commit runs that
-      # instead, for trying a prerelease here before it is promoted.
-      - name: find protocol-releaser's latest release
-        id: releaser
-        env:
-          GH_TOKEN: ${{ github.token }}
-          OVERRIDE: ${{ vars.PROTOCOL_RELEASER_REF }}
-        run: |
-          ref="${OVERRIDE:-$(gh api repos/uvamaplab/protocol-releaser/releases/latest --jq .tag_name)}"
-          echo "Using protocol-releaser@$ref"
-          echo "ref=$ref" >> "$GITHUB_OUTPUT"
-      - name: check out protocol-releaser
-        uses: actions/checkout@v4
-        with:
-          repository: uvamaplab/protocol-releaser
-          ref: ${{ steps.releaser.outputs.ref }}
-          path: .protocol-releaser
       - name: release protocol
-        uses: ./.protocol-releaser
+        uses: uvamaplab/protocol-releaser@v1
